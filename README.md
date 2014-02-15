@@ -7,10 +7,9 @@ This is a  AD plugin  depended on jQuery.
 
 Usage:
 =================
- //调用参数
-	   var option={
-	   
-		   position:"",//广告悬挂位置.默认右下角（br）。可选值[tl|tm|tr|mm|ml|mr|mlt|mlb|mrt|mrb|bl|bm|br]
+    //调用参数
+    var option={
+	     position:"",//广告悬挂位置.默认右下角（br）。可选值[tl|tm|tr|mm|ml|mr|mlt|mlb|mrt|mrb|bl|bm|br]
 		   .字母意义：t(top上),b(bottom下),l(left左),r(right右),m(middle中)
 		   
 		   style:{
