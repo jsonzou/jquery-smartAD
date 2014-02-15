@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="jquery.js"></script>
+<script src="jquery.smartAD.js"></script>
+ <script>
+  $(function(){
+
+/*
+      //调用参数
+	   var option={
+		   position:"",//广告悬挂位置.默认右下角（br）。可选值[tl|tm|tr|mm|ml|mr|mlt|mlb|mrt|mrb|bl|bm|br].字母意义：t(top上),b(bottom下),l(left左),r(right右),m(middle中)
+		   style:{
+		        height:0,//高
+				width:0,//宽
+				background:"",//背景，窗体头部背景色
+				border:"",//边框
+				top:0,//顶部位置
+				left:0//左边位置
+				},//广告窗体样式
+		   close:true,//是否可关闭
+		   header:true,//是否显示广告窗体头部
+		   fixed:true,//是否固定位置浮动窗口显示
+		   content:"",//广告内容，一般是图片，或html代码
+		   link:"#",//广告链接
+		   delay:0,//广告窗体延迟消失时间
+		   delayFunc:contants.delayFunc,//广告窗体消失效果函数，为jQuery自带函数，默认淡出（fadeOut）。可选值：[fadeOut,hide,slideUp]
+		   before:null,//广告加载前回调函数function(option,win,winHeader,winBody){}.option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
+		   after:null//广告加载后回调函数function(option,win,winHeader,winBody){}.option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
+	   }
+*/
+
+
+//支持三种调用方式：
+    //方式一：函数$smartAD(option)
+	   $smartAD({
+	       position:'tm',"link":"http://www.baidu.com",content:"我是广告哦，我在上中部显示",
+		   before:function(option,win,winHeader,winBody){
+		        alert(option.link);
+		   },
+		   after:function(option,win,winHeader,winBody){
+		 
+		      winHeader.css("background","#1e4e7b");
+			   
+		   },
+	   
+	   });
+	//方式二：函数jQueryObject.smartAD(option)
+       $("#ad1").smartAD({position:'ml',delay:2000,delayFunc:"slideUp",link:"http:/www.youku.com",content:"广告1在这边"});
+	   $("#ad2").smartAD({link:"http://www.baidu.com"});
+       $("#ad3").smartAD({position:"mm",link:"http://www.google.com",delay:6000});
+	//方式三：函数$.smartAD(option)
+	   $.smartAD({"link":"http://www.baidu.com",style:{background:""},content:"我是广告4哦，我没有写方位，默认在右下角。"});
+	   $smartAD({position:'mrt',fixed:false,close:false,"link":"http://www.baidu.com",content:"我是广告5哦，我不浮动，也没有关闭按钮。你拉动滚动条试试，我就不会浮动啦。"});
+	   $smartAD({position:'bm',"link":"http://www.baidu.com",content:"我是广告6哦，我在底部"});
+	 
+  });
+ </script>
+ 
+<title>首页</title>
+</head>
+
+<body>
+ <div style='width:500px;height:2000px;'>
+
+ <div id='ad1'>
+      我是广告1哦,我为什么还显示?是因为你给我加了content属性。
+	</div> 
+ <div id='ad2' style='background:red;'>
+      我是广告2哦，没有方位，我就呆在div原位置，你拉动滚动条试试，我不会浮动。
+	</div>
+
+ <div id='ad3' style='background:green;'>
+      我是广告3哦，有方位我就呆在方位位置，现在我在中间的中间，而且我6秒后会消失的哦。
+	</div>
+   
+
+	
+
+
+ </div>
+</body>
+</html>
