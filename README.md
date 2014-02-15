@@ -10,7 +10,8 @@ Usage:
  //调用参数
 	   var option={
 	   
-		   position:"",//广告悬挂位置.默认右下角（br）。可选值[tl|tm|tr|mm|ml|mr|mlt|mlb|mrt|mrb|bl|bm|br].字母意义：t(top上),b(bottom下),l(left左),r(right右),m(middle中)
+		   position:"",//广告悬挂位置.默认右下角（br）。可选值[tl|tm|tr|mm|ml|mr|mlt|mlb|mrt|mrb|bl|bm|br]
+		   .字母意义：t(top上),b(bottom下),l(left左),r(right右),m(middle中)
 		   
 		   style:{
 		   
@@ -40,11 +41,14 @@ Usage:
 		   
 		   delay:0,//广告窗体延迟消失时间
 		   
-		   delayFunc:contants.delayFunc,//广告窗体消失效果函数，为jQuery自带函数，默认淡出（fadeOut）。可选值：[fadeOut,hide,slideUp]
+		   delayFunc:contants.delayFunc,//广告窗体消失效果函数，为jQuery自带函数，默认淡出（fadeOut）。
+		   可选值：[fadeOut,hide,slideUp]
 		   
-		   before:null,//广告加载前回调函数function(option,win,winHeader,winBody){}.option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
+		   before:null,//广告加载前回调函数function(option,win,winHeader,winBody){}.
+		   option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
 		   
-		   after:null//广告加载后回调函数function(option,win,winHeader,winBody){}.option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
+		   after:null//广告加载后回调函数function(option,win,winHeader,winBody){}.
+		   option:配置参数，win:广告窗体jQuery对象，winHeader:广告窗体头部jQuery对象        ，winBody:广告窗体body的jQuery对象
 		   
 	   };
 	   
