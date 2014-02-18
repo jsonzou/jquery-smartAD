@@ -32,7 +32,7 @@
 				     "width":"100%","padding":0,"word-wrap":"break-word","word-break":"normal"};
 	  },
 	  "smart-ad-win-close":{"position":"absolute","right":"-3px","top":"-2px","padding":0,//广告窗体关闭按钮
-		                    "background":"url(img/close3.png)","width":"14px","height":"14px"},
+		                    "background":"url(img/close.png)","width":"14px","height":"14px"},
 
 	  "smart-ad-position-tl":function(style){//广告窗体位置topleft(顶部左边)
 		     return {
