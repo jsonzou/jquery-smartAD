@@ -3635,5885 +3635,6155 @@ function internalData( elem, name, data, pvt /* Internal Use Only */ ){
 	}
 
 	// Check for both converted-to-camel and non-converted data property names
-	// If aaScript Librarywas specified
-	if ( typeofy v1. === "string" ) {
+	// If a data property was specified
+	if ( typeof name === "string" ) {
 
-	.2
- First Try to find as-ispt LibraryScri
-		ret = thisCache[
- * ht];m/
- *
- Test for null|undefinedjQuery Foundations Siz, Inc=ed uns.com/
- rs
- *ight 2005, the camelCasMIT license
- *
-, Inc. and other jQuery.T13:48Z
- (
- * ht)ribu		}
-	} else {ion, Inc. and othe;
+		// First Try to find as-is property data
+		ret = thisCache[ name ];
+
+		// Test for null|undefined property data
+		if ( ret == null ) {
+
+			// Try to find the camelCased property
+			ret = thisCache[ jQuery.camelCase( name ) ];
+		}
+	} else {
+		ret = thisCache;
 	}
 
- winurnquer;
+	return ret;
 }
 
-function internalRemoveData( elem,y v1., pvts.comp://jq! ) {
-
-/acceptllee and F ) if
-//ce
-// tET tracvar. and othe, i,ttp:sNode =and F.nodeType,m/
- *
- Seed ) {
-
-/Scripeasemore informaargu
-		cothe = : Firef?d ) {
-
-// eady:and Fittp:dyList,
-
-	// nd Fed ) {
-
-/expando ] :ument)
-	rootjQubuto2
- * hthesed s already no al refentryerred and object, For `typeno<10
-	purposed o continuing// you tal re[ id ]strict" call chains.s Sizthis beom/
-  and othe =dies ?.methondefine:dow argumente defbutors Sizzrdingly wense
- *
- * Support array or space separaJavasizzley v1.1erredScripkeys
- *
- you try to tisAdocut documenense
- *
-10
-	inst7-03ument.das t,
-
-	 befusedany manipulM ready
-Map ove * htinw.location,
-	doof o	 * htt r contribu/ [[veral app	// [[// split07-03T13:4 cZ
- */versrgumbyt,
-	dos unlesry,
-
-	//with= windds, soexist// Ma[[Class]] ) {
-
-// Can't do this b pairsoverwrite
-	_$ = window.$,
-
-	// [[[Class]] -> type pairseveral apps ods
-	core_c v1..
-
-	//(" "// Save }pairs
-.conletedIds.conc2
- * h" v1."typeonw.documef,
-
-	/... = core_Whenement,is initially cre= do, via ("key", "val") signature to core_
-
-	/ will be_strry Javate.me3:48Z
-  = core_dSincemethod !== u waght 2tell _how_n reuse ery,ddtrinrer.cae_hasOwnboth plain
-
-	///*!
-ty,
-	coren = . #12786e_hasOwnTf `xass2tonly penalizversiw.documargument path = cor,
-	core_pushconcat(e_versiomapwrite
-,e_version = "1.10verw pairtrac		iore_pushlength pairwhile ( i--$,
-
-	// [deletversnd other cont[i]pe pair,
-
-	//0
-	// For `typenoement,left	_$ = 03T1// Suwe wantoperttrundery = //, conle/ List oly wmlNode itself get destroyludee a refh wind!isEmptylleeOlNode(?:\d*\.|)) :er jQuery i Safa.0 and IE)
-	rtrim ,
-
-	// [ call chash,
-	c sevE<10
-	var
-	// The deferred used on DOM ready you ties if
-// /[+-]?(andbox)
-	location = w// Don' NBSP (heg on parr 'ee sure we can on ents.calement,mlNode9521)
-had beeng on ally thnt.dplittingickEx you tu, Safari 5.0 and ia location.e strict"// A simpleto check fDict HTML ree surver <ta: Firef,
-
-	// ) {
-
-//leanllee a[h "use], tru
-	// <10
-	Use /[+-]?(wletes windoederredrootjQusment`e sur`/ Usedt a window per isWa-fA-F(#10080)
-	/* jshint eqr\n]: faal a*/several as Siz ) {
-
-/+/g,
-	r./[+-]?EootjQue||ion (#1!=	// JS.da-fA-F,
-
-	//= /"[^"\\\r\n]*"|tdbraclse|d XSS via location.s = /(?eletealleral afails,ed unseveral apps ow argument org/liET tr}
-
-ment)
-	rotend({
-se as : {}tricbjecte follownt.dnd Fent musrow uuerychable exce tions?(?:you, letattempore_raddscape = pt Libraies/ Defhem.
-	nollee:
-
-	//"applet"refix  to "embed"complete" // Bice,ctualNodeletece terredFlash (which hand
-	},
-pe = /)e" il the ": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-	all, has/ readvia argugh "use svoid "useox 18+
-//"use s// A central re$/,
-	r[ment)
-	rootjQu]nt (sy(document)
-	rootjQuermplee
-// th!! "use&&
-	// Match a standalo "use ET ttricScri" ) {
-			detach(irefox dScriptrict" call  start willee and Firefox dtLoadement.rem	jQuerlete" ) {
-			detach(irefoxded", completed, falseler.callee and FirefoxentListene*
- *or start witus<[\w\W.
-	_oveEventListener( "DOMContentLoaded", completed, false );
-			window.removeEvlidbraces nt.rem_r( "load", completed, false );
-
-		} else {
-			document.detachEvent( "onready
-	// The current// A methoalidesdeterminnt.di httDOM //"u can documen on Script.addEv
-	race throu" ) {
-			detach();
-			j1)
-	/rt]|usd NB <)
-	n
- * jrn lett beca
-			its actut]|uype.leared (#8335) = cs Sizeady();
-		}
-	}&&of selector ===!== 1= "string" ) {
-			if (9leTag = /^<(\wtrue|fause s
-	. (#1	// rey.ready();
-	Nadys&&d+\.|)\d	// re$/,
-	r=== ">" &.toLower't dobecaulse)
-	//"us race tector  we canoFor wiscore* Inclu; reNodergumtch,ype.hadix chal{
-		if ( dolength ||.length if (dbrac "stringgetAttribute("classid")ttp:/	// reeplacees = ) {
-
-/fnelCase = fuoveEventListenerkey, valrace
-			j (#1attrd by,
-	ig = ctor org/lih &&  Use0h && Query.r?:\d[0trings thSd skalNDLEgex chsre_ie defebasic
-	corthwartd+\.|)\dracessh for uso impeturn t on relev	corbehavior ourselvesings thGetpeoflecifie// Ms Siz
-	//tp:/er the MITeTag = indow.locr matche_pnum = /gth - 	// The def
-			docume of overwready();
-		}
-	}tp:/ seletry to tdetac and Fir"parsedrquisjs.c,
-
-	// [[		if y.ready(		ifckExpscore_deease( ; i <			if r matchi i++re methods
-	core_c		if [i].matc && cone a referen.indexOf("			m-elector0re methods
-,
-
-	core_version = "1.10.2",
-
-.slice(5ry );in conte			mrqui			window.removeEvr contri	// Save ds.pushsFunctioDocument || context : document,
-	
-	// The cuush,
-	core cale
-// thation tch ] )k forts multipleue for back-comzle.js
-pat
-				stener |"<" && selectorQueryeach() {
-			de,
-
-	// [h[1],
-						c?:\d,lse { );
-	}, );
-	h ] )e
-// thructor 'ry.parseH> 1 ?ocument =wiseon attribtextcontext[ match ] );
-							}
-						}
-					}
-
-				pecified eturn t :+|)/.souts is= document.ge * Date: 20etchver tents.cally stostri defer Cop ) {
-
-			?ocumeethods if potNodeh[1],
-						conte
-					r m = to replatener( "load", completed, andle ", completecontext[ match ] );
-						 ) {
-
-/r( "load",				}
-
-					retur this
-			// via argum( elem && elem.parenttLoaded", 2
- * hno+>)[^> of foundno longer ilidbodes that are 	// O deferrom ? coHTML5ery o-*) && ckExpver <ta			mat				jQuery.me "string" ) {
-			text.oent acctor.llass]]						f +		// replace( r set Dash, "-$1" )/ Assume that re ca			matcmatch = rquickExprreadystattes
-							} el[0] = ele/sizzlejs.com.getryML(
-						matc.jquery ) dbra" ?se {
-	:.conca.jquery ) rue|felecrue|fa;
-
-			// HANDLE: d unelecg/lic;
-
-			/// Olly .hasOwnr
-	co numb{4})f}
-
-	does/ Stchang;
-
-		/sizzle.conca+			ma+ ""xt = 			ma? ontext;
-
-			/rbrace.testis[0] =)// A centr docuJSON$(DOMElem;
-
-			/// HAmple w Case(( ed fod+|)/.souMake surepacesele
-		// HANnceot i		return thd later	if ( elem.{
-						// HandmoveEventL			retedIds.con			matcer the MIause sevrace
-// the ) {
-}
-
-// checkry,
-e sure we triidescmptiness via argume/ Match a standaloobj						
-					th;
-ml, proite
-	_$ tor.seled othei/ For publicth <)
-	rquic.indy.ret dilectrivat`typestss2tconteback-com * http://			m"& selector.EFF\xA0]+|[\s\	thi[		thingleTag = notwhiteause serrect documif ("toif (is.attr( match, .charAt( seery.isFunctidbrasele
-	fcamelCase = fuqueue completed, false zle.entLoaded", c (#1functontext || ach();
-			j	zle. =						}ll ]"fxis.a+ "funct"ntextfunctatch[1],
-	t || context he maare calhtml) ed up de Get tbyand tnt.dout quickly = selindes jus|u[\lookup's lookintLoaded", c))$/,
-
-	 Get t|| selector,n case			m				true
-		 Get the whole matched element sntNode ) make// Return jus pairs
-	class2the object
-.push 'clean'ntext[ match  );
-
-					s.toArray[cause sev.remoget: fion() {
-		return core_						/ment inhe matched eut fohis );
-	}atch[1],
-	functed element seth && startLparseH= stackr matchh && fn= jQuery.shift(nt sethook );
- whole mfunctH
-
-		matched element setnexInc.atch ] );
-							}
-						get: fed element set ationrings th// For fx stack
-is
-	get: fd, always
-	jQuert = selogr canserundenulls Siz.con",
-
-inreturn ris.attr( .constructor(), el = th
-		var ret -- ...and o Executeense
- *
- * Add ipt Lurn ret;
-	},
-
-operprevery ? co/ Return ject
-beructor(ent utoOM r ) {
-	 newly-f's lookinment iLE: $ elem Take Query.unr(), ecallback for ev+-]?\d+|)/.souTML sray
-
-		/las {
-	uildstoperence)
-	nt re[+-]?(;
-
-		.back = thfn. ) { and Fireext,mise()						rntext || !
-		var ret =&&},
-
-	slih( thiise().conte.firANDLEturning th thatttinase validestor.selconsu.reaon - gene = dry,
-old objectxmlNode.morquerurn must curgnitione
-	 old objectatched element set)
-	pushStac (#1pat
-	eturn ent set bjectOR
-	/e
-// th whole matched elemeandle ray() :
-
-	);
-		return this,h( thiconte,
-
-	// SuCallbacks("oe_vememory").addmatch ] );
-							}
-					 version ofed element seent set Onts and his.pushStack( jQuery.map(				return t			return rootjMatch html or make sfunction() {
-		reore_slice.call( this setter = 2ontext || context)
-	pu"",
-
-{
-				return ( 			matczle. = thment inems )  setconst can seed the arDLE: $(#id)
-				}<s.constr<" && selector new jQuery ma/ HANDL.context = t
-
-				// HAN[0] = elem;
-					}
-?t.getEler.nodecontext[ match ] );
-									// Build a new jQuery ma		}
-
-	ore_slice.care call// enectora},
-
-	slead of `xe callem, i ) {
-		old object o;
-
-jQuery. = jQuerys Sizzle. jQuery.ea&&	var s[0]r intellback for every elevObject = this;
-	me, options, cext[ matche currehe new matched eleme)
-	pushStac/ by name instead of ID
-						if ( elem.ngth,
-		deep = false;
-
-	/e a deep r us 
- */offre_i = selugiache Cl"\\\Helfef (  themprootsa ca.	// shttp://blindring,ls.com/t ) ).php/2009/07/jq {
-
--delay/p colaytuation
-	if (i
-	ini
-	pushStacki	core_versiofx// A centrfx.sn ars[rget  ]ushS&& !j:};
+function internalRemoveData( elem, name, pvt ) {
+	if ( !jQuery.acceptData( elem ) ) {
+		return;
 	}
 
-	/k: function( elems ) {
+	var thisCache, i,
+		isNode = elem.nodeType,
 
-/ by name inth,
-		des.len) {
-			detis;
+		// See jQuery.data for more information
+		cache = isNode ? jQuery.cache : elem,
+		id = isNode ? elem[ jQuery.expando ] : jQuery.expando;
+
+	// If there is already no cache entry for this object, there is no
+	// purpose in continuing
+	if ( !cache[ id ] ) {
+		return;
+	}
+
+	if ( name ) {
+
+		thisCache = pvt ? cache[ id ] : cache[ id ].data;
+
+		if ( thisCache ) {
+
+			// Support array or space separated string names for data keys
+			if ( !jQuery.isArray( name ) ) {
+
+				// try the string as a key before any manipulation
+				if ( name in thisCache ) {
+					name = [ name ];
+				} else {
+
+					// split the camel cased version by spaces unless a key with the spaces exists
+					name = jQuery.camelCase( name );
+					if ( name in thisCache ) {
+						name = [ name ];
+					} else {
+						name = name.split(" ");
+					}
+				}
+			} else {
+				// If "name" is an array of keys...
+				// When data is initially created, via ("key", "val") signature,
+				// keys will be converted to camelCase.
+				// Since there is no way to tell _how_ a key was added, remove
+				// both plain key and camelCase key. #12786
+				// This will only penalize the array argument path.
+				name = name.concat( jQuery.map( name, jQuery.camelCase ) );
+			}
+
+			i = name.length;
+			while ( i-- ) {
+				delete thisCache[ name[i] ];
+			}
+
+			// If there is no data left in the cache, we want to continue
+			// and let the cache object itself get destroyed
+			if ( pvt ? !isEmptyDataObject(thisCache) : !jQuery.isEmptyObject(thisCache) ) {
+				return;
+			}
+		}
+	}
+
+	// See jQuery.data for more information
+	if ( !pvt ) {
+		delete cache[ id ].data;
+
+		// Don't destroy the parent cache unless the internal data object
+		// had been the only thing left in it
+		if ( !isEmptyDataObject( cache[ id ] ) ) {
+			return;
+		}
+	}
+
+	// Destroy the cache
+	if ( isNode ) {
+		jQuery.cleanData( [ elem ], true );
+
+	// Use delete when supported for expandos or `cache` is not a window per isWindow (#10080)
+	/* jshint eqeqeq: false */
+	} else if ( jQuery.support.deleteExpando || cache != cache.window ) {
+		/* jshint eqeqeq: true */
+		delete cache[ id ];
+
+	// When all else fails, null
+	} else {
+		cache[ id ] = null;
+	}
+}
+
+jQuery.extend({
+	cache: {},
+
+	// The following elements throw uncatchable exceptions if you
+	// attempt to add expando properties to them.
+	noData: {
+		"applet": true,
+		"embed": true,
+		// Ban all objects except for Flash (which handle expandos)
+		"object": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
 	},
 
-	slih( thi (#13ime ) {=s.coTis;
-		th === i&& !j;
+	hasData: function( elem ) {
+		elem = elem.nodeType ? jQuery.cache[ elem[jQuery.expando] ] : elem[ jQuery.expando ];
+		return !!elem && !isEmptyDataObject( elem );
+	},
 
-	//ise().doneeference)
-		ret.prevTML s}
+	data: function( elem, name, data ) {
+		return internalData( elem, name, data );
+	},
 
-	for (his;
-		-t = this. || {};
-		/TML sQy situation
-	if ( typeof target === "bo is passed
-atched e, [( jQue
-		// sGe|u[\promML aresolved\s*\[)e cal		if a certelecsed
-event rery.reatrinfx the
-		/= "obbbackfault)
-			src =
-		return this.pretor.select = thmph && coun	--i1h && (efstruc ) {
-
-/D we'redelems )rn letter	// HA| !contexQuery.parseh && target[eference)
-		ret.previon() ( --		// R				true
-		f we'.target[Witonten lette,*$/,
-	retter( jQuery.,
-	coror(null);
+	removeData: function( elem, name ) {
+		return internalRemoveData( elem, name );
 	},
 
 	// For internal use only.
-tor.ehaves like an Arr} else if ( jQuend jQuery itself if only umber
-	core_pnum =tm/ Ontack( j >= 0 && j $(#i[ ivalidngth,
-			j = +i + 
-		if (s Sizzmpnts[tmplice.aach( this		// ++
-
-	// 
-					tarallba target[eady: fun	copyItarget[ched snit funcy(cop		src =ector.sturn roottor.led= +i , boolndefi
-	rexec( = /[\t\r\n\f]/g				e
-// th= /\rpy;
-		focus);
-	}= /^(?:input|select|textarea|button|l the )$/pporrclickturn the moda|urn uery.extuseDop
-			 the mod ) ) ed objecteduery.exgetS= rquickExpc) ? src :+(?:[eE]ved to match riemoved toIfiednlinejQuery
-	expanified}));
+	_data: function( elem, name, data ) {
+		return internalData( elem, name, data, true );
 	},
 
-	end: functio		if" ) {
-			dety,
-	incified for #[].sort,
-	splicontex	deep = .$ === jttrirefox dcifie,NDLE: $(#id)
-				} elsntListener( "lorquiict: function( d						// by name instead of ID
-						if ( elem.id !==ethods		}
-
-	eadystate|| {};
-		if ( pict: function( deep ) {
-		if ( window.$ === jQuery ) {
-			window.e it_$;
-		}
-
-		if ( deep && window.jQuery === jQuery ) P it occurs.
-	isRead		targe
-
-	core_versioe itFix				if ( l ];== undarget === "boolean" ) {
-		deep = tQuery /Case( documeseletes\s*\re IE balks (sut arlement .jQuept Libraryon\da-fA-i, e context ||/ HAN			if (  [];
-
-					} el= /[+-]?(?:\d -> type pairthis.context = t to true oncaddCxec(" ) {
-			detcified for #id
-	exec(es,and Fircur,? --zz, j| !context) ) {le		}
-&& copy && ( jQuproc arrehavesof( wait tp://sizzlejs&&( waitontext || selector,Fdy
-		if ( wait ==.attr( match, context[ match ] ); 	continu, i ) {
- to be callbeady  ( wait
-
-		ret {
-			wxt =is.exec(>" &&ry );
-	},ice: function()e sure bold ) {
-		ter disjia argumor `typeeasebconstrcomprn ribility (se= tar.caeady when  --jQue in tcifiedtche				ms.contcore_rnotwhitady
-	// (re fn ), props)
-		lengleTag.test( m
-
-				// HAN		//
-
-	// cutrucnodeType ? context.ownet.nodeTOM is readototy		( " or = );
-
-		// Trigg+ound )lector;
-			exec(,( jQuer.nodeTy" "etTimt && context.solvh = argumetextcore_deumbers
-	(: jQu =? --jQue[j++]				true
-		r("ready"xt ) ) {
-ound ree test ( jQue <match in contesolv+/unitSince veQuery.isFunction( this );
-
-		// Trigg) ? src :trimeady").re callpush it o
-
-				// HANthe tListener( "loeady ready
-		if ( wait === true ? --jQuery.readyWait : jQuery.isReady ) {
-			return;
-		}
-
-		// Make sure bodDLE: $(#id)
-				} ( mat {}; exists, at least, in case IE gets a little overzealous (ticket #5443).
-		if ( !document.body ) {
-			return setTimeout( jQuery.re
-		if ( wai	}
-
-		// Remember that the DOM is ready
-		jQuery.isReay = true;
-
-		// If a n true && --jQuery.readyWait > 0 ) {
-			return;
-		}
-
-		// If there are functions bound, to execute
-		readyList.rebject isexnd wair );
-ent fi, decrement, and wait if need beady );
-	when esolveWith( document, [ jQuery ] );
-
-		// Trigger any bound ready events
-		if ( jQuery.fn.trigger ) {
-			jQuery( docment ).trigger("ready").off("ready");
-		}
+	_removeData: function( elem, name ) {
+		return internalRemoveData( elem, name, true );
 	},
 
-	// See test/unit/core.js for details // ler.ca *all* instancr bac}
-	},
-
-	// Srning isFunction.
-	// Since versi> match in contesolveWrninector;
-		ion.
-	// Since ve{
-			jQ like alert
-	// aren't supported. They cified/ A centrfalse on IE : "s like ).
-	isFunction: function( obj ) {togglturn jQuery.type(obj) =, stateVaicensenue;
-		: functionists, atontext || contextctor") &&jQuered )eanase Irget = arg{
-				return ( e
-// thctor") &&? the Dady );
+	// A method for determining if a DOM node can handle the data expando
+	acceptData: function( elem ) {
+		// Do not set data on non-element because it will not be cleared (#8335).
+		if ( elem.nodeType && elem.nodeType !== 1 && elem.nodeType !== 9 ) {
+			return false;
 		}
 
-		/ust bthe D {
-		return !isNaN Give the iittle overzealous (ticket #5443).
-		if ( !document.body ) {
-			retirn setTimeout( jQuery.recore_hasOwn	}
+		var noData = elem.nodeName && jQuery.noData[ elem.nodeName.toLowerCase() ];
 
-		// Reme		}
-
-	it the DOM is reaructor") &)ructor") &&
-eturn this;
-
-				// HANcontext[ match ] );
-						
-		target = arg{
-				return ( {
-			ore_h individual? --jQy v1.10.get = tupport.own Save atext) ) {thodlfey returnjQuery.rlast onOM is rea&& -
-
-		//t > 0 ) {
-			return;
-		}
-
-		// If t},
-
-	// See ted. They 	for ( key[leTag for detailstor ) )  xt[ , key );
-	 given,t,
-	docElem = docli6963
-	y );
-		en a.has own prOM is ready
-	 details rn fa {
-		return !OM is readycore_deletedIds.concatrn faady );
-		} ) {
-		throw new Er
-	// Ha
- *
- * De enumwhol HTMy, so to
-	core_slic
-		target = ar {
-		strer the MIT	isWindrototypeOf") ) opy) || (copythe DOM is ready
-Object: fu the tring of htifs.co( this[ match ] ) ) 		}
-
-	"__n.call( o__tch he DOM is ready
-
-	// Hae_hasOwnt;
-
-		/return thery,
-ied, the fnctiif we'rrecos
- */ $(exprre_hasOwntletement set
-		specified, 		thi(= seletor;a.6 rext = sabcts sat[ nitif ( o: $(cre HTML abent.d,
-
-	 whateverpScris
-	/ious in 		con {
-	any+>)[^e own.
-//h oflext = conent ) 
-		}
-
-ndow.jQuiherwise, we in the d = corta, context, keurn;
-		n.call( ob||ts, at leasrue|fa?adyW,
-
-	// Sutring
-	parseHTML: function( 		}
-
-	e Objecolds or we're lse;
-		}" ) {
-			detobjecto").off(" up,
-		// if Arrand rescripts )bj ) )isReady ) {
-			turn;
-		}
-
-		/y: fhere are funcgleTag.test( ipts (optQueryocument, [ jQuery ).remotion( davents
-		if ( jQery.fn.triger ) {
-			)ng isFunctOM is ready
- "object" || ect is 0
-	len
-	isFunction: funct.charAt(e oncvalready
-		if ( wait === true ?re
-	},
-
-	s, alous (tic) ) {
-
-				// HANDLE: $(ion() DLE: $(#id)
-				}seJSON: func the Nth ele);
-
-		// Add theva) {
-	s >= 3 )_hasO	holdoved (IE can't handle  {
-				// Assume that stringsg" ) {
-;
-
-		/&& "get"	_$ e the inc(, Inc.ise().ge{
-			dotype.tion( )r int	jQuery.merge( th ) {
-			re stacripts ) {
-, Inc.= 3 )bj.constru ) {
-			recall(ouery.o
-		// Own per any pr = cumenmostt, amoh ( ent.d+;
-		son2.js
-	N parser fon() {, ""Query( dotokens, "]+;
-		} else cified Useull/er thncti)
-			}son2.js
-	y.org/licarsed[1f ( rvalh ] );
-
-				ects #9897lous (ticey return alous (ticket #5443only one argumentdle iteration over inher (#1val/ If tipts (opti" ) {
-			if ( s$/g,
-
-	// A simple wa's lookins-browser xuery.fn.inge( 
-
-		// Remember thi		windowjQuery.reval(ry );
-	},,
-
-	// Take  { // Stand+-]?\d+|)/.souT_toS);
-				}
-		e MITasent(ext).find)
-			}eventnstructor(s Siz { //org/licenseomString( nt( [ dant will be creaists, ich is j			}// keepScrata + "false";
-				xml.loa jQuery in case ata ue;
-	},
-
-	 { // n.init( selval	if ( leng--jQuery.g/json2.js
-				is, at le( "Invalid JScified ).f rvalidady: functioe is removed (IE can't hata, cit)
-			data = jQuery.trim( = "string			if ( data ) {
-				// Ma		if (seleon() {
-	er the MI,data 			scriptn DOMls.conMicrosoft.XM!;
-
-		/|| !("sing data is 	}
-
-	ise().d Log		}
-
-	tElemrowed fro
-					jQuery.merge( thif ( ps, at l typeo[ data ], con			// Match hlCase = fuE can't adyStao
-		readyStaoved" ) {
-			detach();
-			j
-	// :^|:t Librh = 1;
-			oundrie				#6932,The 072of obj || typjQuery.isFuind.$ = ogic borrowed fro rvalir" ).lengtches "Invaugh, aecSc;
-
-			/ndle iex: " + da	optio},
-
-ect execScript on Internet Explorer
-		 || typstruWe uselast onWe use );
-
-				to camelast one ) )t( data.Non-digiI ) )dashed tnefox 18+
+		// nodes accept data unless otherwise specified; rejection can be conditional
+		return !noData || noData !== true && elem.getAttribute("classid") === noData;
 	}
-		}
-
-		/ll( w-one"a.ne and d<s own, the for  =6 retequivale []last onma datn( str and d+ 1 :onvert copy && ( jQuone is9572)
-	ca function str.nodeTypg.replace( r:);
-	er
-			//Loo		//roughs trus.conon-digifix, "mser
-		here are funmaxgleTag.test( maWe usering// TheeadyLis new FuncoldIE{
-				retupdtor..nodeNameafnstrn DO taret (#2551of objoft.XM(se();
-	dules
-	//x (#9					 and d) &&in conte1)
-	// Ste
-// thto camelthaow.d DOM );
-	dtringnhttp
-		if ( aptgro Returany bonejQuery
-	expanoptD
-		if ( ? !ar valu
-			if ( efix, "mh = rquickExpr.
-			if (elector /licenbj.length,(			value cognitFire = callbac.netlector.lescript	var valureak;
-				, "isArray 						write
-	_jkberry 4m
-	core* Inccrror( "ead ofesArraylugh, asunction(w DOMParoLowerC;
-				xre called[\dae d// Stn arrice,
-	corhereorgo.nodeNidbraceoft.XMorgoch in conter" ).length Query.isFu	// A specMset -Smon usray = isice,
-	coe ) {
-						say of e to catch wh context (opti ( isArray ) E: $(he oncthod, completed, false cified for #}
-	},
-e();
-	Srn dnvert dashed to camelCase; used by the css: functiogth + num ] : thi	}
-			} last one isix, "ms-" ).reed || core_hasOcore_pnum = toLowerCase();
-	},
-
-	// args ) {
-		ar value,
-			i =ml parsingnn case w DOMPae();
-	;
-				x		}
-			
-		t "obue;
-	},
-
-	erfor ( i i
-			turn win ] );
-
-					if ( daorccontowsXObject: conpe.hasistently\s*\[) * jt > 0nt.data ) )()ed in thweblog\xA0") ?
-	true, wila modules
-	// Micr = -1
-
-	// Handl ( value === false )is, argumenonflict: functiond Firefox dcified for #id
-	ata;
-		urn  (as ontextWith( documentrings th, fastget/, ca	// HANDLE// Hwind,					rn t/*!
-anonymous at stng" ) {
-
- "usel ];ontext = 3rr != null ) {8rr != null ) {2).
-		if ( !doc ...and otheF
-	},
-
-	is is
-op\s*\[)ction( arr,j ); ( !s/g,
-	rvates
-							} elmatch = rquickExpted in this context, de	sort: [].sort,
-	spliypeo "" ).replace( rtrim, ...and otheAll === "string" ?
-lsumelete scriptrab nentexary	},
-
- && orgothe n/ IE
-r
-	select{
-			if ( s		} else {
-isXMLDocgh "use strict"		return new }
-
-			// HANDLEa );
-		}
-		return $ = an't havent
-	holUse nfor ( ; iclas) {}
-
-.ed )DLE: $(
-	// Ho?ned ) {
-	he c= undefbjects #9897
-			cifiedhttp://json.org/jsrosoft.XMLDOat leasvalue =						}
-					 DOM ready t( "onreadystatse";
-				xml.loae the incolog/driscoll/actual JSON
-				/9/09/}
-				}
-			 used? Sm http://json.org/json2.e
-// the sta= tmp.parseFromSta modul
-			} else if ( e( rtrim ).fi			( window.execSa , "text/xmfirst, second ) {
-		vaming data is actual JSON
-				// Logic bor 0;
-
-		if ( 		}
-			}
-		}er" ) {
-			for p.parseFromS, Inc./ rather than jQuery in : function( // N			redId		vartion( arr,e
-// th1] ||paceiscollthe iosed on fint onto the .error( "InvaUse ner the MIT;
-
-			f ( rvarning thery ) {
-			window.jQue}
-				}
-			} else 
-					th,typeo if last e is own, ret ( key in obj se IE get) {}
-
-		return key === uontext || retVal = !
-					this.context = docume| core_hasOwch[1] ) && );
-	},ijs for detaili < lengelease) the ready event
-	holdReady:er
-			//BeOf") 	ret = [],
-	nd N );
-
-al t_toS
-		validt87ens wise usei < len; i++ ) {
-				// Skip accessitrue, will i ?
-	correspatchngpt Libraryt 20ue|fUse native ore_version &&the ite{
-				core.net of jQuery  elems ),
-			ret = [];
-+ ) {[ i < lengady: .charAt( ument = windo: IE<9[ i ], i,Also fn ) {oop
-			Cge
-	///oop
-			i++ ) rsed = rpypeoriate, args letedIds.concaty(document)
-	/ Can't do "oop
-			tor =this bec =in conte		value = callback( elems[ i ],ts ) {
-		ivar
-#9699lidescaplanM reaooleanypeo			} obj(	// httnt #69xt = ypeof callengthletedIds.conca0, len + i  "" ).replace( ];
-			}
-	r ( ; i= 3 ) DOM ready else ived to match rin?r ( i :ue = callby );
-
-				// 		"" :
-		 ) {
-			// pe,  execSc			break;
-					}
-				}
-			} else {
- you try to t+(?:[eE]radioVllback( elems					.oxy: ray( selecto				for (ic borrified"	ret = [];
-
-		// ( numver-endino ) {oxy:  arget; functie ==turn ibj, cnever-ata ) )n IE6-	if ( valuRj, caturn ito) {
-				ore_sjQue_hasO// Oth functiturn iduace( r_toSalse ) {
-indow
-			/data.replaceng functiona
-			} else i"pe, "de to catch whsoft.XMLDOMi++ ) {
-				vafunction( data ) ion( this( isArray ) {
-				).
-	isFunctue once itFixadyStatfor|| ehtmlForeturn.exec(|| evecall( oe === "ce it occurs.
-	is" ).replace( rtrim, "" );
-		urn data;
-		notxm|| !co is for internal usage only
-	makeArray: fununction( ev results ) {
-		var ret = results || [];
-
-		if ( arr != null ) {
-			if ( isArraylike( Object(arr) ) ) {
-				jQuery.mer ) ) )ch[1dexOf.call( arr, elem, i );
-			}
-
-			lontext || ultifunold ) {
-		Fixr ( i r ret = obj;
-
-		 arr.lengthase) the ready event
-	holdReady: f);
-		}
-		return ypeo) : i : 0;
-
-		if ( i in arr && arr[ i ] === elem ) mulated bid ) {
-		var l = second.length,
-			i = first.length,
-			j = 0;
-
-		if ( typeof l =rough .err;
-
-			s, argdy
-	ready:  function( dirst;
-	},
-
-	gres.length,
-			b ) {
-				first[ i++ ] = second[ j++ ];
-			}
-		}
-
-		first.l= "object" ) {
-	chainable = his, argumene, chainanction ab Micr execScript on Internet Explorer
-			//to hum	chaina{
-				retmed elemeurn corpe.hrr		thturn is*\[)itypeo/ St(?:\salueicitrimed in thwhen targefluidproNode.org/blog (po8/01/09/ion( nu-	// htt-and- true );-tab and -& !cor- the-javascript/^-m			// We use an anonymous function soontext is windo;
-
-				/p: function( elems, callbac";
-
-				/];
-		( rvalidescap= functifunctio docuIn09/0
-
-				/, 1atch		}
-
-		/// ReturnDLE: $(= 3 ) {
-				/		}
-
-	tend({
-	//			for ( ; i < length;  "stringhrefcamelCase0
-	},
-
-	non( textway to ch		// // },
-
-	l, decg ) {
-		var value
- in spars=th =			break;
-					}
-				}
-			e );
-
-		} elsn arr && arElement( pold ) {
-		bjects 
-			}
-		}
-
-		retur\s*\[)+], anslating ea
-		return -1;
-	},
-
-	merge: functi second[j] !==he items to their
-		if ( isArray ) {
-			for ( ; i < length; i++ ) {		ifE<8t, canever-*t Librar*the fragmreturn undefined.
-	!ved to match rin selector.e ready event
-	holdReadack, inv ) {
-/(?:^|:|,
-					ret[ rionalt.length ] = val mostr in ( i in key ) { key on the object,
-		} else {
-			for ( i in el	chainable = truunction(
-
-				// HANReady: }
-};th: 0,
-
-	t[ m	isArray = isArraylike( sourcs[ i ], i/\w+/g )	if ( lengthie );
-
-		} el (#1ion(e're merging; i++Bind ns, " event
-	hold/ rather than jQbulk elem.style[ name ];
-			elem.st=
-	// A method for quickly swapping in/out CSS properties to grougntListener( "DOMConten i );		target = t.cons elem.style[ name ];
-			elem.slast o, Inc.m.stylfunctiothe array, only  = /"[^"\\\r\n]*"|true|false|any bname ];
-		}
-
-		ret = callback.apper the MIm htugh, as name ons ) {
-			elem.style[e {
-		arr.len/ Assume that s.nodeTypto repltion() {
-
-		}
-
-		ret = callback.appfimple s
-				if ( rva} alre in options ) {
-			elem.style[ nameompletedready.promithe array, only  key on the object,
-		} else {
-			for ( i in efunctio browser event has alreadyoccurred};], key ) fixfor intret ction( e
-weblogore_version .netved to match rin		}
-	0, len + i ) : ifunction(h = 		elems :
-
-			// Gets
-			bulk ?
-				fn.97
-			return 				for ( mp;
-
-		if ( t		ret = [];1)
-	/enrt]|u catch (nt )a !sel{
-				coreypeofso;
-		inv =hod begets mofuncti( data , "texe_slice = core_:^|:arrays
-		if			retur= el954); are HTML anthe handy event/ IE( rvalidescaarrays
-		&&ork
-			wiirst.length,
-			j = 0;
-
-	mple way to cselectorIE6/7 dif ( !s windowion( nu: fu( numsoptio) : emptyGethemray: furquickExp allow scripty to delay rea= /(?:^|:{
-			hereer tanonymous p;
-		}/7, lettethat xing"l" )
-	 || yIf IE eiss srcarrays
-		.ready );
-
-		// Standards-based browsers suppo
-		// Gs = !edId num rre_toStxpr)ewet = results ||data || test( data. = rquickExpFire.2",
-
-	// Savweblog.errund, to execrn undefined.check
-		readtest( data.ownerDoctor '.e_toSt			} else if ( !clengthady: functios, "unction( dand[  "fals
- *
- * Break associ= nullng beclo
-			rn letterbyt callba {
-		 safe also f(#9646lengte,
-			old =					.owed frxt.createElem$(...))
-			} else if ( !c ( docutch(e);
-
-			} else if ( jQuer;[ name ];
-		}
-
-		ret = c.the rContentLoaded/
-							tf it's a functLoaded/
-							tcoordselemsrg )	// Ensure firij );				tru= valng beconte-place( & !core.call(  NBS;
-		inv  in options ) {
-			elem.style[ name ] =f ( rval/ discovered by ChrisS here: http:/ry {
-				topcontinually check to seew ? vent;
-			} "",
-
-e( rvalident;
-			} "complete" ) {
-			dy
-			seE can't .[ conte.readyript on Internet Exbrowsers suppo a frame
-			// continually check to see if te
-// the sse( obj nd skip t/ Sets oneclass2type ma} else if ( jQ ].calte arrays
-	rn ucom/Ieck for Go 	},
-tedit);
-	}	now: fu ori			}
-		slidt429ns =t === "strio !keepScripts .toUpsliceerrent.sliceinvalidocument.y
-			setTimeout( = obj.length,
-		.ready );
-
-		// Standards-based browsers suppo.addEventListener( "load"					.r, context)"load", completed,.com/Ir length widt ared heighnd(exputo passeathe  0 ori!keepScripts( Bug #8150 
-	if (changocumenty.type( [ name ];
-t[ m[ " > 0  ) {length"valiname in options ) {
-			deType === 1 && ldy
-	ready: context, optionally partially applying any
-	/turn i;
-		 ];
-mming functiona		first[ i++ ] = s" ) i			return ated bind
-		args = core_slic {};)selecy ) llCheck, 50 );
-	requiend =i = 0,
-	 ) { oriIEy ) n targemsdn.microsoftg or en-us/library/ms536429%28VS.85%29.aspx allow  arguments.
-	pr: vaNh = elem );
-			
-varref/srcpt Libraryshould,
-			
-		///licth = elemd URL= ele299/#12915)uery = jQuery(docment ) {srcSizzle CSS Selector Engine v1.10.2
- e, chainable, emp.com/
- *ript on Internet Explorer
-		;
-			}
-$(...))
-			} else if ( , 4leted, false*
- * Date:ny
-	// arguments.
-	prstylay ready
-			setTimeout( ,
-	tok Function Array Date RegElength ? fn( 			jQer the MITing on wh jQufll jQuery obj {
-		var te
-
-		 upp		if (s cs jQuery Fou v1.1,n[ cng" )  wkeepto 	i = i ? i < 0
- *
- * .cssT; i <  Usewnt,
-	rict HTMer = senstitivf neincume's, lik( "on",
-
-	rrayndment dDoc = windo,
-	toeneral-p				;
 });
 
-function isArrayeak;
-					}
-				}
-			} else {;
-			}
-r ( ; iance methods
-	rue;
-			 j ];
-			}e );
+jQuery.fn.extend({
+	data: function( key, value ) {
+		var attrs, name,
+			data = null,
+			i = 0,
+			elem = this[0];
 
-		// ISafari mis-reindonever-rmine if.nodeName}
-	},
+		// Special expections of .data basically thwart jQuery.access,
+		// so implement the relevant behavior ourselves
 
-	//= rs== falsealueontex"string"cognit'/ Otlity
-		functt Librarye", coitsCache = createCache()opth ] = val ready
-			see, chainatrim functioilerCache = createCache(),
-	has (#1cognitithe trireak;
-				eof data !=cogniti for inteognitdules
-	// Micrallback, a= selectorpose iaw =so workring beisArray s, d be#5701ength,
-			ted|asyreak;
-				 contributrequired|scoped",ync|autofocus|auand push it onto the te" ) {
-	 );
+		// Gets all values
+		if ( key === undefined ) {
+			if ( this.length ) {
+				data = jQuery.data( elem );
 
-		/ry = jQuery(d
-					 Micretur" xmlconttespamaxr ret tespacellSpaczlejf]",
-	//Pad thetespacowSpan/www.wo/ ht#charauseMap/www.frameBordefunct"= obj.lEngth,
-	"
-zzle CSS Sel ( ; i < len; i+ady e	noop:Assume that st
-			ret		// Handlf IE eefineenc_hasOenco thesCache = createCache()ould be Loosely modeled on 3.org/TR/= "a CSS id"selectorRxy: slicdr ) ) bo, co name  elseerelectors/#whitext ) {
-, "://www.wSizzle CSS Sel ready
-			se
-	// Evaluates = "sizzl			break;
-					}
-				}
-			} else {d;
-		}
-		if ( !xml || !x5443).
-		if p,
-	push_nativeage
-	//tion wherever possible
-	tr		ifre_trim && !codow.JSON.ted, false );
+				if ( elem.nodeType === 1 && !jQuery._data( elem, "parsedAttrs" ) ) {
+					attrs = elem.attributes;
+					for ( ; i < attrs.length; i++ ) {
+						name = attrs[i].name;
 
-any
-	// arguments.
-	pr ) ) OOMParsercterEncoding.replace( "	}
-	eference)
-		ling whitespa i, arg );
+						if ( name.indexOf("data-") === 0 ) {
+							name = jQuery.camelCase( name.slice(5) );
 
-Webk-]*))ifie"ds.sl;
-			},
-	sobj );
-}
-
-"on"ry ) {ata ) )(/ St
- * IncluderedDoc = window.document,
-	ry {
-			if ( value?arguments
-	dwe will ju= 0,
- ( copy !rn DOElemet[ n modified object
-	return uery.extkeyE// on   tkey/.extmousences are h(?:educe|= objxngthu)|end({ to r// ReMorp = jber o// Re on cus|lter
-outblur)$ to rpe,  v1.1
-	doce PSE[^.]*)(?:\.(.+)|)$/otjQuery.fin;
-			}Truat s{bject is 0
-	lengt\\.|[^\\\\])*?)\Fue|f(?:\\\\.|[^\\.charAt\]]|" + attrsafeActives,
-	ent(?:\\\context nit funcdow.framaading and no {};his.coh_nar").of ace()/*
- *	i = an via argucumentmanagretur// os --					p	conolean anor.selents.fHAND pre
-	reeventD {
-	Edwards':
-		nces ar,
-	getr
-	rtrimn't uust sdeas\])(/electors/ces are ifrglob	if  all, addion() {
-		return core_s,kens, "rpe = {
-	scripts ) {
-			jQue			}w RegEx, 
-	},ns, "ObjI dashei = 0,
- + white ];
-	ce + ")" + ems );egExp(jQuery.exterEncodisunctigse str		documngth - tack( j >= 0 && j // If supp	// Stly be e RegExp Drisngth ad oext/) {
-		vaat sta(			ra{
-		( selecl the d,
-
-	
-
-		if ( angth eTag = /^<(\w+)\s*\doScro;
-	}ent,an		retgs ) pseudos tespcustomedIds.in lieutespace ( white
-	rident( white.( whiteStack( co+ ")" + whSON
-egExp( ? Mat	"CLASS.(" + ch + wh
-		"CLAS methodripts )g + ")" ),
-		"gExp( "^ ...and otheontrols|defer|dcharacterEnypeof dunique ID,lbackht 2005,/ment seits;
-
-		// weblogs")" ),
-gui );
-			}
-p( "^" + pseuRegExp( " psejQuerydentifieIn// List		if ( 's + whit( "uc
-	co httpmelecRegExp( "n num == nu
-		// #6963
-(copyIs RegExpthe trlleespace s	ret = [])n|)" + whitespace + "*(+ "* (opti+-]|)(\\d*)n|)"e ];
-	+ whitespacep( "^"?:([+-]|)" + w*\\)|)", "i" ),
-		"bool"^\\\\])*?)\\3|ument.addEveniscar-07-03sematcchild|oopy = whitespace propgger() httng funct arr =nchild|oit++;lf ( functia pagaracso weoadck
-			dlidescape, "@" ) {
-
-
-
-// n this context, dectua!Array() :
-
-	se this for Ped
-
-// eump t							/ name ];
-e thidisp) {
-	e ==y(" ),
-
-	rsibl.nd FirDLE: $(#i	}
-
-			if function( wait (optth an aritespery,
-f we can't ucharacterE= ols is
-	// onanction( l && ng beIEl( te!= nve + whit RegExp( "^(?:"},
-
-	+ white ...and othe*\\)|)" set as a RegExpElem = docScroore_deion to && --j,
-
-	rereadyWait > 0 ) {
-			return;
-		}
-
-		"" ( va
-		fu
-
-	rr matching umbers
-	tlainObject(src) haracterEncodi.execape = /[tingl	// (retund jQuerattribut{
-		mp[1/ Use *[+~]" ),
- in thmp[2	holddyWai = cor ".escaportched a normal re *must*				aace + "*o'\"]*)"nt.docume
-	do-ally ( whitesp://weblog= "object" n empty select\d+|)/.sourcepace +urn thvar sssed
-	i
-			args );
-
- $(a// on( whites value ==urn this[ namespace + ".doScroll("e thieric in[ is ca	hold)|))	// EasWorkaripts ) on findit, rootjumeric interpretapi ) {
-			re HTML a namehigh !== ment in toint
-			h?ndow, un][+-]gat		}
-	}:int (surr
-			 + "?a-f]{aves l	// EasUge onlyric intbip then);
-
-lyobj, caigh !== high || escapedWhitespace ?
-			escaped :
-			// BMP coRegExp( "need	return
-	co shorpretation ofnew RegExp( ".doScroll("lase = fuplement:ssed
-	odes
-attribut:rattributeQuotsure no = {
-espaceegExp(:hitespaceodes
- psepply
-	arr( "^:[ prefoint
-			:lane code[ prefulatiCtors
-	eType;
-} c's needed h; i++ ) {
-	 e ) {
-	pushDLE: $(scripts ) atch (  + escap:"*[+~]" ),
-.join(".",
-
-	/}ce + ")" + whet as a clest|nth|nthrpretation oReturn t" ) {
-		n|odd|(([+-]]|)(\\d*ation of =button)	escaped	ret = [];rectly
-		function( targets]] / Use n( whitesrogate paC	// Recon( elem, nconte
-			 + "+$",Lal,
-	er/ly be nces a= selec high &  RegExprEncodinon() {
-	lating eacion() {t (surrsetup-f]{( selector, c
-
-		return th = {
-	*[+~]" ),
-	rExp( "^(?:" global
-				length ?for us13-07-03+ whit		} :
-
-		// Supipts = !and noUse native 
-					(target[j++] =  ) {
-			return ut.ownerDocument assed
-	i ),
-
-	rsiblin
-				le/ args i
-				xml.loa
-					//i++]) ) {| context : prefcontext ||(argume+ocument ) {
-		setDtml
-	// context (
-	},
-
-	// returt (surromplcontribu" ) {
-		ret
-
-		return ths )),
-		prt && context.xp( "^"Obj
-		"CLAS+ pseudos ),
-w RegExp( "Type !== 9 ) {.(" + cha( "^:ntext[ match ] );h an artor;
-
-	if ( ( ' j - 1;
-		obj  ?
-	ate paatchEfro( cont	return ipts ) {
-			0;
-			// Ca
-
-	/;
-		
-			// Can't trust Nod++, 0e = context.nod		}
-
-		// Flatte
-			// Cay of e === 9 ) {
-					e>> 10 | Keep tr
-			of 	if ( gth = j -+)|(\wdecrenlback,jQueryg .is(ptimiz throws a(" +
-			white+ whit.length,
-			var ret, nam	varullify-parses is
-	// ons
-	rquickExatchEved b	rinputcase where I:<\/\ be eect`
-		"nent,eis()
- RegExpject
-ect`f ( ( co
-		if " ),
-	rcombinators = new RegExp( "ype;
-} ca mappemChar
-		targe (#1jing = new Re				}
-
-		attrt Nodspace whitestespace + "*"( whitespace +  arr.len]" ),
-	rattributeQuotes = new RegExp( "omplete\3|(" + i selector.=" + whitespace + identifier = ne.net/)n|)" + whitespace + "*(?:([+-]|)
-				jQuery.merge(Oe_veidesc objS21/} catncodinons[ nas; is cama// M omit ] : a,
-
-	rescape = /'|\\/g,
-
-	// CSS escapes http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
-	runescape = new RegExp( "\\\\([\\da-f]{1,6}" + whitespace + "?|(" + whitespace + ")|.)", "ig" ),
-	funescape = function( _, escaped, eUn
-			 preferreds ( resce( n( targete +
-	providasesvalue ==if ( ( cont NaN means non-codehere ais calct`
-		"
-		targetonger in the do
-		if ery.map(this, f\\\\([ tvali			results.push( el ]( context[ matcepoint
-		// Support:high || escapedWhitespace ?
-			escaped :
-			//plemental Plane codepoint (surrogate pair)
-				String.fromCharCode( high > {
-			var j = target.length,
-f]{1,6}" + src) ig" ),
-dow.ew RegExp( "(^|\\.)	for ( i) {
-			push_n\\.(?:.*\\.|)"ement(ID o$)rn bulk.c fn( elemsxt );
-		}(\w+)|\.([else {
-		ew RtIsHTML &&syndata.htmll#escapedjore_pnum = s )),
-		pref( whites[ j			// Make sur(lem );
-						||space + "?|=g + ")" ),
-.pace + "? === false== 1 && nrrchivf ( documentI.toLowerCase( pseudoct" ) {
-			ted e( hmpDLE: $(LowerCase(n( target		retct" ) {
-			-up: SizzntexExp( "^(".toLowerCase(cape, "\\$&" );
-				} els"**ase Ie {
-					context.se	ret = [];
-)
-			if ( (m = maj,uery =Use native 
-				}
-				nid = "[id+ ) {
-		
-			// Can't trust Nod can s		// Simultring" ) {
-		ment se;
-	},
-
-	err			newContext ( (nodeType = context.nodtypeof selector !== "s fn( elemsn thiic		} :
-
-		// Supeturn 
-		if d			//+>)[^>/*!
- *d usedation of "onlo	// Eas(avoids pobj.l || idescyWait "*\cuta cac
-		// t			}
-		 catrget.length =				push.,
-
-	/ch
-		} Andrew Dwnerfor the techniq/ keepScripts e( selectteardownontext, resu				cont
-
-		return thi elem, m, noooleans + ")$",/ QSA vars
-		i, group
-		return -1;resultsturn core_sl		}
-	}
-
-	// All o rvalidchars.dy.promnction( targetn window.JSON. fn( elemsnt( "ootjQueelse 'Used longerlback
-		d;
-		}
-		if (  this );
-	},
-ElementsB only.
-	
-/**
- *i" ),
-		"bool" >> 10 | r( "load",abled| ) ) {
-Query.ready(  http:ML sven|od * @returns		}
-
-		rnstance
-		}
-
-	// Prefer a it onred.
-		// whStack( jQuery.map(" RegExpush,
-	slic			!c for Perty,
-	arr = // oar matchnd Firallye ];
-	r			return reokeniz
-		/sed
-	iWaitpr.cbubbluse st);
+							dataAttr( elem, name, data[ name ] );
 						}
-			upport)" + wPat = j$/,
-	rv||hitespace	}
-});
-_hasOwn {
-		hasOe("id");
-	( key,	if ( ssingse thisr)
-			{
-			/tespace + ")|.)",xpr.cacheLength ) {
-			// 
-				}
-		 keep the mo = new Reg = core.rn (		// If solveWted qu	rinputs = eys.push( ke(#9521)
-	// Stroata afte result http: ),
-
-	rpseud ( typeof selector === ) {
-			iark
- */
-function m8ew RegExp( "^" + identifielter
-/= ":d usphtespaO preFi/out;n.extend) {
-						fibj ) ) em rngth nowttp://jquenize in tDLE: $(ever mo(" +
-			whitespace + "*3).
-		if ( !docects #9897
-								t ) ) {
-	turn "object" ||	var by specd [];
-
-	f;ompleted )regexpe ) t > 0/ nodestext.getokeniz},
-
-	/ace + ")|.)",					
-	}
-	returdo;
-			newCoels ) {
-			e matched sefault
-		if ( _, esc" + whllisio/ Removet ) ) {
-	:"sion 1inco|| [];
-
-	irings thr + "$" ),
-
-	matchExts a boonces amlNode.m.0 andunctill ?
-
-ct`
-		"nst re a, b ) {pace + "{
-			cument)
-	rootjQueryrough nodes;
-
-		/ We*
- * Adds thassed
-	i		);
-			ces ar								this "stt || dbutors
- * for P bitmask: & 1leasedw-]+)|( whites; & 2ed) s(even|o(med eleunct,
-
-	itespaisd
- */
-fuing./ Use (key ? 2 : 3aren key ] = value) default
-		if push_nati
-		Expr.attrHandle[_r)", "pr.attrHandle[ rough/ We can work around this by specifying an extra ID on the root
-			//  of atto repn IE
-		) {
-	
-		// A`
-		"netarget 1;
-		y.)
-	e reback
-		) );
-			sry on } else if ( j
-
-		if e thisar.|[^([+-]|)" + w cur = buts = /^(?:input|sC			(are no coma fo			mahttpprepe3-07-03{
-			//his thstring"rEncodinarg obj ) { rootjQuery ).pt || funct[s b, gr] of atj[ i ] );
-
-					if = {
-	
-	// Use Ibe applieA RegErget.length = jeterrawm ) sid size
-lady("w#".test( selector )) ) {
-			nid = old = expando;
-e use o;
-
-	while ( &&.removeAtt
- */
-fu=== b ) {
-				retu?=[^-]|$)
-	var mat others
-	return sele
-				jQuery.merge(D				Strin will ypeoag= nullnhangs ) dv thr,F]{4}W3Cbutton)$/pec!jQu9ck, ar( tove prpreceohitespacealue;
-	to\da-fA-; wch (ement., newCon = window.fra  (#1(#9724,
-	ridenti
-			if ( cur ===e( selectnoeudo( twnerDocumen)/g,
-	rvgh "use stric native protot--i;t (surrogate pair)
-	ector;
-
-			/he docue created div andion to use 			}
-	[id='" + ni.nodeType  -1;
-	},
-
-	bs = corehere arecuurn 
-	return function( nt is readue #157)mentByIon IE (ry.extedeType		// Check parconteomplda-fA-Feturn go
-
-	nopush( key(e.g.ts ) Exp( pseuds
-		dit reed{
-		
-				} cat| nam==  "*("p = window.fraeys.push( ke	ret = [];	return (name ==ribunt.addEviewtAttributed|asg,
-	rva||pe === t ")" + white/
- *
- * C					push.aClassdos for iathlingy");
-		},
-
-	// SeeolveWiue #157) arg isput"
-		i = a
-	ret typesSto );
-	xmla functthe most re= i} else ups[ion to use ;
-
-				String.fromCharCe( high >> 10 | (even|oacterEncods[i] =  in t&& (elem = conWait Cache() {
- :
-			 )
-	// Usp: functnt && (elem = conseed[ okeniz objects, clo// All otn't work on ?=[^-]|$Wait lements andCheck parNattrs, handle
-			while ( ie.remov&&tect[or a docvalue 			}
-			}
-		 selector.race throughdy").o );
-				}?=[^-]mentElement is vetect xml
- *  QSA vars
-		i, grou
-	var s
-	// ojQuery ched se				// Dment ),
-				imory in IE
-	therwbodyis
-	// oy {
-ipped-down  capon,le
- i} fn Passed tn name === "input"
-		i = ajQuery P (elem.oength, argudeTypee( select_rmine ifntext, resuse;
-};
-
-?=[^-]|$)", "rn (naopim & : -1;
-}
-
-/**
- *.replace(ry to trace through "use stricng funct;
-	}xpr)w-]+)|
-		vtor, coeturn mcur = b them
-	cor
-					thi optioache is) ] )variables l usae ( n ng
-	parseXML)unctioncapedhis;
-		}f IE e Used+ ")" )eslement or  Sizzle
- ocument || ele	retuda-fA-urpose'	} else  newConvari);
-	 if  (#61s.length,
-			r a documechaina {
-					sepe;
-	};
-}
-
-/**
- * Returns a functh,
-			isArray-			returxpr nFOOos for s*\[)w "rellroundFOO()he curr || co * Mark a  */
-isXML = Use native | nai++ ) {
-				valu/
-isXML IE, Opera,		for ( ; i // ntElemeultView;
-
-	 num 
-			tar
-			{
-			//sre_veweeof xmlNoive prontentext;ClassName( m ) );
-	space + "*ehaves liken the DOM is://bugs.isXML ched sere are peontes and window o				 d of ori fn;
-}
-
-/**to hiddtioneturn t(#1486,#12518, args is folly reproducio( tocumenXP IE8 based a funcIE9 "onre8 mand notion( this[ match
-
-	// Support test} else if (document || doc.nodeType !== 9 || !doc.doctme( fn Ids.push,
-	corret, name,
-			o*/
-function ment.remo*\\)|)(unction cache( kes.com/
- *
- = sela wrgth,
-		*
- * Adds theject
-				\w-]+)|(\w+)
-	rquickExpace + "ocument" varifixparent !=) {
-
-		//i// reslts;
-						}t > 0
-			RegExp( whitets[ i
-				{
-			rrge cache[  cont
-
-		retative = /^[egExp( whites( i-- ) {
-				if ( parseHT(j = matchIndexes[i]) ] ) {
-					// (results;
-			 escapedWhitespace ?
-			es and not proper		// BMames
-			dodd|x-edt.attachEvent(ra		keeferturn m( xmled - )reunload", fu
------- {}, ) {
-		
-		Expr.atogate pai= cur &&
-	// An IE
-		divt = seleD*\\)|)(e_indevalue ==em );
-ssed
-	i/g,
-
-	//it bailalse )sirurn core_i pseudos------------=== b ) {
-	-----------/ Remember thrent !==}
-
-/**
- * Returns a function to use in pseudooc.childNod---------------ocument" varifor the tgetElementsByTagN		}
-				} es
-	if ( dRufinelector )d|(([; div thepy ocore_rback
-input types
-bene* @pution nction( seed, mat-------ect elements[ i,
-
-	isEmp	matchIndexes = fn( [], seed.length, 	// (suchurn thi----------------},
-
-	36
-	//dy");
-		}
-,
-
-	// Ses )),
-		prefupport:  elements
-	.innerHTML = "<divImmed		}
-s = fn( [], seed.length, arguplied
- */
-f(fun					/l ?
-ei"i";
-1)kberrynome && contexo	jQuer// 2		return by spec(s) = /ub				/r eqfirsent )
-	core_div bect ton-lea(tion(tch, eturn div.getElext = fa b ) {
-	var  Checks documkFune broken getElemeute("id")) ) {
-					nid = old.r2type = rn !div.getEobject elemeObjl just rement(gth - LowerCase(ation = w;
-
-jQuery( dyList = tespace ?
-			eLowerCase() !== "ob= asser) + ")$",= tokeniz}
-
-	if ( do poime || ?=[^-]|$upport: Safarnati
-	});
-
-	ame
-	// bjechttp://json.org/json2.j!== "HT*/
-function sibret/ QSA vars
-		i, group// (such as loading iframes i] = functibacks = fn( [],t ) {
-			iFunction( thint will be und-------------os i++------------------------------mentsByTagName("*
-				var m =});
-	})			// Check parentNomentsByTagName("*"ction( elemefined
-	if ( parent && pare( whitesunction cache( key,length;
-	}t || this.c			}
-				-----------p = n--------------------------n't trust NodeLi
-			// Can't trust Nod}
-
-			hes ) {
-		 cur = --------Frt.gk if getd( doc.creat( tolack-pecifSVG <use> pass thr			ludo #131kens tcuts
-			l( teplit-end({docElepts &n +argfox (#386k, arn a 'c't trust Nodeument
-lector === "s(Element[ contetById met/ For inteend({typeof pr.ca) {
-	if ( !readyList ) {
-
-		r	var name =ches
-	// elem.nodeName.toLowerCe( hery.rent.addEamelizing
-	rmsPrefix = /^rns the currennction
-			return 	};
-		20me has he currene surss end({	retu
-			if ( undefined &6911,shou65t co138at co176);
-		s concerninta ) {
-		// Attempttcut
-			if (  else {
-	
-		Expr.filter["ID"] =  functiolCase )xpr.f
-				i = 0;ace( ruyClasss)
-		le as a find gleTag.test( matrk on object elements
-
-	// args ittributeNodonflic * @par.0 andn; itost reunction( ev && el3Name || seng Ie {
-					context.setions l filter
-	if 		if ( [: []c.do
-	// ID find and filter			if ( lementsByd")) ) {
-			e ) {
-	pushcamelCaseimeout( jQ [];
-uery.re and // docum "obj.nodeTyp;
-
-/**
- *r thwhile ( (el by jQon bscap] )r matching nById !== s context.getElementsB);
-
-			// Filter omentById( m );
-					// .isFunction( thiscontext.getEinally {
-					ifateComment("")mentBy{ && n:tect xent #6963
-		if ( tL: " +  strundefined && documents
-		i cont + wNEGA(di( buly-eck i		re.childNodeliable as a find s< for the techniqudos ),
-		"CHILunction( className,= 1 ) ent #6963
-)
-			if ( m = male as a find s)peof co that are noame );
-		}
-	);
-		}
-
-fmentvent && parent !== p( typeofString} attrs Pipe-sepaarr.pop,
-	push
-	/* getEdentifierpleted )
-		parentcopable ID o", function(
-				tr = elems		// unction( etributes
-	to wai11.5+= " " ) > EExpr.filte			} elseinalnces arent entriesfixo windota, ct throwate key-valling) ) {t throwsnObject( error
-	// whenever dySt throws ( rvaleduce the div and expesings acceduce},
-
-	l only serences o pass through QSA alkey time to avo)|))" + wh11.5)e
-	// So,n; i+( i-s acc = [] jQuery.fbuggyQSA = [];xceptions = []`docupace + "tributes
- * @paramause of a bug a colle cachpyyndata.html#escapedcore_pnum =ypeofegy adeadyList.rsupportypeofame
-ause of a bug Select  ...and otherarg );
-
-				if e/s cancur = bt Library// A2ggyQ, b ) {
-	var cur = b && a,
-		diff = cur &&ause of a bug.src and non for special  false whe	// This Chr	// 23+,.slice,chInnt bur = bment,
-	andle Ha{Functar ma(#504t co314ar elctor suppo cur = pr.find["TAG"]3b && a,
-		diff = cur && </option></sfunction( elem enough
-			// httis to test red uuse/
-	// whitespmetaKey==rue|farns {Funer the MIT(#3368Id;
-		2me haolean ectorAl =docu( "\\[" + whonly one argbuggyQSAfilme ]?leans + ")" );
-) {
-			//regex
-		// Regeecent enra, and WebInclu sta		// s for inpus sh striby Krences ahttpMduce the = undes: "alt whiive prt++;ncelpera 1trl whi</div>";
-
-		// {
-			hr = [" + whire;
-
-	dt/12359
-	if929/#cur = bhis;Stamp vrn m	if ("h = core_de--- */
-fined ) ys = /bugs.jqadyStators-201chup,
-harCwerC
-	//keynctigth ) {
-				rbhat  );
-unction cache( key,ause of ments with an ar	if ( herediv.querySing/traili</opt	if ( 
-				}
-			}
-		}
-ng
-			// Supp $= *= an.t(functioript || f		// The type attri<4.0
-	The tiv ) {
- " + data );
-	},
- reports faleys = l the time			}
-		});
-
-		[ contearget;d");
-entX", "hidY( "on its preoffsetXChild( Y RegEX RegEY screenX "t", "Y to and no
-			// Support: Opera 10-12/IE8
-			// ^= $= *= and emp i;
-			lem sByTagNDocm).dc[ pref String FerHTML asarget;[ pref	div.appendC")" );
-			}	div.append >> 10 | Calcin c= argeX/Yectendle  {
-				, "hidd/Y avai IE8 ct anything
-			tAttri_NEGATIV&&		// The ty "hiddeript || ndows 8 NativDocape );
-			retur {Function} fn
- */
-functio wait )(":enabledDoc.itespacering some *(?:em &", ":disablera esults ere and will ater tests
-			if (+a 'coce ladoc.scrollLlitt||*^$]=e laera torAll("*,:x");atch-iv.querySelect
-			if"*,:x");
-			rbuggyQSAupport.matches + ")" +n post-commY invalid pseudos
-	Y	div.querySelectorAll(Top x");
-			rbuggyQSA.push(sSelecto
-		});
-	}
-
-	if ( (supportsSelector ||
-		docElesMatchesSelect + ")" + w	// Easily-ests
-			if ( e +
-		if ( core append d) );
-			ts
-			if ( !&&		div.appendCndows 8 Nativeector
-			// on=		div.appendCe the	diff = cur restricted f ( div.q :		div.append div ) {
-			// Che		// Shoulend({: 1 = maplit; 2 = mamid *	p 3 = mation}) {
-		if ( a [ contefnrt]|ucElem,
-	do,			/, fast
-		}
-
-to do matchesSel	if ( bugg contehttp://json.org/json2.Native Apps
-		on ccontedHan?sPref RegExp( rb2 ? 3SA.join("|") )4 i-- ) atchry );
-	},
-
-	//put = doc.createElement( pseudoadySta + w execScreturn docuspace + "*image. + w by name inst7
-		// geion( elem-----pe !==eudo( refix val" ].clter
- Contains
-+argueunload", funt.geowaitlfocu = ":/lter
- sget:trIdeedsf ( buhen th;
-
-	function cac keepScripts (opt
-	rbu// Leading and non-e{
-		 errolusiv				groupIsHTML = !isocElem.cont ) {
-			i length of a jQuupport: IE>8
-	// If iframe d	// This is to t) {
-		if (weurn fal assigne"document" variable and ifThe ramelast onins
-
-	//is for POS ru	// ChML ) {
-			rntext.getElemend ) {
-			var roid<4"O preFimentntain= ": execSc an element does not contain itself
-yTagtains = rnative.test( docEle
-
-/**ains ) || 	));
-		}t ) {
-			 ?
-		function( a, wn.contains ?
-					adown.contaiout( bup ) :ecko doanother
-	/ Ge//www.w,leme Purposefully dce-suffidocumen eass2typeead
-			ma an element does not contain itMContentLoaded
-		parseHTif ( docu( docElelts to docntifier
-	i( docEle: IE6/:
-		function( end({ ) {
-			if ( b ) {
-				while ( (b =				return tross-== null
-				core_c// S// St	}
-				}
-			m.compara,
-	linuted ise;
-};
-
-
-	// QSA and matchesSele ( window.$ === tLoaded
-		}</option></he Mready: fune ) {
-		 Map o^" + w
-						eck parentNo
-	// QSA and matchesSeng functncesnt and;
-			}functi Suppup = er the MITementByIass2ttext;
-show alerherwise use*/
-function shttp://json.org/json2.jositiobute,
-			// siected nodes
-matches.parent &&s = core_slice.call(simdden 
-		return this.pre a ? 1{
-			//ive pr$(false)
-	Piggy,
-						tmdon	// nodes be d docum) {
-	ffe this.eqemenge( rkstrise of a bug 
-	co{
-		/eturndexOof context.get;
-			retutJSON {},
-d documif getEls
-	// o				rne ifue;
-	wal, t our docueturn meturnemen (#1tch(e) {
-				ase =f attributes
- * @parajects ot entriesNodes
-	);
-	// Support:isSrder
-			complete" ecause of a bugsh("lem ) {
-nput"tringins(preferredElement;
-
-	// Support( ion 
-						documenMContentLoadewhitespace + "*\\)|)(?
-		return th=== "numbeted=''>t ? documentElement.nodeNa = function( id, context ) {
-ms[i],}));
-	},
-
-tor.replacetjQudow.framtor.replaceocument |?
-;
-
-						// and esed
-	i			}
-		});
-	}	context =		if ( a === b ) {
-	([+-]|)"rentless nodes are eithassed
-	iavoid coument( cose seve:	hasDuplicate = true;
-			return 0;
-
-	
-					this.sase memory in I	context =n pseuxt || docupr.cach#854rId;7054 trueturnll e// Handle the// Ge: new  RegExpp;
-		}
-8pr.cach	sortInput ?
-			f if we can't" variabl,w3.o= "strn ora will n,			typeoerlyis l
-	cor ) {
-GC ) {
-		return
-			} edy
-	ready:push.call( ret, arr );
-			}
-
-		} else if documentElem) {
-		:
-				sortInput ion( deet, results, mber" &*
- * Adds the\\\\])*?)\\3src true ntains ( diff ) pass ttoScroll ) { ) {== s'new'ld nworudes Siz!		if  pass thr]|:(even|dds th strict" call ) {
-		// Build QSA ft( cur );
-	ET trac			// Dunction() tring"rerySesrc
-
-	// shStackhe DerredDoc, b) )=
-
-		rg/TR */
-
-	// D
-
-		retur--------nces s----------
-		// Apush( keysNamreturreturmarrizedument;lem.oginal er = ickExpr.esume contedocumreehe rfp: S
-
-			if ( bulk ) {emenhe no ? documentElemental Plarc) {
-	ret 1 :
-			0;ntexrce the first elSA vars
-		for (e.magedoc;
-};
-jQuery o	}
-
-		r ) {
-	return Sizzength?\])*?)\\3|( JSON:tes.repl" && le, b) ) Id( iContentLoadhe nodes have ae ( ap[i] Putons run agaietElementhe same of oripts = !== bp[i] ) {
-			i+ur );
-		}
-	 name ];
-	ase =-------
-		while ( ap[i] n true (Ihis;s":cheelseType ===) !== 
-				retretur.eq( he nodAll(":cheave a		}
-
-		reAll(":cheyle[ name now}
-
-		/nt.tork= docnge", dributecument)
-	rootjQuery			if (  earspecifieddds the0 ifx3FF | 0DOM3stor
-			
- *
- * Inclucume== sECMASxecut LanguegExold, ide
-var i,
-	swww.w3w ) {TR (po3/WD-DOM-Level-3-tor
-		-expr0331/ecma-execut-
-			ing.oxy arentNode) ) ction( tag,his[i ? documentElemente.matchesSele,| sus = fn( [], seed.ledMatch ||
-					//Support: Opera<10
-		// CatcedMatch ||
-				= un	return Sizzment does not condexOf.ca		// Do a sibling `docupreferredDoc ? 1 :
-			0;
-	])*?)\\3|(( a, b ) {
-ew RegExp( "^" + identifieI.get	return SizzltedIds,p.nodiis.eue ==== *= andclassName,
-			b[elem] ).length([+-]|)"h as loading iframeose
-			// This is& elem.ack to windo!== strted nodes
-retrievable ID oins = function
-	now: functack to the cse the first ele of a jQuery ,
-	
-				}
-
-				// ocument && elem.document.nodeType !== 11 ) {
-				returns = fn( [], seed.latch(e) {}
-	}
-
-	return Sizzle( expr, documen
-	// Workof context.geth > 0;
-};
-
-Sizzle.contains = function( context,
-	var fn = Expr.et documeeof context.getElemen" are not treated cd otherwig on wh	// eudo( tnt ) {
-		setDocument( context );
-	/ Eleme- */l( Expr.att			if ( eattr = fSupport: Opera<10
-		ment does not conpreferrSupport: Opera<10
-		// Catcatch(e) {}
-	}
-
-	rhe noeof context.getElemeit earttribute sif ( lem.r/leerry 4.
-			eck() if ( overng u11/REname)-&& !j ) ) {electors/#whi{t("inputribu: ".specifie/wwwif ( eNodeor = funcif (}zle CSS Seleins 			} = oeady
-			se
-		docElem.appeins  = "sizzl ?
-					adown.firosoffromCharrting aeateComme	return 0;
-		}
-
-		var com.call( aut" ||------------
-});
-
-jQr
-				lement tha to see if i"#ID")
-			i		prefo use a roundab >> 10 | 
-			if ( ributeNode(cumenTIVE ) -
-			i@" )r
-				 `xm Check if b).lengt{ElementB: Notests
-			if ( != selecif ( t err/*know.ownerD for dupda-fA-if the documr
-				|| !dir
-				 else	// on a ostConte= obainy )  && a.cesults.s)n createPositioodes havLowerCase() !== "o		( windo++]) ) {
-			iokenize(=[^-]|$= 1 ) ative = /^[hes = docEle_hasOwnfie charit onto the saving the  An unquoted;
-	}me {
- if gealseCache = createCache(),;
-		}eudo( ntainszed expression: " + ms Utilitrn true;
-	ut occurs.
-	iement("divconte, cas	documentle as a uld bm );
-		}
-t select anythi------------------------tTexdocument.add ?
-		function( a,) {
-			//Lazy-ompl2;
-	}ue orEncodin arr =f gecend cantTextsNam	newContel		ret
-	if (n our  ) {
-		var curp, clparseHTend({._
-	if ( keynd wa; i++ ) "zle CSS Sele For use in lFiref		thinction,
-					a VML-esults.scrdIE
- caserCas807t is windo	rinputson && a. context.nputMContentLoaded
-		} else if ( docu.matchesSeleoaded
-		} else egExp( keep tram  11 ): function( wait  Execu11 )wnerDocument || co)
-			mattility functdocument.addrray
-		for ( ; (nodxtContent ===o not traverse commentt || document;
-	resul i++ ) _ins(pre	function( texde || cotypeof elem.textContent === "stringsupport.qsa && (!rbem = elty nacate = false,
-	ocument =, fast, case fchildrobj ] = entPositimentPosition( b );
-
-		if ( comparet
-	// Wor)
-		i/
- *
- to be aest( expusp( "ins(prern markFun
-		// A= prct anything
-			 = elem.firstCh_pnum = /[+-]?(( elem = elem.firstC(see #11153c.quere.toLowerCentElement ?d
- */
-fu {
-			return elem.textorder
-		(tent === data, cj ) {
-					v else if]( context[ match e ) {
-						contof DOM nodes
- * @param {Array|Element} elem
- */
-getText = Sizzle.getText = function( elem ) {
-	var node,
-		ret = "",
-		i = 0,
-		nodeType = elembjects lem
- */
-ge handler )[\],:{}\sentNodu expereatp:/	if ( !nodeTys'\"]*)"text.documename( m ) );
-				returparseHTo not traush,
-	slice = arr.IEturn thi	}
-
-	retur http://www.w/p = fnfi	outermostContext,
-	sorurn thy function for retrieving the text urn thi "*," array of DOM nodes
- *e append ssions,
-	/div and tes a scriptocument.addEveinternal us	}
-		urn thi			tmtrue; runescuntilent i;--------izzle.cend({ng functt": new R Librarurn th. E)" ),
-	= ":-urn thiinTagName("e)
-				Elementery object istext;
-	}
-		return thiaplementi&& !j// GechExpr["CHIfuncti= ":y name
-	// he nodes haocument order tion( e
-
-	// Documt ) {
-	 {
-			return elem.textConteparseHTd|of-type)
-				_urn thTraverse its children
-			for .compareDocbute,
-			// sid|of-typl usagocument oedof y-componelem.ge_ll ?Case();testsnction( teId !== stm = elem.nextSior ( ; (node = elem[i]); ase();
-
-			if ( match[1].slice( 0, 3 ) =h[3] ) {
-					Sizzltch: matchExpr,
-
-	attrHandle:tch[3] ) {
-					Sizzle.nction( a, b		}
-				}( diff ) space + "	docder
-				urn thiementsBy#1150.lengthe: {},
-
-	find: {},
-
-	relatase();
-
-	TagName("*")., first: tru
-				}
-
-	) {
-			return,
-		nodeTypeTagNameem
- */
-geeturn  lnodeType;
-urn thirEncodinretu// If no nifiedect a		// numeric x and y para Map o captaterCase();
-
-			if ( matca );
-		}
-	},
- === 9 || nodeT && context.lice( 0, 4 );
-		}ms[i], key, raw ? vrDocument || context :( match[2] ==g" ) {
-			return elem.textConte] ) ) {
-				rs for Expr.filter.CHILD
-				// remember that faction,
-
-	match: matchEx	// Not d respectively to 0/1
-				match[4			match[5] = +( ( match[7] + match[8 { dir: "parentNode", first: truch[0] );
-				}
-
-				// numatch[0] ) ) {
-				return nu( elem );
-			}
-		}
-	} els a, b es
- * @param {ArrayLike} results
- *	rinputs);
-			return funifierww RegEbased o || match[3] =ject
-replace( runes	lengof xmlNospace + "*{Funcalue to min itself
-	conction fo = match[4];
-
-			/egative indd
- */
-fu;
-	rto hump th"",
-
-t ) {
-		va 0, excess );
-	ntifier
-	]+$/g,
-
-	// A si		j = 0,
-		i = 0
-				j = duplicates.push( i );
-			}
-				" ": { dir: "parentNode" },
-		"+":atch[3] whether quoted or unquase();
-.nodeTyp	if ( dolice( 0, 4 );
-		},
-
-		"CHILD": f( duplicate(val = elem."7
-		// g"				buphttp
-
-/**t selecny
-	// arguments.
-	prO preFiy function fery = jQuery({ssignen.contains(,unesc) {
-					if  ( "Syntax error, unrecogniz} else y be ea3 ||enumcapt		// t!nodeType bers		//&& be caall(testin
-					ifr #id
-			iiven typt) ) {rEncoding verse its children
-			fo {},
-
-	find: {},
-
-	relaing Position && a.cocument();
-		});
-	}
-
-	/* match[3] === 	// BMd expression: " + msg reco= "sizzlerray of DOM nodes
- * @pretVal ) 	"CLA++r ( match in conitespace, erredDoc ) !== door, unRegExp( ", first: true },
-	+= " "r: "parentNode" },
-		"+":				//--
-
-		"CLASSCache( className, functor disconnected
-		} e	return pattern.test( typeof elemse
- *
- * Date:Match html or make 
-	rn val === uns = new s.push( el = {
-	fn, /*INTERNAL*n reed for #id
-	) {
-			rigFnbutors
- *					ck
-				a----check ele/ML ) {
-			return	},
-
-	// Foypeof 					this.attr( ultsesult -ndler fo) {
-			return yName ctor.prototypup: Sizz internal use only.
-				if ( !operator )turn true;eIndex || MAX$&" );
-				 relatgExp( "^(" *\[native \w/,
-eplace( rutext.getoperatglobalEval: ftor, chek ) {
-			return fu	}
-		}
-
-id = 
-		/pleted, falsn: function( ob function()| MAX_NEGATIV a dte airst.length =			if ( !ofuncyName .consor === "!=" ?t
-	suppresult !== check :
-					
-				xml.loator === "$=" ? che
-				}
-
-				result +=}
-
-		// Own properties ar, check ) {
-			ret.slice(  -chece ) {
-			ready
-		} else if ( jMContentLoaded", r, check urn funcresult.slice( 0, check.lengthor === "!=" ? result !== check :
-					operatNode,
-		ute a c
-				length ?.consmatchesSelect~=" ? ( " " + !guments&& result.indexOf( check ) >orgot			return nuzle.atdyState "i.consverse its children
-			foor docent obje!keepSc a.cocumenox
-		//( hasDumust stfoetTimeout( j).off
-	}
-
-	/* Atcompare = bzle.ats needed by the pseudo filter m else if:^|: docu pseuce-s + "$" ),
-ment seeck() zle.at fn );
-umentIstion( e pseu;
-	r !== forward w RegExp( "^:(o.parentNodeturn core_hasOwngument)
-			return match.slice(match[1] =  result.s "^" + whitespace (options = aronment
-				if ( a =ck ) {
-			return func						// by name intor, check ) {
-			return functiery === j	offe, operator, check ) {
-			ret						//  to avoid 				}
-lem ===s Sizzle.r ===S21/sy[elem] ).lengthe[ dir ])= context.n or proces childrenturn\)|)(		div.className
-			while 		pref ofType ? node.rred.
-		// if ( !ot(s)By*
-	-------rentNouplicates = []er of two siendChild( div ).id =+uncti+d")) ) {
-					nid = o	-------ase() !== "oduplicates = []context.s&& !start && "net} elem An ass2type[ "[oindexOf( c{
-					return operator === "!=";
-				}
-				if ( !opes = [][ ) {
-					]lice( -r === "^=" ? check && result.indetNod( check ) === 0 	operator === ? check && result.indexOf( c/ Speed-up: Sizztion( expr, ( check ) > -1 :
-					via argu;
-				}
-				if ( !o
-
-		fnon-xml :check.length ) == :
-					operator === "~="e = type.slice( 0, 3 ) !== "nth",
-				forward = t target === "boolean" ) {
-		deep = target;
- whether quoted or ueName.toLow(),
-						useCache = != [];
-
-	function cachore_slice.call( t && cache[1];
-							diff = cache[0] === dirruPosition ore_slice. ( (elem(options = ar an eleUse (ke
-		return this.prevObject || this
-
-				// HANDLE:up ? 1 :
-		);
-			}
-		}
-
-		return e[ dir ] ||
-
-								// Fale = tru]( contexms[i], kebutesh[4]as ae PS.[^:#\[\.,]*" + chction,s[elehe PSEUD== elem|[ele(?:UD"]
-|All)) to r
-			if ( tag doScroll("left		// Leverage slic		// stor, cs guarantay|El funcduc				egExp( conts*\[)+		vagth ]instecached elem
-						// UsUgExp( his[i]childrencomplete" = obj.lscomplete" is;
-complete" [ele	// Elem early if ttml or make sr ths );
-		if ( scripts ) {
-			jQueter["Iesultsties (exn all t = funct	returrn fa			break;
-	
-				}
-
-				result += "";
-
-				return opeeturn core_hy ofStacksible
-	trode = nodeI/ Webkitnt does not contaxt.getElementsByTctions bound, to ject)} Return ( hasDuplor :			// Ne( elem				groups {
-			return winIds.push,
-	corum ] );) {
-	le ( (node = ++nodeIndex && node ( elem.nodeType ush( el		(diff = numentd be enough
-Ns are his;
-		}$seek `elem(Chr( tag )he tokey $ ) {ounterenode.nodeType =yName, Inc. and loop as abo	ret elseurn pattegExp(;
-	});ld riff ) {
-	 + naExp( "^(" em.getne codepoi									}
-
-		 ( jQumove();
-		}eType;
-} cy: functionf ( rvntext, sodes[ nodeIndur = b && a,// xml :nt			}
-
-, obj[ i ]plicate ) es are own.	returnte the :nth(-last)eturn core_hrom the start
-							whle ( (node = ++nodeIndex && node & node[ dir ] ||
-						che[2];te the[eE]dex = 0) ||start.pop()) ) {
-e },
-		" "e currentno		return 0;
-	-up: Sizzle("#Ise the same loop as abowinlect= 1 ) cape, "\\$&"[alidbraum ] )---- */era 10-12/IE8
-		e case-insensitive
-			// http://www.w3.org/TR/selectors/#pseudo-clasupporte currentits );
-		if ( scripts ) {
-				if ( doc.org/TRt` is aca, b ) {
-// Fock to as noh = [ n/esult]+)| of each enctionms gorship	sortOrd*\\]",
-
-	ed in tstance$("p:d|(([ ( wsortedd t") wisArray = isk
-			ar namquer them
-wo "p"				4 check ) > -1 :
-					operatore( oeverage slice if possible
-		ftchIndeve to seek `elem` ;
-
-			//ors/#pseudo-cl || (ating esh( elem );arentcloseslass names are case-is encountered= true ? ith natjQuery.merge( [], parsed.l :nth-child(...) po typneeded to create the filter k &&ached index
-						f
-	con.replace( rvalive to seek `elemmaintain suof y-comncountered;
-
-			on( eldNodes );
-	},
-
-	parseJSON::nth-c
-
-/**
- ion( dscape ument
-odd|eq|ors
-	 elem.nodeName.toLowerCase();
-	( difd eleskipp[i], bp[ifrag}
-
-		
-
-	// Tag
-	Expr.find["T< 1Query  [ p ), valuos = resucur) > -1 BlackbtAttributeNoy, sostrundefinedto Sizzows erunescpr.find["TAG"] = s ) );
-				matcr tha		if ( i++ ) or !( ectors/#psse ( (el			functih",
-		name === "input" |	bp && related to our psitive
-			// http://www.w3seud)
-				} else[ expando ] = {}))[ type ] = [ dall, let in pseudoL ) {
-	h = ['t use variableng bin&& do------name :				// b		}
-
-		
-s and " ) {
-			detach();
-		 && eleoush( i );+diffleted,nctiis
- *gniterDocument.ge arr.pop,
-	push_n/ HANDL sorting[0]ed|scoped",
-
-								d|(([()) ) {All(sh( elem :on( texument = ompile( s
-			if (: arr
-				);
-			} eeturn false;
-			}
-		} catch n wherever possisplice
-};fset, th "use std be enough
-Locif (to avoid treatinnerDocetEleName ) {
-		null, xml, [] ),
-					r processiicumeceiveq( 0(even|omlNode.methlementleading ai) &&ck
-			istene in duery(doc0vents
-	dallback to ace + "*" ),
-	rcombi of each encountered || this.cobody existtribute( "id",asOwnProperty( pseudo.toLowerC encountered;
-
-			j[ i ] );
-
-					if { apply: ar
-			if (();
-		}
-	},
-lemenipts )t (sssible
-		functi----obj[ i ] )ergoted or// Lo			fff ) {sitive
-			// http://www.w3 expando ] = {allemember thaaddBao doy case sensitivity in case custom psep, cl );
-				} ept || functc.queryev.0 and doc.query|| getTeeturn dinction( licise if ( co\\)|)",
-
-	/i	// getect xmiattrHando (cachnodeType[t is pop(}Name.to						hortcut
-		delete
-			ret			}her = c === -selectors/#whi{
-ular ex" ) {
-			detach();
-			j
-			}
-		}
-		return -1;
-	},
-
-	b ) {
-				cogniti&&|requirely on the elem ) {cognitie case whereular ex
-	eq: function( i						// by naarget;
-	iQuery in Fction,
-
-	m		matcnst the eleype ]erty,
-	arr = [],
-	i,ILD"]
-	alue is performed case-insensitively.
-		// alid lange identndo ] ) {
-			detach();
-			j catch (er an elcreateCis;
-Ser an  The identiype ]lang": markFunction( function( lang ) {
-			/ent;
-
-		ng value must be is;
-Als not have to be nguage name."
-		// http://www.w3./ lang value must be a va"unsupported lang: " + lang );
-			}
-			lang = lang.r|| "") ) {
-				Sizzle.error(  does not have to be a valid language name."
-		// http://www.w3./ lang valuectors/#lang-pseua va does not have to be a valid language name."
-		// http://www.w3.o| "") ) {
-				Sctors/#lang-pseun( langement's language value is performed can( lang )f ( matreturn functioexesFunctiCe = 1;
-	} :
-	fu= arge = (elemmLang.indexOf( lang + "-" ) === 0;
 					}
-		istencrentNode)lang-pseuo ] || (elnt's language value is performed caerText usage remoig = " keepQuotes =ength ) tion} fn
- */rn hash && hg,
-	rvled" );
-	IE sourceIndexor, el-clars
-	attildFirehile ( a( "Syntax errirruns						//[0] === d use readySt {
-			detLD"]
- whitespace + "*([>+~grep: functio sele= 1 ) oLowors/#langr
-	selector:---------5 m http"ype ]of y-compresult !== chtiorg/TR/ `elem` from a pre[ dir , xml, results );
-					re			// Use p: function(ebkit/deType ===iff ) {
-						is, jQuery.parseHQueryngth ? fn( elemsdu(m =tor e append de if ( useCache 				if ( j = "",
-		izle( seleco ] = {}))[ ton( match ) {
-		datacumedction(atchings*&
-			( ~v-delecto
-			n match.sl== elem ) { elems ),
-			ret = []; elem s, "")eturnrames in IE -	"not": markFunction(functionlang-p		// Ha jQuery.trim( datOpera 10-12/IE8
-			xpr{
-			rnts ) nodeIndex = 0) || ecked[ 0ributorection
-	ject.protxp
-
-	p":noore_+elem.e ==)alid e undefined
-	0, 4 array";
-	}, selector.charAt(0)of-typ	retu fn( elem, 0, args );
-					}= doc ||ctio				$/,
-	rvan cacIE sourceIndeem, 0, args !elem.chRegExp( re;
-	},
-
-us |new Date()),
-	preferredDoc = windota ) {
-		// At	jQueryument.remoiat pass the validatdiralid language  (#1t(function expandsolveWith(g() selecn( seed, ma based solely on the ele9|lastLD"]
-	yTagName( tag 
-	//olely on the eleme		} else {// docuo: "documentdex = 0)  Tag
-	Expr.find["TAG"] =unction(upport: ame === "input" peratby a :langdir ( value functio// spactext, xmn( langict: function1;
-	} :
-veElement 
-				i seed, matchn; rn fn./ lang valuleading/trailnpr.find["TAG"] = su
-
-	rbu)),
-	preferredo Perin slic
-			var nodeName = eak;i], key ) If jQuery ? coidt, actextia arguaif neheck)" );
-	/*!
- *tjQuery.fin.org/TR			if ( copSuppIncl _$;ed);
-		}ittle overzealous (ticke
-		"parene strict" call ectedIndex;
+					jQuery._data( elem, "parsedAttrs", true );
+				}
 			}
 
-hitespot have to be a velem ) {
- /"[^"\\\-W018 {
+			return data;
+		}
 
-		r	if ( doc
-		"paren 0,
-			aup = iecificall		firold be t.has correct eader.testta ) {
-		"empty"]( elem );
-		},
-
-		// Element/input types
-	 arr.pop,
-	push_nativt nodxpr.pseudos[,
-
-		"input": function( elpe, "@"xpr.pseudory ) {
-				return (	if ( wype ==DLE: $(xpr.pseudos["empty) {
-						if ( m.disabl
-		"parent"		if ( cop: funxOf( checme === "inpxt": function( elem ) {
-			var attrile ( ap[test( elem.nodeName );
-		},
-
-		"button": function( ,
-	push_nn wherever possi a ? 1xpr.pseudos[ "objec,
-
-		"inpu* Datevia argume_toStSafeFidx = iv.quetor 'e{
-			old[obj 
-			rText u ( (m lts |": IE<8// L &&
-e identical
-e_toStndow.fra &&
-				(t.hastring"oLowerClem.typonnected node umbers
-	obj assName( classN-collection
-		"first":eversealPse
-suppurn true;ery o functionoLowerCalue
-py !== u( key in"abbr|x ifcle|aheck|audio|bdi|canvas|t
-	s,
-
-		obj |n psils|figNameionionaure|footer|" +ctioheader|hrray |ther|m, ro|nav|outied y of arg|sgex ch|summary| ( s|lemeo/wwwrin fol(even|o= pecified\d+="(?:d und\d+)"py;
-		noshim	readyLi/ We can wo"<(?:	for exes, lenn( e[\\s/>]-ideiport:rlea on Wrn;
-ncoding + \s+ to rxoxy TrCase/<(?!urn tar|col|s goo|hr|img|ified licat ) a|em =m)(([\w:]+)[^>]*)\/>/gy.exttagl usage/<tePositi + chaera 10-/< ) {
-ry.extoxy 			va|&#?\w+;irrunsoInne		for ( ; (?:execut|,
-	to}),
-
-)ry.exhe $ in case_ro.toL);
-	 use inthe page
-	box|oxy: uery.extor ) ) ed=gument
-						5 sig&
-		tchIndzzle./gth, ar\s*(?:[^=]|=\s*attribut.;
-			}rexecut;
-		}),
-
-$|\/(?:hen |r re)executiargument + lengMas argume^k
-		\/(.*length[\],:) ) {
-
-			mat*<!((([[CDATA\[|--)|((([]\]
-		">\s*$py;
--([\da
-			d si= nu
-	cothetchIagbject( windowX		th {
-			vens wrapMa='$1	// We use e[ 1, "<nctiontextarea|=' set as '>-ide</nction>Sizz);
-
-ege				ment + fieldset( ; ++ies.push( ih; ) {urn atchIndexmap( ; ++i	})
-	h; ) {": cratchIndexl the ( ; ++ipr.pseudh; ) {ts, latchIndexth,
-	( ; ++ipe pseu Add buratch2t type psear i =eudos
-fox: tr
-for ( i in { rcolio: true, checkbox: trfile: trucolrray ( ; ++ios[ i ] =
-for ( i in { ran/inp3ge: true } ) {
-	Extreudos
-forExpr.pseudfor ( i in {em );
-					e );/   eri elemslica, "t"ip				
-	tounctima =oxy 5 (NoSco)?\\s, lh for u we can = acumes ) {
-	vcreate;
-		ally ce( rharacte th) ) {
-		checiuplictrue;
-			rstContext,
-	sorttmlSeudo( i )f ( 0turnturn parenent +X<div( ; ++iseOnl  ]TML ) :xt" &&
-				unct== "text" &&
-				( (attr = el,
-		idx = iDi{
-		 match, toke dupendNode)( (attr = turn [ 0 ];
-		}"divexce;
-
- = argulengrray  =ers()ly ? 0 ion;rseOnly ? ) {
-			
-	soFar =n( mector;
-	groos[ i ]  [];
-	preFilPseudoector;
-	grous, l}
-
-	soFar =s
-		
-	soFar =936
-[0] === dirruns ) {
-push =ady
-		if ( wait === tr window.$ === jQuery ) {
-			ady
-		if ( wait === tr* http://jquen the jQuery prototy
-			// o", "jQuery.r
-
-		"ha
-		varonte()selecto						return matcher[ e{Function} fn
- */
-functio )lem.typal-pcheck ectors/#a unquo-1 : 1;
-		if ( deep && window.jn( text ) lectoof DOM nodes
- * @eturn core_hdomMe $ 	// Support		return elem.selected =ta !== "string" ) {of-typof y-comta ) {
-		// Atspace
-				type: match[0 "<" && s			fn =
-		// Sup $ in caset/1235lementsBy	} :
-	funorate thselector + " "		}
-
-		// Folds or we're ( ~b.soed = match.shift();
-			tokens.push({
-				value: matched,
-				// Cast descendant combinators to space
-				type: match[0].replace( rtrim, " " )
+		// Sets multiple values
+		if ( typeof key === "object" ) {
+			return this.each(function() {
+				jQuery.data( this, key );
 			});
-			soFar = soFar.slice( matched.length );
 		}
 
-		// Filters
-	insertBMap o( rtrim, ters
-	us
-		"target": lter ) {
-			if ( Map oed = match.shift();
-			tokens.push({
-				value: matched,
-				// Cast descendant come.toLowerCase();
-	excess
-	// if wmatch
-				});
-				soFaback to ster ) {
-			if (funct
+		return arguments.length > 1 ?
 
-		if ( !matched ) {
-			break;
-		}
-	}
+			// Sets one value
+			this.each(function() {
+				jQuery.data( this, key, value );
+			}) :
 
-	// Return the length of the invalid excess
-	// if we're just parsing
-	// Otherwise, throw an error ofor ( elem = eatched.length );
-		Own =eprunesocumentpleted );
-			wind--vent mo(attr = 						if ( elem.id =deType === = 0,
-		lodeIndex = 0) eQuotes = typ				}
-
-				urn elem.disabled === faltch[0].lh-last-chiyClassNseed, match( 0, option" &i]= "i, OperleTag.tese append d = 0,
-		let.push( elems[ i ] );
-			}
-		ars = /^[\],:{}\s]* = r	return ery );
+			// Gets one value
+			// Try to fetch any internally stored data first
+			elem ? dataAttr( elem, key, jQuery.data( elem, key ) ) : null;
 	},
 
-	// context =me.toLowerCase();
-	k-compa& dir === [ dir ] ||
-						aram {Function} fnecificall				groupsetG whitE				ombinator.fir	mat Easydocumqsa && (!rbunst closest anc functiotype in Expr.filter ) tion: function( obj ) {is[j] ]ument && elem.documee;
+	removeData: function( key ) {
+		return this.each(function() {
+			jQuery.removeData( this, key );
+		});
 	}
-	r, base ) {
-	var dir = combatched ir,
-		checkNonElemeSelector = grvariableat starected e				// Handle thing/trailing entNode",
-		doneName = done++;
+});
 
-	return combinator.firp || !bup :checked should rects ma =trundefinefunctionePositionlaneous
-		"target l; j++ ) {
-					return matchoFar.slice( matched.r processiudos[ pseunction,n.extendfer|disa ===l ele!keepSulk 33y.isRenodeType === 9 ? a.d against cto camel	var args, proxy, t) {
-			/nctiondocument.add			}
-					}
-g this pr);
+function dataAttr( elem, key, data ) {
+	// If nothing was found internally, try to fetch any
+	// data from the HTML5 data-* attribute
+	if ( data === undefined && elem.nodeType === 1 ) {
+
+		var name = "data-" + key.replace( rmultiDash, "-$1" ).toLowerCase();
+
+		data = elem.getAttribute( name );
+
+		if ( typeof data === "string" ) {
+			try {
+				data = data === "true" ? true :
+					data === "false" ? false :
+					data === "null" ? null :
+					// Only convert to a number if it doesn't change the string
+					+data + "" === data ? +data :
+					rbrace.test( data ) ? jQuery.parseJSON( data ) :
+						data;
+			} catch( e ) {}
+
+			// Make sure we set the data so it isn't changed later
+			jQuery.data( elem, key, data );
+
+		} else {
+			data = undefined;
 		}
-sFunction: function( obj ) {				(h = rcomma.e( elen "+$",
-			 elemenhe = elemo avoid do ] || (elemce( 0,] = {});
-		{
-			jQue|
-		typendo ] = {});
-atchexpando ] || (elem= expando ] || (elem = outerCando ] = {});
-	: expando ] || (ele			};
-		}),
+	}
 
-		"c seleentsByTagN;
+	return data;
+}
+
+// checks a cache object for emptiness
+function isEmptyDataObject( obj ) {
+	var name;
+	for ( name in obj ) {
+
+		// if the public data object is empty, the private is still empty
+		if ( name === "data" && jQuery.isEmptyObject( obj[name] ) ) {
+			continue;
+		}
+		if ( name !== "toJSON" ) {
+			return false;
+		}
+	}
+
+	return true;
+}
+jQuery.extend({
+	queue: function( elem, type, data ) {
+		var queue;
+
+		if ( elem ) {
+			type = ( type || "fx" ) + "queue";
+			queue = jQuery._data( elem, type );
+
+			// Speed up dequeue by getting out quickly if this is just a lookup
+			if ( data ) {
+				if ( !queue || jQuery.isArray(data) ) {
+					queue = jQuery._data( elem, type, jQuery.makeArray(data) );
+				} else {
+					queue.push( data );
+				}
+			}
+			return queue || [];
+		}
+	},
+
+	dequeue: function( elem, type ) {
+		type = type || "fx";
+
+		var queue = jQuery.queue( elem, type ),
+			startLength = queue.length,
+			fn = queue.shift(),
+			hooks = jQuery._queueHooks( elem, type ),
+			next = function() {
+				jQuery.dequeue( elem, type );
+			};
+
+		// If the fx queue is dequeued, always remove the progress sentinel
+		if ( fn === "inprogress" ) {
+			fn = queue.shift();
+			startLength--;
+		}
+
+		if ( fn ) {
+
+			// Add a progress sentinel to prevent the fx queue from being
+			// automatically dequeued
+			if ( type === "fx" ) {
+				queue.unshift( "inprogress" );
+			}
+
+			// clear up the last queue stop function
+			delete hooks.stop;
+			fn.call( elem, next, hooks );
+		}
+
+		if ( !startLength && hooks ) {
+			hooks.empty.fire();
+		}
+	},
+
+	// not intended for public consumption - generates a queueHooks object, or returns the current one
+	_queueHooks: function( elem, type ) {
+		var key = type + "queueHooks";
+		return jQuery._data( elem, key ) || jQuery._data( elem, key, {
+			empty: jQuery.Callbacks("once memory").add(function() {
+				jQuery._removeData( elem, type + "queue" );
+				jQuery._removeData( elem, key );
+			})
+		});
+	}
+});
+
+jQuery.fn.extend({
+	queue: function( type, data ) {
+		var setter = 2;
+
+		if ( typeof type !== "string" ) {
+			data = type;
+			type = "fx";
+			setter--;
+		}
+
+		if ( arguments.length < setter ) {
+			return jQuery.queue( this[0], type );
+		}
+
+		return data === undefined ?
+			this :
+			this.each(function() {
+				var queue = jQuery.queue( this, type, data );
+
+				// ensure a hooks for this queue
+				jQuery._queueHooks( this, type );
+
+				if ( type === "fx" && queue[0] !== "inprogress" ) {
+					jQuery.dequeue( this, type );
+				}
+			});
+	},
+	dequeue: function( type ) {
+		return this.each(function() {
+			jQuery.dequeue( this, type );
+		});
+	},
+	// Based off of the plugin by Clint Helfers, with permission.
+	// http://blindsignals.com/index.php/2009/07/jquery-delay/
+	delay: function( time, type ) {
+		time = jQuery.fx ? jQuery.fx.speeds[ time ] || time : time;
+		type = type || "fx";
+
+		return this.queue( type, function( next, hooks ) {
+			var timeout = setTimeout( next, time );
+			hooks.stop = function() {
+				clearTimeout( timeout );
+			};
+		});
+	},
+	clearQueue: function( type ) {
+		return this.queue( type || "fx", [] );
+	},
+	// Get a promise resolved when queues of a certain type
+	// are emptied (fx is the type by default)
+	promise: function( type, obj ) {
+		var tmp,
+			count = 1,
+			defer = jQuery.Deferred(),
+			elements = this,
+			i = this.length,
+			resolve = function() {
+				if ( !( --count ) ) {
+					defer.resolveWith( elements, [ elements ] );
+				}
+			};
+
+		if ( typeof type !== "string" ) {
+			obj = type;
+			type = undefined;
+		}
+		type = type || "fx";
+
+		while( i-- ) {
+			tmp = jQuery._data( elements[ i ], type + "queueHooks" );
+			if ( tmp && tmp.empty ) {
+				count++;
+				tmp.empty.add( resolve );
+			}
+		}
+		resolve();
+		return defer.promise( obj );
+	}
+});
+var nodeHook, boolHook,
+	rclass = /[\t\r\n\f]/g,
+	rreturn = /\r/g,
+	rfocusable = /^(?:input|select|textarea|button|object)$/i,
+	rclickable = /^(?:a|area)$/i,
+	ruseDefault = /^(?:checked|selected)$/i,
+	getSetAttribute = jQuery.support.getSetAttribute,
+	getSetInput = jQuery.support.input;
+
+jQuery.fn.extend({
+	attr: function( name, value ) {
+		return jQuery.access( this, jQuery.attr, name, value, arguments.length > 1 );
+	},
+
+	removeAttr: function( name ) {
+		return this.each(function() {
+			jQuery.removeAttr( this, name );
+		});
+	},
+
+	prop: function( name, value ) {
+		return jQuery.access( this, jQuery.prop, name, value, arguments.length > 1 );
+	},
+
+	removeProp: function( name ) {
+		name = jQuery.propFix[ name ] || name;
+		return this.each(function() {
+			// try/catch handles cases where IE balks (such as removing a property on window)
+			try {
+				this[ name ] = undefined;
+				delete this[ name ];
+			} catch( e ) {}
+		});
+	},
+
+	addClass: function( value ) {
+		var classes, elem, cur, clazz, j,
+			i = 0,
+			len = this.length,
+			proceed = typeof value === "string" && value;
+
+		if ( jQuery.isFunction( value ) ) {
+			return this.each(function( j ) {
+				jQuery( this ).addClass( value.call( this, j, this.className ) );
+			});
+		}
+
+		if ( proceed ) {
+			// The disjunction here is for better compressibility (see removeClass)
+			classes = ( value || "" ).match( core_rnotwhite ) || [];
+
+			for ( ; i < len; i++ ) {
+				elem = this[ i ];
+				cur = elem.nodeType === 1 && ( elem.className ?
+					( " " + elem.className + " " ).replace( rclass, " " ) :
+					" "
+				);
+
+				if ( cur ) {
+					j = 0;
+					while ( (clazz = classes[j++]) ) {
+						if ( cur.indexOf( " " + clazz + " " ) < 0 ) {
+							cur += clazz + " ";
+						}
+					}
+					elem.className = jQuery.trim( cur );
+
+				}
+			}
+		}
+
+		return this;
+	},
+
+	removeClass: function( value ) {
+		var classes, elem, cur, clazz, j,
+			i = 0,
+			len = this.length,
+			proceed = arguments.length === 0 || typeof value === "string" && value;
+
+		if ( jQuery.isFunction( value ) ) {
+			return this.each(function( j ) {
+				jQuery( this ).removeClass( value.call( this, j, this.className ) );
+			});
+		}
+		if ( proceed ) {
+			classes = ( value || "" ).match( core_rnotwhite ) || [];
+
+			for ( ; i < len; i++ ) {
+				elem = this[ i ];
+				// This expression is here for better compressibility (see addClass)
+				cur = elem.nodeType === 1 && ( elem.className ?
+					( " " + elem.className + " " ).replace( rclass, " " ) :
+					""
+				);
+
+				if ( cur ) {
+					j = 0;
+					while ( (clazz = classes[j++]) ) {
+						// Remove *all* instances
+						while ( cur.indexOf( " " + clazz + " " ) >= 0 ) {
+							cur = cur.replace( " " + clazz + " ", " " );
+						}
+					}
+					elem.className = value ? jQuery.trim( cur ) : "";
+				}
+			}
+		}
+
+		return this;
+	},
+
+	toggleClass: function( value, stateVal ) {
+		var type = typeof value;
+
+		if ( typeof stateVal === "boolean" && type === "string" ) {
+			return stateVal ? this.addClass( value ) : this.removeClass( value );
+		}
+
+		if ( jQuery.isFunction( value ) ) {
+			return this.each(function( i ) {
+				jQuery( this ).toggleClass( value.call(this, i, this.className, stateVal), stateVal );
+			});
+		}
+
+		return this.each(function() {
+			if ( type === "string" ) {
+				// toggle individual class names
+				var className,
+					i = 0,
+					self = jQuery( this ),
+					classNames = value.match( core_rnotwhite ) || [];
+
+				while ( (className = classNames[ i++ ]) ) {
+					// check each className given, space separated list
+					if ( self.hasClass( className ) ) {
+						self.removeClass( className );
+					} else {
+						self.addClass( className );
+					}
+				}
+
+			// Toggle whole class name
+			} else if ( type === core_strundefined || type === "boolean" ) {
+				if ( this.className ) {
+					// store className if set
+					jQuery._data( this, "__className__", this.className );
+				}
+
+				// If the element has a class name or if we're passed "false",
+				// then remove the whole classname (if there was one, the above saved it).
+				// Otherwise bring back whatever was previously saved (if anything),
+				// falling back to the empty string if nothing was stored.
+				this.className = this.className || value === false ? "" : jQuery._data( this, "__className__" ) || "";
+			}
+		});
+	},
+
+	hasClass: function( selector ) {
+		var className = " " + selector + " ",
+			i = 0,
+			l = this.length;
+		for ( ; i < l; i++ ) {
+			if ( this[i].nodeType === 1 && (" " + this[i].className + " ").replace(rclass, " ").indexOf( className ) >= 0 ) {
+				return true;
+			}
+		}
+
+		return false;
+	},
+
+	val: function( value ) {
+		var ret, hooks, isFunction,
+			elem = this[0];
+
+		if ( !arguments.length ) {
+			if ( elem ) {
+				hooks = jQuery.valHooks[ elem.type ] || jQuery.valHooks[ elem.nodeName.toLowerCase() ];
+
+				if ( hooks && "get" in hooks && (ret = hooks.get( elem, "value" )) !== undefined ) {
+					return ret;
+				}
+
+				ret = elem.value;
+
+				return typeof ret === "string" ?
+					// handle most common string cases
+					ret.replace(rreturn, "") :
+					// handle cases where value is null/undef or number
+					ret == null ? "" : ret;
+			}
+
+			return;
+		}
+
+		isFunction = jQuery.isFunction( value );
+
+		return this.each(function( i ) {
+			var val;
+
+			if ( this.nodeType !== 1 ) {
+				return;
+			}
+
+			if ( isFunction ) {
+				val = value.call( this, i, jQuery( this ).val() );
+			} else {
+				val = value;
+			}
+
+			// Treat null/undefined as ""; convert numbers to string
+			if ( val == null ) {
+				val = "";
+			} else if ( typeof val === "number" ) {
+				val += "";
+			} else if ( jQuery.isArray( val ) ) {
+				val = jQuery.map(val, function ( value ) {
+					return value == null ? "" : value + "";
+				});
+			}
+
+			hooks = jQuery.valHooks[ this.type ] || jQuery.valHooks[ this.nodeName.toLowerCase() ];
+
+			// If set returns undefined, fall back to normal setting
+			if ( !hooks || !("set" in hooks) || hooks.set( this, val, "value" ) === undefined ) {
+				this.value = val;
+			}
+		});
+	}
+});
+
+jQuery.extend({
+	valHooks: {
+		option: {
+			get: function( elem ) {
+				// Use proper attribute retrieval(#6932, #12072)
+				var val = jQuery.find.attr( elem, "value" );
+				return val != null ?
+					val :
+					elem.text;
+			}
 		},
+		select: {
+			get: function( elem ) {
+				var value, option,
+					options = elem.options,
+					index = elem.selectedIndex,
+					one = elem.type === "select-one" || index < 0,
+					values = one ? null : [],
+					max = one ? index + 1 : options.length,
+					i = index < 0 ?
+						max :
+						one ? index : 0;
 
-		"text": fun				(asFocus rCache = elem[ expando ] || (elem[et to true oncers(h = rcomma.exec( soFar )) ) {
-			if ( match ) {
-				// Don't consume trailiex = 0) || start.p = ele;
-		}
+				// Loop through all the selected options
+				for ( ; i < max; i++ ) {
+					option = options[ i ];
 
- is own, tge( [], parsed.ch{
-					return i;
-		typeof l === "number" ) {akes selected-by-default
-dir ]) i 2 )		thlector;
-			ent ];
-		}),turn c^{]+\{\s*\[native \w/,
- {
-					el: IE<9
-e );
-top ) {shortc?
-				vll ?
+					// oldIE doesn't update selected after form reset (#2551)
+					if ( ( option.selected || i === index ) &&
+							// Don't return options that are disabled or in a disabled optgroup
+							( jQuery.support.optDisabled ? !option.disabled : option.getAttribute("disabled") === null ) &&
+							( !option.parentNode.disabled || !jQuery.nodeName( option.parentNode, "optgroup" ) ) ) {
 
-		}
+						// Get the specific value for the option
+						value = jQuery( option ).val();
 
-		functrn siblingCheck(c. and otheuments are !i += 2 ) {
-	DLE: $(ectors/#			retufor ( ; i < lengters();
+						// We don't need an array for one selects
+						if ( one ) {
+							return value;
+						}
 
-functiy ) {function( mtrue;
-		} :
-		m		matchers[0];
-}
-
-function ngth; i += 2 ) {
-	y ) {ngth; i += 2 ) {
-true;
-		} :
-		m	matchers! = argu[&& mion( magExp( "ectors/#ww.w3.turn] )[1]entifier charactemes,
-	// 
-			} catch(elector;
-			xes.push; ++$1></$2>er: {
-
-		| docElem.co:nth- );
-	},
-
-	parseJSON:xml ) {
-			var data, cache, outerCache,
-				dirkey = dito execute
-		rei= expando;
-	 dirruns + " " + doneName;
-
-			// We We can't set arbitrary data on XML nodes, so thength > 1 ?
-		functistener( "DOMById !== str just retueList.length
-	If start, !postFilt) {
-		retur
-
-	// Thoneous numata ,
-			s availablethis.coneg holdsry {
-			if (t Explorer
-		 ) || soFar;
-			}
-			 to catch whe( (match = rcombinators.exec( soFar )) ) {
-		ector;
- {
-	 :
-
-		// Check againis
-				(napsh;
-}
-h on theater ths.push({
- sweetp:/ctor ) {
-ntext[0] i|| eound	idx = i-----------document.hasFocus |new Date()),
-	preferredDoc =  >= 3 )  lang valu{
-			rection,
-
-	mavalue ca === , base ) {nt.top )"
-		return	// rtor;	expr obj 						ieading and tbeforeew = obj.l	elem.ge.push({
-				value: matched,
-				// Cast destor.la refee");
-
-
-	isEype ==}
-		}
-		r ) ?
-				co	booleans = "checked|seleche curreneous numeap = [],electelse {p( "newSel;
-		81.length,
-			elect		// xred|scoped",
-if ( "checked|selecs a refe
-
-function toSelqsa && (!rbufunction( obj ) {
-		rt ) {
-		ted|asyatch
-				});
-				soFelectctor( toke( diff ) d-results sion(ition e && node.vject
-				 preserved in }lidbraces = ge", cocf ( newack if		keepScrin dite processiurns a ailab!keepSDLE: $(#i							leted			markceptions on cee ) :
-g the 
-			eturn function( elem ) {
-				return ( e			retur
-		if ( support.qsa matchpush({
-h = rcomma.e exp,, dif,
-
-	ormelowIribu< 0 ? as.com/
- *
- *l han "" Arrasch: fdocu = d------------jQuery duplica-cla expando ). ] =  = val
-			urn s) ) {
- resultemp.lenace +s from se signatures
-			if ( fn.length > 1 )nput, n		if ( deNo1 && b= l -curse iunction(e");
-	}turn j-browser xml parsing
-	parseXML: function( deudo(futtonP				(Firef	idx = inf ( malem ) {ndexes, ,exisWebK-]*))$/,
-
-m);
+						// Multi-Selects return an array
+						values.push( value );
+					}
 				}
-	.net/ l <o space
- exists, at ers.hasOwnProyle[ name ^$|!~]?=)" + 1 && by ) {ent < 0 gth,
-		mapped = port: IE<9
-		// Handle iteration ovgth = o;
-		}
-	},
-or :nthset.eqf ( (elem(see #11153 window.DOMParser )me");
-	});
-Standard
-				tmp = 				}
-rn faltm		xml = tm
-			// rn fa.push({
-				vOut, postMap );
-			postFilter( t	jQuery.isReady = truquerySele	idx = intext
-			ebuild &&
-				( 			}
-	( !rbu0  = [] );
-		}
 
-				// R, !);
-			postFilter( ( docElherOut s[i] =onneache[ sus
-		"targ		}
-		};
-}
-le ( i-- turn elem g this propert					whil
-				// Moementstcher( postFinds[i] =rn resultemp.lentext
-			elems mbinator- ) {
-			m.nodeType // h		if ) ) {
+				return values;
+			},
 
-Restore = temp.le]) )emp.le :nth(-last)unction( div ins = funer ? indevalue ==dd thitem *	deleting tches[i] =his;
-		}
+			set: function( elem, value ) {
+				var optionSet, option,
+					options = elem.options,
+					values = jQuery.makeArray( value ),
+					i = options.length;
 
-	 ),
-.souy ) {
-	docu a fo		// Preoted ( buturnn= optionssituretur ===8070xt = fadNodes );
-	},
-
-	parseJSON: !== "while ( i--36
-	// IE6-8 iediatap[i] ] =e methods
-	der ) else {
-							n
-			impletse use resulhrough entNor we'scen				}				(fu -1 ) {
-heck;
-
-		t = tor throws a Tzzle.isX/ Add elecher, postFilter, ( elem 
-			whilembinatorn
-			i.nodeType === 1 || ) {
-		postFilter, postMamentsByTagN[i]rIn
-			iiults, seed );
-}	var checkContext, matchebled",nts to [ents to resultsmatcsults to keep th/ args is fReen);
-	}nts to = elem.nextSi sele
-			whileokens(}
+				while ( i-- ) {
+					option = options[ i ];
+					if ( (option.selected = jQuery.inArray( jQuery(option).val(), values ) >= 0) ) {
+						optionSet = true;
+					}
 				}
-			[ i ], i,]) )uif (Exp(uth,
-		 -1 ) {
- ass Copy(attr = eatch
-	alse ) {
-xt.getElementsByTcheckContegleTag.test( matcder ) dingRelatdyList.retp://jquent + leng/ Skip a) {
-ct
-			for------ame || !rDocument || coadingRe+ whit]) )-------[ dir ] ||
-						 ( i-),
-		ck.apply( obj.selecte
 
-	/rcxt, matcher,ut|seope ajant neIE8 throwOf = cort excess froion Ur	leadinm, con postFiltletedIds.concat done++;
-) > -1;
-						em ) {ds
-	hasnodeType {
-	pupresen elem !postFilt	funescay.fn.trigger
-			retur ) {
-		stContext )mentById !== strundefithrough  can#11809:e {
-		/ckExa ) - indetFinder ? indexOf.calr ancestors fo context, xml );
-				}], key ) 	// This is 8val sh({
-in ca----tion( ction( pseule: telem.type .slice( matched.leng.readyWntext( ?:\\\\.|[^\\cation && window.locatio00-\\x = map !cation && window.apply(  selected-by-defa.apply( n:tional maarentNode) &"t} cate {
+				// force browsers to behave consistently when non-matching value is set
+				if ( !optionSet ) {
+					elem.selectedIndex = -1;
+				}
+				return values;
 			}
+		}
+	},
+
+	attr: function( elem, name, value ) {
+		var hooks, ret,
+			nType = elem.nodeType;
+
+		// don't get/set attributes on text, comment and attribute nodes
+		if ( !elem || nType === 3 || nType === 8 || nType === 2 ) {
+			return;
+		}
+
+		// Fallback to prop when attributes are not supported
+		if ( typeof elem.getAttribute === core_strundefined ) {
+			return jQuery.prop( elem, name, value );
+		}
+
+		// All attributes are lowercase
+		// Grab necessary hook if one is defined
+		if ( nType !== 1 || !jQuery.isXMLDoc( elem ) ) {
+			name = name.toLowerCase();
+			hooks = jQuery.attrHooks[ name ] ||
+				( jQuery.expr.match.bool.test( name ) ? boolHook : nodeHook );
+		}
+
+		if ( value !== undefined ) {
+
+			if ( value === null ) {
+				jQuery.removeAttr( elem, name );
+
+			} else if ( hooks && "set" in hooks && (ret = hooks.set( elem, value, name )) !== undefined ) {
+				return ret;
+
+			} else {
+				elem.setAttribute( name, value + "" );
+				return value;
+			}
+
+		} else if ( hooks && "get" in hooks && (ret = hooks.get( elem, name )) !== null ) {
+			return ret;
+
+		} else {
+			ret = jQuery.find.attr( elem, name );
+
+			// Non-existent attributes return null, we normalize to undefined
+			return ret == null ?
+				undefined :
+				ret;
+		}
+	},
+
+	removeAttr: function( elem, value ) {
+		var name, propName,
+			i = 0,
+			attrNames = value && value.match( core_rnotwhite );
+
+		if ( attrNames && elem.nodeType === 1 ) {
+			while ( (name = attrNames[i++]) ) {
+				propName = jQuery.propFix[ name ] || name;
+
+				// Boolean attributes get special treatment (#10870)
+				if ( jQuery.expr.match.bool.test( name ) ) {
+					// Set corresponding property to false
+					if ( getSetInput && getSetAttribute || !ruseDefault.test( name ) ) {
+						elem[ propName ] = false;
+					// Support: IE<9
+					// Also clear defaultChecked/defaultSelected (if appropriate)
+					} else {
+						elem[ jQuery.camelCase( "default-" + name ) ] =
+							elem[ propName ] = false;
+					}
+
+				// See #9699 for explanation of this approach (setting first, then removal)
+				} else {
+					jQuery.attr( elem, name, "" );
+				}
+
+				elem.removeAttribute( getSetAttribute ? name : propName );
+			}
+		}
+	},
+
+	attrHooks: {
+		type: {
+			set: function( elem, value ) {
+				if ( !jQuery.support.radioValue && value === "radio" && jQuery.nodeName(elem, "input") ) {
+					// Setting the type on a radio button after the value resets the value in IE6-9
+					// Reset value to default in case type is set after value during creation
+					var val = elem.value;
+					elem.setAttribute( "type", value );
+					if ( val ) {
+						elem.value = val;
+					}
+					return value;
+				}
+			}
+		}
+	},
+
+	propFix: {
+		"for": "htmlFor",
+		"class": "className"
+	},
+
+	prop: function( elem, name, value ) {
+		var ret, hooks, notxml,
+			nType = elem.nodeType;
+
+		// don't get/set properties on text, comment and attribute nodes
+		if ( !elem || nType === 3 || nType === 8 || nType === 2 ) {
+			return;
+		}
+
+		notxml = nType !== 1 || !jQuery.isXMLDoc( elem );
+
+		if ( notxml ) {
+			// Fix name and attach hooks
+			name = jQuery.propFix[ name ] || name;
+			hooks = jQuery.propHooks[ name ];
+		}
+
+		if ( value !== undefined ) {
+			return hooks && "set" in hooks && (ret = hooks.set( elem, value, name )) !== undefined ?
+				ret :
+				( elem[ name ] = value );
+
+		} else {
+			return hooks && "get" in hooks && (ret = hooks.get( elem, name )) !== null ?
+				ret :
+				elem[ name ];
+		}
+	},
+
+	propHooks: {
+		tabIndex: {
+			get: function( elem ) {
+				// elem.tabIndex doesn't always return the correct value when it hasn't been explicitly set
+				// http://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
+				// Use proper attribute retrieval(#12072)
+				var tabindex = jQuery.find.attr( elem, "tabindex" );
+
+				return tabindex ?
+					parseInt( tabindex, 10 ) :
+					rfocusable.test( elem.nodeName ) || rclickable.test( elem.nodeName ) && elem.href ?
+						0 :
+						-1;
+			}
+		}
 	}
-	 and nosByTon( ma("le: t")urn trreturn ha	for ( type in Exp = window.frameElemeed ) {
-		or prop
-			varSafarioper syctor;
-/-level ring" ) {
-anonymous , xm ) {
+});
 
-sary
-					ent,af on thee $ in case Query.find					}
-				}nder, postSeto hump the( div ) { key, value ) {
-			nly kee		first.ement/d ready ewhile (tchers ) {
-			elem.type -level contexnder, postSeg/TR/sele-201; ) {
-				matchIgExp( "to hump thstCocontext.ge);
-			jQuerile ( j-// sp whiteContentLoadents or disrquickExpr.ng tole ( a insert an implitchersrktor( funcackberll endoc;
-	doationntext =d\\)|)",
+// Hooks for boolean attributes
+boolHook = {
+	set: function( elem, value, name ) {
+		if ( value === false ) {
+			// Remove boolean attributes when set to false
+			jQuery.removeAttr( elem, name );
+		} else if ( getSetInput && getSetAttribute || !ruseDefault.test( name ) ) {
+			// IE<8 needs the *property* name
+			elem.setAttribute( !getSetAttribute && jQuery.propFix[ name ] || name, name );
 
-	/em[ dir ]) ) {	}
+		// Use defaultChecked and defaultSelected for oldIE
+		} else {
+			elem[ jQuery.camelCase( "default-" + name ) ] = elem[ name ] = true;
+		}
 
-			refoperatorelem.getAtt all anyClassNa
-	var dir = combinator.dir,
-		checkNonElemeis[ match ] ) ) {
-					) > -1;
-		},ocumce( j )) )shStack( j >= 0 &tcher( matcelati ) > -1;
-		}, ise if (
-		// "Whet				(Copences repancyBSP 		if ( eliables by "-".
-		// Th( arr, elem,text.owne, conttrict" call chains. (#13 checi, || !cold new RegExp( "=" + wh, cond: trur new RegExp( "=" + whwhic,e mo= toke ) {		"*(\\d+	superMe + "*(sition-inElementsByCla XSS viaelemenith
- *	pr = elemen			"*(\\d+)|))seed, mattext.getElementsByClasxt.getEleme, or, bction( target ( rsingle		);
-			if ( postF		// numeric x and> 0,
-	cument ) {
-n( targetontex+ ")" + whitesp	var ium ]efilte			(futor.selector;
-			tha 11.5)ject
-				ins = fupecify ext ) {
-tLoaded", cseed || byElecall( sortInput,ue;
- seed || byElementMatchers, setMfix1 && FireIfall				 counter to sctor.lexes, l, ? -ation = pecial, [s!='' Use prdo rsingleTleasedon-operatorpecify which element is curtrict" call chains."CHILD": 			iich ele			// Assume that " && lereateBuop( evname)) eck ifg =  context || s*\[)eck() | preFilt.ce +
-		"*(?:([*^$|!~]?=n[i] ] nces aySelesort
+		return name;
+	}
+};
+jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( i, name ) {
+	var getter = jQuery.expr.attrHandle[ name ] || jQuery.find.attr;
 
-	// matchesSelector(:			match[1],
-	length > 0,gex str:nth-cd|\d*ndo 			"*(\\				if ( elem.id !== {
-	// > 0,
-	the outxt, results, ument = nces at
-	su the 
+	jQuery.expr.attrHandle[ name ] = getSetInput && getSetAttribute || !ruseDefault.test( name ) ?
+		function( elem, name, isXML ) {
+			var fn = jQuery.expr.attrHandle[ name ],
+				ret = isXML ?
+					undefined :
+					/* jshint eqeqeq: false */
+					(jQuery.expr.attrHandle[ name ] = undefined) !=
+						getter( elem, name, isXML ) ?
+
+						name.toLowerCase() :
+						null;
+			jQuery.expr.attrHandle[ name ] = fn;
+			return ret;
+		} :
+		function( elem, name, isXML ) {
+			return isXML ?
+				undefined :
+				elem[ jQuery.camelCase( "default-" + name ) ] ?
+					name.toLowerCase() :
+					null;
+		};
+});
+
+// fix oldIE attroperties
+if ( !getSetInput || !getSetAttribute ) {
+	jQuery.attrHooks.value = {
+		set: function( elem, value, name ) {
+			if ( jQuery.nodeName( elem, "input" ) ) {
+				// Does not return so that setAttribute is also used
+				elem.defaultValue = value;
+			} else {
+				// Use nodeHook if defined (#1954); otherwise setAttribute is fine
+				return nodeHook && nodeHook.set( elem, value, name );
 			}
 		}
-	// Prefer at !==dlicates; * @retu the ent && tourn ermos
-					matcher,
-	ument)
-	rootjQuele ( ap[i] {
-		lank0;
-	] || (edruns alw {
-					while outncti				} && matc0xDC00alue]", "orrect d		if ( ours.haodeTypeng elemType ?	cont		re				matche( matchers ),
-	 a strruns =		dirruns ier C ment `*`
-				 a string  = cont10eof aup ===  alwas pe === 1		}
-es = [] HTML5 ty = matchec( sse wheIE10( postFiNoMod
-			returiff )edEn falt.geogniti)();
-			retu132.e|null|-?(?:\d}
-					}
-									this.attr(cify whichme.toLowerCase();
-ermosoutostFilterdirrrray for d be enough
-chang * @p	mat cacun					);
-	}tcheIE9.da-z]) xml ) )xpr = {
-	 ( pos elem);
-	case9xt = srray for est = dgyntext;
-fnrt]|usuffic"hidontainst;
-
-		/, cop( " !postFilt	resur`
-			ti!= null
-			
-			h for u11.5)		if ( ontext, xml elemhedCount ?
-		functi #10324Object)} Returnunction cond51 && bery ]cher = setMatcLD"].test( false) ) {
-					matlength;
-			) ) {
-					matevery e context,xOf( chematcher && elem) ) {
-					if ( do&&i > 1 && elematchIndexes;
-		e if pos		return i(false)
-	reateBns {Objo/ Ha	corefilter false;
-		};opy = 			(futrue;
-		 ( poshese = fn[ cont. Wornchrreaturns {
-			 nam must alwaysif ( ( con whached[i] =( seedttrId= selecgets modularizeuoted,
-	//  bled|} ele ( (matgets modularizeutermosttributes atchhed[i] ntElementscard.|[^ );
-+ att			vaults 
-	// htt
-			contextall( result			whileplace( runescegExp( 
-	coAll jQuery obj	// Prefer argumnt--;
-					}
-ntermediatatchonsume trailisetMatched.ngth > 0 &&xOf( cheatched[i]) ) {
-			;
-			}
-
-			.nodeName && el	if ( (med-down indexOf ength;
-		};
-h( elem );
-	 && elem.matcher && elem) ) {
-						 );
-	elem ) {		// Add math ] = valutermosrim functio
-
-	return dh ] = vatext = contex) ) {
-			context nt.addEventLirs[j++]if ( bulk ) {
-				alPseution of "i";
-	= noddos;sion es.pusg
-					if ( matchedCount > 0 ) {
-		elem, c			}
-						return most ) {
-				dirrunsirst ele
-
-	return dfuncteplace()
-	fcamelng equa	matchTo2011lecto/www( ~b.so],
-		( ~b.so/wwwatch
-				});tAttMap otor + " " An pars"functargumctor;
-"unsu"temp, i, elor( "Syntax errirruns	rbuggyQSA.pustion( elem ) {
-			return elem scripts ) {
-			jQue	}
-
-		 !context) ) {h-child(...) atch
-	break;
-				ssible
-		functidd thlengch
-	 : 0,
-
-		//e ) {
-	var diiondedd tgleTag.test( eturn se
-			ledd th {
-			matcher(						sses
-alse;
-							romTokSEUDOg );
-}= and] tokenset as a cleModern == null ? ),
- is ve(even|ocoltionengthse;
-// Un;
-			ror intulatioa .lengt
-
-				re_y of duplicaurn dessinglengt nodes that are noelem.nodeName.toLowerCase();
-			via argummbinator preseroFar= elem.( selector < len && toSet contct twn.call(o preserive operator (if any)odd|eq|gt|lt|nth|first|atcher[i < len; i++ ) {
-		Sizz				gl ) :*{
-			var h;
-	for ( ; i < in d);
-					rr, e( selector, contexts[i], resultcontext, resultslts;
+	};
 }
 
-function seluery #13936
-	ice( -4s.lenm = ma:nth-cts.lengt) {
-			re cachresultturn elem =
-	//nt ),
-		ens )
+// IE6/7 do not support getting/setting some attributes with get/setAttribute
+if ( !getSetAttribute ) {
+
+	// Use this for any attribute in IE6/7
+	// This fixes almost every IE6/7 issue
+	nodeHook = {
+		set: function( elem, value, name ) {
+			// Set the existing or create a new attribute node
+			var ret = elem.getAttributeNode( name );
+			if ( !ret ) {
+				elem.setAttributeNode(
+					(ret = elem.ownerDocument.createAttribute( name ))
 				);
 			}
-			matchers.push( m		push.a;
+
+			ret.value = value += "";
+
+			// Break association with cloned elements by also using setAttribute (#9646)
+			return name === "value" || value === elem.getAttribute( name ) ?
+				value :
+				undefined;
+		}
+	};
+	jQuery.expr.attrHandle.id = jQuery.expr.attrHandle.name = jQuery.expr.attrHandle.coords =
+		// Some attributes are constructed with empty-string values when not defined
+		function( elem, name, isXML ) {
+			var ret;
+			return isXML ?
+				undefined :
+				(ret = elem.getAttributeNode( name )) && ret.value !== "" ?
+					ret.value :
+					null;
+		};
+	jQuery.valHooks.button = {
+		get: function( elem, name ) {
+			var ret = elem.getAttributeNode( name );
+			return ret && ret.specified ?
+				ret.value :
+				undefined;
+		},
+		set: nodeHook.set
+	};
+
+	// Set contenteditable to false on removals(#10429)
+	// Setting to empty string throws an error as an invalid value
+	jQuery.attrHooks.contenteditable = {
+		set: function( elem, value, name ) {
+			nodeHook.set( elem, value === "" ? false : value, name );
+		}
+	};
+
+	// Set width and height to auto instead of 0 on empty string( Bug #8150 )
+	// This is for removals
+	jQuery.each([ "width", "height" ], function( i, name ) {
+		jQuery.attrHooks[ name ] = {
+			set: function( elem, value ) {
+				if ( value === "" ) {
+					elem.setAttribute( name, "auto" );
+					return value;
+				}
+			}
+		};
+	});
 }
 
-fcation && window.locatiesults					whileungo Perinn Expr.filte,
 
-	// Take  j,
-		len = toor isngth,
-		let if the rootmple way to checll( jQuergt nodes(including 0]).			}
-			} else {
-			ntexts, results	retunction( elem )				// ..
-			d ) {
-	, butr isokens[j]U atthe ted elements unrecs.puatched = condense(
-(functioNode || contjQuery 	ret[ rnder, postSecontexthile ( i-- ) {
-							if ( !(unmens[ i - 2 " ? "*" : ""Add matches to rers
-	attributeplace()
-	fcamelCase = funs ) {
-						oute a ? 1 : -he = elem[ expando ] || (elem[ expa (#1ountoperatorrIn
-			i).valSet =nce its pror );
-	nPegEx
-			} else( elem, context, xml ) {
-			while (s a little overzeched, context, xml ray() :
-
-			 );
-			"*(" atched, map, filter, con"<d ready e}
-					}
-+ "		ne obj ) {
-	orgot to hu| preFilt(se use results IE<=8		j = 0;
-( aup === k;
-			n pseudo docknonter data, cacheturn contains( s,
-		cachedto eliminate 	for (ement, matchs
-					if ( (					return mk;
-				}
-					if ( (Far.slice( match
-
-		// Boo(		}
-
-			// Add elements passi		} else {
-// Add elements	ret[ r	matchers[ + " " + doneName;
-
-kFunction( fn ) {
-	fn11HILD"].test(  a combinator
-	ense
- *
- * We eschew}) :
-		ore_toStripessionttrIdreason
-	-- targejsSeleg or getall-vs-s :
-		/2		( matce( j )) )pply(r, con, matc methoContext"].seed );
-			ontext && con; i++ ----h[4]xml ) ) fallmentsxt.getElement(),
-		matContext"].ction( elem, c++ver inherilems				if ( mahedCount ) {
-			),
-		 "[s!=''checkFxt = #9587
-
-	// Tag
-y( results, SEUDO"push( elntext ),
-				// Usen
-			itor, match )(
-		scomplex pseudos
-		"nttrie ( (matexOf( ")", uFinder if def	return ;
-		heck ) > -1 ] || (elem[ expa--;
-				pando ] || (elem[ expa results;
-						esults;
-				||ombinator.first wait )  results, seert: Chrome<14 === expand				retur		while ( (node =  a filtering function
-	// ProvideeTag.test( maatchers ) {
-	// sHTML,
-		results,
-		rsibling.test( ,
-
-	// Take atchers ) {
-	// .readyW			return r selector )
-Pbj, rilte			retuntext  eveniens(relay( results, seed );
-							rgRelative = op()) ) {rt: Chrome<1( selectoratch in cns( (tokens = tatching
-			i =! selecttheir
-		if ( elem.nodeType === 1  i < rt: Chrome<14
-/esults;
-						),
-		maless than 0 licate must alwaysed in language;
-		th );
-			ed elements em ) {
-			var hamaintain s
-// Easylectors/#er( tempurn resulype ].applasDuorporaes (t xmlle: t,and fy.merge( essing this a, b ) {
-id retoaer(
-		 from seed or(
-		s, type,
-		soFar, grou							ifa, b )at stap.length;
-eList.lendNodes );
-	},
-
-	parseJSON:== "option" &&
-	// args) ) {
-
-			( 1 ) =peof elem.gthrough n arat sta && docuength,
-			isArray ) :nder, pos
-								this.attr( === 9 && documenat st{
-			re
-			return fuelem.pareontext && con )
-	)new Acton-	for  elemTML = "<selpairs
-	classhe docuurn true;
-	
-
-			len = arrgetAttro Periniif there;
-
-		// Combina.first ?
-	variableslue in e of getAt
-		var mments letedIds.concated querieratoafnt isctor + " "{
-	div.innerHTed ) {
-		return pardx ] = maari do( i )aridendriesded,e *kn throws a T0]).tor ( ; i < len; i+.first if ( (elem = unmatched[i]) ) {
-		}
-	},rgumenull;
-
-	fo0]).n truseOnly ?se;
-};
-
- "value"ribuo eliminate ault[1] ready e( elem, context, xml ) ) {
-				ne +to fet2// args is fD// If ) {
-		retrs() {Object== stngth sults sync4
-		// o fet.pop())
-			// IE 8 doesn't wov.firstChil.dd t				if lement ) {
-		retMan funesomplngth; iName 2 ) {
-	( newSelb
-			 ).length;
-ostContext,
-	sorngth; i += 2 ) {
-	e( oen = unmatched.length,
-	 || !assert(funcction( div ) {
-	div.innerHTML = "<inp				elem[ name ] ==e.toLowerCasurn ontext, xmt ) {
-		retenefit IE's1 ) iromToked box: trs or co		unmaidx = indexOfany
-	// arguments.
-	pr ) {
-	.apply( obj[ iSlace(  of j ype pse, *may*functispur
-
-		s;
-jQuerL = !isXML( size).typeturn spe
-			}le: t== true ? name=== "*" ), isus
-		"targe[ idx ] ery.isXMLDoc = Sizbj );<ar ) >				<ups =.containfaulttch 					ype pseuString to Object options format ca.firs{
-					if on( elem
-		// ument.ad			return elem h( elem );
-				oleans, function( elemort DOMContentLoaded
-		( ) {
-						return elem [j])ind r proCHILD"] to Obut[i]) &&
-						(tntext, xml )ents or diseturn mle.getText, xml ) );
-		} ];
-
-	forents are reach ? 1 : 2 );
-	, isturn elem === value", fi++ ) 239
-	var // Get SeedIE > 	if ( vributehContext( {}
-
-			if arated options that  moved bjQuery.eachche
-var optionstion( elem, nate a callback By default a caors;
-jQuery.expr[":"]erCasi] ===op-l/ IE postFinh checkese an Contey ) {
-		| nametAttrXML ) {
-		var vtest( selector )
-i++ ) {356: if aselect
-					[] : from seed nt || doc.nodeTytAttrill act like an // Match elemek checgets modularizement.att		}
-	: http://www.w3.t only bcur.p				atche
-
-	fie("disapreexisIE IE e ) :6
-	} eame )) && val.specifiibute( "h, arg) === name : nex;
-		th,
-		leadin------------unrecace(runescape,
-		},
-
-		"dinction( seed, matere IE, g ) {
-
-	isEmptyOb	( index4087 -i;
-	ins = ed, thint ) {
-			 HTML5 tyj ); our doc			resudos[ p xml ) k
-		} can do actor = "" rsingleTort.sortS// http://y( selector elem.nodeName// http://msif (-= postFindpoint
-		// Support:lem ) {
-	or ) ? 0 : tokens.length;
-			while ( i-- ) {
-				t.inteaway 	typefrom seed o| nameturn 1, tAttribute( "value		}
-
-	oundingly follOptionsafari 6.0.3/Chrome 25 (fixed in Chromructionem ) {
-	lit("").sem[ dir ]) ) {us valuesngth;
-			wCame &= addCombina = dirruns -1 ) {
-		}
-		}
-
-elem.node
- *	stopOnFalse:	ig" assName & node && nodeator( function( el : "" })
-		funesc = rsibling.ts to ran ID
-			tokens = so parent will be und| nameless thanPseudo(funcrn fn( arg],:{}\st attribute/propert/t paart wit*/art and= tokens[i].value;
-	
-		bySet0 ?
-y failin		}
-						tart,
-		 whitement)
-	rootjQuempty-gly witA central red ) {
-			?\d+|)/g,
-linejQuery
-	expan Fire callbaces (excepting IE8 booleans)
-	suppore ) {
-	var dir = combinator.dir,
-		checkNonElements = basrace throut if we hit Sets document-related varia" : "o
-			/s for repeat/ Use nt
-	suppi	// SdashAlpha = /-(turn a 'clean' array
-ck ) > -1 elements so `maults, context.getif ( list[ firingIndex				}
-				newrward && u (
-				(checkConte) );
-				return results;
-are called nt back to if ( !match {
-					r					memory = false's ifies, lContext ) ) || (
-				(checkContetor.replace( rtrim, "$1" w
-			for ( ; (ele
-					}
-				}g parameters:
- r[":"] = je sure lly else {
-				md ); xmlNogetAttribut					memory = false ).length;
-eof undefined,
-
-nodeType-/,
-	rdashAlpha = /-(iframe doc) ) {
-				w RegEbup =  it on ited = function( evailabk can 			// Add urn 	j =  ?
-		it f else {{
-				corevia argumuggyattr = eintert = addC in |texs( !nodeTo callense(s "retur = addCombin Fire callbackOnFalse ) { it on itse true;
-			for ( ;ift() );				xml.loadXML( d1" ),
-					matcher,
-, seed ) {
-	var i, tokend["ID"] = fly( [], ret );
-	},
-
-	s for repeat
-
-		// A s) ) || (
-				(chction( _, arg ) {
-	documentElemenor ( ; i <rs( es objedIdmove if seudperty so parent will be urrent ontext h = rcomma.euranguage name."
-		// htturndNodesuursiur|| !co	);
-	/"GETeturn  Staadown.cif ( outurn Ssync|true|ffunct+ whitesks to the
-") {
-		"comple			return root[0] === dirruns ) {
-ault"unsupported la	for Count--;
-		 parsing
-	parseXML:					//.attr( match, context[ match ] );in setTimeout( jptio).gth = l firinies.
-		if ( jy
-		jQuery.isReady = tru	return  If a normal D				}
-					}aultVdocument
- *aE = 1ush( "[*aultVal//   not(mateed to s = [] );
-		}
-
-		)
-			0)
-			} else {
-	 positionacher[ expando ] ?
-		t ) {
-aultsting || postFimemory );l( seed, el _, a seliation
-jQuery.fn.initments
-		funed || core_hasO		if ( elem.nodeptionsCaus
-		"targr, selector, matcher, posQuery.ready() {
-					if ;
-
-					if ( values = /^(?	};
+// Some attributes require a special call on IE
+// http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
+if ( !jQuery.support.hrefNormalized ) {
+	// href/src property should get the full normalized URL (#10299/#12915)
+	jQuery.each([ "href", "src" ], function( i, name ) {
+		jQuery.propHooks[ name ] = {
+			get: function( elem ) {
+				return elem.getAttribute( name, 4 );
 			}
-			or or retuontext, xml );
-				}
-			ault= 2 )ist.length;
-					// With memory, if we're not firing then
-					// we should call right away
-					} else if ( memo= 2 )) {
-						firingStart = start;
-						feturn core_hasOwn.call( obj, key herOut[i]) properties are own.
-elem, con..) or elem, co}
-
-		// ire value Make sure leading/r or not  memory ) {
-		 arg ) )ault document,
-
-	//		}
-			Query.inturn tokens
-	retuaultist.length;
-					// Wit.nodeTbrowser xml parsing
-	parseXML:Query.inArr		// we should call right away
-			w DOMParser();
-memory ) rom the lis? {
-						firingStart
-			t && lis	// pseudoun},
-			// Remove					// by name inchers
-()hasOwn.call( obj, key );
-		 else {
-				for ( ;
-		},
-
-t[ flagumeric: function( obj ) {mp, i, els (optiourn elem === durn toke.}
-		se if ( copy !n.hashngth,S
-	toOut,urCSSrgumalph["TA/ndefi\([^)]*\? argumohttpt,
-
-		{
-					\s*arguf ( !mlengthvoid trea),
-
-	top|bled"|bottom|plit(" + cerriwapp);
-	}lse r( ele the snstrindex iring beue = Sm readyturn spReturn s-
-	//"unctiith the Pseudo"ocked:eength && to{
-				re& !cor
-					s://d/ IEup =.mozillaw ) {en-US/docs/CSS/{
-				r
-	rer( elemwgumen/^(n !s|ue = (?!-c[ea]). lengthmarrns s ||rgs.slirrunsum
-
-	// tchIndexes, l "^": furs( elnum = 0;( i $ ( ; iatchee() nonption;
-					if ( firing ) {
-						stack?!px)[a-z%]+sh( args );
-	relNu IE, 
-					if ( fir[+-])=ring ) {
-						stach( args );
-f ( {
-				re= { BODYtAttlocke; }mentssStDet {
-	void treeratbsolut( !jQiait if n	proment"");
-		 eleelf.fireWith(thisut,
-
-	Trans 11 ) { );
-
-S21/s http:/:contextsntWength: 400n fn( arssd+|)/g
-		if"Tops wiR
- * S, "Bt locn se"*,: in { cssPreext = 			}
-)" + wn seOn seMozn sems"reFil if ( nodeahasDuplicate =--------Attrthis is expevendossibDefer( token.matches[0].rinal s
-	reresultPI for document acerri( !matchdle( akey e( obj );= []inal state
-				orrect documcher
-	tokenCaceady ) {
-
-		e ( ap[i] o.toLotcheinal state
-				[ v1.10. up,
-aal usage new jharAt	if toUtrib that sor ( i-------1tcherzle.") ]
-			],
-n && toS({
-
-	Deferr :nth(-lastumbers
-	core_pnum 		this.({
-
-	Deferr = out+mory") ]op()) ) {once memory"), "rejeected" ],
-				[uery object is te: functack via argumesHment"k properl		// Wixt, ail, fn mngth ype.Contexailab ) {
-
-#)" );
-	 || mult;{
-				leme ( panchreading ands2typelementiructor 're: fuiring elem, nr, insert  ) {
-
-//n pr( elem.f the ct-global"n !sction );
-
-	if ( hasDuplength;
-			while ( i-- ) {
-		*)\\)|)",
-
-	/howHi<input/>elem[ rtDetts ) {
-	vf the coft.com/To knofunc: functio expan and datontex	if ( elembinator :nth(-lasthere are 572)
-	c( rsinglempilTag.test( = combinat
-
-					mpilepop()) ) {f ( a),
-	tokenCacn empty selectorr
-							( returne RegExp( "=" + whites	valld0 ],
-					0] ==ction() {ative = arrresolveop()) ) { ] for ford will callust st folfunction( ) {
-			variableto	retetedd[i])s ) {
-
-	/atcherument" btrundc whi runctirrunspush( "!=",{
-									returySelction() 	fn = jQuet is ready
-							.fail( n= "false";
- {
-					ele}
-				retu	if ( do
-			// Oifierment" ng bef the caln !s							s ) { );
-	she,
-
-	notext || dnerDocument  for dupory"),s ) {
-
-	/tcher.readad of ID
-		ue;
-						}
- );
-								}
-	other &&nFail, fnProgreml.documentEle								returned.promise()
-										.done( new,				se;
-};
-
-		vala+ "*("ken.type)th > 2 && (to	class2type  newDefer.promise() : });
+		};
 	});
-ment" ry.r				return obj && context.s, fn ? this, fn ? e || = jQuery.i// Add Case() === "typet || context :se;
-				}
-			// Add ?y.each( ters = newon = tuple[ 0 ],
-						ibling.test( selec check forizationefer.notif" )
-	
-	rbuggylike a Dse forementiloopiling
-{
-					r
+}
 
-						whilferre& rext.getEtuple[1] fn && fn.apply( this, arguments );
-								if ( returned && jQuery.isFunction( returned.promise )n Sizzle(tDet( 1 ) ==omise: function( ob= jQuery.			promise: function( obj le( "type|hs );
-								}
-		ss_li?( conte					retur	funes:^ 1 ][ 				},
-				then: fndle staalue
-		// betml or make scpts );
-		if (  ] = second[oFar )) ) {
-			if ( match ) {
-				// Don't c" ).replace( rtrim, "" )getAttme;
-	) {
-		anks toument;
-							}
-						jQuery jQuery in case of overwrit"").s thisapply(  thisf needed)
-		fi	returd for matchin		matcherOut
-			);eIndex && node &&m
-	fo+(?:[= outurned.promion = tuple[eferred, em synchr		promilts, seed );
-}reater the( fn h ] );
-
-					 && arr[ i ] === eler = soFar.sli		proreturn this;
-			};
-			
-		"has": mar		}
-
-		// All dif ( (matc
+if ( !jQuery.support.style ) {
+	jQuery.attrHooks.style = {
+		get: function( elem ) {
+			// Return undefined in the case of empty string
+			// Note: IE uppercases css property names, but if we were to .toLowerCase()
+			// .cssText, that would destroy case senstitivity in URL's, like in "background"
+			return elem.style.cssText || undefined;
+		},
+		set: function( elem, value ) {
+			return ( elem.style.cssText = value + "" );
 		}
-
-		if ( deep && window.jQuery === j	ss_led = match.shift();
-			tne | fail che[2];/ The curre	// }
-
-		if ( !matched ) {
-		leted subordinlang-pseure enueturn functio
-		};Count--;
-		prototype, "to document
-	// keepSc catch ( e )								ihectoceptionsng = (jQuery #1eturn core_hasOwn.call( obj, key );
-		st-specifiodeIndex = 0) |w DOMParser();
-consisens = match[0] = match[0jQuery.rey a single {
-		if ( data && jQuery.trim( dat	if ( !memory"),t Library function(promisetches sut ?
-			 = fu: context; and tchered;
-else {
-	for thi/
-(functioncss ) {
-			// We					 execScript on Internet Exs ) {pu	for ( ; tached.
-		 : value;
-					ost matment,
-	med ele			//r)
-			} ,
-			ailabth > 1 ws a TypeE elem 	stack,
-				stath > 1 license
- * http:/ )
-					.elec"1d JSON: " + = core_slice.call("*([^\\]'\ction( callbaompl"px"th the We unot imy-unitSelecreports falsalre}
-		}adyStatcolumnt Nod"complete" ifillOmainingd subordinatnction() others as re folHd
-		if ( length >emainingrogressValue:\\\\ Array( lengtphanatch?
-		nctiowid batch?
-		nctioz
-	whitgth );
-			reoomtch?
-				ion( selection(unction( evwIE<10			[ "you wishht 200x/ Map onts
-			n( num d[ namtches succeednd({
-
-	rs-20alse)
-	// qSa(:foflo ( psDuplicate dinat			r"ers = new setFiltcssF			re? " updateF ]
-				pro resolength );
-	) {
-	] = th= windovalues[ i ] rom ma
-		vFiretr =y* @param {Array ).replace( rtrierlytrokens[i]he curren			.		promim {Function} fn The function to mf ( arr ! + " " + doneName;arkFunction( fn ) {
-	fn[ ry.iy.isFunction( retu
-				jQuery.merge(ontrols|defer|d) {
-		hiddrn (v for seetion} fe frag.call( arlse if ta;
-	
-
-			retl usage only
-	/ Can't do this bt set
-	
-	comp
-			}
-
-			unc i
-
-	core_versionalues[ g );
-}callbac? "ne, input, select, fragment, o=", jQuery.Callbacks("oncfragment,le( "val//j = 0;-------------ate
-				[data careturn fll poses
-
-	retunte( "className", "t;
-
-		// Add theargument		elem.style[ name '/a'>a</a>fragment, ---------ctionIE<9
-		// this;
-			cument.gw ) {
-		var i = 0,
-			length = e_hasOwn.call(obj.constru	while).findr.setFilt)
-			} place(s (+e != -=)
-					yTagName("a")s. #7345key );
-			}
-		}
-
-		// Own pctual JSON			// Clen; i++ ) {
-	j != null ? jQu& elemettch boh.ra*ent("2e( a docudateF eventName, , false );
-
-		}= "strin onlyn( ns sh923pile( te-selec	}
-		} +-]?\d+|)/.souontrols|defer|dNaNse;
-		/lic& !corelect ) );
-.whil: #711uery n, Inc. and ot = "tfaults to doc	}
-		} c) {
-	NaNelectors/#attribute-sele+-]?\d+|)/.sourced.notifyWocumereturnin,ressV'px'th the l(m ready in  optionsCSS( ; i < lentrue;
-				}
-
-	melCase class. If );
-
-	if // add l;
-
-	// Finisocument.createE {}
-p's meth;
-						}above
-	8908,t === rebeTypes;
-					}preexisthe id* Inc() {
-	rs = Expargumentrred.ue )		ree constam {
-	etermieudosngth (		// nor( ( ebleon( contexts, ).nodeType === 4 ) {// Map over jQuery		.done( lse 1 && omiseion( fn, contexs. Ifontext ) ) {
-	GATIVE = 1 or ( match in cotion(dy
-	ready: "inheritgName("input")[/setA_indeocumenElemenoneous naulk ) { 0x10000 ) :ll ?
-			.fail(ggyQSA.tecument.geweblogs.java.net/blog/driscoll/archietElteElei = first.length,
-			j =ts, prom http://json.org/js= core_des() {}
-s is
-	// onIEs or conr		return faontext,'
-
-	if ('top:1px;flo !!div.ge("option") );
-	inpu550	if ( IsHTML = !ires a wrapper elnd
-		args = nder = setMatcher( poault documen.htmlSerialize = !!div.ge	document * jQu : valu	if ( vect
-			es[ ake sure the incoming data is actual JSON
-				// Logic bor synchr = /top/.test( a.getAttribun2.js
-				if ( rvaltton") && "link").lengthdocumenta regex to worl( defe	}
-				}
-ed. If ress a wrapperhis, argumen[0] + "With" ](( i, progrests, pn deferredsdn.micronu			}
-	rn deferred.promise();
-	}
-});
-jQuery.support = d
-	if ( erred.resolveWith( resolveContexts, resolveValues ) all, a, input, select, fragment, opt, eventName, isSupported, i,
-		div = document.cre
-			}
-
-			ement("div");
-
-	// Setup
-	div.setAttribute( "className", "t" );
-	div.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
-
-	// Finish early exists
-	// (IE uses filter inst
-	// Use a regex to work aroe sure the incoming data is a	target =		tmp				// Logic borapply(ts, proem ) && elem.re HTML e +
-	a
-
-	// Dedoes not cause problems > 0;
-};lementsBonments
-	alByTagName( tag );
-
-			ks
-	sulse if ( !( --umentsdeferred;
-	}ument =tElement"// qSaes, p
-	// Use a regill be defined ls = falsealized maticaleady been calledort.inlineBlocdo = true;
-	suppoble, emptyGet, ra.createEl].appry J-------)
-			} els text( arg 0 )r.pseudo (IE uses fil
-			efin		//();
-ms.jop()) ) {
-s, prn( obj 		//s, progress					on-se.appendChn ) )ss2type[ "[oput.checkeyTagName		tokens.Nrly cl(perl		if he octionpeof 		//   Greater isableator(elemeNOTE:ith(emention e		list"da-fA-g dat-------getC	// Useomise = [his;
-		}jsdntexdified.jclass2typ && r = cur.;
-Ex agaiabled)
-	select.disabledrt.noCion() {
-	^\\\\])*?)\\3|(" + identmatcherabled)
-	select.disabledault chec/liceCase()
-&& E!== \\\\])*?)\\3|(" t = fals_alues === progr call> 0 , minWt("inpuax);
-	inreturn : valu= document.c === eomise( deferrea, b ) {
- ) {
-Librarfuncti `xm {Array|k addedes = 'm.disa')/ Apply siple|125= div.			} ele( "valuatch : valr, nul "value" ) p accessine gr : val : 0;
-
-		 new lines (function( support ) {
-
-	varif( values === pron match.slrred.resolder );
-
-	if ( hasDuplontext, xml ) {
-			while ( (elem =  elem ) {
-			ateN */ ) {
-		var :checked shouldAsultif ( e("disa"awe		// h
-			by)" + whitespament ly in//bug< 17 statslice,
-5.0";
-
-s "
-	// Use a regg da Prefer ar+ attowed fr
-	rtris.sl-ead
-			match
-	fragmen1.7 (at	retst)	}
 	};
 }
- ) {{
-		ger may ul = s						// ? jQue;
-			r > 0 &seatio rightrelctioy pixejQue{
 
-	//  using gasDu	.failCSSOM	}
+// Safari mis-reports the default selected property of an option
+// Accessing the parent's selectedIndex property fixes it
+if ( !jQuery.support.optSelected ) {
+	jQuery.propHooks.selected = {
+		get: function( elem ) {
+			var parent = elem.parentNode;
 
-f   the
-						ifdevall( elecssw
-	supom/#target[ / ...exn match.sl				} el= match))[ tye( o check elems ),
-			ret =through  * "fired" muins = funragment.cl	 > 0 &=se;
-	s.nt("iring )ut");
-	its (and tut");
-	i div.att.setAtnt === undt.setAtdiv.firstCf ne
-	// Ch all& !coreue ).ouleme// Use a rege			};
-etAttrindefined)lones events bounts (and typeof-20110 === results	input.vaypeof d// Support.find(
-		return hs not clonet( "onclick", ypeof div.av.attachEvent ) {defined).
-	// 
-		div.attachEvennts bound .nodeName > "@" || e	}
-			;
- type = jQuedentical
-ed" );
+			if ( parent ) {
+				parent.selectedIndex;
+
+				// Make sure that it also works with optgroups, see #5701
+				if ( parent.parentNode ) {
+					parent.parentNode.selectedIndex;
+				}
 			}
-
-		></div>"delete div.test;
-	} catch( e ) {
-		support.deleteEx
-				ir.mozilla.on trust getAttribute("value")
-	input = document.createElemeplit, Casers"*,:tribute( "value", "" );
-	support.input = input.ger becoming a radio
-	input.ve", "radio" );
-	support.radioValue = input.valuelse {
-		/ && jQueKit isWindow( obj ) ork arostancedeType ==t ?
-					 1 ) ittp://jquery.org/licseleink elem!!a.style.csslem ) {
-			ret!!a.style.cssFloat;sults dect
-				" );
-
-	fragment = document.ckExpr = targeerik.eae.net/arch
-			 (po7sibl27/18.54.15/# fn The-102291sure clonilement
- * dea// getextsdiv )ul			}ed;
+			return null;
 		}
+	};
+}
 
-		jQud
-	// Id.notifyWntsBypeof dweiredlest.nodengt Use prtElement
-			reked;
+jQuery.each([
+	"tabIndex",
+	"readOnly",
+	"maxLength",
+	"cellSpacing",
+	"cellPadding",
+	"rowSpan",
+	"colSpan",
+	"useMap",
+	"frameBorder",
+	"contentEditable"
+], function() {
+	jQuery.propFix[ this.toLowerCase() ] = this;
+});
 
-	//d
-	// I					oid treasolvEnsure fir,} [doc
-	coizes itindo) {
-	name", "chers
+// IE6/7 call enctype encoding
+if ( !jQuery.support.enctype ) {
+	jQuery.propFix.enctype = "encoding";
+}
+
+// Radios and checkboxes getter/setter
+jQuery.each([ "radio", "checkbox" ], function() {
+	jQuery.valHooks[ this ] = {
+		set: function( elem, value ) {
+			if ( jQuery.isArray( value ) ) {
+				return ( elem.checked = jQuery.inArray( jQuery(elem).val(), value ) >= 0 );
+			}
+		}
+	};
+	if ( !jQuery.support.checkOn ) {
+		jQuery.valHooks[ this ].get = function( elem ) {
+			// Support: Webkit
+			// "" is returned instead of "on" if a value isn't specified
+			return elem.getAttribute("value") === null ? "on" : elem.value;
+		};
 	}
+});
+var rformElems = /^(?:input|select|textarea)$/i,
+	rkeyEvent = /^key/,
+	rmouseEvent = /^(?:mouse|contextmenu)|click/,
+	rfocusMorph = /^(?:focusinfocus|focusoutblur)$/,
+	rtypenamespace = /^([^.]*)(?:\.(.+)|)$/;
 
-			// Abj );t only nd i-- ) '		//a			if (ntent-box
-	// Chehis;
-		}
+function returnTrue() {
+	return true;
+}
 
-	 = argiew;
+function returnFalse() {
+	return false;
+}
 
-	//ContacveCondolls"pport.tbttp://jque( true ).cloneNode( tru!urn this;tChild.checked;
-
-	// Spport: IE<9
-	// Opera does not clonplitts (and t errov.att );
-
-				rex);ll(", focuElem"*,:x - 1 true				reatist is chEvent, but they don't trigger with .click()
-	if ( d,
-		// "*,:xunction( bordernction( _r.mozilla.ot.createEl) );
-cument.cre/ Call  jQueryontSizpr, c"1emd JSON: " + nt-box";
-
-	.ts th"*,:x+ce = di should retu;
-		});
-
-		div.cloneNode);
-
-		// Supp.createEln-top:1px";
-
-		body.appendChil:1px";lack focusin event)
-	// ed.resolveWMIT liJSON: " ;
-
-		/rFromTokens(Poid tve add l.length,
-			j =subde t elem.getAt		if ( type() : arglen; i++ ) {
-	r, insert 		if ( tm/tickeGuriesn't cloner the MITent  been", rns a druns =E
-				atically in
-		Mn (nmax(	i =ilter out1 ]});
-	has been elector		prtext.getEle2 notifylues			res {
-			wfor use whenaux = i);
-	iOr {
-			ault checkbox/radio vis(?:\\\B				alue ("" on 	lock suput.checkeemaids[ 0 ].s if bgth );]
-		elem, c;
-			retmentEleme;
-				} unctio resolveVit-box-		cont					r		tds = throws 4		res// (IE uses sexOf,
-	 {
-		o		},rizn-usl !a upporpe =reports falseort: IE8
-	ument)ggyQSA.0 i ] ks
-	suh;
-		here are fun4 ( c+(arr) ) ) unction(box whenldom rneces check		rbuompl				turn 0tial Will be dput.checked check].lock );) {
-			veValues = core_slg:0;ma+:0;md+|)/g			// Nepply(e;
-	support.shrin= remaiorder:0;dilem ) {
-		ay:non- = i(WebKit(ie6/TR/c		rbu),
-		"PSEUight === 0  == null;
-}	// Check box-si	isSupporteml.async =-vior.
-		div.innerHTM"zing:boing )	div.style.cssText = "box-sizing:tence
-	// nizat				oi			whs, pr
-	//  ay:non {
-		 tds[ 0 ].oment seay:non object
-		s, pre || zing and margin;position:absolute;top:1%;"ay:none"orkaround failineigh);
-	i			(excizing test due to element opacity Width returning wrong valueelem, c0 ].offsezing:borgin behavior.
-		div.innerHTM";
-
-		// Workaround failing boxSizing test dfsetWidth === 4;
-		});
-
-		// Use window.g {
-		zing:border-omplof body zoom, ticket #1354;
-
-		// Watch( e ) {
-			body.style.zoom != null ? { zoom: 1 } : {}, function() {
-			support.boxSizing =ry object is isablfor use whenge= div.getElementsByTagName("td");mory"), "rS		van|ismapild( ontexts, ; dof ( );
-	quival ) ?
-			 Checbox;-webkixelPos	},
-
-	// I-moz-box-siecked;er
-				upport: IE8
-	ells stil	for (ild( tachEvectors/// Web {
-			 ].ca	promise.promise( deferreport: 		// Fails igth;
-
-	// Make boxSizarenmplicitRelale.zoom != nuppendChavereturn deferredrototypebox;-webwhen stanc|Objlace of ndle stat ( nodeType === 3) {
-	/ WebKit B		rbuy", "progr else { // IE
-v.stylvg -t, args )buglist &( list && ( cons_bug.cgi?id=649285&& docuthMLstyle.width = "1px";
-
-			support.reliableMarginR491668), cont bef<},
-
-	isLDOM" );
-				xml.age( ret			script with .clue;
-	uType: valusolv's possible to ineBlockNeedsLayout = false;
-	support.} ).marginight );
-		}
-
-		if ( typeIE<8
-		
-			}
-
-			.reliableMarginRightlect.discach
-									ed;
-
-.  seee docuent-matchef ( typeo ( !body ) {
-		
-			then
-					// weisabled sypeof var contaatched[ipect ihe protarget a.sortStablted munds basednput.ch attributesaspect 9
+function safeActiveElement() {
 	try {
-		deletesiht blyexpan
-		(scripts = ckNeedsLa
-			}
-
-			t</td></
-			// Fails irgin-right
-	ery ]marginDiv = div.appendChRkNeedsLat );
-		}
-elements when settin
-	// Make ut,
-
-	// enize		},			res( ~bizesidescatrtion beforeChecked = input..innee ( ap[i] eous num captus = 				 val.sdthis iadd/has been i			/xt[0] yle re= tokens[.margindex		tds = div.getElemenQuotes =tries
-			eQuotes, pr? "ne;border:0;display:none";
-		isSupportherIn[ pos
-			// Fail(function(see )
-	ement = dikens( Date: 2
-				StrinnerDocument unction( contating leading elem.type =,
-			deferred = {}elem) ) {
-r forwardi(":en{
-	returner.resolve )
-				] = lis[elem) ) {
-sh ea
-			}
-] = list dirrunsU			}
-		ac, fueaks in IE
-		contle ( pr.find[ ty
-			if pe ===
-	// Used b xmlex to inheck 
-	}
-g = "nt--;
-			, fn ? [ returned ry.ileaks in IE
-	anction( div ;
-				}-e_toStr:\{[\s\does not imparoundm, nain:0; Inter	for ( nction "<Use Onl Inte.cssTe='0'();
-	}elem lengthelem/>tive.a	ent.cr( i,al-pn sef the ca.fire !imindoapporturn t1 : !!(Tostric (https://develoet as a clehile ( 
-		ped );
-
-	s to ukFire
-
-	/o|)" + wlayouementByIl
-		ifchorefe
-	//uing eav = tdl Use Onmove= elem.id;
-		x (#9oundary
-		isNodection() {
-	SA.push( ":enhandrentl("<!dold be 			d><objectx: tru.clone( (supoHANDLE: $all = select = fragment = opt = a = input =t /* Inte		sortI (jQuery #13807
-						brif ( bulremoveChild( conts );
-
-
-	// Null elements tdsail( newDry.isFunctioail( newame = nContexONL			divand tras to avoid leaks in/table>";
-	 = fragment = o a = input
-					j < les given, re( (su";
-}) ) {
-	adateElemenWe have to hande.getTinDiv = null;
- document.createce
-}; 0 ],
-					;1 && to matcherIn,s allows
-		// the cSA,
-	rbuggyMatchd
-		if,11 nightlzzle CSS Selector Engine va href='/a'>a</a><input  Function Array Date RegExpdefined d no margin-			if( values === progrestifyoptionsndle statyId returdimentype[ nfturnswinli
-			}gaintDet{Funthrough howalse== 3;t = list ) {urn this[\s\S]*\lay:inpose consta.getfit( "onbefs ) {
-31,
-
-	// Inst// WebKit Bueof ele( o		args = ar= matchomise[ done | fail | progress ]\d*)" + whitesp= ar;
-
-// Supis, arentifier = charaon2.js
-				if div with explicit width and no marg === "odds( optioobjects when the object
-		// is serialized		" ": { d		elems :
-
-			// Gets
-			bulue;
-	support.herOu;
-	} cat	// Prtheir
-	mise( deferred );
-( subord		// determining if an element 	// PrchIndeg layout for positioned e elements # #11048
-						// PfunctiomarginDiv = div.appendChild( document.createElement("div") );
-			marginDiv.style.cssText = own, the IE<8
-				st o0reatePosition		// Ha = 0,
-			len = this.len					sgnized expreargument);
-		}
-	}fined && typeof name === "string" )izing:borde=== ppenm.disas ) {
-	ts, valuese
-// the's inte= match(defined )ptionsCacr.mozilla.ories
-			ntainer ).app)" );
-	ectors/ );
-		m.disaragmentcache[ id( 0.01 *WrapBlocks =  can w.$h.raement"		resolng a radio
-With( valid ON: jQuery.noop };
-	}
-
-	// An ob		target = ttion( support ) {
-hether r.mozilla.orild( container ).appport: id ];
-
-	// Make sure that t.csse ) ? "alpha(opacity=" + value * 100 + ")" : "",
-				filter = currentStyle &&/
- *
- * Inclu.uery.co|| ss
- * http://siz"";
-://j// IE has trouble with  JavaSc if it does not have layoutyright ForceInc.by setting the zoom level://jzlejs.icens= 1opyright ifder the Mundationto 1, and no other uery.cs exist - attempt-03Tremovection( ndefribute #6652cense
- *
- Librar===httpMIT n{
-
-// Cainline 2013-07-#12685://jif ( (s inclu>= 1/siz including A ) &&://jq	jQuery.trim(ction( .replace( rjQuer,s if
-/) dies if/ you trzlejs.
-
-// CAhis becau) {pyrigght Sr the Mzlejs.com/
- *to nulll cha& " " still le con"uery.c:" inMIT lcssTextors
-se
- *
- 
-
-	// A cens present at a on clearType(docdisabled, we wand ) {avoid thise to thepport: Firefox 18+
-//"is 200Only, but so appa
- * lyde.mxmlN code path...://jqpport: Firefox 18+
-//(oot jQue" )opyrigse
- *
- (funode.mnoan't do zlejsinedliedentrarefe rule or unset// the stack vi10
-	/are done://jq.callrefox dies if||/
- *
- * Includes !Sizzle.js
- * http://use ou trreturn;y in }y in}pyright 
-(funwise,der  newan't do LibraNode.zlejs.com/
- *=ct" cal.testthrough *!
- ://jquery.c"use strict" call undation) :://jquery.co+ready+
-	class2 ove}
-	};
+		return document.activeElement;
+	} catch ( err ) { }
 }
 
-// These hooks canothebe added until DOM ready becauseMIT lsupport 	_$ ids,forInc.th wit run_deleteafdow.dIds = []
-y to t(function(uery .call!y to trion = ".reli: IEMarginRightQuery iy to trcssHcan .mh = core_de=ery inget: e_concat  elem, computedQuery in .callxOf = core_deleteght WebKit Bug 13343 - getCOf = coIncludase ofs wrong
-	docEl
-	//lice =-rre_dre_toStrinork around undfineorarilnder the Me_int)
-	displa7-03T/ the -blocky in case of tedIds.cwapore_inde{ " of jQu": "	jQuery = fu" }p://jq		curCSS, [re_inde"lice = core" ]cumeverwrite
-	_	cach
-	_jQtring ked uug: https://bugs.w( sel.org/show_bug.cgi?id=29084n.initring,
-	core_hasOwn = claperct)
-	wNET specifdbox
-	//top/left/bottom/
-	core_// ra(functhan make_verscatimodn = depend otral roffueryce
-	co10
-	/just check
+/*
+ * Helper functions for managing events -- not part of the public interface.
+ * Props to Dean Edwards' addEvent library for many of the ideas.
+ */
+jQuery.event = {
 
-	// Saly wore_deletedIds.concat,
-pixelPosincatdes y to trfn.pafari 5.letedIds.pusheach( [ "top", "|)/." ],slice,
-	cori, propQuery inds.push,
-	core_[ay to ]_deleteddIds.slice,
-	core_indexOf = core_deleteedIds.indexOf,
-	core_toS	xOf = corm/
- *CSSore_indey to c		retuaccordinnitionnum = /[+-]?(?:\age, fallbackd us/\S+/gstart w( selecrnumnonpx
-	_$ = xOf = core_
+	global: {},
 
-	// k for HTMore_in )trim = /^()
-	// Prio+ "px"pe = {}ict HTML re start rite
-write
-	 datat st}
+	add: function( elem, types, handler, data, selector ) {
+		var tmp, events, t, handleObjIn,
+			special, eventHandle, handleObj,
+			handlers, type, namespaces, origType,
+			elemData = jQuery._data( elem );
 
-rval
-.callFF\xA0]+xpr.0 and IE)
-(?:\ http:/s[\s\uF)+/g,
-	rvalidescape.hidden =slice,
-	core_in[\s\uFEt";
-on = ": Opera <= 12.1ever//n]*"|trre = "s*|#([\wWidths:48Z
-/\S+/gHere_ds lestrunan zerowhitsomeocal copNode( selece_in.+(?:[eE][+-rue|0des ix = /^-ms-	// MadashAl||	ret(etedIds.concat,
-	core_puH-fA-FO\S+/gsdes ((ix = ument pha = /-zlejs. of jQu)ocumds.push,
-	ore_inde The jQue )s. (#13none"validopyr(?:["\\\/bfnrt]|u[\dvisijQue{4})/g,
-	rvalidtokens =( selecetedIds.\/bfnrt]|u[\da-fA-Fvalidtok/ The e ids, so we can r winuseon.tranimated usexp48Z
-y toertiesods
-	co]+|[\s{
-	lice = http:/padding http:/border: "E][+-"
-}	// A simpleprefix, suffix = /\\(?:["\\ strings
-	// ) { +			detacioritize ( doc.slice,
-	corLibraruery invar i = 0p://jq ( docrecog{},ent accorassumes a single number *
- a rea string	retupa|)\d= typeops including oveEve" ?dy eve.split(" ") : [dy even]opyrig
-	//( ; i < 4; i++Query in ) {
-		if();
+		// Don't attach events to noData or text/comment nodes (but allow plain objects)
+		if ( !elemData ) {
+			return;
 		}
-	},cssE( doc[ i
-	// 
-	// Cleany in ctenerment.d|| dystatech- 2hange", compl0eEvete
-	_jQuermsPrefi {
-		if data cachore_delerlice =
-	_$ = ;
+
+		// Caller can pass in an object of custom data in lieu of the handler
+		if ( handler.handler ) {
+			handleObjIn = handler;
+			handler = handleObjIn.handler;
+			selector = handleObjIn.selector;
 		}
-	ins.tedIds.push,
-	core_();
+
+		// Make sure that the handler has a unique ID, used to find/remove it later
+		if ( !handler.guid ) {
+			handler.guid = jQuery.guid++;
 		}
-	},
-	// Cle.uery=der SafariveN			doalidbrvalach r20 = /%20/g,
-	rbrackbeing/\[\]$/: jQCRLFinit:r?\nor: jQsubmitte
-	// r( "/^(?:, root|button|image|mentt|file)$/itext, rootj: IE {
-		varinput|select|textarea|keygen)/i;
-entListefn.extend|| eserialize.slice,
-	cot ) {
 
-		// ry to trparam(runde.// HandleArray()enough,		// Handle{
-			 HTML strings
-		if ( typ== "smapre_concat =ry in// Can
-	coumentcore][+-]"amelizin"d usuery.coor>" &&formcamelizing
-	tach amelizin =peof selerop === ",ngth >= 3 ) t starrmsPrefix =d end?peof selg on{
-			irt and endindoxmlN/,
-	rv
-		 http:/tor.length - 1 )ach DOMC( "D= "sDOMCachEv// Use .is(":ort: IE<")defithat fieldset[ort: IE<] workNode.r.charAt( senamtEleme /^<(\w+undef)ml o r make suref
-// you tnull), $(und
-	_$ = h && (odeNmatc
-//  !t, rootjQuery ))
-				iftor 
-// you t	if ( mwe trednge"!manipulancat_rwe tr: IE	// text instanceot sta			matlector.lengthe walidtokxec( selevald with <>ontext) )val(ument a( seleceHTML=sed oingleTat.node = {}y to trisctor, neHTMsingleTag null, sep| con	// A simpleconte/ Strict( selec{ (mat:a = /-(mat,dy eve:;
-
-	"use strict( se, "\r\nDLE:$/,
-	,:{}ype = {}	html, props)
-					if ( rsingleTag.test( match[1] ) && jQuery}).get				_versio
-//S/ Handle  ">"
-			 ofthat strings tAssumQueryof
-//key/over t in `ty qto tmoveEveneof selectord = function(a, tradari 5ontex{
- selee" ) {
-
-		nd w[]		//" &&{4})/g,
-	rvakey	if ( rnts
-	detht 2ps incluiistee_concat, invokased 48Z
-( selecitsdy evehat stncludpeof selisF dom ready eventsed, fal(indo,
-	docElemxt.nodes ifsingls
-		achEvs[ s.lengthlean-eninedURIng,
-onent attr )// Jript ementById( match[2] {
-					elem		}
-	t";
-va( context[ mato trasOwnPry to true|f.3.2 behavior.ore_del context[ madingundefincore_delet #6963
-					peof selajax
-var
-	/place						// Handle the. context[ mery.fn.iniIfled as metwas paseadyin,dEventLcontex Save ed as methods if possible documenwnerDocument || a tter ( a.jhis[ mh[1] || !c.isPlainObjectelectootype = t";
-vare callIT lhat strings thatFF\xA0]+|[\s\a	// A simpluery inadd	if ( ma				i
-			}tch when Blaument} else elementIfnt #6963
-			,heck pa into"old" way (IT l				 longeor olderlementdid it), = window.ector = ectors recursivelyof ustener;
+		// Init the element's event structure and main handler, if this is the first
+		if ( !(events = elemData.events) ) {
+			events = elemData.events = {};
 		}
-	)
-	louery inbuildPelse ete" ) {
-	a();
+		if ( !(eventHandle = elemData.handle) ) {
+			eventHandle = elemData.handle = function( e ) {
+				// Discard the second event of a jQuery.event.trigger() and
+				// when an event is called after a page has unloaded
+				return typeof jQuery !== core_strundefined && (!e || jQuery.event.triggered !== e.type) ?
+					jQuery.event.dispatch.apply( eventHandle.elem, arguments ) :
+					undefined;
+			};
+			// Add elem as a property of the handle fn to prevent a memory leak with IE non-native events
+			eventHandle.elem = elem;
 		}
-	]]( context[ m,>" &&en Blary.fn.iniR.charAt(sOwnsulr
-	// directl
-				
-NDLE: $(s.join( "&" )"use strict20, "+ rege		}
-e_concat eturn ( context || roobjfind( selector );
 
-	ch ] );
-elem	}
-	};
+		// Handle multiple events separated by a space
+		types = ( types || "" ).match( core_rnotwhite ) || [""];
+		t = types.length;
+		while ( t-- ) {
+			tmp = rtypenamespace.exec( types[t] ) || [];
+			type = origType = tmp[1];
+			namespaces = ( tmp[2] || "" ).split( "." ).sort();
 
-jwnerDocument || obj the element directly as metitemof uFF\xA0]+|[\s\r( coery.merge( thv {
-				rcument #6963
-				|| Query,
-	 = jQuery.prototype = ementTreat +|[\or.nodeType aistencalae do			this[e" ) {
-	vcument aext = docum	} elst foth win-ument  (as methrtextec $(ector =  ] )numeric indexready
-eturn ( context || // J[ of instanonteuding y.readetedi* htt
-					]", vfind( selector );
-
-			//ew jQu.context = de_dele context[ macase wherestanment)
-		elector = sele element directly y.readeType ) {stener(matcinent)
-						return ( context || efined ) (matctor;
-		obj[ 0
-	le.find( selector );
-
-			// Hntext = document directly 	returnType ) {		} else if (nt)
-	es of entListener | ("blur focus Get tin Get tout loaxt[ s
-	},
-
-roll unlemenclick dbly
-	get" +
-	"moreadown  ) {
-upturn n// Ca ) {
-over
-
-			//ug,
-
-useendow.ean' yList,
-( numchange se)
-		 , rootattr		retkeyumensjectup error conf ( menu")se );
-			wi = this[0] = se(matcuse st// Handle evt)
-	binoad"ready evefn	toArraywise set as adat.len^[\s\uFE( selecargu		retuument.g> 0ingleT
-			}rge(elem;
-ed on / (returnine = {
+			// There *must* be a type, no attaching namespace-only handlers
+			if ( !type ) {
+				continue;
 			}
-rigger",
 
-	//nough focontreturn this;
-		}
+			// If event changes its type, use the special event handlers for the changed type
+			special = jQuery.event.special[ type ] || {};
 
-		h/ Re.slice,
-	corfnOvereturOudeletedIr.charAt( selan' arrayonstruct )the olyListonstrut1;
-	t onto t selec
-	 ele.slice,
-	corstansms ) {
+			// If selector defined, determine special event api type, otherwise given type
+			type = ( selector ? special.delegateType : special.bindType ) || type;
 
-		// s );
+			// Update special based on newly reset type
+			special = jQuery.event.special[ type ] || {};
 
-		// Add t
-		ret.cont elems ) {
+			// handleObj is passed to all event handlers
+			handleObj = jQuery.extend({
+				type: type,
+				origType: origType,
+				data: data,
+				handler: handler,
+				guid: handler.guid,
+				selector: selector,
+				needsContext: selector && jQuery.expr.match.needsContext.test( selector ),
+				namespace: namespaces.join(".")
+			}, handleObjIn );
 
-		// selectunject = this;
-		ret.conturning the new m	// Reffurn the newly-felement se
-	delegate HTML strin	// Retor,ret.context = this.context;
+			// Init the event handler queue if we're the first
+			if ( !(handlers = events[ type ]) ) {
+				handlers = events[ type ] = [];
+				handlers.delegateCount = 0;
 
-		// Return the ned the argormed element set
-	set.
-	// (You can seed the arguments urning th//"",
+				// Only use addEventListener/attachEvent if the special events handler returns false
+				if ( !special.setup || special.setup.call( elem, data, namespaces, eventHandle ) === false ) {
+					// Bind the global event handler to the element
+					if ( elem.addEventListener ) {
+						elem.addEventListener( type, eventHandle, false );
 
-	/spac},
-
-tenered the argument [turn] 		mae new matched element seding1 ?ck for evered the arg"**tart} elser every elemeed the a*
- * **"n the matcersion,
-/ TakDoched e locis just/ HaLocPener,ck( core_
-				.apply(_nonc				}
-					now()hed mentsrhis[ mnit:?ctionhashetur#.*nctionend w/([?&])_=[^&]*this.eeadape {
-		v.*?):[ \t]*([^] ) ]*)\r?$/mg, ht 200yList!== m\r charac do th EOL/ Tak#7653, #8125? len52:s.puslumentocol deteoncat
-	returnPhis.push{
-		varabout|app : [-stor	// .+-s;
-		sionE: $( HAN|widget):nctionnoCs[ tn	init	varGET|HEAD)nctionthis.pushack(\/\/ctionur ? [ th[\w.+-]+:)(?:m, iq: f/?#:]*.cal:(\d+)|)|)/hed // Keep	locopethode = /ldelemenmethod
-	_lemen{
-						/fn.leme,
-
-	e* P
-		}scape
-	ry v), soy dom reafu				/introduce customd intery ) (see / Ha/jsonp.jthe r== mexample) For 2nterns = wincalled: For    - BEFORE askhe Muery nt #ns = ".sort,
-	spAFTER} else/ (which is ju (s./ (r					toveEve *
- * arecessDr later/ nopush: 3) );
-
-strune Array's  For 4) whiteatchall symbol "*"reushem
-read For 5) executotypwreadstartery Fo// Give t Array's ntextTHENhis[ inuindown			/funcumeneed	var s/
-	;
-		}scape ( docume/* T/ Give tsf elemen/ For intjQuery.fn;
-
-jQuery.exten2 = jQuery.fn.extend = function() {
-	var sr3)urn thiArray, copy, name, options, clone,
-		target = argo {},
-		i = 1,
-		length =// Give ts.length,
-	/ Apeof comatch-prologength seque );
-(#10098); mure appease li)
-	rnd evadeone t			(Stack(llery ) {
-"*/".concat("*	// ids,#8138, 200mQuerhrowy methcep		targNET acuerymentaddExt is  from window..pushStai = durn thi.domain05, 2be.|)\et
-try.conply( this, a =s.pushSta.href;
-}uery.f( 
-						atch htfn;
- i < this becauo by nArt and e
-		//si );
-IEay, comodifdeTy givend
-	if ( le.pushStack( core_--i;
-	}
-
-	if ( lecion)eE	match( "a regex/ Extend the; i <&& !"tions ) {
-				s =, not {
-				src =  for us Seg this.pushStaction(tener
-( core_sliceoverurl.copy(py = options[ toLowerCas// Htter [Even// B cop"construhe a"des that ar// Ha;
-	},
-
-	/if ( n objects oeep = false {
-				raddTo;
-	},
-
-	//Oreep = fals(instuctur},
-
-	// TakArray's Exrget !==ery.o
-	// alif ( defaults {},
-		st equivae stack
-	// (rcopy)) ) ) {
-	 = thi"use strcument		thisray(copy)) ) ) {
-		!ed", completfault l& jQu= src : [];
-
-					} achEvray(copy)) ) ) {
-		& !jet[ 
-	_jQuach 
-						cp://j= functionArray's me& jQuery.isPlainObjentinue;
-				}
-.mth; i+core_rnotwhi//"us		// RecsArray(}
-					}
-
-					retu& jQuer						} elFor
-		// one,
-		tantral r
-						clone = srcor.cwhilealleone,
-		ta& jQuery.is[i++]ANDLE: $(funcPr_rnotwif rsomest	var;
-			thi
-						c[0];
-	},
-)
-		ery in c				}
-			}
-		}
-	}
-
-.slitric1);
-
-		
-
-					ueryArray = j[y !== undeo thigits removed to match		// ).unshif = w jQuement accorOpr, $(...deepn targesFunction( se-digits removed to match rinlinejQuery
-	expando: "jQuerpushcore_versireturn new jQu cache ids,e if in\d+(		tare {
-				ruery arguments.f ( ;
-	}
-
-	// se {
-				r && winnObject(copy) || (copyIsArray = js
-	c		tas, originalO ready tjqXHR,
-
-	// ach =&& winif ( docu		seesplieep = fal =ck, rray = jQding;
-	}
-
-	// Hrsion= _jQuery;
-		}
-
-};
-
-jQuery// Uniqach se)
-		leted curs.
-	isoved to match r/ no	winFF\xA0]+|[\s\inlinejQuery
-	expando: "jQu = this[0] =_90: rgumentOrFahe a
-
-		xec( sele
-						cpy) || (cop =	if ( hold ) {
-			j(OM ready to be used? Set to true o	windivery el ? src : []	} else {
-			ed", complet
-			lse,
-
-	// A count
-				readyWait: 1,
-
-	//	} else {
-		]// UniqueM readyfor l= conty" + ( coalready ready
-		if (		windore
-	// the ready isReady ) {
-			retuyIsArrayals		// M}
-
-		return lse,
-
-	// A count/ Unique
-		// rery.readyrecog		// Make sure body existsontext;
-ket #5443. See #6781core[ match e
-	// thtrue ? --jQuery.rw.det);
-
-		ds or we're func] holmember thfunc		} ecursA)\d+(?al s;
-		}ce
-};
-jaxhat the cursontextakes "flat"hat the  (a retohem
-d funs;
-		}ed)cursFixes #9887( jQuery.isjaxE;
-		}
- target, srQuery.ever meep,attrictorlatd? Set  {
-						// Handle the.		readyList.|| {		}
-	stenerjQuernunctions bArray(src[er an]else ( elem && elem.p	( 		readyList		if ( j?re are HANDLuery.r );uery.( dot the		if ( j=nts
-		if ( 		// HANDet;
-};
- fun\s\uFEFF\xA0]+If thererum;
-	 are fudetail;
-		}
-
-		// Re// SinDOM Rhis.constructowise set as aurl,} else ,sort:+>)[^= core_delsrc) ? 			rlse {
-						c&& ect ||s.context;
-
-	ect |.(san		match,matched elsion 1.3,ires. See  argresponw.jQsrc): falsl tarery.t
-		of tart ==if ( Of			wi	}
-	};
-
-j obj>shAluery.rrn this;
- ) {
-	ery on off,) {
-	ument.geout(			retindow: func0,obj) ion 1.3,ent;
-	it'			this.attr		// HANDLE: $(D
-					retu else i
-				}ery.eaWe				if ( elem.i'y.fn;
-. They r
-		. They re=ic: funout( else iery.fn.trigckberryh.random(== uild an the jQveEvent}
-
-		return  else i&&e on IE 
-	},
-
-	t	},
-
-	// Start witctor );"POSTet[ rn obj != weer con		match =tos = arg,ng on whit
-	returjs for ay |ement set)
-	ype = {
-	// T		//|| ejshin:en't icense
- *
- "src)" varre_puery.( elem &&SP.NET "GET"s.prevOay, co() {
-	varect" |:ray.isArr for each: "htmltp://j/ (r:eturn t// Prodow.uery.merge(Array: Arenc"use stri				 conArray: A== jQore_inone tletseFloat(obj) 	indow obj=matched elopyrig "objresery.ready.p ?ent accor/ byurn this;
-stea\d+(?:[eE,s.pushtring.cre_de		match =)
-	lodummy divn( selecExclud as aipss2typypeof IE 'Permi) {
-		Denied' 0 ? tNode.m
-						"<div>")turn thereof selectseHTML Make sure that D).fither"object" / Buon + Math.random()ore_versf.nodext)
-	ticket e sure that // Do}).pass thr(eFloat(ob);
-	You can se true,opy,tue = /\\ype(obj+|[\s\. They risArray: A: "jQ9 Will.{
-				return throw eto true d'
-		rervalidbr;
-
-		// Add 	} elseadytt	// S bunchthods_concatjQueryh an antiargeon AJAXrray oventListener |\uFE/ Hany, nxA0]for ( F\xA0]		//ng,
- thr				retuE ? t in obj )ujQuer in obj )end,
-
-	// A simple wastance/\\(?:["\\sh istanco the stack
-	/urnicontext;
-
-		// Return thn the matcement set
-		vas;
-		}
-
-	 obj Courray
-roperoload"ly de
-			docl/uncjquethis[dEve	ned ||:unct obj Last-M= ardboxn this cacnto th nthatcall(obj)last	},
-
-	is:ady: fetag	for (ions )ndle the:ery.rnObjeply( this, arguwe alsoObjecrue;istendl:  0 && j < len 
-	_$ = ( core_slice[ 1IE<9rue;globon( ion.
- );
-jQuery.fn.tring of hasynctring of his[ tntk the p(sandnd the/x-www-hat -urlementBd;engthset=UTF-8or: f/*ue;
-ima 'cl( obof the ced onripts (k the tional):userml, prtional):d ofwordipts passeect: ipts passeget =s:ast, irue;
-context[ mon( data, cn this.	for ( 	*/.con jQuptrn fals	"*":otjQ	}
-
-	p://jf ( : "f ( /pwisetp://jresenull;
-		resence ofxof coment will be ml, l;
-		xsence oflike" ) {
-			keepSclikets = cojavaructor"		// funcfied, tta !== "ean" ontectiotypeof ct ===ngleTa	conte		}
-	/ || docum{
-				reF is svar parsed ="{
-				reXMLtp://jurn nul{
-				returnxt;
-			contex{
-				reJSONt || docum	retr laconver
-	// F	end: ys seectote souleas( thiry.fn.exnctiyIsArrastin never},
-
-	rry Fotener ) {is, ccument = jQuen fa 1 ) ===move() anythurn kos = c== "sts = c": SveEve function thatto rese (/ nod= win// Gihat 
-						ma	ll;
-	ction"tring of nodes E{
-		) {
-	usinr doclike", cget[ name ]e usinlike":.call(obj, "csed[e JSON paP defst
-		if (xm httpe usinntexe ) {
-			returXML] ) ];
-		}
-
-if (it !== tontexshouldn'them
-uery.readyWaie = // youction" &&your  || ike an it !== tly witf			// f ( xtendMake 			fo on ( elemeof data ===	// HANery.readyWaiethod, not If th		ma		readyLista !== "nObjeing of hment;
-n nuion.data caobj, keC			fo			thill fledgedder the selector
-	ion(// Sin obj ry Fobo	jQu Handle the f ( /json2.jst is s. obj != rigger(			iootjQ<10
-rirom tion( h( document,j ) {
-			up = this;
-		re are funjson2.jss.context;
-
-	 new Func|| objf (  objurn 				ion2.js
-				i				t	// If ther		// If there are fu						// Handle the ) ( new Functij.const own
-		}			}
- {
-			returror( "Invalid JS						// Handle the
-	// Sinret.prevObts or arrays
-:isPlainObject(copy) || (copyIsif ( hold xml" ) {
-eep = fal null;
-		}
-		try {
-			if ( windny items to obj, keMh ==.prevObjata .slice,
-	corn't sit !== tuse strnodeTy			r !== my.read, sim;
-
-	edow.-1.5 signa = jisArray(src) ? 			re	},
-
-	// Start wit true ? t eqeq	windhint eqe: functio		// Ne * Releas}
-
-		if ( --jQActiveXObon( ( data );document);
-
-		// tion"rowedoss-ngth ==Stack( j 
-		var xmtenergleTa keyoop
-		var keis re
-			jQueURLtest( 'clanti-ect: fectoractuact: URL
-			jQueRcts #989n this.e.isWveEventLi{
-				reH this.;
-	},
-
-			jQue
-	// keertiesnvali
-	// keTimer
-	parseJSOo knowjectata: s.suppor dom & --jQuispry.f IE, wfireGta: sse JSON// Give tfunction() {},
-
-	// Evalript in a global co	// Worked fro into  uselement ||ery.error(t.resolveWith( docup( doc} else { /data ) {
- They refin JSON	},
-
-	They rs.pusxeing ery. funcsizzdata ) {
-so thatunct://weblogs.javdefi anonymous func, Inc.				tdIdsatchlbachat arecolt;
-		taetedIta: sEay oous function so thatace(ery in Firefox
-	match	// Scumea );
-			} )( da				}
-
-singleTa
-						mry in Firefox
-		ype = {}e own.
-	ay o	// WorkDeferredobalEdorgot t| this.conforgot t funict HTM thrforgot t| this.conplorer
-		(") );
-memory"ternet ExSrow e-e_rnotshSt,
-
-	// Cthe $ iow eCripttionAlpha, fcam);
-
-		// Workobal co		retal usent)
-	rllj = ) ); pars
-	returnction( eady: faodeName && elem[1] m.nodeName.ds, soo true Alphnvali
-	//  functionft for ) { ab{
-		messag args irAy
-	ea= "cancesure	// WorkF on xh		//	 true ritize # = []Prefll( obj,)();
-				}
-ace this.eeq( $(unde = 1,
-		lene #id () {},
-
-obal c.slice,
-	cor);
-
-		ry in cach d( de// Non- ] || is for== 2
-	// Strict};
-
-jQuin a global co
-	// Strictt in a global co.node start w] = copy;
-d( deover= isArr== copy in a global context
-Case					if ( vt in a global co[ngth; [1]ntinue;
-				}
-
-// S ], ard );					brea[\],:{					break
-				}
-		ck.apply( obj[ ikey );
-
-					if ( vrs = /^[\],:{
-		// Re
-				}
-d)
-				} ? contngth; i++ ) ocument.addRawmoveEventLisgetAll) {
-			if ( ision(_concat = corommon use o	value = cal?	for ( i in obj ) {
-			ipts pArray ) {
-				forCct: y.fn;
-= isArf undes ) Name && ele.slice,
-	cor					if ( ror ( ; i < lenl(matc=				vntinue;
-				}
-i++ ) {
-				!	value	// Strictobj[ i toLowerCase() === n[( obj[ // S	break;
+					} else if ( elem.attachEvent ) {
+						elem.attachEvent( "on" + type, eventHandle );
 					}
 				}
 			}
-		}||
+
+			if ( special.add ) {
+				special.add.call( elem, handleObj );
+
+				if ( !handleObj.handler.guid ) {
+					handleObj.handler.guid = handler.guid;
+				}
 			}
 
- callbacName && elem it onto th{
-			the most common use oelse {
-	y ) {
-				forructride if ts #989fied, t-stanc}
-			} else/ Re") ?Mim);
-		 = this;
-		ret.ca location.hashalue === false ) s.m ?
-				( "DOMCtrim: core_trim && !core_trim.call("\uFEFFPrefix, "ms-" ).replace( rdashhAlpha, fca.slice,
-	cormao check f < leninedi++ ) {
-				 ).replace( r{
-					value<callback.appl Triggelector of results is f	jQuerazy-" &&key =ewtch ( e ) )
-	lo				ontexumentr = tturnon the $// Supppha, fca[ay: fu// S[throw e( Object(arre_topject(arr)se ) {
-						break;/\D/g, "" ),
-ML: funpyIs ( datapare ris fot == null ?
-		,
-			i =.always	// r		returnhrow exd'
-		retu					breaore_trim && !core_trim.call("\uFEFFCack, ring.call(obj)			ty
-	e (You can seeylike that DOMce( rtrima &&  that rinxOf ) {
-	sizzl obj, i++ ) {
-				ptions, clsults is f// Give t.{
-			throindexOf.
+			// Add to the element's handler list, delegates in front
+			if ( selector ) {
+				handlers.splice( handlers.delegateCount++, 0, handleObj );
+			} else {
+				handlers.push( handleObj );
+			}
 
-					it commoroperse *max( 0, len + i ) m && !core_trim.ca\s]*$/, = undited prp their obalp their  aremise,9 Will 			}
-		} ccognelCase: functio.ad
-			x	}
-		}
-);
-			| thll( rdow.			}
+			// Keep track of which events have ever been used, for event optimization
+			jQuery.event.global[ type ] = true;
 		}
 
-0 ? th -1;
-	},failng in spRull ?
-eq( 0ngth,
-			j(#7531:lidesc {
-			r &&ot to par spa && ses.pushument.rprovif ( d#5866: IE7 issuuery Fo typeof -hes durls 0;
-
-		e an arst, yl = netral r	}
-
-		jQuery.erng (pos3:n( tsistencyery FouldMLDOM" );
- 0;
-
-		{
-		lsotype, "is			rectoreys
-	if avail "Invals.			retller			rsizz		ret||	}
-		return t
-					(context).findeq( l chai"use strict typeof ,Error( msg );
+		// Nullify elem to prevent memory leaks in IE
+		elem = null;
 	},
 
-+ "//ocument  spaliast.
-		// docume], pa		tar[+-]? tiy,
-	i#12004i;
+	// Detach an event or set of events from an element
+	remove: function( elem, types, handler, selector, mappedTypes ) {
+		var j, handleObj, tmp,
+			origCount, t, events,
+			special, handlers, type,
+			namespaces, origType,
+			elemData = jQuery.hasData( elem ) && jQuery._data( elem );
 
-	ctor );true ? -.
-		// ||e items
-	Go th
-	},
-	// that p	}
-
-			/lengthExth,
-	
+		if ( !elemData || !(events = elemData.events) ) {
+			return;
 		}
-	}
 
-	 li arr  --jQuery.r| this.conace th --jQuery. page
-	 ) = jQuery.extend( deep, clone, copy );
+		// Once for each type.namespace in types; type may be omitted
+		types = ( types || "" ).match( core_rnotwhite ) || [""];
+		t = types.length;
+		while ( t-- ) {
+			tmp = rtypenamespace.exec( types[t] ) || [];
+			type = origType = tmp[1];
+			namespaces = ( tmp[2] || "" ).split( "." ).sort();
 
-			""EventLeady cTagName( "pam functndow Theent. can'ttion" ?
-a+ ) {
-			:host: = "1misd( deady event.rn reDgth ==
-		} elsr ( ; itener( "et === copy,
+			// Unbind all events (on this namespace, if provided) for the element
+			if ( !type ) {
+				for ( type in events ) {
+					jQuery.event.remove( elem, type + types[ t ], handler, selector, true );
+				}
+				continue;
+			}
 
-	gntinue;
+			special = jQuery.event.special[ type ] || {};
+			type = ( selector ? special.delegateType : special.bindType ) || type;
+			handlers = events[ type ] || [];
+			tmp = tmp[2] && new RegExp( "(^|\\.)" + namespaces.join("\\.(?:.*\\.|)") + "(\\.|$)" );
+
+			// Remove matching events
+			origCount = j = handlers.length;
+			while ( j-- ) {
+				handleObj = handlers[ j ];
+
+				if ( ( mappedTypes || origType === handleObj.origType ) &&
+					( !handler || handler.guid === handleObj.guid ) &&
+					( !tmp || tmp.test( handleObj.namespace ) ) &&
+					( !selector || selector === handleObj.selector || selector === "**" && handleObj.selector ) ) {
+					handlers.splice( j, 1 );
+
+					if ( handleObj.selector ) {
+						handlers.delegateCount--;
+					}
+					if ( special.remove ) {
+						special.remove.call( elem, handleObj );
+					}
+				}
+			}
+
+			// Remove generic event handler if we removed something and no more handlers exist
+			// (avoids potential for endless recursion during removal of special event handlers)
+			if ( origCount && !handlers.length ) {
+				if ( !special.teardown || special.teardown.call( elem, namespaces, elemData.handle ) === false ) {
+					jQuery.removeEvent( elem, type, elemData.handle );
 				}
 
-	elem = ) {
-		var val !!ng( oeplacjQuery dystate},
+				delete events[ type ];
+			}
+		}
 
-lse rror( msg );
+		// Remove the expando if it's no longer used
+		if ( jQuery.isEmptyObject( events ) ) {
+			delete elemData.handle;
+
+			// removeData also checks for emptiness and clears the expando if empty
+			// so use it instead of delete
+			jQuery._removeData( elem, "events" );
+		}
 	},
 
-ge", compl );
-the array, transla );
-		/ Non-d Go thro3ing ea/ Go through lse"; con:eted"80 * ht443hains.!= "onrea	 Error( msg );
-	 ( ; i < rror( msg );
-	},
+	trigger: function( event, data, elem, onlyHandlers ) {
+		var handle, ontype, cur,
+			bubbleType, special, tmp, i,
+			eventPath = [ elem || document ],
+			type = core_hasOwn.call( event, "type" ) ? event.type : event,
+			namespaces = core_hasOwn.call( event, "namespace" ) ? event.namespace.split(".") : [];
 
- ) {
-				value = callback( elem parsturn coreturn jQuery.or latment.rel = [],emoveEventLk, arg or la&&ion
-jQuery.fn.i;
-		}
-		reor ( i lse {
-						clone = or ( i  with <> actor =or ( i,		focontext[ mat			xml = undArn jdow.DOMPars81
-	readyW		}
-		try {
-			if ( window.DOMPars, y tole when the DOM iE
-				xml	// arg stea{
-			 ID
-	sidnly
-	mrgument thropngly we {
-			fovalue = callback.a( selecttrue			xml = undWe {
-n ive/p://weblogs.java\d+( // httpas[0] toMakeve/2009/09melCa			win], ret )W				}e
-};
+		cur = tmp = elem = elem || document;
 
-= re		if (	},
-
-	//
-		}
-calln( fn, contecase where ed ||++et[ r	typeof odules
-	// Miew jQuery	for ( key length ] = vaUp-]?( copfn;
-Go ty saving thee vali.to to d ] );
-
-	
+		// Don't do events on text and comment nodes
+		if ( elem.nodeType === 3 || elem.nodeType === 8 ) {
+			return;
 		}
 
-			fimhe sect
-	retur05, 2fied, tal = hass.pushStac!this.pushS
-	_$ = e valid		// thisand wfn;
-+ da't p copwe'.net/y
-			me, ophe If
-	},
-
-	is-Sif (moved (IE/orulatNone-M				}mptyObj"Micr  ) {
-
-	noop: calla
-			}o throMored;
-		}
-		rties.
-		unctpeof con
-		// no we will juext );
-t return und DOM nodes I? src ndow.ength = ,) ).repry keytoirstr;
-			thior ( i r ( ; i  function().length +an bion() {
-		rtandalonfunction!
- * & * ht?electoriginal ring.ttarg9682:{
-
-// Caet tho contexaN( pa reready)
-	lnrray ouatotytryreturset. [ dr ( iachEvent( "
-		if (}
-		return inl = ne);
-
-		if ( ak, arg )ct: f = cst, il handler
-		returrtntext inuid = fn.guigth,
-	.replacely with  object,
-	'_'
+		// focus/blur morphs to focusin/out; ensure we're not firing them right now
+		if ( rfocusMorph.test( type + jQuery.event.triggered ) ) {
+			return;
 		}
 
-		fijQuery ] );
-							er, so it "use stricttand $1_ript ments ) );complj.const Math.random() d{
-			], pah..))f ( arr, so it c) {
-	proxy.guid = fn.guid = fn.guid || jQuery.gui"many values
-		if (urn setTimtion( fn4.6 imulated bind
-		argsre_slice.call( arguments, 2 ,		( wasse	},
-
-	isEmoderead of ori ) {
-			chactor;
-			thiy to tr	var name;
-	[e, chainab wait === 	}
+		if ( type.indexOf(".") >= 0 ) {
+			// Namespaced trigger; create a regexp to match event type in handle()
+			namespaces = type.split(".");
+			type = namespaces.shift();
+			namespaces.sort();
 		}
-{
-				for ( i i( "lated bind
-		args",
+		ontype = type.indexOf(":") < 0 && "on" + type;
 
-	// Cralue ) ) {
-				raw = true;urn setTiisFunction( vname			raw = true;
+		// Caller can pass in a jQuery.Event object, Object, or just an event type string
+		event = event[ jQuery.expando ] ?
+			event :
+			new jQuery.Event( type, typeof event === "object" && event );
+
+		// Trigger bitmask: & 1 for native handlers; & 2 for jQuery (always true)
+		event.isTrigger = onlyHandlers ? 2 : 3;
+		event.namespace = namespaces.join(".");
+		event.namespace_re = event.namespace ?
+			new RegExp( "(^|\\.)" + namespaces.join("\\.(?:.*\\.|)") + "(\\.|$)" ) :
+			null;
+
+		// Clean up the event in case it is being reused
+		event.result = undefined;
+		if ( !event.target ) {
+			event.target = elem;
+		}
+
+		// Clone any incoming data and prepend the event, creating the handler arg list
+		data = data == null ?
+			[ event ] :
+			jQuery.makeArray( data, [ event ] );
+
+		// Allow special events to draw outside the lines
+		special = jQuery.event.special[ type ] || {};
+		if ( !onlyHandlers && special.trigger && special.trigger.apply( elem, data ) === false ) {
+			return;
+		}
+
+		// Determine event propagation path in advance, per W3C events spec (#9951)
+		// Bubble up to document, then to window; watch for a global ownerDocument var (#9724)
+		if ( !onlyHandlers && !special.noBubble && !jQuery.isWindow( elem ) ) {
+
+			bubbleType = special.delegateType || type;
+			if ( !rfocusMorph.test( bubbleType + type ) ) {
+				cur = cur.parentNode;
+			}
+			for ( ; cur; cur = cur.parentNode ) {
+				eventPath.push( cur );
+				tmp = cur;
 			}
 
-			if ( bulk ) {
-				// Bulkll( argumen against ems, value );
-				, emptyGet, raw );
+			// Only add window if we got to document (e.g., not plain obj or detached DOM)
+			if ( tmp === (elem.ownerDocument || document) ) {
+				eventPath.push( tmp.defaultView || tmp.parentWindow || window );
+			}
+		}
+
+		// Fire handlers on the event path
+		i = 0;
+		while ( (cur = eventPath[i++]) && !event.isPropagationStopped() ) {
+
+			event.type = i > 1 ?
+				bubbleType :
+				special.bindType || type;
+
+			// jQuery handler
+			handle = ( jQuery._data( cur, "events" ) || {} )[ event.type ] && jQuery._data( cur, "handle" );
+			if ( handle ) {
+				handle.apply( cur, data );
 			}
 
-corr ( s !== undefiet the gbe		// (ce.call( aor ( i in el return undin elfied, the f( ele functt pass the value );
-			
-			cont		if ( bulk ) {
-				// Bs.pushS-	// "{
-		f ( fn ) {
-					xml = und;
+			// Native handler
+			handle = ontype && cur[ ontype ];
+			if ( handle && jQuery.acceptData( cur ) && handle.apply && handle.apply( cur, data ) === false ) {
+				event.preventDefault();
 			}
-
-Aof datnts, 2 )[+-]?else ructore_rnotte: 2ined ) {
-							}
 		}
-
-	 bulk ) {
-				//parselems[igs ) { DOM is ready
-		jin eleof dat docOM is read0]t ).( elemslems ) :
-				length ? fn( ) {
- DOM is ready
-		jlse {*alue ,t of object" &+ "; q=0.01 * httd data mo0], key ) :rue;
-
-}
-
-		o throue trim BO= isArra_concactor: "",iny bo.= isArra			for ( ; i < length; i++ ) {
-i{
-		= isArrment.dlength ] = valllowailing w= isArr/wise},
-
-	rf ( tarlylobal e = true;
-before	// ow, daed, this met.,
-
-	sed by the css anto true, Noteess: functsizzlalue = callb						} elobj, c on thedow.var i = 0,ext[ matcto a context, op ? Mathvalue : value{
-			antiah winlongs
-		allycel
-
-				al =( obj, call{
-			Copyri		//nst		reeplace( r	}
-	rays
-				if  calculatio{ 		retur:T13:0 ? tme ];				retu: 1 }ote: this metment.( but it's needed hereG4.6 reGive the i ? i < 0 =y;
-		}
-
-		return jQuery;
-	},
-
-	/;
-	}
-
-	//  core_concat.apply( [], ret );
-	{
-		// Avascrnt = uto-ets modularizjQuer.length;
-			i;
-
-			-1, "Nodeep = fal regex ing" ?
-					return fth = objorg/license
-  meth://weblogs.j					fn.cn( fn, conter ( ; i 			window[ "eval" ew jQuery 	}
-
-		// Onit .
-	swap:  raw ) {
-				eJSO	// kesame of orional)all( earounds 			typeof  findings by Jing use "intere_concat = corsh.call( re Math"
-	// ke// Quiy ) it caused i{
-					b8/evalt = trgs is for 1ring.ti ? i < 0 s therm function whe,et, na{
-					ntext, i++ ) {
-	e modifiopa
-	//;
-	}
-
-	// eas 0 ? th	var ret, ntarget;
-};ternal usage only
-	!readyListously todes aime;
-	reget = = window.lace( /\D/g, "" ),
-get = " );
-		w.$ = _$;
-	o throu They reunctxtendeverrge( []uppo jQuere {
-				r;
-
-				// Supp scrvePrefix		}
-
-		functios,ies to gets
-	detach =s );
-			
-			o windo0 ? tisArray: Arr = ar( obreadyStatf ) {
-	i ],ntLoaded", comopyright the e{
-		gs = {
-					value = callback.apase of over	_jQuery / Catcis "ment"ts.
-args is for 2ompleted, y,
-
-karounds , Inc.ndow,obalElen = e one
-		// d handler,y,
-
-	red by t.attachEvent( The value/s caDerorgoethinn( obj ) {unctport ggarbagn = ( data ) {
-	.eacnoof e		prhownes
-	ems[i true ile ( sBecause of I pars	for ( name pe: function(eak;
-							functionxt
-	globalEval: function( ) {
-			=ies to ge
- * Copyright ;
-		
-
-		// Cate,
-			i =;
-
-		// Catch hrow ext)
-	p 4 : 0opyright  throws a Typw.onloafu same k to winocument.doc= 20Alphahrow ex< 30// Uion doSc = c304opyright the 	function/ (r		// If Ieted, falus (ticket 	if ( !objjaxe an a() {},
-
-yIsAle.
-	swap						// UsThe value/s ca jQuery.chEvent( "wntex(ontex				
-		if ( pXX" )
-			 dom et, ar	if em.nodeck by Diego P jQuery httpArray: Arr.
-	swap top.doScrrsion +		// S			if ( to, based  Go thchainEventLit ===				// detase strict";
-va		}
-
-		// Sets one value
-		} else if ( value !== undefined ) {
-			chainable = = true;
-
-			if ( !jQuery.i		 work
-		 first, sgs ) {
-			if ( is("y );
-	},
-
-	iscket/122},
-
-	//;
-};
-
-// Populateodules
-	alue ) ) {
-				raw = true=n Array D + i ) : i : 0 the class2type map
-jQuery.each("Boonametring Function Array Date RegExp Object ems, value );
-			on(i, name) {
-	class2ty( docuse
- *
- core_slice.ca// If IE ev
-					i204on
-		for (et[ re.map	// Unique w.addEventLis"nofied, tCopyrigy.type( og,
-
-	rk
-		lace( /\D/g,jQuery.isWindow(304e;
-	}
-
-	if ( obj.nodeType turn true& length ) unction" ?
-/ (retleN( pemove() iarr ) ing" ?
-					[ w.addEventLissetTimeo}
-
-		" );
-		}		return -bj );
-}
-
-	// The v		tion( fibj );
-}
-
-0 ? ting Functop.doScrol! = jQuery(dccessiFunction( selecWto dgth; i0 ? thy onell( arr, ethe oppo.NET ntemp;
-	},
-.addEventLfirst.isWinunctionomise Node.mtion( firy Foundat		returQuery.isWinery.dexOf ) {
-				return ( obj.nodeTyp0 ? t	// Non-MIT license
-<sues like ticense
-  funrs = /^[\],:{}\s]*$				top = wiet th elems[ifar valurim( data )	}
-		}
-
-		reteleased ring.	}
-		}
-
-		reventLis				ntLoaded", comheck() {
-	 that Ds, c
-				top =.onloa/all( 			// and execute any wa coll i;
-			resolveWittain host oss module[ow.onload,ry Foundatpport: IE<9
-		/elector Engineatches,
-	maread,
-	contains,
-
-	// Instanc Will throw e
-	expa0 ? the {
-					bce( rmsPrefix, "ms-" ).replace( rdash	}
-		}
-
-		re fcar( "DOMC fcamisArraylpha, fcamel/ continually c is called after the browser event has already occurrcument);
-/ * jkey );
-			}* htwn.call( ob http:	dirruns =						// det?ready ev := 0,
-	classCache = creatrn core_
-	camelCase: functio.n( fDoc = window.document,
-	dirruns = 0,
-	doneclassCdy() is called after the browser event has already occurred.
-	rn core_hasonce tried to use r Take an arms[i://webluery.cobj ) if ( jQuer!( --		tmp = fn[ cHANDLE: $(fntext = fn;
-			fn = tmp;
-		}
-opcket/1228 emptyGet, ra context, optioc borgetsed[text/xml" );
-			}/ (ret. They return if ( typeof selperti < len; i++ ) {
-			, ".parsret.prevObgetSuctortext/xml" );
-			} ) {
-			if ( this[i] === elem ) {
-				r		// Must bi;
-			}
-		}context: function(t.ownLast ) {
-			gey in posg,
-
-	// A simple wa.
-		// = /\\(?:["\[ular expo the stack
-	/				return i;
-			}
-		stanceouery.ea + ( ype(obj) ==, key, vatched e A glokens,  Don't bring in undefined vginal hr ( ; ictor );
-if ( in,
-
-	// Cring.) && isFini	// The v
-
-				ih( e ) {
-			xml = ( selector, co,
-
-	isPlainObject: f, we also.prevOe to check the  have to chec:en; i+tionsns[ nameFloat(obj) rvalidement s/*second[
-		functio prope
-
-		// Handle :
- * -r ( dy.fn;
-eturn ;
-			if ((medelselue tw {
-	( text ) {
-		f ( txs.
-	isR If true)roper wn = cla	fn = funray:
-				setTimeo
-gth rn;
-		}
-
-		//erini
-							// http://javascript.nwbons boundfirst		pa orig Objemax( ute-selectay.isArrent;
-
-		ction so tn {
-			!!callback( 				length ckberryvar l =y.prlone,
-		target!== ( text ) {
-				} elstml
-	//
-] = co : jQuery.ady
-		jlse";se().( th-jQuery.re + ( cox.codIds.i {
-
-		y.fn.trigger ) {
-\]",or fise use er )ype map
-jQuery.each("Boo				fn( elems			// HANDLE: $S propinctiineddeas.
-					jQue	// a.html#value-djs for cgth;
-			stener+ "*(?:(hitespacector;
-			thi*(" + chy, so to es S to reduce the , value,			!crbuggyMajQuery.readyWait :.isFunctlectoreacterEn _$;
-		}attribute seto litelectoge only
-indow objects{
-			ntifier
-	identifjs for d\])*?)\\3|(" +,
-
-	/				// Use the	attributes =	}
-		}
-	}
-
-	/.detachext = documentTctionove()leted()[\\]]|"ing else
-	// Thesutes.replace( 3,all( ar()[\\]]|" + attn
-		femove();
-	y, so tList of 		length ? fn( g tokeni 8 ) + ")*)|.*)\r own trimudos = ":(" + all( arttribute-selee + "+|((?: ),
-
-	rcomma:\\\\.)*)"  _$;
-		ull|-r sure ore_egExp
-			 3, 8 ) + ")*)|.*)\ 8 ) + ")*)|.*rencgExp( "^" + obj === "functiofrsiona((?:\\\\.|[ = secoar ret ;
-			if ( ) {
-		retVted if it's ed (IE m && !corcoding.replace( "w", "w#",
-	sortO ) + ")*)|.* ready even"=" + whitespalse OM is ready
-		jQuif ( !jQuery.readyWait :"=" + whitespac		// HA/,
-
-	// Mtes.repl[gExp( pseudos )eadinOM Re* C);
-
-d trail !==snts[ i ing.call(ob		wind = / be use "w", "w#" ) And[  replcontext;
-						} catch(}
-			}
- true im.st;
-
-	 ),
-
-	// AcceptabcrollCheck, 50 );
-						}
-
-						// detans bound tra2,/
- *
- * ret n	thimp		if v + whit = jQue.nodeName = core_			jQueion() {
-!!callbackturn undef 1,
-	2type[ corumenuncttchExpr = racterEncoding + ")" + whiow: fun).has) {
-		if (ew RegExp( ion(ry Folue;
-n undial,s|[^\\\\()[\\]]|" +},
-
-	thing else
-ew Rationsew RegExp( argumentr
-	rtrim = ce + );
-
-					if ( valutter
-	rtrim = e + "nit/core.j
-t th
- * 	}
-		}
-	}
-
-	 whitespacey in oer" &&	if 	//  somettt fi(?:\\\\.|[ = copy; RegExp(ery.isArray(sn false;
-];
-
-		[ng .is()
-ce + "+|(lem, arthis for POS matching in `se	}
-
-		": newength ] = value;
-	fn;
-
-jQuFery.coifnumber" ).call( arATTR
-		//top.doScrin el|gt|lt|nth|on to a c	if ( !ob?:-\\d)?\\d*
-							//2#coe ready ev			xml = 
-			wm/
- *
- * r
-	p RegExp( "^(?:" + booleans + ") + "*\\ .is()
-		// WeerCase(re'"^\\ly #id
-
-		/doh <)
-	rgExp( !== undef) {
-		y.prs are hereRegExp( identifier ndler,RegExp( "ATTRompleted, "i" ),
-tespace +firstevw-]+)|(\w+)|\.([\w-]+yIsArriffxp( y onet|textazle" + -(netring(
-	reeturn ( &&/syndata.h ID or TAG or CLment dek)" +iunctice +
-			"ndler, + "
-			
-	rtrim = syndaList of ing in `seers
-hitespace +"* whitespace +  === 0 ||
-		t},
-
-ce + " ( nw Regpaiown indexOf ,6}" r ( ; i <tespace + 2These p]|)" + whitestart withIfed - 0xoutputsp://www.w3.osyntmady"d - 0se );
-	readyt start wlen = mp				ret[ racters
-	runescapeall dom rsyndation() 00;
-		//os ),eof dao getpteractf]{1,6}" + whitespace + "?|(" + whitrpret
-		j isArray )space +
-			"*(\	funesctring.from					breae here th = "0x" + )$/i,
-	rhde#989equivahis pe)(?:\\(" +t (surroglane codepw many= callback.c( high + + whitespace +d - 0xnction( .type( key ) ===( mas ),
-	 be ehrowR/CSS2
-		}
-
-		retu= "string" ?
-lane code// Optimize forata.high & 0x3FF | 0xDC0RegExp( "tring.fr					breanize in the PSEUDO prepretatiot start w					break + whitespac
-						break;
-					type = jQuery.tylue;
-	00;
-		//  ( on the n			String.fr pars 10 | 0xD80referredDoc.cry.type( Unhes dbj.con(e) {
-	e +
-os ),bub uniqllow sld = {};
-
-{
-	p
-	},
-		// LeveragctiouFEFuncticed'
-0x3FF | 0tespace + "code
-							//en + i ) :ng" ?
-					[ ament.ready<9
-		// Otherwise append directly
-		fo allow scripts the oHANDLE: $(ht opti: "j, "cre: 201];
-		}
-
-	codep? e* htNore_sExpr = s http of  "?|(" + {},
-hitespace +						breength ].nodeTyp":(" + charactst.length
-			whilidentif"len; i	},
-nd direh for elem.styleructorbraries im
-			// We use exe= thof data !== ructornull;
-		t = contexique  false;
-		text.ownerDocument || cecmxt.ownerDocument || cx-!== docume"selectent;
-
-		var pa( contex/(?:onte|!== )ructor/xt );
-	}
-ve();
-		}
-	
-
-		if (( conte = this;
-		re {
-				retu== elem 		windoal selectogex check
-		elec		// HAND contexsecond[ n
-	ac'isWindoale[ m() $(documen, newContext;
-	},
-
-	/(dden|isma = this[0] = whitesfunction
-	access:( elem && elem.pion
-	acceast, in c.js for ylike( elems )(match =t" || tybjecr
-	p ) {
-		vckExpr.exec(  = conteBidescoups, tag h>)[^>ld valuesf ( deep && copy && if ( documentIsHTML &s
-
-	// TakTndefn( obj ) {rs
-	ron-poncat( rn re ;
-	},
-
-	// arg|odd|(([or )) ) {
-			// Spt fires..ownerleTagee ale
-	if ( lent #6er ) {
-		("nt #")? fn||d
-	if ( lengrn thir ( nam.hasODLE: $(hy.type(ct = this;
-		r_|selected|asyncreadySoups, base object
-			for ( nameden|ismarsion +  name ere, buld (or r.promise( ob name C, defary.org/lice						t, defamelCas			return re	window.m ) {
-						ncti() {
-			retuin sparse arbased pes ery causnctide( high			}
-		on arra=n the d.on
-
-		/ opti :
-
-			{4})/g,
-	rva_				obj, c	return hi/ and eobj, c * ht&& (el
-
-		// Catc|| /lemeed|				retu/( !jQuertext, elem ) && etion( objce = arr.sliceing.re len| [];IEdow, undt.ownerDocument && (elem = context.ownerDoclse ) return resvar l =ms[i]uctorts is for int&& (eld`
-	coN creaust NodeLitsByTagName( sele: FirefChilhasOoups, n ret;
-	},
-return resack to windowts, context.getE name ins {
-				push.applthe handy on the ts modun indexOf entById( m ) | 0xDC0 anonym(	(fuidderue;
-			n ret;
-	},
-
-	inArray: ing in throuircumay ofIE6ectooncat( bdeTy		match =(#2709ype !#4378) undpied obEventLisatch htdocumeexecSntext;
-
-				property mdingdomMtexta stritre arof a cont #.)
-try B thisd-up: Sise );
-IVE st Speebox.com/e JSON{
-			if ( core_ie_deletedIds.up: Sizzlts;
-						}
-		rDocum(
-		// Must begh & 		return new jQuery.frsion,
-
-oldplorer
-			..and orlike : fun=)\?(?=&|$)|\?\?/ inherusage onand wo	}
-
-		jQ, newContext, newSelelike :llbaThey r}
-		like the hand= callback.call( place && isFiniID on the ro.pop(tor );
-adyState =andos, fnd ) {
-alues
-		if ( jQd thi
-						rThey reHold (or rel target
-	characterh[1]) ) {
- thrObje 2013 jQuedocumentpe !cterEyle[ name ];
-es thnd wourns
-				{
-		return [];
-	}
-
-	if indow	} elmentIsHTML &&  to be use typeof da true once it ocor );
-
-	[1] , / Re" )
-ten, 50 );
-		windain Jim
-			scrtunlse {	} els		};
-				}w, da and w( !jQueryremosingleT"urlN RegExue = callback(
-
-		// Abort if tnodesalue );
-			
- * C) ) return jment will be created in this cont" {
-		
+		event.type = type;
+
+		// If nobody prevented the default action, do it now
+		if ( !onlyHandlers && !event.isDefaultPrevented() ) {
+
+			if ( (!special._default || special._default.apply( eventPath.pop(), data ) === false) &&
+				jQuery.acceptData( elem ) ) {
+
+				// Call a native DOM method on the target with the same name name as the event.
+				// Can't use an .isFunction() check here because IE6/7 fails that test.
+				// Don't do default actions on window, that's where global variables be (#6170)
+				if ( ontype && elem[ type ] && !jQuery.isWindow( elem ) ) {
+
+					// Don't re-trigger an onFOO event when we call its FOO() method
+					tmp = elem[ ontype ];
+
+					if ( tmp ) {
+						elem[ ontype ] = null;
+					}
+
+					// Prevent re-triggering of the same event, since we already bubbled it above
+					jQuery.event.triggered = type;
+					try {
+						elem[ type ]();
+					} catch ( e ) {
+						// IE<9 dies on focus/blur to hidden element (#1486,#12518)
+						// only reproducible on winXP IE8 native, not IE9 in IE8 mode
+					}
+					jQuery.event.triggered = undefined;
+
+					if ( tmp ) {
+						elem[ ontype ] = tmp;
+					}
 				}
-				newCginal h&& "
-	rpt || + ")$",e an arif{
-		re)*?)\\3|((?:\
-	// Ths "id",p"lbacsage only
+			}
 		}
 
-		firg + "bj) ] ||] = nid +n
-		f\\])*?)\\3|(" + iden newSel// IE
-				the or );
+		return event.result;
+	},
 
-		elem;
-reme		doength,endow,
+	dispatch: function( event ) {
+
+		// Make a writable jQuery.Event from the native event object
+		event = jQuery.event.fix( event );
+
+		var i, ret, handleObj, matched, j,
+			handlerQueue = [],
+			args = core_slice.call( arguments ),
+			handlers = ( jQuery._data( this, "events" ) || {} )[ event.type ] || [],
+			special = jQuery.event.special[ event.type ] || {};
+
+		// Use the fix-ed jQuery.Event rather than the (read-only) native event
+		args[0] = event;
+		event.delegateTarget = this;
+
+		// Call the preDispatch hook for the mapped type, and let it bail if desired
+		if ( special.preDispatch && special.preDispatch.call( this, event ) === false ) {
+			return;
+		}
+
+		// Determine handlers
+		handlerQueue = jQuery.event.handlers.call( this, event, handlers );
+
+		// Run delegates first; they may want to stop propagation beneath us
+		i = 0;
+		while ( (matched = handlerQueue[ i++ ]) && !event.isPropagationStopped() ) {
+			event.currentTarget = matched.elem;
+
+			j = 0;
+			while ( (handleObj = matched.handlers[ j++ ]) && !event.isImmediatePropagationStopped() ) {
+
+				// Triggered event must either 1) have no namespace, or
+				// 2) have namespace(s) a subset or equal to those in the bound event (both can have no namespace).
+				if ( !event.namespace_re || event.namespace_re.test( handleObj.namespace ) ) {
+
+					event.handleObj = handleObj;
+					event.data = handleObj.data;
+
+					ret = ( (jQuery.event.special[ handleObj.origType ] || {}).handle || handleObj.handler )
+							.apply( matched.elem, args );
+
+					if ( ret !== undefined ) {
+						if ( (event.result = ret) === false ) {
+							event.preventDefault();
+							event.stopPropagation();
+						}
+					}
+				}
+			}
+		}
+
+		// Call the postDispatch hook for the mapped type
+		if ( special.postDispatch ) {
+			special.postDispatch.call( this, event );
+		}
+
+		return event.result;
+	},
+
+	handlers: function( event, handlers ) {
+		var sel, handleObj, matches, i,
+			handlerQueue = [],
+			delegateCount = handlers.delegateCount,
+			cur = event.target;
+
+		// Find delegate handlers
+		// Black-hole SVG <use> instance trees (#13180)
+		// Avoid non-left-click bubbling in Firefox (#3861)
+		if ( delegateCount && cur.nodeType && (!event.button || event.type !== "click") ) {
+
+			/* jshint eqeqeq: false */
+			for ( ; cur != this; cur = cur.parentNode || this ) {
+				/* jshint eqeqeq: true */
+
+				// Don't check non-elements (#13208)
+				// Don't process clicks on disabled elements (#6911, #8165, #11382, #11764)
+				if ( cur.nodeType === 1 && (cur.disabled !== true || event.type !== "click") ) {
+					matches = [];
+					for ( i = 0; i < delegateCount; i++ ) {
+						handleObj = handlers[ i ];
+
+						// Don't conflict with Object.prototype properties (#13203)
+						sel = handleObj.selector + " ";
+
+						if ( matches[ sel ] === undefined ) {
+							matches[ sel ] = handleObj.needsContext ?
+								jQuery( sel, this ).index( cur ) >= 0 :
+								jQuery.find( sel, this, null, [ cur ] ).length;
+						}
+						if ( matches[ sel ] ) {
+							matches.push( handleObj );
+						}
+					}
+					if ( matches.length ) {
+						handlerQueue.push({ elem: cur, handlers: matches });
+					}
+				}
+			}
+		}
+
+		// Add the remaining (directly-bound) handlers
+		if ( delegateCount < handlers.length ) {
+			handlerQueue.push({ elem: this, handlers: handlers.slice( delegateCount ) });
+		}
+
+		return handlerQueue;
+	},
+
+	fix: function( event ) {
+		if ( event[ jQuery.expando ] ) {
+			return event;
+		}
+
+		// Create a writable copy of the event object and normalize some properties
+		var i, prop, copy,
+			type = event.type,
+			originalEvent = event,
+			fixHook = this.fixHooks[ type ];
+
+		if ( !fixHook ) {
+			this.fixHooks[ type ] = fixHook =
+				rmouseEvent.test( type ) ? this.mouseHooks :
+				rkeyEvent.test( type ) ? this.keyHooks :
+				{};
+		}
+		copy = fixHook.props ? this.props.concat( fixHook.props ) : this.props;
+
+		event = new jQuery.Event( originalEvent );
+
+		i = copy.length;
+		while ( i-- ) {
+			prop = copy[ i ];
+			event[ prop ] = originalEvent[ prop ];
+		}
+
+		// Support: IE<9
+		// Fix target property (#1925)
+		if ( !event.target ) {
+			event.target = originalEvent.srcElement || document;
+		}
+
+		// Support: Chrome 23+, Safari?
+		// Target should not be a text node (#504, #13143)
+		if ( event.target.nodeType === 3 ) {
+			event.target = event.target.parentNode;
+		}
+
+		// Support: IE<9
+		// For mouse/key events, metaKey==false if it's undefined (#3368, #11328)
+		event.metaKey = !!event.metaKey;
+
+		return fixHook.filter ? fixHook.filter( event, originalEvent ) : event;
+	},
+
+	// Includes some event props shared by KeyEvent and MouseEvent
+	props: "altKey bubbles cancelable ctrlKey currentTarget eventPhase metaKey relatedTarget shiftKey target timeStamp view which".split(" "),
+
+	fixHooks: {},
+
+	keyHooks: {
+		props: "char charCode key keyCode".split(" "),
+		filter: function( event, original ) {
+
+			// Add which for key events
+			if ( event.which == null ) {
+				event.which = original.charCode != null ? original.charCode : original.keyCode;
+			}
+
+			return event;
+		}
+	},
+
+	mouseHooks: {
+		props: "button buttons clientX clientY fromElement offsetX offsetY pageX pageY screenX screenY toElement".split(" "),
+		filter: function( event, original ) {
+			var body, eventDoc, doc,
+				button = original.button,
+				fromElement = original.fromElement;
+
+			// Calculate pageX/Y if missing and clientX/Y available
+			if ( event.pageX == null && original.clientX != null ) {
+				eventDoc = event.target.ownerDocument || document;
+				doc = eventDoc.documentElement;
+				body = eventDoc.body;
+
+				event.pageX = original.clientX + ( doc && doc.scrollLeft || body && body.scrollLeft || 0 ) - ( doc && doc.clientLeft || body && body.clientLeft || 0 );
+				event.pageY = original.clientY + ( doc && doc.scrollTop  || body && body.scrollTop  || 0 ) - ( doc && doc.clientTop  || body && body.clientTop  || 0 );
+			}
+
+			// Add relatedTarget, if necessary
+			if ( !event.relatedTarget && fromElement ) {
+				event.relatedTarget = fromElement === event.target ? original.toElement : fromElement;
+			}
+
+			// Add which for click: 1 === left; 2 === middle; 3 === right
+			// Note: button is not normalized, so don't use it
+			if ( !event.which && button !== undefined ) {
+				event.which = ( button & 1 ? 1 : ( button & 2 ? 3 : ( button & 4 ? 2 : 0 ) ) );
+			}
+
+			return event;
+		}
+	},
+
+	special: {
+		load: {
+			// Prevent triggered image.load events from bubbling to window.load
+			noBubble: true
+		},
+		focus: {
+			// Fire native event if possible so blur/focus sequence is correct
+			trigger: function() {
+				if ( this !== safeActiveElement() && this.focus ) {
+					try {
+						this.focus();
+						return false;
+					} catch ( e ) {
+						// Support: IE<9
+						// If we error on focus to hidden element (#1486, #12518),
+						// let .trigger() run the handlers
+					}
+				}
+			},
+			delegateType: "focusin"
+		},
+		blur: {
+			trigger: function() {
+				if ( this === safeActiveElement() && this.blur ) {
+					this.blur();
+					return false;
+				}
+			},
+			delegateType: "focusout"
+		},
+		click: {
+			// For checkbox, fire native event so checked state will be right
+			trigger: function() {
+				if ( jQuery.nodeName( this, "input" ) && this.type === "checkbox" && this.click ) {
+					this.click();
+					return false;
+				}
+			},
+
+			// For cross-browser consistency, don't fire native .click() on links
+			_default: function( event ) {
+				return jQuery.nodeName( event.target, "a" );
+			}
+		},
+
+		beforeunload: {
+			postDispatch: function( event ) {
+
+				// Even when returnValue equals to undefined Firefox will still show alert
+				if ( event.result !== undefined ) {
+					event.originalEvent.returnValue = event.result;
+				}
+			}
+		}
+	},
+
+	simulate: function( type, elem, event, bubble ) {
+		// Piggyback on a donor event to simulate a different one.
+		// Fake originalEvent to avoid donor's stopPropagation, but if the
+		// simulated event prevents default then we do the same on the donor.
+		var e = jQuery.extend(
+			new jQuery.Event(),
+			event,
 			{
-				assocelse/ Beth& lenggroups.lengt+ toSelectthe handy		}
-					}
+				type: type,
+				isSimulated: true,
+				originalEvent: {}
+			}
+		);
+		if ( bubble ) {
+			jQuery.event.trigger( e, null, elem );
+		} else {
+			jQuery.event.dispatch.call( elem, e );
+		}
+		if ( e.isDefaultPrevented() ) {
+			event.preventDefault();
+		}
+	}
+};
 
-					retus
-	return selectsingleTs
-	return selec/ HAxt, results, seed )e ] = elem." &&sults || []o the lbachat s						tults;
-				} cai, arg )[;
-				} ca// Seturns the Ob"use strict	} elSets }
+jQuery.removeEvent = document.removeEventListener ?
+	function( elem, type, handle ) {
+		if ( elem.removeEventListener ) {
+			elem.removeEventListener( type, handle, false );
+		}
+	} :
+	function( elem, type, handle ) {
+		var name = "on" + type;
 
-fu
-	// All othst = jQuery.// nodeelector( groups[i, arg );removed
-		proxy.guid = fn.gwContext d || jQuery.guid+	} els			// Ch
- *	property Quick check {
+		if ( elem.detachEvent ) {
 
-				e ) {
-	push) {
-
-trievewindow some up: SizcopyIsArrtch = .childNodeden|ismN.parso the stack
-	ace characteri-- ) {
-					groue;
+			// #8545, #7054, preventing memory leaks for custom events in IE6-8
+			// detachEvent needed property on element, by name of that event, to properly expose it to GC
+			if ( typeof elem[ name ] === core_strundefined ) {
+				elem[ name ] = null;
 			}
 
-	ke( obj ? tsed by the[1] )Liststea	retort: [tElementext, ifier = new Reg					grouw.detachEing in spfeleasindow		}
-
-		retu(qsaError) {
-				}	}
-		ree ] = elem.style[ name ]on( 				while  =e argumctor );
-
-	[1] ) Andr
-}
-
-/**
- * Mark a funcllision with nativetype properties (sobj || jQueryent entriest san-up.jQuery ==(n( fsache( ke (key + "		maall( ret, arrcallback.call( oion() tn.aptribute("id");
-		me ] for special use by Sizzl	return cac
-				top = con+>)[^aes he
-		// If IEpecial use by SizDLE: $(funcg on s= jQontexre-hole, compdocument andta =screwcorervaliersiood for 	return select( = "[id='" + nid  * Create key-valuelector ) ) {
-	 ) {
-						co;
-			fu = jQu else intext.nodeNameuery 
- *	property name defined = tape,, Inc.A glo.jQuery ==(IE c(((['\"])((?:\\\\		try {
-							//perties (scase where,
-
-	isNumeri	return caching tokeni	return cac*
- * Adds the same dy
-		jQachEvent( "onion} fn The functi	return cache;h( e ) {
-			xm		// this tt.
-	//eturncontext. targetden|ismare_version,
-
-xhrplorer
-		,) {
-[^"\\\r			wixhrImentScritarg5280: Ih.apnet Explor	topreadk funconnwindow	var.tes?:\\((dota =ly
-	eaorencleme|"),
-OnU * Chobj, cal argumeAed ||X, we i {
-			// IE8,3-selectoobj, cape, );
-				peof contexach ked datTrigger any b {
-	var arr rt( fn ) {
-	var arr 		if (  We can work around thi);
+			elem.detachEvent( name, handle );
 		}
+	};
 
-		vore own ptondle it)xhry = _jQuerydle itStandardXHRt} a
- ment.rea target= re argumeXMLHttp				forties ongth; i++ ) { + "$= b && a,
-		difiblings& a.nodeType === 1 && b.nodeType =iblings
- * @p("Mirn roft=== 1TTP	// ThceIndex || MAX_NEG) {
-		if ( datw RegExp || !xm.eac pareites readated pspace ? Handle the umen+>)[war targpatibility), newContext, nlse;
-	
-	is of two siblings
- * @pa?,
-		dx if avai econ {
-			ment.aly For  DOMl copy mat== 1 &&
-			( ~
-
-			/7 (cata =w RegExpeturn : $(s2)
-	 *ifunwotype, "isiblings
- * @paxtendwindow.ength = i;g + dntext[ mlyo use in pseudostion() ort: IE<s for i/IE8 son fun pseudosa\w\W]+>)[.ength =callback.call( 
-		// re
-			}unctionnumbe		diff = cur && a.ners
-			( ~a.sourceInading:ttrs.if (ape,
-(func			if ( ,type, "iserEncur o use in pseudos || !xmls a function to u("id")) ) ows a ion = "1ment.addEveattrs.split(.resolveWith( document,xhrtonstedIds.concat,
-ctarg,
-		werCase();
-		w, da"		}
-Cre" ).ialscentrwerCase();
-		);owerCase();
-		return (nconcat,
-ent,  elem.type === tibling
-		if ( ( obj ) {dinglype
- */
-f= eleumber" ply:alueMIT la function to 			//		elem = context.getEtIsHTML && !seed ild|ofrry 4.6 retrs
-	rels ) {
-}
-
-		se();
-		
-		/ugho use in pseudo.call( argu) {
-		var vaer ) {
-		r "button") &&ny waitii = groups.l			context &&.readyS and Webkit ret= isArrret = call( m )) &&
-	 ( !oldp;
-
-		alue,
-	tchIndbased , d XML:s b, glse {t" || nry.type( kpID": nesoy,
-	
-			whilePaery i {
-			lude scr, genet( [elealogin popup
-/**]*"|tr(#2865 ?
-
-		 ) {
-
-		lude scrctor ) );
-	xhr.opng} d-up: 2#con't shere, bsXML 	}
-		});
-s.d in theectly
-		function( targeta document
- */
-isXML = Sizzle.isen + i ) : 
-			whilech ( e ke an  catch(first|last)(?:t|Object} xhr];
-
-		ctor ) );
-	 calculationsocumentElement = ele verment.di]) ] )OS matchi: Android<ength ].nry.type( k == nul ed,
-
-	// Th);
-
-		if ( ar ) {
-
-		ed,
-	//  &&{
-		.t == null ?
-				element or a doc == null ?
-				
-
-// Expose s't yet exist
-	// (sX-				fored-,
-	c		return texlse if (rn ret;
-	},
-
-	// argeturn ) {
-ut we ntext[ocumentr forlre_dea 1,
-
-nt.addEk		} n( tjigsaw puzz/ Make s DOMConllbaems.lenet/blogiv =ready
-.attai = ele
-						Retu	if 
-	loper-w RegExpbas			irrray  .creatWe use exement|Oaram {Ssamecument
- * @param {wler;
- :
-
-			mptyObjproxobject,umber" ) the cuxes = fn( [], seed.l
-			odule bu"ed variables onc"pport: IE<9
-ment and documentElement is = "== 1 &&
-			( ~	// Non- documentElN nameow.Jtr
-
-//y/llow s: newarkFunction( args.conin Firefox 3ment.ad els ) {
-		 calculatio );
-
-			// A fa or a dood belongs to the cssodule but it's nee;
-	},
-
-	inArngth; i++r(see  documentElD" ), "^#(" 	if ( arr ) heck pare	tarraom() };
+jQuery.Event = function( src, props ) {
+	// Allow instantiation without the 'new' keyword
+	if ( !(this instanceof jQuery.Event) ) {
+		return new jQuery.Event( src, props );
 	}
 
-	// extichndow.c valRetuned to based .toLoosely model (so}
+	// Event object
+	if ( src && src.type ) {
+		this.originalEvent = src;
+		this.type = src.type;
+
+		// Events bubbling up the document may have been marked as prevented
+		// by a handler lower down the tree; reflect the correct value.
+		this.isDefaultPrevented = ( src.defaultPrevented || src.returnValue === false ||
+			src.getPreventDefault && src.getPreventDefault() ) ? returnTrue : returnFalse;
+
+	// Event type
+	} else {
+		this.type = src;
+	}
+
+	// Put explicitly provided properties onto the event object
+	if ( props ) {
+		jQuery.extend( this, props );
+	}
+
+	// Create a timestamp if incoming event doesn't have one
+	this.timeStamp = src && src.timeStamp || jQuery.now();
+
+	// Mark it as fixed
+	this[ jQuery.expando ] = true;
+};
+
+// jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
+// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+jQuery.Event.prototype = {
+	isDefaultPrevented: returnFalse,
+	isPropagationStopped: returnFalse,
+	isImmediatePropagationStopped: returnFalse,
+
+	preventDefault: function() {
+		var e = this.originalEvent;
+
+		this.isDefaultPrevented = returnTrue;
+		if ( !e ) {
+			return;
+		}
+
+		// If preventDefault exists, run it on the original event
+		if ( e.preventDefault ) {
+			e.preventDefault();
+
+		// Support: IE
+		// Otherwise set the returnValue property of the original event to false
+		} else {
+			e.returnValue = false;
+		}
+	},
+	stopPropagation: function() {
+		var e = this.originalEvent;
+
+		this.isPropagationStopped = returnTrue;
+		if ( !e ) {
+			return;
+		}
+		// If stopPropagation exists, run it on the original event
+		if ( e.stopPropagation ) {
+			e.stopPropagation();
+		}
+
+		// Support: IE
+		// Set the cancelBubble property of the original event to true
+		e.cancelBubble = true;
+	},
+	stopImmediatePropagation: function() {
+		this.isImmediatePropagationStopped = returnTrue;
+		this.stopPropagation();
+	}
+};
+
+// Create mouseenter/leave events using mouseover/out and event-time checks
+jQuery.each({
+	mouseenter: "mouseover",
+	mouseleave: "mouseout"
+}, function( orig, fix ) {
+	jQuery.event.special[ orig ] = {
+		delegateType: fix,
+		bindType: fix,
+
+		handle: function( event ) {
+			var ret,
+				target = this,
+				related = event.relatedTarget,
+				handleObj = event.handleObj;
+
+			// For mousenter/leave call the handler if related is outside the target.
+			// NB: No relatedTarget if the mouse left/entered the browser window
+			if ( !related || (related !== target && !jQuery.contains( target, related )) ) {
+				event.type = handleObj.origType;
+				ret = handleObj.handler.apply( this, arguments );
+				event.type = fix;
+			}
+			return ret;
+		}
+	};
 });
 
-		returseleement|O
-	// Sthernt
- jQuery( elem ), ginal htive
-			i
-					seed[Lundefed on th=== 1 && coument.getElementById( m )ML( doires.// Suppval: function( dic data
-	expa new RegE			push.applocument
+// IE submit delegation
+if ( !jQuery.support.submitBubbles ) {
 
-		// ;
-	}
-
-	// sextend jQuery iodeName.toLoeturn resl/undexes[xtend  netquick0 ? thoc
-	);
- false;d,
-	/			v//helpful.knobs-d Ret		}
-/if ( sphp/( match[2_ase ofed_econure_ined:_0x80040111_(NS_ERROR_NOT_AVAILABLEement|Oent = d				[ arr ]W" " turnsort: [ace( rglobal GUI new peof undefe.call(elsh ( e ) {
-			contains( cort 
-
-		// Catch==  || 	return highull|-s
-	rutes an);
-
-		//port the default/ continually c/ If iframe	retpr.at gloed || anymocument oefaultVi						d 0x3FF | 0xDCort vm = context.ownerDoc,
-
-	firstopAndroid<4.0kFunctiodocument order 0x3FF | 0xDCollectio, greater than						d Android<4.0
-	arr[ preSS")
-			}ll dom rnull &netElementsByC
-						contains 0x3FF | 0xDCrgs ) {
-		tseleen re "HTML" : false;doc.creatassert(functionlse  || type !=ent;
-
-	// old valuesgName = assert(funng" ?
-					[ arunction} f ) {
-						breaundefined )
-	// ontext,
-	s {
-			var j =  false ) {ort ; i++ ) {
-					value 					conally returNET trreturnbefbinaryen; i++IE6-9{
-		Exget = {};
-	}
-
-	// ) );
-		returnory iyndefined ) { jQuerMake sure that(#11426 getAttrric inter	readyasserte sure that
-
-		// Abort lementsByClass new RegE. functisses
-		return diByTagName = a) );
-		returnrent.top ) {
-		{};
-	}
-
-	// extend jQuery itpport: Safarry Foundatiault
- ) {yent document
- * @param broken ge, els ) {
-			license
- *
- * Da.innerHTMLport: IE<10
-	// ngth; i++ ) {
-	pport: Safarie				nid = o		}
-	t( selegivtion(n ined mat.com/
- *
- * Cso use a roundaboutget[ E<10
-	// Check if getElemw argumc. and othereateButtonr in thesCheck if getEl raw )
-	// arg is eturn  in IE
-		div nodeT			if (aready ev broken getEl(		returncat( cor {
-	vnt || !== notow( objonte( parseb	// Arn !div.geturnlly donts[ i 
-	);
-	// a functi
-				true;).length;
-	}http://"*((?:*
- * Return fn( [], seed.llementsByClassoutermost).length === 2;?	(fun: 4 ( !ID find and fE - #1450: for .att/ Ca = cla1223eudo( typeof da/
-se2nly se.call( preferredDo() {
-					i m.pa Blackberry 4.6 returns2o longer in t assert(funcof arr === "stringth; i+n( ffoxlems
+	jQuery.event.special.submit = {
+		setup: function() {
+			// Only need this for delegated form submit events
+			if ( jQuery.nodeName( this, "form" ) ) {
+				return false;
 			}
 
-	// etor ) );
-		lassName ) {
-				push.appamelCase:dyListfunction( elem ) {
-				re ) {
-						break;
-sByClassName &cified indyTagName("*").ley {
-							// Use the t attrId;
-			}efined
-	rent.attachEvent && p
-	if ( parent && ElementsByClassNam
-					sell( argu doesn't will bee
- *
- tors/ny booesninabspacepplyarseFloat(obj) .apply( resulctly
-		functionh;
-	});
+			// Lazy-add a submit handler when a descendant form may potentially be submitted
+			jQuery.event.add( this, "click._submit keypress._submit", function( e ) {
+				// Node name check avoids a VML-related crash in IE (#9807)
+				var elem = e.target,
+					form = jQuery.nodeName( elem, "input" ) || jQuery.nodeName( elem, "button" ) ? elem.form : undefined;
+				if ( form && !jQuery._data( form, "submitBubbles" ) ) {
+					jQuery.event.add( form, "submit._submit", function( event ) {
+						event._submit_bubble = true;
+					});
+					jQuery._data( form, "submitBubbles", true );
+				}
+			});
+			// return undefined since we don't need an event listener
+		},
 
-	// Check i( div ) 			return f(s;
-	&or i)	}
-		/'Exp( "^to spe != i ) {
-, function
+		postDispatch: function( event ) {
+			// If form was submitted by the user, bubble the event up the tree
+			if ( event._submit_bubble ) {
+				delete event._submit_bubble;
+				if ( this.parentNode && !event.isTrigger ) {
+					jQuery.event.simulate( "submit", this.parentNode, event, true );
+				}
+			}
+		},
 
-	functSS eunct
-	rqpseudos ), node = typeof elem.getAcovered by selected|astly
-		function( target						d= ++),
-		 numeric intentsByTagName("*") returns on) {
-		if ( daty*
-	--- cure[ name ];
-egExp( whitespac	});
+		teardown: function() {
+			// Only need this for delegated form submit events
+			if ( jQuery.nodeName( this, "form" ) ) {
+				return false;
+			}
 
-	/*pe !	if (  ];
-		n arranot a durn elem.getAtan 0 if a precedes bent;
-
-	/on the root
-unction( div
-						maram { ery"		// WntsByTagName("*") e ) {
-						breaks can optoTagNamefined || .getElementsBy| elem).docsupport.getElementserwi	characterEnace( runesc-------------------------lem.nodeType ==me( m )cument.
-			// qSA works strangeooleans)
-	suppo	// Strict y( resulte can work around this ^[\],:{}\s]*$/,
-	r
-hat w}on,
-
-fxNow,t.attrIs
-	/rfx},
-
-	rack( jQtoggle|	},
-|hid(""){
-		ifnu			t= reRegExp( "	var([+-])=|)(}
-
-fu clopme !0.2
-([a-z%]*)$w Dai"nternrfere= /queuecore_yClas oldIEi= nirguments.le[rray ) {r arrays
-	nd ondataxp( "^"
-	iftrin[= "complete"opalue = callbackselecdata.);
-			}pseudoTdata---------------
-		retta !== =------.cur72)
-	ca
-			lengthName == copyelector suppouni			jQt = [];{
-			for ( ; i < 			jQuery.ry: co
-	// Prio} else JSON parse		// Ensut the {
-				xOf =  never-/ Caquition= jQuo + c&& n9/Opems, calld", funpy, nacal ];
-
-	// qSa(:focus) repor||that tlse {SON && +ta !== "35)
-// Sueports false ) {
-		returnatches#11290: mustor suppoumentch c
-		retmaxIt;
+			// Remove delegated handlers; cleanData eventually reaps submit handlers attached above
+			jQuery.event.remove( this, "._submit" );
+		}
+	};
 }
-data );2ent;
-		MIT liceng hol.com/f ( vaQuery.int("") );
-escapace +n ] )d+\.|)ady in			jQuery.e (IE9/OperayQSA eck() 13378
-		// RemoveMar div = /
-fupdif ( dat------ment.addEv);
-		proxy =:active) r 11.5)
-				// Doselector Seentex);
-			xldIE
-	y oneacape stri ) {
-nbefooiFirefox	// when iframe
-||g/licens	docore_toStri= high iousGet  See hd str		reunce 3 jQuedeleteweext.g*63
-		retument|| !rbuggy instantiumentribuh
-			{
-			e
- */
-fdler;
-	cci" ).lem ) ")(void ta
 
-		 :
+// IE change delegation and checkbox/radio fix
+if ( !jQuery.support.changeBubbles ) {
 
-		] : lre onl avoid thevoid tpage.5& lengths can sure 
-		furn jrg/licens when/ Bool/'></oplonger th, arguncluhrough QSA all theter["rt +gyQSA =v ) {
-			/Uex strvoid , tola boongd strinr NaNy striatchesSelec	// Conteion.dos reateElely.er}
+	jQuery.event.special.change = {
 
-	oid t;
+		setup: function() {
 
-		<select> jQuerf {
-		setTimwe'ctioure had en		vaength > = copy;boolealse (void theatchesSelec /	return					ted option1n an--or
-	// See httox.com/IEContenrAll("[y adopted from D + "+$",  11.5)ion( elem Booleaatcheso test IEter te||IE's treatme {
+			if ( rformElems.test( this.nodeName ) ) {
+				// IE doesn't fire change on a check/radio until blur; trigger it on click
+				// after a propertychange. Eat the blur-change in special.change.handle.
+				// This still fires onchange a second time for check/radio after blur.
+				if ( this.type === "checkbox" || this.type === "radio" ) {
+					jQuery.event.add( this, "propertychange._change", function( event ) {
+						if ( event.originalEvent.propertyName === "checked" ) {
+							this._just_changed = true;
+						}
+					});
+					jQuery.event.add( this, "click._change", function( event ) {
+						if ( this._just_changed && !event.isTrigger ) {
+							this._just_changed = false;
+						}
+						// Allow triggered, simulated change events (#11500)
+						jQuery.event.simulate( "change", this, event, true );
+					});
+				}
+				return false;
+			}
+			// Delegated event; lazy-add a change handler on descendant inputs
+			jQuery.event.add( this, "beforeactivate._change", function( e ) {
+				var elem = e.target;
 
-varatchesySelectorAllice = areType+=/-= tokl usrougmber" ).rears/noo			}
-	re
+				if ( rformElems.test( elem.nodeName ) && !jQuery._data( elem, "changeBubbles" ) ) {
+					jQuery.event.add( elem, "change._change", function( event ) {
+						if ( this.parentNode && !event.isSimulated && !event.isTrigger ) {
+							jQuery.event.simulate( "change", this.parentNode, event, true );
+						}
+					});
+					jQuery._data( elem, "changeBubbles", true );
+				}
+			});
+		},
 
-		-----		}
-	};cked").lengdocu(functi*)n|)"ngleTag		if ( !/ Go through + the *ach of the iinObjec+ch of the achEvent( "onload"-----k
- */]n siblingA {
+		handle: function( event ) {
+			var elem = event.target;
 
-			/s pseudodem ) hronous
-	rqreadfereute is restriGATIVE ) -
-			( Fe, ct} a
- covered by ChrisS here: htme, cer The method trvali target(ame, c
-	},
+			// Swallow native change events from checkbox/radio, we already triggered them above
+			if ( this !== elem || event.isSimulated || event.isTrigger || (elem.type !== "radio" && elem.type !== "checkbox") ) {
+				return event.handleObj.handler.apply( this, arguments );
+			}
+		},
 
-	first: fl DOM R= b && a,
-		dif and ma{
-			rectly
-	) {
+		teardown: function() {
+			jQuery.event.remove( this, "._change" );
 
-			/ing.replac----- + whi( data )henev--------iveElement` []=== e.isFulength ) {
-rue;
+			return !rformElems.test( this.nodeName );
+		}
+	};
+}
 
-r supelect functioAdd the work
-			winj ) {
-	;/ Trigge;	if (  < 3.5 - :	if ( completed.calle------- ll("[t^=''[disable]d back ) {
+// Create "bubbling" focus and blur events
+if ( !jQuery.support.focusinBubbles ) {
+	jQuery.each({ focus: "focusin", blur: "focusout" }, function( orig, fix ) {
 
-			/rectly
-	{
-					) {
-		div.s.te	assertn) {
-		dundefment.adE8
-		t: Windows 8 Natier + "$e {
-				r	// The t (#11290: mu.addEv	} else { // I-----ext)
-	: faltopp			win"*(?:''|\"\")" );
+		// Attach a single capturing handler while someone wants focusin/focusout
+		var attaches = 0,
+			handler = function( event ) {
+				jQuery.event.simulate( fix, event.target, jQuery.event.fix( event ), true );
 			};
-		}
-	};
 
-	/* QSA/j ) {
-	al):  their vendor prefix (#9572ret, arr }
-
-/**
- * Support tdler;
-
-				}lidto		} els: oldIE
-esca	},
-
-	 hump ectiohe aQSA ad thatrue;
-	getlision with native prot	// Opeus (ticket #5443st, in casehat star
-	);
-	/echam.wedden"in pseudor input
-		retreth = = falM typmax		for) {
-
-			/if ( !chesS+rt(functiondu boolea-lem.oMatchesSMatches} :
-r();
-c crq( 0bugf conteels ) u, b )ore_1 - ( 0.5(":ch )fail2497\[" + finerns
-	lector)  :
-	/ Check to see if":chtor(:ac]?(?:\dREC--rim,
-
-		ret"*(?:''|\"\")ot throw on post-com.-----d pseudoventListener( "sabled and hi/:disablcompleted,  not error, retu enabled)
-ru mat]?(?:\dst of attribatches,
-	etEley,
-	cone_inde[ IE8 throws e]?(?:\ntextector) ]).hasOwnPropseudos )<EC-css ) {
-		/ (ticket #5443gyQSA.joizzle" + -(new Date()),
-	prefetches,
-	conA.length && new Ring push.aMatchesSelector ||
-		eName----------=	elem.styrr && arrId = e_inprops)ocume----se ) {
-			 isFunctScrited from DiMatcheodata cerning isFunction.
-	{== 1 && Eacrea	for cript on Internet+ characrtun.addEv:ush( ":enablitself
-	contre the in_concat.eCache(iv ) {:lector ||
-		docElem.msMatcheto see i docElem. to see itifier retu:.and otrn func and .slice,
-	cor------docuches.lenuerySelec---- */
-
-	 and mae_indeall( div, inclrectly
-	en		windo);
-			rbuggyincl.n, an elementiveElement` adown.contains eement possibl not error, retur		div.--------------------ows 8 Nat------		// .slice,
-	corgotoEb.parentNode;
-	ception
-			// Grn functi dom gt(fun ) {
-			ch10
-	// For `tferes noategy adoem = rery = window.umentkiguidf ( aementsBy" );
-			}, b ) {
-?s not error, returns fallementf ( jQuery.
-		docElem.moz ) {
-				// Skip access		// Opeold (or relnstead
-			matches.call( div, "[s!='']:x" );;
-			rbuggyMatches.push( "!=", p1nd this by) {
-			/);
-
-	/*rnal usag jQu ) {
-ontrst f}
-
-	) {
-			/= window.jQferred----------, b ) {
-			if ( join("|") );
-
-	/* Contains
-	------------,ar compard'
-		retur/\D/g, "" ),
-()),
-	preferredDoc = & a.compareDocumentPosition && a.compition( bup ) re_trim.ontextof htmlpypeoall( div, pport
-			ppor(?=[^-]|pportbup && bup.nodeT ?
-					adown.o wait ead
-			matches.call( div, "[s!='']:x" ext)
-	 on post-comma invalid enabled)
-			// IE8 throws #11290: mution( a ) === comPositiy {
-				our on to a contex
-				}		// HANDLEument,
-					erredDontElement :);
-
-			if ( d
-
-		// HANDLE: $(D
-					retuadown.contains ?	if (ing tokeer
-				return sortInd back !!( bup && bup.	return oed firstx causms :
-cerning isFunctii}
-		/ Element contains aall(= fieDocumening
-me( c	}
-
-		// Notains me( cmpat
-		 + ")$",unction "\\$&" );
- oneand waittion( fn tDetached &&g			(rder
-				return s
-	} :
-	f
-			}properder
-				return sr teion( a ) === compified inde	matcai// IE8 throwtains 	ap de,
-		et, arr [ a ],
-			bp = 
-						ndChild( input pareDocumentPositioare) ) {
-
-				/abled" )match );
-	}, mpareDr here ,e can + ")$",camel					hasDuplicate = f-identpe !,
-	coread ofChoose tmatcheDeteport.ches.lobj[ i 			jQuerer documup ) {
-	possimpareDo=hasDuplicate =	toArray----}
-						eturn enabled)eturn -1;wnerDocument || con= calches.leup ? -1 :xOf.c*)n|)-----put ?
-				( indexOf.cab ) ) :
-		t recenttrievablematchelse  An element 		( indver possible
-	trim:native.		( indexOf.call(  a qu can r -1 :
-				e current				sortIn------can r			p
-		} ecentrestorsuery.read						estor== "objcatch when BlblingCheck( a, 				sortr CLASS	retqupy )$rposefu;
-				f cotction} haeeven|Doc,
-		pareent)
-readymethnd[  cha.creat'match'y strinb/ Ca
-
-	core_IE
-		div	fn = functi"elemt |||| !bup ) {
-			ry events
-	detndexOf if ) {
-			return a Node("id"e nodes are siblings, weexOf.call( ocum				bup ? 1 :
- are siblimpareD	window.$ = _$;
-Function( s
-				bup ? 1 :
-				so, bp[i] ) :
-
-bled").l #157)
-	// The tise we nee isFunct	// The trn c--------- a,
-				bup = b ted. They return bj.window;
-	},
-
-	isNumerico a sibling ch) && isFinit&& b.check if matchrue;
-t = jQuery.Deferpport.soxpr, se );
-			wi				// Never ----- + "+eption
-			// " );
-			}lectorns false inoose the first element that is related match
-				( indexOf.call( ---------
-	// Prioriength ) {
-				rbuggyQS );
-	}
-
-	// Make sureeadyWait :function( tag,ogic bor for obje.slice,
-	cori;
+		jQuery.event.special[ fix ] = {
+			setup: function() {
+				if ( attaches++ === 0 ) {
+					document.addEventListener( orig, handler, true );
+				}
+			},
+			teardown: function() {
+				if ( --attaches === 0 ) {
+					document.removeEventListener( orig, handler, true );
+				}
 			}
-		(!rbuggace + "*([^\esSelector && );
-		}
-	};
-
-	/* QSA/xpr.replace( rattributeQuFunction( s( !rbuggyMatches || 		div.parentNo
-			// HANDat widEventListsSelector
-	---- (#11290: mubled",ur = a;/* jsh)
-	ival][+-is
-				/gth =expr ) {
-te( "t",text.g,ySelect( (cur,onte nod--------| function( ri-1 :dy: falnclud== function(s ) {-fA-F]{4ops)
-	a );
-		}hitesllbackvalidtokal): If Sonlo -1 :
-			_
-	rprn letterfx	},
-ocument,
-	// IE thisly c functr && ar|odd|(([! sort on ebling ctherwise we nee_me( classN
-					elem.tElemenr ancestor.unment.dalue,
-			i = 0,
-t, null, [elem] checkedif ( ree ( (cur =( diIVE =null,ontext, elem ) {m.webkitMatchesSelepe, funt, null, [elem]Node("id"if ( reNode !==me && functio
-};
-
-Sizzle.conue, 					( urn fn;
+		};
+	});
 }
 
-/**
- * Support trt(funrn fag onsdiv = docum
-	rattss thronot a d	// If IEort: [r CLASS, thisrundefinlCase:ar xml	return contains( context, 
-};
+jQuery.fn.extend({
 
-Sizzle.con-------------etedIds.ment.n Sizzle( exprj ) {
-		/ode("id"ontext, elem ) {= document ) {9
-		// Handle ,
-	/// Ma/w,
-	rdSizzfscon!aup |MIT l nodes are sai callbpe;
-	}.protocentrents )pageype pExpr.attrHathe elementregex
-		//ontexnoge( []snea];
-	teracpply(c) {
-s no3roperties this beca*/
-s	core_IE. and oth) :
-		 :
+	on: function( types, selector, data, fn, /*INTERNAL*/ one ) {
+		var type, origFn;
 
-			#(" +return val === unetDocuumentIsHXecte) :
-		umentIsHY name )ect}  matcAn eent
- * @ compumentIsHT ) ) {
- * umentIsHter[?
-				val.vaXlue :
-				null :Y/ Buildhedruns,of jQue !div.query
-	jQuery = fupertiesrototype pmoved (I/ The typery;
-the s			class2tntex winin trenthdth/x erron oldIE
-\n\\f]",
-	// htteturn letter.toUpperCav.getE: " + 335)
-// Stes
- * @param {Arraflo( wase();
+		// Types can be a map of types/handlers
+		if ( typeof types === "object" ) {
+			// ( types-Object, selector, data )
+			if ( typeof selector !== "string" ) {
+				// ( types-Object, data )
+				data = data || selector;
+				selector = undefined;
+			}
+			for ( type in types ) {
+				this.on( type, selector, data, types[ type ], one );
+			}
+			return this;
+		}
+
+		if ( data == null && fn == null ) {
+			// ( types, fn )
+			fn = selector;
+			data = selector = undefined;
+		} else if ( fn == null ) {
+			if ( typeof selector === "string" ) {
+				// ( types, selector, fn )
+				fn = data;
+				data = undefined;
+			} else {
+				// ( types, data, fn )
+				fn = data;
+				data = selector;
+				selector = undefined;
+			}
+		}
+		if ( fn === false ) {
+			fn = returnFalse;
+		} else if ( !fn ) {
+			return this;
+		}
+
+		if ( one === 1 ) {
+			origFn = fn;
+			fn = function( event ) {
+				// Can use an empty set, since event contains the info
+				jQuery().off( event );
+				return origFn.apply( this, arguments );
+			};
+			// Use same guid so caller can remove using origFn
+			fn.guid = origFn.guid || ( origFn.guid = jQuery.guid++ );
+		}
+		return this.each( function() {
+			jQuery.event.add( this, types, fn, data, selector );
+		});
+	},
+	one: function( types, selector, data, fn ) {
+		return this.on( types, selector, data, fn, 1 );
+	},
+	off: function( types, selector, fn ) {
+		var handleObj, type;
+		if ( types && types.preventDefault && types.handleObj ) {
+			// ( event )  dispatched jQuery.Event
+			handleObj = types.handleObj;
+			jQuery( types.delegateTarget ).off(
+				handleObj.namespace ? handleObj.origType + "." + handleObj.namespace : handleObj.origType,
+				handleObj.selector,
+				handleObj.handler
+			);
+			return this;
+		}
+		if ( typeof types === "object" ) {
+			// ( types-object [, selector] )
+			for ( type in types ) {
+				this.off( type, selector, types[ type ] );
+			}
+			return this;
+		}
+		if ( selector === false || typeof selector === "function" ) {
+			// ( types [, fn] )
+			fn = selector;
+			selector = undefined;
+		}
+		if ( fn === false ) {
+			fn = returnFalse;
+		}
+		return this.each(function() {
+			jQuery.event.remove( this, types, fn, selector );
+		});
 	},
 
-	);
+	trigger: function( type, data ) {
+		return this.each(function() {
+			jQuery.event.trigger( type, data, this );
+		});
+	},
+	triggerHandler: function( type, data ) {
+		var elem = this[0];
+		if ( elem ) {
+			return jQuery.event.trigger( type, data, elem, true );
+		}
+	}
+});
+var isSimple = /^.[^:#\[\.,]*$/,
+	rparentsprev = /^(?:parents|prev(?:Until|All))/,
+	rneedsContext = jQuery.expr.match.needsContext,
+	// methods guaranteed to produce a unique set when starting from a unique set
+	guaranteedUnique = {
+		children: true,
+		contents: true,
+		next: true,
+		prev: true
+	};
+
+jQuery.fn.extend({
+	find: function( selector ) {
+		var i,
+			ret = [],
+			self = this,
+			len = self.length;
+
+		if ( typeof selector !== "string" ) {
+			return this.pushStack( jQuery( selector ).filter(function() {
+				for ( i = 0; i < len; i++ ) {
+					if ( jQuery.contains( self[ i ], this ) ) {
+						return true;
+					}
+				}
+			}) );
+		}
+
+		for ( i = 0; i < len; i++ ) {
+			jQuery.find( selector, self[ i ], ret );
+		}
+
+		// Needed because $( selector, context ) becomes $( context ).find( selector )
+		ret = this.pushStack( len > 1 ? jQuery.unique( ret ) : ret );
+		ret.selector = this.selector ? this.selector + " " + selector : selector;
+		return ret;
+	},
+
+	has: function( target ) {
+		var i,
+			targets = jQuery( target, this ),
+			len = targets.length;
+
+		return this.filter(function() {
+			for ( i = 0; i < len; i++ ) {
+				if ( jQuery.contains( this, targets[i] ) ) {
+					return true;
+				}
+			}
+		});
+	},
+
+	not: function( selector ) {
+		return this.pushStack( winnow(this, selector || [], true) );
+	},
+
+	filter: function( selector ) {
+		return this.pushStack( winnow(this, selector || [], false) );
+	},
+
+	is: function( selector ) {
+		return !!winnow(
+			this,
+
+			// If this is a positional/relative selector, check membership in the returned set
+			// so $("p:first").is("p:last") won't return true for a doc with two "p".
+			typeof selector === "string" && rneedsContext.test( selector ) ?
+				jQuery( selector ) :
+				selector || [],
+			false
+		).length;
+	},
+
+	closest: function( selectors, context ) {
+		var cur,
+			i = 0,
+			l = this.length,
+			ret = [],
+			pos = rneedsContext.test( selectors ) || typeof selectors !== "string" ?
+				jQuery( selectors, context || this.context ) :
+				0;
+
+		for ( ; i < l; i++ ) {
+			for ( cur = this[i]; cur && cur !== context; cur = cur.parentNode ) {
+				// Always skip document fragments
+				if ( cur.nodeType < 11 && (pos ?
+					pos.index(cur) > -1 :
+
+					// Don't pass non-elements to Sizzle
+					cur.nodeType === 1 &&
+						jQuery.find.matchesSelector(cur, selectors)) ) {
+
+					cur = ret.push( cur );
+					break;
+				}
+			}
+		}
+
+		return this.pushStack( ret.length > 1 ? jQuery.unique( ret ) : ret );
+	},
+
+	// Determine the position of an element within
+	// the matched set of elements
+	index: function( elem ) {
+
+		// No argument, return index in parent
+		if ( !elem ) {
+			return ( this[0] && this[0].parentNode ) ? this.first().prevAll().length : -1;
+		}
+
+		// index in selector
+		if ( typeof elem === "string" ) {
+			return jQuery.inArray( this[0], jQuery( elem ) );
+		}
+
+		// Locate the position of the desired element
+		return jQuery.inArray(
+			// If it receives a jQuery object, the first element is used
+			elem.jquery ? elem[0] : elem, this );
+	},
+
+	add: function( selector, context ) {
+		var set = typeof selector === "string" ?
+				jQuery( selector, context ) :
+				jQuery.makeArray( selector && selector.nodeType ? [ selector ] : selector ),
+			all = jQuery.merge( this.get(), set );
+
+		return this.pushStack( jQuery.unique(all) );
+	},
+
+	addBack: function( selector ) {
+		return this.add( selector == null ?
+			this.prevObject : this.prevObject.filter(selector)
+		);
+	}
+});
+
+function sibling( cur, dir ) {
+	do {
+		cur = cur[ dir ];
+	} while ( cur && cur.nodeType !== 1 );
+
+	return cur;
+}
+
+jQuery.each({
+	parent: function( elem ) {
+		var parent = elem.parentNode;
+		return parent && parent.nodeType !== 11 ? parent : null;
+	},
+	parents: function( elem ) {
+		return jQuery.dir( elem, "parentNode" );
+	},
+	parentsUntil: function( elem, i, until ) {
+		return jQuery.dir( elem, "parentNode", until );
+	},
+	next: function( elem ) {
+		return sibling( elem, "nextSibling" );
+	},
+	prev: function( elem ) {
+		return sibling( elem, "previousSibling" );
+	},
+	nextAll: function( elem ) {
+		return jQuery.dir( elem, "nextSibling" );
+	},
+	prevAll: function( elem ) {
+		return jQuery.dir( elem, "previousSibling" );
+	},
+	nextUntil: function( elem, i, until ) {
+		return jQuery.dir( elem, "nextSibling", until );
+	},
+	prevUntil: function( elem, i, until ) {
+		return jQuery.dir( elem, "previousSibling", until );
+	},
+	siblings: function( elem ) {
+		return jQuery.sibling( ( elem.parentNode || {} ).firstChild, elem );
+	},
+	children: function( elem ) {
+		return jQuery.sibling( elem.firstChild );
+	},
+	contents: function( elem ) {
+		return jQuery.nodeName( elem, "iframe" ) ?
+			elem.contentDocument || elem.contentWindow.document :
+			jQuery.merge( [], elem.childNodes );
+	}
+}, function( name, fn ) {
+	jQuery.fn[ name ] = function( until, selector ) {
+		var ret = jQuery.map( this, fn, until );
+
+		if ( name.slice( -5 ) !== "Until" ) {
+			selector = until;
+		}
+
+		if ( selector && typeof selector === "string" ) {
+			ret = jQuery.filter( selector, ret );
+		}
+
+		if ( this.length > 1 ) {
+			// Remove duplicates
+			if ( !guaranteedUnique[ name ] ) {
+				ret = jQuery.unique( ret );
+			}
+
+			// Reverse order for parents* and prev-derivatives
+			if ( rparentsprev.test( name ) ) {
+				ret = ret.reverse();
+			}
+		}
+
+		return this.pushStack( ret );
+	};
+});
+
+jQuery.extend({
+	filter: function( expr, elems, not ) {
+		var elem = elems[ 0 ];
+
+		if ( not ) {
+			expr = ":not(" + expr + ")";
+		}
+
+		return elems.length === 1 && elem.nodeType === 1 ?
+			jQuery.find.matchesSelector( elem, expr ) ? [ elem ] : [] :
+			jQuery.find.matches( expr, jQuery.grep( elems, function( elem ) {
+				return elem.nodeType === 1;
+			}));
+	},
+
+	dir: function( elem, dir, until ) {
+		var matched = [],
+			cur = elem[ dir ];
+
+		while ( cur && cur.nodeType !== 9 && (until === undefined || cur.nodeType !== 1 || !jQuery( cur ).is( until )) ) {
+			if ( cur.nodeType === 1 ) {
+				matched.push( cur );
+			}
+			cur = cur[dir];
+		}
+		return matched;
+	},
+
+	sibling: function( n, elem ) {
+		var r = [];
+
+		for ( ; n; n = n.nextSibling ) {
+			if ( n.nodeType === 1 && n !== elem ) {
+				r.push( n );
+			}
+		}
+
+		return r;
+	}
+});
+
+// Implement the identical functionality for filter and not
+function winnow( elements, qualifier, not ) {
+	if ( jQuery.isFunction( qualifier ) ) {
+		return jQuery.grep( elements, function( elem, i ) {
+			/* jshint -W018 */
+			return !!qualifier.call( elem, i, elem ) !== not;
+		});
+
+	}
+
+	if ( qualifier.nodeType ) {
+		return jQuery.grep( elements, function( elem ) {
+			return ( elem === qualifier ) !== not;
+		});
+
+	}
+
+	if ( typeof qualifier === "string" ) {
+		if ( isSimple.test( qualifier ) ) {
+			return jQuery.filter( qualifier, elements, not );
+		}
+
+		qualifier = jQuery.filter( qualifier, elements );
+	}
+
+	return jQuery.grep( elements, function( elem ) {
+		return ( jQuery.inArray( elem, qualifier ) >= 0 ) !== not;
+	});
+}
+function createSafeFragment( document ) {
+	var list = nodeNames.split( "|" ),
+		safeFrag = document.createDocumentFragment();
+
+	if ( safeFrag.createElement ) {
+		while ( list.length ) {
+			safeFrag.createElement(
+				list.pop()
+			);
+		}
+	}
+	return safeFrag;
+}
+
+var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|" +
+		"header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",
+	rinlinejQuery = / jQuery\d+="(?:null|\d+)"/g,
+	rnoshimcache = new RegExp("<(?:" + nodeNames + ")[\\s/>]", "i"),
+	rleadingWhitespace = /^\s+/,
+	rxhtmlTag = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi,
+	rtagName = /<([\w:]+)/,
+	rtbody = /<tbody/i,
+	rhtml = /<|&#?\w+;/,
+	rnoInnerhtml = /<(?:script|style|link)/i,
+	manipulation_rcheckableType = /^(?:checkbox|radio)$/i,
+	// checked="checked" or checked
+	rchecked = /checked\s*(?:[^=]|=\s*.checked.)/i,
+	rscriptType = /^$|\/(?:java|ecma)script/i,
+	rscriptTypeMasked = /^true\/(.*)/,
+	rcleanScript = /^\s*<!(?:\[CDATA\[|--)|(?:\]\]|--)>\s*$/g,
+
+	// We have to close these tags to support XHTML (#13200)
+	wrapMap = {
+		option: [ 1, "<select multiple='multiple'>", "</select>" ],
+		legend: [ 1, "<fieldset>", "</fieldset>" ],
+		area: [ 1, "<map>", "</map>" ],
+		param: [ 1, "<object>", "</object>" ],
+		thead: [ 1, "<table>", "</table>" ],
+		tr: [ 2, "<table><tbody>", "</tbody></table>" ],
+		col: [ 2, "<table><tbody></tbody><colgroup>", "</colgroup></table>" ],
+		td: [ 3, "<table><tbody><tr>", "</tr></tbody></table>" ],
+
+		// IE6-8 can't serialize link, script, style, or any html5 (NoScope) tags,
+		// unless wrapped in a div with non-breaking characters in front of it.
+		_default: jQuery.support.htmlSerialize ? [ 0, "", "" ] : [ 1, "X<div>", "</div>"  ]
+	},
+	safeFragment = createSafeFragment( document ),
+	fragmentDiv = safeFragment.appendChild( document.createElement("div") );
+
+wrapMap.optgroup = wrapMap.option;
+wrapMap.tbody = wrapMap.tfoot = wrapMap.colgroup = wrapMap.caption = wrapMap.thead;
+wrapMap.th = wrapMap.td;
+
+jQuery.fn.extend({
+	text: function( value ) {
+		return jQuery.access( this, function( value ) {
+			return value === undefined ?
+				jQuery.text( this ) :
+				this.empty().append( ( this[0] && this[0].ownerDocument || document ).createTextNode( value ) );
+		}, null, value, arguments.length );
+	},
+
+	append: function() {
+		return this.domManip( arguments, function( elem ) {
+			if ( this.nodeType === 1 || this.nodeType === 11 || this.nodeType === 9 ) {
+				var target = manipulationTarget( this, elem );
+				target.appendChild( elem );
+			}
+		});
+	},
+
+	prepend: function() {
+		return this.domManip( arguments, function( elem ) {
+			if ( this.nodeType === 1 || this.nodeType === 11 || this.nodeType === 9 ) {
+				var target = manipulationTarget( this, elem );
+				target.insertBefore( elem, target.firstChild );
+			}
+		});
+	},
+
+	before: function() {
+		return this.domManip( arguments, function( elem ) {
+			if ( this.parentNode ) {
+				this.parentNode.insertBefore( elem, this );
+			}
+		});
+	},
+
+	after: function() {
+		return this.domManip( arguments, function( elem ) {
+			if ( this.parentNode ) {
+				this.parentNode.insertBefore( elem, this.nextSibling );
+			}
+		});
+	},
+
+	// keepData is for internal use only--do not document
+	remove: function( selector, keepData ) {
+		var elem,
+			elems = selector ? jQuery.filter( selector, this ) : this,
+			i = 0;
+
+		for ( ; (elem = elems[i]) != null; i++ ) {
+
+			if ( !keepData && elem.nodeType === 1 ) {
+				jQuery.cleanData( getAll( elem ) );
+			}
+
+			if ( elem.parentNode ) {
+				if ( keepData && jQuery.contains( elem.ownerDocument, elem ) ) {
+					setGlobalEval( getAll( elem, "script" ) );
+				}
+				elem.parentNode.removeChild( elem );
+			}
+		}
+
+		return this;
+	},
+
+	empty: function() {
+		var elem,
+			i = 0;
+
+		for ( ; (elem = this[i]) != null; i++ ) {
+			// Remove element nodes and prevent memory leaks
+			if ( elem.nodeType === 1 ) {
+				jQuery.cleanData( getAll( elem, false ) );
+			}
+
+			// Remove any remaining nodes
+			while ( elem.firstChild ) {
+				elem.removeChild( elem.firstChild );
+			}
+
+			// If this is a select, ensure that it displays empty (#12336)
+			// Support: IE<9
+			if ( elem.options && jQuery.nodeName( elem, "select" ) ) {
+				elem.options.length = 0;
+			}
+		}
+
+		return this;
+	},
+
+	clone: function( dataAndEvents, deepDataAndEvents ) {
+		dataAndEvents = dataAndEvents == null ? false : dataAndEvents;
+		deepDataAndEvents = deepDataAndEvents == null ? dataAndEvents : deepDataAndEvents;
+
+		return this.map( function () {
+			return jQuery.clone( this, dataAndEvents, deepDataAndEvents );
+		});
+	},
+
+	html: function( value ) {
+		return jQuery.access( this, function( value ) {
+			var elem = this[0] || {},
+				i = 0,
+				l = this.length;
+
+			if ( value === undefined ) {
+				return elem.nodeType === 1 ?
+					elem.innerHTML.replace( rinlinejQuery, "" ) :
+					undefined;
+			}
+
+			// See if we can take a shortcut and just use innerHTML
+			if ( typeof value === "string" && !rnoInnerhtml.test( value ) &&
+				( jQuery.support.htmlSerialize || !rnoshimcache.test( value )  ) &&
+				( jQuery.support.leadingWhitespace || !rleadingWhitespace.test( value ) ) &&
+				!wrapMap[ ( rtagName.exec( value ) || ["", ""] )[1].toLowerCase() ] ) {
+
+				value = value.replace( rxhtmlTag, "<$1></$2>" );
+
+				try {
+					for (; i < l; i++ ) {
+						// Remove element nodes and prevent memory leaks
+						elem = this[i] || {};
+						if ( elem.nodeType === 1 ) {
+							jQuery.cleanData( getAll( elem, false ) );
+							elem.innerHTML = value;
+						}
+					}
+
+					elem = 0;
+
+				// If using innerHTML throws an exception, use the fallback method
+				} catch(e) {}
+			}
+
+			if ( elem ) {
+				this.empty().append( value );
+			}
+		}, null, value, arguments.length );
+	},
+
+	replaceWith: function() {
+		var
+			// Snapshot the DOM in case .domManip sweeps something relevant into its fragment
+			args = jQuery.map( this, function( elem ) {
+				return [ elem.nextSibling, elem.parentNode ];
+			}),
+			i = 0;
+
+		// Make the changes, replacing each context element with the new content
+		this.domManip( arguments, function( elem ) {
+			var next = args[ i++ ],
+				parent = args[ i++ ];
+
+			if ( parent ) {
+				// Don't use the snapshot next if it has moved (#13810)
+				if ( next && next.parentNode !== parent ) {
+					next = this.nextSibling;
+				}
+				jQuery( this ).remove();
+				parent.insertBefore( elem, next );
+			}
+		// Allow new content to include elements from the context set
+		}, true );
+
+		// Force removal if there was no new content (e.g., from empty arguments)
+		return i ? this : this.remove();
+	},
+
+	detach: function( selector ) {
+		return this.remove( selector, true );
+	},
+
+	domManip: function( args, callback, allowIntersection ) {
+
+		// Flatten any nested arrays
+		args = core_concat.apply( [], args );
+
+		var first, node, hasScripts,
+			scripts, doc, fragment,
+			i = 0,
+			l = this.length,
+			set = this,
+			iNoClone = l - 1,
+			value = args[0],
+			isFunction = jQuery.isFunction( value );
+
+		// We can't cloneNode fragments that contain checked, in WebKit
+		if ( isFunction || !( l <= 1 || typeof value !== "string" || jQuery.support.checkClone || !rchecked.test( value ) ) ) {
+			return this.each(function( index ) {
+				var self = set.eq( index );
+				if ( isFunction ) {
+					args[0] = value.call( this, index, self.html() );
+				}
+				self.domManip( args, callback, allowIntersection );
+			});
+		}
+
+		if ( l ) {
+			fragment = jQuery.buildFragment( args, this[ 0 ].ownerDocument, false, !allowIntersection && this );
+			first = fragment.firstChild;
+
+			if ( fragment.childNodes.length === 1 ) {
+				fragment = first;
+			}
+
+			if ( first ) {
+				scripts = jQuery.map( getAll( fragment, "script" ), disableScript );
+				hasScripts = scripts.length;
+
+				// Use the original fragment for the last item instead of the first because it can end up
+				// being emptied incorrectly in certain situations (#8070).
+				for ( ; i < l; i++ ) {
+					node = fragment;
+
+					if ( i !== iNoClone ) {
+						node = jQuery.clone( node, true, true );
+
+						// Keep references to cloned scripts for later restoration
+						if ( hasScripts ) {
+							jQuery.merge( scripts, getAll( node, "script" ) );
+						}
+					}
+
+					callback.call( this[i], node, i );
+				}
+
+				if ( hasScripts ) {
+					doc = scripts[ scripts.length - 1 ].ownerDocument;
+
+					// Reenable scripts
+					jQuery.map( scripts, restoreScript );
+
+					// Evaluate executable scripts on first document insertion
+					for ( i = 0; i < hasScripts; i++ ) {
+						node = scripts[ i ];
+						if ( rscriptType.test( node.type || "" ) &&
+							!jQuery._data( node, "globalEval" ) && jQuery.contains( doc, node ) ) {
+
+							if ( node.src ) {
+								// Hope ajax is available...
+								jQuery._evalUrl( node.src );
+							} else {
+								jQuery.globalEval( ( node.text || node.textContent || node.innerHTML || "" ).replace( rcleanScript, "" ) );
+							}
+						}
+					}
+				}
+
+				// Fix #11809: Avoid leaking memory
+				fragment = first = null;
+			}
+		}
+
+		return this;
+	}
+});
+
+// Support: IE<8
+// Manipulating tables requires a tbody
+function manipulationTarget( elem, content ) {
+	return jQuery.nodeName( elem, "table" ) &&
+		jQuery.nodeName( content.nodeType === 1 ? content : content.firstChild, "tr" ) ?
+
+		elem.getElementsByTagName("tbody")[0] ||
+			elem.appendChild( elem.ownerDocument.createElement("tbody") ) :
+		elem;
+}
+
+// Replace/restore the type attribute of script elements for safe DOM manipulation
+function disableScript( elem ) {
+	elem.type = (jQuery.find.attr( elem, "type" ) !== null) + "/" + elem.type;
+	return elem;
+}
+function restoreScript( elem ) {
+	var match = rscriptTypeMasked.exec( elem.type );
+	if ( match ) {
+		elem.type = match[1];
+	} else {
+		elem.removeAttribute("type");
+	}
+	return elem;
+}
+
+// Mark scripts as having already been evaluated
+function setGlobalEval( elems, refElements ) {
+	var elem,
+		i = 0;
+	for ( ; (elem = elems[i]) != null; i++ ) {
+		jQuery._data( elem, "globalEval", !refElements || jQuery._data( refElements[i], "globalEval" ) );
+	}
+}
+
+function cloneCopyEvent( src, dest ) {
+
+	if ( dest.nodeType !== 1 || !jQuery.hasData( src ) ) {
+		return;
+	}
+
+	var type, i, l,
+		oldData = jQuery._data( src ),
+		curData = jQuery._data( dest, oldData ),
+		events = oldData.events;
+
+	if ( events ) {
+		delete curData.handle;
+		curData.events = {};
+
+		for ( type in events ) {
+			for ( i = 0, l = events[ type ].length; i < l; i++ ) {
+				jQuery.event.add( dest, type, events[ type ][ i ] );
+			}
+		}
+	}
+
+	// make the cloned public data object a copy from the original
+	if ( curData.data ) {
+		curData.data = jQuery.extend( {}, curData.data );
+	}
+}
+
+function fixCloneNodeIssues( src, dest ) {
+	var nodeName, e, data;
+
+	// We do not need to do anything for non-Elements
+	if ( dest.nodeType !== 1 ) {
+		return;
+	}
+
+	nodeName = dest.nodeName.toLowerCase();
+
+	// IE6-8 copies events bound via attachEvent when using cloneNode.
+	if ( !jQuery.support.noCloneEvent && dest[ jQuery.expando ] ) {
+		data = jQuery._data( dest );
+
+		for ( e in data.events ) {
+			jQuery.removeEvent( dest, e, data.handle );
+		}
+
+		// Event data gets referenced instead of copied if the expando gets copied too
+		dest.removeAttribute( jQuery.expando );
+	}
+
+	// IE blanks contents when cloning scripts, and tries to evaluate newly-set text
+	if ( nodeName === "script" && dest.text !== src.text ) {
+		disableScript( dest ).text = src.text;
+		restoreScript( dest );
+
+	// IE6-10 improperly clones children of object elements using classid.
+	// IE10 throws NoModificationAllowedError if parent is null, #12132.
+	} else if ( nodeName === "object" ) {
+		if ( dest.parentNode ) {
+			dest.outerHTML = src.outerHTML;
+		}
+
+		// This path appears unavoidable for IE9. When cloning an object
+		// element in IE9, the outerHTML strategy above is not sufficient.
+		// If the src has innerHTML and the destination does not,
+		// copy the src.innerHTML into the dest.innerHTML. #10324
+		if ( jQuery.support.html5Clone && ( src.innerHTML && !jQuery.trim(dest.innerHTML) ) ) {
+			dest.innerHTML = src.innerHTML;
+		}
+
+	} else if ( nodeName === "input" && manipulation_rcheckableType.test( src.type ) ) {
+		// IE6-8 fails to persist the checked state of a cloned checkbox
+		// or radio button. Worse, IE6-7 fail to give the cloned element
+		// a checked appearance if the defaultChecked value isn't also set
+
+		dest.defaultChecked = dest.checked = src.checked;
+
+		// IE6-7 get confused and end up setting the value of a cloned
+		// checkbox/radio button to an empty string instead of "on"
+		if ( dest.value !== src.value ) {
+			dest.value = src.value;
+		}
+
+	// IE6-8 fails to return the selected option to the default selected
+	// state when cloning options
+	} else if ( nodeName === "option" ) {
+		dest.defaultSelected = dest.selected = src.defaultSelected;
+
+	// IE6-8 fails to set the defaultValue to the correct value when
+	// cloning other types of input fields
+	} else if ( nodeName === "input" || nodeName === "textarea" ) {
+		dest.defaultValue = src.defaultValue;
+	}
+}
+
+jQuery.each({
+	appendTo: "append",
+	prependTo: "prepend",
+	insertBefore: "before",
+	insertAfter: "after",
+	replaceAll: "replaceWith"
+}, function( name, original ) {
+	jQuery.fn[ name ] = function( selector ) {
+		var elems,
+			i = 0,
+			ret = [],
+			insert = jQuery( selector ),
+			last = insert.length - 1;
+
+		for ( ; i <= last; i++ ) {
+			elems = i === last ? this : this.clone(true);
+			jQuery( insert[i] )[ original ]( elems );
+
+			// Modern browsers can apply jQuery collections as arrays, but oldIE needs a .get()
+			core_push.apply( ret, elems.get() );
+		}
+
+		return this.pushStack( ret );
+	};
+});
+
+function getAll( context, tag ) {
+	var elems, elem,
+		i = 0,
+		found = typeof context.getElementsByTagName !== core_strundefined ? context.getElementsByTagName( tag || "*" ) :
+			typeof context.querySelectorAll !== core_strundefined ? context.querySelectorAll( tag || "*" ) :
+			undefined;
+
+	if ( !found ) {
+		for ( found = [], elems = context.childNodes || context; (elem = elems[i]) != null; i++ ) {
+			if ( !tag || jQuery.nodeName( elem, tag ) ) {
+				found.push( elem );
+			} else {
+				jQuery.merge( found, getAll( elem, tag ) );
+			}
+		}
+	}
+
+	return tag === undefined || tag && jQuery.nodeName( context, tag ) ?
+		jQuery.merge( [ context ], found ) :
+		found;
+}
+
+// Used in buildFragment, fixes the defaultChecked property
+function fixDefaultChecked( elem ) {
+	if ( manipulation_rcheckableType.test( elem.type ) ) {
+		elem.defaultChecked = elem.checked;
+	}
+}
+
+jQuery.extend({
+	clone: function( elem, dataAndEvents, deepDataAndEvents ) {
+		var destElements, node, clone, i, srcElements,
+			inPage = jQuery.contains( elem.ownerDocument, elem );
+
+		if ( jQuery.support.html5Clone || jQuery.isXMLDoc(elem) || !rnoshimcache.test( "<" + elem.nodeName + ">" ) ) {
+			clone = elem.cloneNode( true );
+
+		// IE<=8 does not properly clone detached, unknown element nodes
+		} else {
+			fragmentDiv.innerHTML = elem.outerHTML;
+			fragmentDiv.removeChild( clone = fragmentDiv.firstChild );
+		}
+
+		if ( (!jQuery.support.noCloneEvent || !jQuery.support.noCloneChecked) &&
+				(elem.nodeType === 1 || elem.nodeType === 11) && !jQuery.isXMLDoc(elem) ) {
+
+			// We eschew Sizzle here for performance reasons: http://jsperf.com/getall-vs-sizzle/2
+			destElements = getAll( clone );
+			srcElements = getAll( elem );
+
+			// Fix all IE cloning issues
+			for ( i = 0; (node = srcElements[i]) != null; ++i ) {
+				// Ensure that the destination node is not null; Fixes #9587
+				if ( destElements[i] ) {
+					fixCloneNodeIssues( node, destElements[i] );
+				}
+			}
+		}
+
+		// Copy the events from the original to the clone
+		if ( dataAndEvents ) {
+			if ( deepDataAndEvents ) {
+				srcElements = srcElements || getAll( elem );
+				destElements = destElements || getAll( clone );
+
+				for ( i = 0; (node = srcElements[i]) != null; i++ ) {
+					cloneCopyEvent( node, destElements[i] );
+				}
+			} else {
+				cloneCopyEvent( elem, clone );
+			}
+		}
+
+		// Preserve script evaluation history
+		destElements = getAll( clone, "script" );
+		if ( destElements.length > 0 ) {
+			setGlobalEval( destElements, !inPage && getAll( elem, "script" ) );
+		}
+
+		destElements = srcElements = node = null;
+
+		// Return the cloned set
+		return clone;
+	},
+
+	buildFragment: function( elems, context, scripts, selection ) {
+		var j, elem, contains,
+			tmp, tag, tbody, wrap,
+			l = elems.length,
+
+			// Ensure a safe fragment
+			safe = createSafeFragment( context ),
+
+			nodes = [],
+			i = 0;
+
+		for ( ; i < l; i++ ) {
+			elem = elems[ i ];
+
+			if ( elem || elem === 0 ) {
+
+				// Add nodes directly
+				if ( jQuery.type( elem ) === "object" ) {
+					jQuery.merge( nodes, elem.nodeType ? [ elem ] : elem );
+
+				// Convert non-html into a text node
+				} else if ( !rhtml.test( elem ) ) {
+					nodes.push( context.createTextNode( elem ) );
+
+				// Convert html into DOM nodes
+				} else {
+					tmp = tmp || safe.appendChild( context.createElement("div") );
+
+					// Deserialize a standard representation
+					tag = ( rtagName.exec( elem ) || ["", ""] )[1].toLowerCase();
+					wrap = wrapMap[ tag ] || wrapMap._default;
+
+					tmp.innerHTML = wrap[1] + elem.replace( rxhtmlTag, "<$1></$2>" ) + wrap[2];
+
+					// Descend through wrappers to the right content
+					j = wrap[0];
+					while ( j-- ) {
+						tmp = tmp.lastChild;
+					}
+
+					// Manually add leading whitespace removed by IE
+					if ( !jQuery.support.leadingWhitespace && rleadingWhitespace.test( elem ) ) {
+						nodes.push( context.createTextNode( rleadingWhitespace.exec( elem )[0] ) );
+					}
+
+					// Remove IE's autoinserted <tbody> from table fragments
+					if ( !jQuery.support.tbody ) {
+
+						// String was a <table>, *may* have spurious <tbody>
+						elem = tag === "table" && !rtbody.test( elem ) ?
+							tmp.firstChild :
+
+							// String was a bare <thead> or <tfoot>
+							wrap[1] === "<table>" && !rtbody.test( elem ) ?
+								tmp :
+								0;
+
+						j = elem && elem.childNodes.length;
+						while ( j-- ) {
+							if ( jQuery.nodeName( (tbody = elem.childNodes[j]), "tbody" ) && !tbody.childNodes.length ) {
+								elem.removeChild( tbody );
+							}
+						}
+					}
+
+					jQuery.merge( nodes, tmp.childNodes );
+
+					// Fix #12392 for WebKit and IE > 9
+					tmp.textContent = "";
+
+					// Fix #12392 for oldIE
+					while ( tmp.firstChild ) {
+						tmp.removeChild( tmp.firstChild );
+					}
+
+					// Remember the top-level container for proper cleanup
+					tmp = safe.lastChild;
+				}
+			}
+		}
+
+		// Fix #11356: Clear elements from fragment
+		if ( tmp ) {
+			safe.removeChild( tmp );
+		}
+
+		// Reset defaultChecked for any radios and checkboxes
+		// about to be appended to the DOM in IE 6/7 (#8060)
+		if ( !jQuery.support.appendChecked ) {
+			jQuery.grep( getAll( nodes, "input" ), fixDefaultChecked );
+		}
+
+		i = 0;
+		while ( (elem = nodes[ i++ ]) ) {
+
+			// #4087 - If origin and destination elements are the same, and this is
+			// that element, do not do anything
+			if ( selection && jQuery.inArray( elem, selection ) !== -1 ) {
+				continue;
+			}
+
+			contains = jQuery.contains( elem.ownerDocument, elem );
+
+			// Append to fragment
+			tmp = getAll( safe.appendChild( elem ), "script" );
+
+			// Preserve script evaluation history
+			if ( contains ) {
+				setGlobalEval( tmp );
+			}
+
+			// Capture executables
+			if ( scripts ) {
+				j = 0;
+				while ( (elem = tmp[ j++ ]) ) {
+					if ( rscriptType.test( elem.type || "" ) ) {
+						scripts.push( elem );
+					}
+				}
+			}
+		}
+
+		tmp = null;
+
+		return safe;
+	},
+
+	cleanData: function( elems, /* internal */ acceptData ) {
+		var elem, type, id, data,
+			i = 0,
+			internalKey = jQuery.expando,
+			cache = jQuery.cache,
+			deleteExpando = jQuery.support.deleteExpando,
+			special = jQuery.event.special;
+
+		for ( ; (elem = elems[i]) != null; i++ ) {
+
+			if ( acceptData || jQuery.acceptData( elem ) ) {
+
+				id = elem[ internalKey ];
+				data = id && cache[ id ];
+
+				if ( data ) {
+					if ( data.events ) {
+						for ( type in data.events ) {
+							if ( special[ type ] ) {
+								jQuery.event.remove( elem, type );
+
+							// This is a shortcut to avoid jQuery.event.remove's overhead
+							} else {
+								jQuery.removeEvent( elem, type, data.handle );
+							}
+						}
+					}
+
+					// Remove cache only if it was not already removed by jQuery.event.remove
+					if ( cache[ id ] ) {
+
+						delete cache[ id ];
+
+						// IE does not allow us to delete expando properties from nodes,
+						// nor does it have a removeAttribute function on Document nodes;
+						// we must handle all of these cases
+						if ( deleteExpando ) {
+							delete elem[ internalKey ];
+
+						} else if ( typeof elem.removeAttribute !== core_strundefined ) {
+							elem.removeAttribute( internalKey );
+
+						} else {
+							elem[ internalKey ] = null;
+						}
+
+						core_deletedIds.push( id );
+					}
+				}
+			}
+		}
+	},
+
+	_evalUrl: function( url ) {
+		return jQuery.ajax({
+			url: url,
+			type: "GET",
+			dataType: "script",
+			async: false,
+			global: false,
+			"throws": true
+		});
+	}
+});
+jQuery.fn.extend({
+	wrapAll: function( html ) {
+		if ( jQuery.isFunction( html ) ) {
+			return this.each(function(i) {
+				jQuery(this).wrapAll( html.call(this, i) );
+			});
+		}
+
+		if ( this[0] ) {
+			// The elements to wrap the target around
+			var wrap = jQuery( html, this[0].ownerDocument ).eq(0).clone(true);
+
+			if ( this[0].parentNode ) {
+				wrap.insertBefore( this[0] );
+			}
+
+			wrap.map(function() {
+				var elem = this;
+
+				while ( elem.firstChild && elem.firstChild.nodeType === 1 ) {
+					elem = elem.firstChild;
+				}
+
+				return elem;
+			}).append( this );
+		}
+
+		return this;
+	},
+
+	wrapInner: function( html ) {
+		if ( jQuery.isFunction( html ) ) {
+			return this.each(function(i) {
+				jQuery(this).wrapInner( html.call(this, i) );
+			});
+		}
+
+		return this.each(function() {
+			var self = jQuery( this ),
+				contents = self.contents();
+
+			if ( contents.length ) {
+				contents.wrapAll( html );
+
+			} else {
+				self.append( html );
+			}
+		});
+	},
+
+	wrap: function( html ) {
+		var isFunction = jQuery.isFunction( html );
+
+		return this.each(function(i) {
+			jQuery( this ).wrapAll( isFunction ? html.call(this, i) : html );
+		});
+	},
+
+	unwrap: function() {
+		return this.parent().each(function() {
+			if ( !jQuery.nodeName( this, "body" ) ) {
+				jQuery( this ).replaceWith( this.childNodes );
+			}
+		}).end();
+	}
+});
+var iframe, getStyles, curCSS,
+	ralpha = /alpha\([^)]*\)/i,
+	ropacity = /opacity\s*=\s*([^)]*)/,
+	rposition = /^(top|right|bottom|left)$/,
+	// swappable if display is none or starts with table except "table", "table-cell", or "table-caption"
+	// see here for display values: https://developer.mozilla.org/en-US/docs/CSS/display
+	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
+	rmargin = /^margin/,
+	rnumsplit = new RegExp( "^(" + core_pnum + ")(.*)$", "i" ),
+	rnumnonpx = new RegExp( "^(" + core_pnum + ")(?!px)[a-z%]+$", "i" ),
+	rrelNum = new RegExp( "^([+-])=(" + core_pnum + ")", "i" ),
+	elemdisplay = { BODY: "block" },
+
+	cssShow = { position: "absolute", visibility: "hidden", display: "block" },
+	cssNormalTransform = {
+		letterSpacing: 0,
+		fontWeight: 400
+	},
+
+	cssExpand = [ "Top", "Right", "Bottom", "Left" ],
+	cssPrefixes = [ "Webkit", "O", "Moz", "ms" ];
+
+// return a css property mapped to a potentially vendor prefixed property
+function vendorPropName( style, name ) {
+
+	// shortcut for names that are not vendor prefixed
+	if ( name in style ) {
+		return name;
+	}
+
+	// check for vendor prefixed names
+	var capName = name.charAt(0).toUpperCase() + name.slice(1),
+		origName = name,
+		i = cssPrefixes.length;
+
+	while ( i-- ) {
+		name = cssPrefixes[ i ] + capName;
+		if ( name in style ) {
+			return name;
+		}
+	}
+
+	return origName;
+}
+
+function isHidden( elem, el ) {
+	// isHidden might be called from jQuery#filter function;
+	// in that case, element will be second argument
+	elem = el || elem;
+	return jQuery.css( elem, "display" ) === "none" || !jQuery.contains( elem.ownerDocument, elem );
+}
+
+function showHide( elements, show ) {
+	var display, elem, hidden,
+		values = [],
+		index = 0,
+		length = elements.length;
+
+	for ( ; index < length; index++ ) {
+		elem = elements[ index ];
+		if ( !elem.style ) {
+			continue;
+		}
+
+		values[ index ] = jQuery._data( elem, "olddisplay" );
+		display = elem.style.display;
+		if ( show ) {
+			// Reset the inline display of this element to learn if it is
+			// being hidden by cascaded rules or not
+			if ( !values[ index ] && display === "none" ) {
+				elem.style.display = "";
+			}
+
+			// Set elements which have been overridden with display: none
+			// in a stylesheet to whatever the default browser style is
+			// for such an element
+			if ( elem.style.display === "" && isHidden( elem ) ) {
+				values[ index ] = jQuery._data( elem, "olddisplay", css_defaultDisplay(elem.nodeName) );
+			}
+		} else {
+
+			if ( !values[ index ] ) {
+				hidden = isHidden( elem );
+
+				if ( display && display !== "none" || !hidden ) {
+					jQuery._data( elem, "olddisplay", hidden ? display : jQuery.css( elem, "display" ) );
+				}
+			}
+		}
+	}
+
+	// Set the display of most of the elements in a second loop
+	// to avoid the constant reflow
+	for ( index = 0; index < length; index++ ) {
+		elem = elements[ index ];
+		if ( !elem.style ) {
+			continue;
+		}
+		if ( !show || elem.style.display === "none" || elem.style.display === "" ) {
+			elem.style.display = show ? values[ index ] || "" : "none";
+		}
+	}
+
+	return elements;
+}
+
+jQuery.fn.extend({
+	css: function( name, value ) {
+		return jQuery.access( this, function( elem, name, value ) {
+			var len, styles,
+				map = {},
+				i = 0;
+
+			if ( jQuery.isArray( name ) ) {
+				styles = getStyles( elem );
+				len = name.length;
+
+				for ( ; i < len; i++ ) {
+					map[ name[ i ] ] = jQuery.css( elem, name[ i ], false, styles );
+				}
+
+				return map;
+			}
+
+			return value !== undefined ?
+				jQuery.style( elem, name, value ) :
+				jQuery.css( elem, name );
+		}, name, value, arguments.length > 1 );
+	},
+	show: function() {
+		return showHide( this, true );
+	},
+	hide: function() {
+		return showHide( this );
+	},
+	toggle: function( state ) {
+		if ( typeof state === "boolean" ) {
+			return state ? this.show() : this.hide();
+		}
+
+		return this.each(function() {
+			if ( isHidden( this ) ) {
+				jQuery( this ).show();
+			} else {
+				jQuery( this ).hide();
+			}
+		});
+	}
+});
+
+jQuery.extend({
+	// Add in style property hooks for overriding the default
+	// behavior of getting and setting a style property
+	cssHooks: {
+		opacity: {
+			get: function( elem, computed ) {
+				if ( computed ) {
+					// We should always get a number back from opacity
+					var ret = curCSS( elem, "opacity" );
+					return ret === "" ? "1" : ret;
+				}
+			}
+		}
+	},
+
+	// Don't automatically add "px" to these possibly-unitless properties
+	cssNumber: {
+		"columnCount": true,
+		"fillOpacity": true,
+		"fontWeight": true,
+		"lineHeight": true,
+		"opacity": true,
+		"order": true,
+		"orphans": true,
+		"widows": true,
+		"zIndex": true,
+		"zoom": true
+	},
+
+	// Add in properties whose names you wish to fix before
+	// setting or getting the value
+	cssProps: {
+		// normalize float css property
+		"float": jQuery.support.cssFloat ? "cssFloat" : "styleFloat"
+	},
+
+	// Get and set the style property on a DOM Node
+	style: function( elem, name, value, extra ) {
+		// Don't set styles on text and comment nodes
+		if ( !elem || elem.nodeType === 3 || elem.nodeType === 8 || !elem.style ) {
+			return;
+		}
+
+		// Make sure that we're working with the right name
+		var ret, type, hooks,
+			origName = jQuery.camelCase( name ),
+			style = elem.style;
+
+		name = jQuery.cssProps[ origName ] || ( jQuery.cssProps[ origName ] = vendorPropName( style, origName ) );
+
+		// gets hook for the prefixed version
+		// followed by the unprefixed version
+		hooks = jQuery.cssHooks[ name ] || jQuery.cssHooks[ origName ];
+
+		// Check if we're setting a value
+		if ( value !== undefined ) {
+			type = typeof value;
+
+			// convert relative number strings (+= or -=) to relative numbers. #7345
+			if ( type === "string" && (ret = rrelNum.exec( value )) ) {
+				value = ( ret[1] + 1 ) * ret[2] + parseFloat( jQuery.css( elem, name ) );
+				// Fixes bug #9237
+				type = "number";
+			}
+
+			// Make sure that NaN and null values aren't set. See: #7116
+			if ( value == null || type === "number" && isNaN( value ) ) {
+				return;
+			}
+
+			// If a number was passed in, add 'px' to the (except for certain CSS properties)
+			if ( type === "number" && !jQuery.cssNumber[ origName ] ) {
+				value += "px";
+			}
+
+			// Fixes #8908, it can be done more correctly by specifing setters in cssHooks,
+			// but it would mean to define eight (for every problematic property) identical functions
+			if ( !jQuery.support.clearCloneStyle && value === "" && name.indexOf("background") === 0 ) {
+				style[ name ] = "inherit";
+			}
+
+			// If a hook was provided, use that value, otherwise just set the specified value
+			if ( !hooks || !("set" in hooks) || (value = hooks.set( elem, value, extra )) !== undefined ) {
+
+				// Wrapped to prevent IE from throwing errors when 'invalid' values are provided
+				// Fixes bug #5509
+				try {
+					style[ name ] = value;
+				} catch(e) {}
+			}
+
+		} else {
+			// If a hook was provided get the non-computed value from there
+			if ( hooks && "get" in hooks && (ret = hooks.get( elem, false, extra )) !== undefined ) {
+				return ret;
+			}
+
+			// Otherwise just get the value from the style object
+			return style[ name ];
+		}
+	},
+
+	css: function( elem, name, extra, styles ) {
+		var num, val, hooks,
+			origName = jQuery.camelCase( name );
+
+		// Make sure that we're working with the right name
+		name = jQuery.cssProps[ origName ] || ( jQuery.cssProps[ origName ] = vendorPropName( elem.style, origName ) );
+
+		// gets hook for the prefixed version
+		// followed by the unprefixed version
+		hooks = jQuery.cssHooks[ name ] || jQuery.cssHooks[ origName ];
+
+		// If a hook was provided get the computed value from there
+		if ( hooks && "get" in hooks ) {
+			val = hooks.get( elem, true, extra );
+		}
+
+		// Otherwise, if a way to get the computed value exists, use that
+		if ( val === undefined ) {
+			val = curCSS( elem, name, styles );
+		}
+
+		//convert "normal" to computed value
+		if ( val === "normal" && name in cssNormalTransform ) {
+			val = cssNormalTransform[ name ];
+		}
+
+		// Return, converting to number if forced or a qualifier was provided and val looks numeric
+		if ( extra === "" || extra ) {
+			num = parseFloat( val );
+			return extra === true || jQuery.isNumeric( num ) ? num || 0 : val;
+		}
+		return val;
+	}
+});
+
+// NOTE: we've included the "window" in window.getComputedStyle
+// because jsdom on node.js will break without it.
+if ( window.getComputedStyle ) {
+	getStyles = function( elem ) {
+		return window.getComputedStyle( elem, null );
+	};
+
+	curCSS = function( elem, name, _computed ) {
+		var width, minWidth, maxWidth,
+			computed = _computed || getStyles( elem ),
+
+			// getPropertyValue is only needed for .css('filter') in IE9, see #12537
+			ret = computed ? computed.getPropertyValue( name ) || computed[ name ] : undefined,
+			style = elem.style;
+
+		if ( computed ) {
+
+			if ( ret === "" && !jQuery.contains( elem.ownerDocument, elem ) ) {
+				ret = jQuery.style( elem, name );
+			}
+
+			// A tribute to the "awesome hack by Dean Edwards"
+			// Chrome < 17 and Safari 5.0 uses "computed value" instead of "used value" for margin-right
+			// Safari 5.1.7 (at least) returns percentage for a larger set of values, but width seems to be reliably pixels
+			// this is against the CSSOM draft spec: http://dev.w3.org/csswg/cssom/#resolved-values
+			if ( rnumnonpx.test( ret ) && rmargin.test( name ) ) {
+
+				// Remember the original values
+				width = style.width;
+				minWidth = style.minWidth;
+				maxWidth = style.maxWidth;
+
+				// Put in the new values to get a computed value out
+				style.minWidth = style.maxWidth = style.width = ret;
+				ret = computed.width;
+
+				// Revert the changed values
+				style.width = width;
+				style.minWidth = minWidth;
+				style.maxWidth = maxWidth;
+			}
+		}
+
+		return ret;
+	};
+} else if ( document.documentElement.currentStyle ) {
+	getStyles = function( elem ) {
+		return elem.currentStyle;
+	};
+
+	curCSS = function( elem, name, _computed ) {
+		var left, rs, rsLeft,
+			computed = _computed || getStyles( elem ),
+			ret = computed ? computed[ name ] : undefined,
+			style = elem.style;
+
+		// Avoid setting ret to empty string here
+		// so we don't default to auto
+		if ( ret == null && style && style[ name ] ) {
+			ret = style[ name ];
+		}
+
+		// From the awesome hack by Dean Edwards
+		// http://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
+
+		// If we're not dealing with a regular pixel number
+		// but a number that has a weird ending, we need to convert it to pixels
+		// but not position css attributes, as those are proportional to the parent element instead
+		// and we can't measure the parent instead because it might trigger a "stacking dolls" problem
+		if ( rnumnonpx.test( ret ) && !rposition.test( name ) ) {
+
+			// Remember the original values
+			left = style.left;
+			rs = elem.runtimeStyle;
+			rsLeft = rs && rs.left;
+
+			// Put in the new values to get a computed value out
+			if ( rsLeft ) {
+				rs.left = elem.currentStyle.left;
+			}
+			style.left = name === "fontSize" ? "1em" : ret;
+			ret = style.pixelLeft + "px";
+
+			// Revert the changed values
+			style.left = left;
+			if ( rsLeft ) {
+				rs.left = rsLeft;
+			}
+		}
+
+		return ret === "" ? "auto" : ret;
+	};
+}
+
+function setPositiveNumber( elem, value, subtract ) {
+	var matches = rnumsplit.exec( value );
+	return matches ?
+		// Guard against undefined "subtract", e.g., when used as in cssHooks
+		Math.max( 0, matches[ 1 ] - ( subtract || 0 ) ) + ( matches[ 2 ] || "px" ) :
+		value;
+}
+
+function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {
+	var i = extra === ( isBorderBox ? "border" : "content" ) ?
+		// If we already have the right measurement, avoid augmentation
+		4 :
+		// Otherwise initialize for horizontal or vertical properties
+		name === "width" ? 1 : 0,
+
+		val = 0;
+
+	for ( ; i < 4; i += 2 ) {
+		// both box models exclude margin, so add it if we want it
+		if ( extra === "margin" ) {
+			val += jQuery.css( elem, extra + cssExpand[ i ], true, styles );
+		}
+
+		if ( isBorderBox ) {
+			// border-box includes padding, so remove it if we want content
+			if ( extra === "content" ) {
+				val -= jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+			}
+
+			// at this point, extra isn't border nor margin, so remove border
+			if ( extra !== "margin" ) {
+				val -= jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
+			}
+		} else {
+			// at this point, extra isn't content, so add padding
+			val += jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+
+			// at this point, extra isn't content nor padding, so add border
+			if ( extra !== "padding" ) {
+				val += jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
+			}
+		}
+	}
+
+	return val;
+}
+
+function getWidthOrHeight( elem, name, extra ) {
+
+	// Start with offset property, which is equivalent to the border-box value
+	var valueIsBorderBox = true,
+		val = name === "width" ? elem.offsetWidth : elem.offsetHeight,
+		styles = getStyles( elem ),
+		isBorderBox = jQuery.support.boxSizing && jQuery.css( elem, "boxSizing", false, styles ) === "border-box";
+
+	// some non-html elements return undefined for offsetWidth, so check for null/undefined
+	// svg - https://bugzilla.mozilla.org/show_bug.cgi?id=649285
+	// MathML - https://bugzilla.mozilla.org/show_bug.cgi?id=491668
+	if ( val <= 0 || val == null ) {
+		// Fall back to computed then uncomputed css if necessary
+		val = curCSS( elem, name, styles );
+		if ( val < 0 || val == null ) {
+			val = elem.style[ name ];
+		}
+
+		// Computed unit is not pixels. Stop here and return.
+		if ( rnumnonpx.test(val) ) {
+			return val;
+		}
+
+		// we need the check for style in case a browser which returns unreliable values
+		// for getComputedStyle silently falls back to the reliable elem.style
+		valueIsBorderBox = isBorderBox && ( jQuery.support.boxSizingReliable || val === elem.style[ name ] );
+
+		// Normalize "", auto, and prepare for extra
+		val = parseFloat( val ) || 0;
+	}
+
+	// use the active box-sizing model to add/subtract irrelevant styles
+	return ( val +
+		augmentWidthOrHeight(
+			elem,
+			name,
+			extra || ( isBorderBox ? "border" : "content" ),
+			valueIsBorderBox,
+			styles
+		)
+	) + "px";
+}
+
+// Try to determine the default display value of an element
+function css_defaultDisplay( nodeName ) {
+	var doc = document,
+		display = elemdisplay[ nodeName ];
+
+	if ( !display ) {
+		display = actualDisplay( nodeName, doc );
+
+		// If the simple way fails, read from inside an iframe
+		if ( display === "none" || !display ) {
+			// Use the already-created iframe if possible
+			iframe = ( iframe ||
+				jQuery("<iframe frameborder='0' width='0' height='0'/>")
+				.css( "cssText", "display:block !important" )
+			).appendTo( doc.documentElement );
+
+			// Always write a new HTML skeleton so Webkit and Firefox don't choke on reuse
+			doc = ( iframe[0].contentWindow || iframe[0].contentDocument ).document;
+			doc.write("<!doctype html><html><body>");
+			doc.close();
+
+			display = actualDisplay( nodeName, doc );
+			iframe.detach();
+		}
+
+		// Store the correct default display
+		elemdisplay[ nodeName ] = display;
+	}
+
+	return display;
+}
+
+// Called ONLY from within css_defaultDisplay
+function actualDisplay( name, doc ) {
+	var elem = jQuery( doc.createElement( name ) ).appendTo( doc.body ),
+		display = jQuery.css( elem[0], "display" );
+	elem.remove();
+	return display;
+}
+
+jQuery.each([ "height", "width" ], function( i, name ) {
+	jQuery.cssHooks[ name ] = {
+		get: function( elem, computed, extra ) {
+			if ( computed ) {
+				// certain elements can have dimension info if we invisibly show them
+				// however, it must have a current display style that would benefit from this
+				return elem.offsetWidth === 0 && rdisplayswap.test( jQuery.css( elem, "display" ) ) ?
+					jQuery.swap( elem, cssShow, function() {
+						return getWidthOrHeight( elem, name, extra );
+					}) :
+					getWidthOrHeight( elem, name, extra );
+			}
+		},
+
+		set: function( elem, value, extra ) {
+			var styles = extra && getStyles( elem );
+			return setPositiveNumber( elem, value, extra ?
+				augmentWidthOrHeight(
+					elem,
+					name,
+					extra,
+					jQuery.support.boxSizing && jQuery.css( elem, "boxSizing", false, styles ) === "border-box",
+					styles
+				) : 0
+			);
+		}
+	};
+});
+
+if ( !jQuery.support.opacity ) {
+	jQuery.cssHooks.opacity = {
+		get: function( elem, computed ) {
+			// IE uses filters for opacity
+			return ropacity.test( (computed && elem.currentStyle ? elem.currentStyle.filter : elem.style.filter) || "" ) ?
+				( 0.01 * parseFloat( RegExp.$1 ) ) + "" :
+				computed ? "1" : "";
+		},
+
+		set: function( elem, value ) {
+			var style = elem.style,
+				currentStyle = elem.currentStyle,
+				opacity = jQuery.isNumeric( value ) ? "alpha(opacity=" + value * 100 + ")" : "",
+				filter = currentStyle && currentStyle.filter || style.filter || "";
+
+			// IE has trouble with opacity if it does not have layout
+			// Force it by setting the zoom level
+			style.zoom = 1;
+
+			// if setting opacity to 1, and no other filters exist - attempt to remove filter attribute #6652
+			// if value === "", then remove inline opacity #12685
+			if ( ( value >= 1 || value === "" ) &&
+					jQuery.trim( filter.replace( ralpha, "" ) ) === "" &&
+					style.removeAttribute ) {
+
+				// Setting style.filter to null, "" & " " still leave "filter:" in the cssText
+				// if "filter:" is present at all, clearType is disabled, we want to avoid this
+				// style.removeAttribute is IE Only, but so apparently is this code path...
+				style.removeAttribute( "filter" );
+
+				// if there is no filter style applied in a css rule or unset inline opacity, we are done
+				if ( value === "" || currentStyle && !currentStyle.filter ) {
+					return;
+				}
+			}
+
+			// otherwise, set new filter values
+			style.filter = ralpha.test( filter ) ?
+				filter.replace( ralpha, opacity ) :
+				filter + " " + opacity;
+		}
+	};
+}
+
+// These hooks cannot be added until DOM ready because the support test
+// for it is not run until after DOM ready
+jQuery(function() {
+	if ( !jQuery.support.reliableMarginRight ) {
+		jQuery.cssHooks.marginRight = {
+			get: function( elem, computed ) {
+				if ( computed ) {
+					// WebKit Bug 13343 - getComputedStyle returns wrong value for margin-right
+					// Work around by temporarily setting element display to inline-block
+					return jQuery.swap( elem, { "display": "inline-block" },
+						curCSS, [ elem, "marginRight" ] );
+				}
+			}
+		};
+	}
+
+	// Webkit bug: https://bugs.webkit.org/show_bug.cgi?id=29084
+	// getComputedStyle returns percent when specified for top/left/bottom/right
+	// rather than make the css module depend on the offset module, we just check for it here
+	if ( !jQuery.support.pixelPosition && jQuery.fn.position ) {
+		jQuery.each( [ "top", "left" ], function( i, prop ) {
+			jQuery.cssHooks[ prop ] = {
+				get: function( elem, computed ) {
+					if ( computed ) {
+						computed = curCSS( elem, prop );
+						// if curCSS returns percentage, fallback to offset
+						return rnumnonpx.test( computed ) ?
+							jQuery( elem ).position()[ prop ] + "px" :
+							computed;
+					}
+				}
+			};
+		});
+	}
+
+});
+
+if ( jQuery.expr && jQuery.expr.filters ) {
+	jQuery.expr.filters.hidden = function( elem ) {
+		// Support: Opera <= 12.12
+		// Opera reports offsetWidths and offsetHeights less than zero on some elements
+		return elem.offsetWidth <= 0 && elem.offsetHeight <= 0 ||
+			(!jQuery.support.reliableHiddenOffsets && ((elem.style && elem.style.display) || jQuery.css( elem, "display" )) === "none");
+	};
+
+	jQuery.expr.filters.visible = function( elem ) {
+		return !jQuery.expr.filters.hidden( elem );
+	};
+}
+
+// These hooks are used by animate to expand properties
+jQuery.each({
+	margin: "",
+	padding: "",
+	border: "Width"
+}, function( prefix, suffix ) {
+	jQuery.cssHooks[ prefix + suffix ] = {
+		expand: function( value ) {
+			var i = 0,
+				expanded = {},
+
+				// assumes a single number if not a string
+				parts = typeof value === "string" ? value.split(" ") : [ value ];
+
+			for ( ; i < 4; i++ ) {
+				expanded[ prefix + cssExpand[ i ] + suffix ] =
+					parts[ i ] || parts[ i - 2 ] || parts[ 0 ];
+			}
+
+			return expanded;
+		}
+	};
+
+	if ( !rmargin.test( prefix ) ) {
+		jQuery.cssHooks[ prefix + suffix ].set = setPositiveNumber;
+	}
+});
+var r20 = /%20/g,
+	rbracket = /\[\]$/,
+	rCRLF = /\r?\n/g,
+	rsubmitterTypes = /^(?:submit|button|image|reset|file)$/i,
+	rsubmittable = /^(?:input|select|textarea|keygen)/i;
+
+jQuery.fn.extend({
+	serialize: function() {
+		return jQuery.param( this.serializeArray() );
+	},
+	serializeArray: function() {
+		return this.map(function(){
+			// Can add propHook for "elements" to filter or add form elements
+			var elements = jQuery.prop( this, "elements" );
+			return elements ? jQuery.makeArray( elements ) : this;
+		})
+		.filter(function(){
+			var type = this.type;
+			// Use .is(":disabled") so that fieldset[disabled] works
+			return this.name && !jQuery( this ).is( ":disabled" ) &&
+				rsubmittable.test( this.nodeName ) && !rsubmitterTypes.test( type ) &&
+				( this.checked || !manipulation_rcheckableType.test( type ) );
+		})
+		.map(function( i, elem ){
+			var val = jQuery( this ).val();
+
+			return val == null ?
+				null :
+				jQuery.isArray( val ) ?
+					jQuery.map( val, function( val ){
+						return { name: elem.name, value: val.replace( rCRLF, "\r\n" ) };
+					}) :
+					{ name: elem.name, value: val.replace( rCRLF, "\r\n" ) };
+		}).get();
+	}
+});
+
+//Serialize an array of form elements or a set of
+//key/values into a query string
+jQuery.param = function( a, traditional ) {
+	var prefix,
+		s = [],
+		add = function( key, value ) {
+			// If value is a function, invoke it and return its value
+			value = jQuery.isFunction( value ) ? value() : ( value == null ? "" : value );
+			s[ s.length ] = encodeURIComponent( key ) + "=" + encodeURIComponent( value );
 		};
 
-		/	jQuerye
- * msg );
-};
-ctor;
+	// Set traditional to true for jQuery <= 1.3.2 behavior.
+	if ( traditional === undefined ) {
+		traditional = jQuery.ajaxSettings && jQuery.ajaxSettings.traditional;
+	}
 
-	jQuery = fu	// Matc = fu[],
-		j = 0,
-		ieudos ),b
-// the sespaceributors
-e_deletedIds.concat,
-: " + B= fuumensLribut ||
-	ss_			var Dof jQu13807)
-		va[1] ) {lts
- */
-Sizzlt see lateon( all, legetEobject is actuery.isFunction( se://jquery.org/li":(" + charactype(ob) && val.spec(match  :
-				null :getEconnec"#ID"e_deletedIds.concat,
-shrinkWrapuplicur = a;
-	wnerDocument || elem ) !== doi ] ) {
-				j = d( elem === rew.detachEv );
+	// If an array was passed in, assume that it is an array of form elements.
+	if ( jQuery.isArray( a ) || ( a.jquery && !jQuery.isPlainObject( a ) ) ) {
+		// Serialize the form elements
+		jQuery.each( a, function() {
+			add( this.name, this.value );
+		});
+
+	} else {
+		// If traditional, encode the "old" way (the way 1.3.2 or older
+		// did it), otherwise encode params recursively.
+		for ( prefix in a ) {
+			buildParams( prefix, a[ prefix ], traditional, add );
 		}
 	}
 
-	reXturn results;
+	// Return the resulting serialization
+	return s.join( "&" ).replace( r20, "+" );
 };
 
-		0;
+function buildParams( prefix, obj, traditional, add ) {
+	var name;
 
-		 );
-		}
-	}
+	if ( jQuery.isArray( obj ) ) {
+		// Serialize array item.
+		jQuery.each( obj, function( i, v ) {
+			if ( traditional || rbracket.test( prefix ) ) {
+				// Treat each array item as a scalar.
+				add( prefix, v );
 
-	reYturn results;
-};
-
-g
-			// S			// HANDLues
-		how/ents !aup || !bupy to 		return a === put ?
-				( ind// Prieturn -1;
-if ( ty false when tr "g" ),
-
-ingCheck( a, ode,
-		ret	text.g tha) {
-		 Firefox dies  If nolementent,
-	docElem =( connect?duplie		retdocumen( "onreadyuments[espace + "nect
-	// Priori				// fr&&des
-			reiveElement` lue" are not t#11290: must sta) ) {
-			if 			// OtheE( di, we injnecte; i++ ) t;
-};
-
-jQ// frace characteuplicateext tContent for elesconnectedtContentda-fA-Fults[i++])Function( s				// fragment in IE 9
-					elem.docum,doesvalue : valueting u optio, Inc, b  {
-		- en: IEs .----(= rext.g()	};
-}rllbasap[i]len =  else "g" ),
-
-	rpncy of new aramf new lineetDo-------fA-F]or !== "strinw+)\s*\/?
- */values,r ) ) &&
-		( !rproperty.
-		// ee Issue #157)w+)\s*\/?nodeNode !=ray|ElemedeType === 3 || nodeType ==expr ) {t,
-	so(e) {}
-
-
-// C		pa
-					elem.document i] === bpgetText 1 ) {
-	 Issue #157)
-se if ( nodeType  to be
-	// Prioturn setTimeout( = Sizzle.selectors = {
-
-	elements .setAttribut	for ( ;  getText( node );l( o, "" );
-
-		querySeldexOf ifgetText tContent fog tokenize iText( node );sts
-			if ( !-----------		ret += getTeupport: Opera tNode" },
-		"+": ").lengter test{
-		seing , name.ge",bling" }
-call( Ex? 1----------ext, results, ).length ) {bup || !!( bu_concat.ae === 1 &&bp[i] )true } 1 && b.nod and {
-		toble, inerroplace( runescape, funescape );
-
-		 cla a === bup | =iven v;
-
-ven value to ma 0,
-		e're mergin:iven v,
-	ch[3.slice,
-	core_inde runescape, funescape );
-
-rolsSA = [];
-
-			}lidtoed nodze( seled && usSibli		return up ? -1 :mpareDopageswmple		return documentElement |		return ter tests ( mat = d*/
-
-	/elec( 0, 4 );
-pera enxt.geHILD"ySelectorAll )) [];
-
-	// qSa(:focus) reports false when selectcu);
-
-	if ( su nodeType therwiseven valuelecto = nurn matchr );
-	 targetestors fot, nul!== elemsx of xn-context) t selent ([+-]?\d*n|). !suppor		7 sign of  selectru: a,
-				bup =eudos );nodeType p cos
-	// y argument ([+-]?\d*n|)
-				5 sign of xn-len = ch ) {
-			/ to see ifon,
-
-	maurn mol, e	if (
-			bp[i] = ? 1 :
- 4 );
-		},
-
-]s :
-
-is shoul;
-					res argument
-				*gExp( rbug0,T13:requires argument
-					}
-
-		// Function( satch[3] ) {
-					SitoLoweribling )HILD"]
-				* requi.)
-	-=== "strtInput*{
-					+ + (match[6// Don't brequires argusttails conatch ) {
-			/3] ==d back ] + " ";
-.CHILD
-n cont	*/
-			mo a quick cnt
-				6 x of x results;
-			// othe
-			*/
-			mse/true cast onent
-				8 y of y-componit arguments
-			 );
-
-		// Add tributch[5] || "" ).repltch[3 "" ).replaceven value to mach[5] || "" \d*n|) 0,
-		 !supporn falsIds.slice,
-	corumentPoery.readyW doc ||  + "+$", ough QSA a[0] ) ) // Prio!d)
-				];
-
-		//!ough QSA aamelCas||0] ) ) {
-		be adj		return null;
-
-		} el true },
-	( bup ) & 16 {
-				return null;The value/s cad ofendChild( div )oveAtr doc3rd	);
-					retur @pacted dy.pr	}
-	["CLE8
-		methodined 		);
-seFsultectedw\W]+>)[^>]* instantiati['\"]parse	ap here n eloject(pleNode(n.att.apps "10SON  wincursi( tag&&
-		( cur );if ( (xenize( unquoted, ro/ Al(1rad) )) &&--------ted,iidbrd to our pr to pass through QSA allreturn null chai	// MatcodeTyrom unqe newly-f( elem && pe !"y.pr )) &&edWhitespace 0 ")", u	// re
-				}
-;
-		o our ping ch[0] ? are  doc || con: falsh[2];
-
-			if ( matchExpr["//d nod] ===esto(cur = cuxtSibli -d nodse if ( ent;
-		}ly wid (typamelCasent;
-	r CLASS {
-	retur			maore_}
-		ioes not implwly wilength = i;
- sortInput, afx3] ==		return null;
- = {
-
-	// Can br nodeName = nodeNameocumentPositiostrundefinedt quoted argumentrt.ats-is
-			if ( matchtes
- * @partun = nss,
-				ufromC			}
-
-		er ) {
-		retud*n|)
-		 = nodeNameSel = {
-
-	// Can be adjuscess ) - unquoted.lengthlem.no]
-		+		};
-		div.querle" + -(new Date	match[2] = match[4];
-
-	t: true }nowults[i++]) ) {sibling[^"\\\r\nIE <=9eck Panic		// ort: rotion(" ),
-the MITn2.js
-ntiontrHandleZ
- *desxcess,
-				unquot
-			ollTtch.s "(" + whitespace + "|Lefe_delet
-			// Return only captures	return nodeNames are said ts-is
-			if Name( selector ) ) {
-			var pattern = classCache[ classNam " ];
-
-		ntListener |uFEFFs expiddetring"(node =
-	// A simple wa An elemenocElessF:
-			bp[i] sh it onto;ts and push it onto the stack
-	/spe);
-
-[3] = "  ) {
-			if ( this[i] = elemalue,
-			s ase = cal( elem,= "boo mar"ompone": futurn jQuery.type(obj) === Build a ne oldIE
-(
-	})Fx					valaround	hasDem ) {
-				var result operties are own.
-this;
-		}
-
-		fadeTo (You can seee;
-			to ) {
-				var result = Selectors = {}yr: "prev = 0,
-		i he( ke Date: 2013-07-03T0 );
-
-		// Add t = matcho be in === 	fun" JavaSc",supp	}
-		}
-);
-		}
-	 oldIE
-		if {
-		while\d+(?:[eEtiontch[x"); !opera{
-	class2:xp( 82#ce;
-				}
-
-				result += "";
-e );
-		}
-		( text + ""ctly
-		elem ) {
-				var result = Siz
-
-			( div		}
-					}
-odeType === 1y to cment incs nofor positie;
-	n( elem ) {
-				var result a, b )ooc ? -1 :
-		callback.call( obll|-?(?:it)
-			"PSEUDO":iltersot = S ) {
-	thrmpareDont || bvalu arr ) ach  suppor
-				rbuggyery.ty	// Purposefully does nn trsult ==uerySelecto/ excezed expres Webkfini// I( "w"chess imply(
-		IE8
-			y #138( div
-		}
-	} el IE 9
-	ML and ofType]); i++ ) {
-ts.splverse around this by spee) ) {=== check ore_i( 0 )				return f xn-componefirst ===sult =rn ret;ess: functpushStack:+|[\s\ === check +			}
-				if }
-
-	varelem, contexattrterCache, n selecto:
-		function( a*/
-isXystatQt,
-			, b ) {
-			if  undefoppreviultView prope
-		cur = a;
-		w	parene ( (cur arene) ) {
-			ap& elem.nodeName*(n)
-	, b ) {
-	k
- */
-funcfalse on IE aractlse {
-						clone = , b ) {
-=g" : "previterEnc : "previwhitespace +replaceh( e ) {
-			xml		};
-
-	/-type)
-			;
-		}
-	) string and (if tiff, nodeIndaracters( ex,yQSA.xa0])+",
-
-	// Lovar cache,include comment or pd// C						 is actu Set docu = elem	}
-
-			/ new RegEme( classN}
-		ret ) ) ck( elems[ i	}
-		
-		ret
-
-				if ( valast === 0 ?	">": { dir: ? 1 :
-	if ( ( conte
-	rpck( ap[i], += get enabled)
-s
-	guy.org/licenent = e								start = d this by speFunction( se| !bup ) {
-			rginal handlerso)
-								start = dir = type === "only" Selerun = jQuen't yet window, unde& "nextSibling";
-							}
-				 i,
-	support,
-	cac| !bup ) {
-	=ntext 
-	if ( ( non-xm--;et done so)
-								 enabled)
- ";
-		eferly-*rt.a{
-		ret name );
-
-viously-cached ontext, xm
-			 :nth-childexpando ] || (pa:nth-*(n)
-	he = !xml &&  ) {
- === namst, in cas							cse );tricreturn lag for dupeChild( div tch[6]ret = 
-			D": ne === nize (re		has] ===wa;
-
-	t
-			dent vars		}
-			
-	);
-	/ricted d["CL=== i (exceptinreturn a.c,iframe ted d			node *know* uo catchize (rr.fitNodeb ) {lector ) 			nodeIery., b ) {
-			if (  instru			node== 0 ?
-
-eFilter
-	psetTimeoutck :!elem."" :
-				core_trim.callfalse on lem;
-								while use our ow dir ]) h[0] );
+			} else {
+				// Item is non-scalar (array or object), encode its numeric index.
+				buildParams( prefix + "[" + ( typeof v === "object" ? i : "" ) + "]", v, traditional, add );
 			}
+		});
 
-			re node.nodeName.toLowerCasereturn/ Reverse direction for :only-* 						 === nam = typ				return fa) ||== documeneIndex, diff ];
-						lse;
-			break;		}
-								}
-								// Rev" );
-			} === n?e
-				-------------r CLASS			// 	ofType = wfla		}
-	priv
-		(arr  to chec!!elem.par.push( ele (ca( div& cache[2]Type 	context =  = nodeIndex = 0)) {
-				lector ) dd" );
+	} else if ( !traditional && jQuery.type( obj ) === "object" ) {
+		// Serialize object item.
+		for ( name in obj ) {
+			buildParams( prefix + "[" + name + "]", obj[ name ], traditional, add );
+		}
 
-			// otly" && !star& elem.nod = +( ( matk around thise = creatl pseudo uppor*
-	----- "last",
-		// Gelem.p, slice.ard && useCache ) {
-							// Seek `elem` from a previously-cached index
-							outeexpando ] || (parent[ expando  = {});
-							cache = outerCache[ tyetElementsByC] === dirruns && cache[1];
-							diff = cachse {
-							//ed expresss && ca
-			 === n as above to seek `elem` from the0:disabled and hidden elements (hche ind === 		start = dir			(node[ expa!!elem.pe[ name.t] || (node[ expando ] = +( ( matnd this by spec// Workarget obj(elem[ expando) ) {
-			ap ] = {}))[ 
-		// Handl = conteG});
+	} else {
+		// Serialize scalar item.
+		add( prefix, obj );
+	}
+}
+jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblclick " +
+	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
+	"change select submit keydown keypress keyup error contextmenu").split(" "), function( i, name ) {
+
+	// Handle event binding
+	jQuery.fn[ name ] = function( data, fn ) {
+		return arguments.length > 0 ?
+			this.on( name, null, data, fn ) :
+			this.trigger( name );
+	};
+});
+
+jQuery.fn.extend({
+	hover: function( fnOver, fnOut ) {
+		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+	},
+
+	bind: function( types, data, fn ) {
+		return this.on( types, null, data, fn );
+	},
+	unbind: function( types, fn ) {
+		return this.off( types, null, fn );
+	},
+
+	delegate: function( selector, types, data, fn ) {
+		return this.on( types, selector, data, fn );
+	},
+	undelegate: function( selector, types, fn ) {
+		// ( namespace ) or ( selector, types [, fn] )
+		return arguments.length === 1 ? this.off( selector, "**" ) : this.off( types, selector || "**", fn );
+	}
+});
+var
+	// Document location
+	ajaxLocParts,
+	ajaxLocation,
+	ajax_nonce = jQuery.now(),
+
+	ajax_rquery = /\?/,
+	rhash = /#.*$/,
+	rts = /([?&])_=[^&]*/,
+	rheaders = /^(.*?):[ \t]*([^\r\n]*)\r?$/mg, // IE leaves an \r character at EOL
+	// #7653, #8125, #8152: local protocol detection
+	rlocalProtocol = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
+	rnoContent = /^(?:GET|HEAD)$/,
+	rprotocol = /^\/\//,
+	rurl = /^([\w.+-]+:)(?:\/\/([^\/?#:]*)(?::(\d+)|)|)/,
+
+	// Keep a copy of the old load method
+	_load = jQuery.fn.load,
+
+	/* Prefilters
+	 * 1) They are useful to introduce custom dataTypes (see ajax/jsonp.js for an example)
+	 * 2) These are called:
+	 *    - BEFORE asking for a transport
+	 *    - AFTER param serialization (s.data is a string if s.processData is true)
+	 * 3) key is the dataType
+	 * 4) the catchall symbol "*" can be used
+	 * 5) execution will start with transport dataType and THEN continue down to "*" if needed
+	 */
+	prefilters = {},
+
+	/* Transports bindings
+	 * 1) key is the dataType
+	 * 2) the catchall symbol "*" can be used
+	 * 3) selection will start with transport dataType and THEN go to "*" if needed
+	 */
+	transports = {},
+
+	// Avoid comment-prolog char sequence (#10098); must appease lint and evade compression
+	allTypes = "*/".concat("*");
+
+// #8138, IE may throw an exception when accessing
+// a field from window.location if document.domain has been set
+try {
+	ajaxLocation = location.href;
+} catch( e ) {
+	// Use the href attribute of an A element
+	// since IE will modify it given document.location
+	ajaxLocation = document.createElement( "a" );
+	ajaxLocation.href = "";
+	ajaxLocation = ajaxLocation.href;
 }
 
-	);
-					r, b ) {
-	var inseButton) {
+// Segment location into parts
+ajaxLocParts = rurl.exec( ajaxLocation.toLowerCase() ) || [];
 
-			//e {
-				ror ) {
-						in cons/,
-	rdtrue;
-			frame-----ttp( "^"ax erroted vaually = fun+ ")$",b.pare					dit sortter[eerro							1kExpr =s not
-			docu over tattrs. = handler;
-f / first >= 0 );
-					}
-				2xp( "retu/ RetassNa": fore_d );
-			diff -= e in			diff -= function(ff ( ( "loadses
-	+ cal-						diff -= last;plem		}
-	{
-			document.ctio diff[ructor '}
+// Base "constructor" for jQuery.ajaxPrefilter and jQuery.ajaxTransport
+function addToPrefiltersOrTransports( structure ) {
 
-fy in cssCare added "load"uppercase lettr own t {
-			if  by case sensitivit diff.undationtters
-	.ype prFilters inhere new madiffDOM Read						}
+	// dataTypeExpression is optional and defaults to "*"
+	return function( dataTypeExpression, func ) {
 
-shortcSupp: newke an ++diff ) {entListener || eslideDown:t cycleibute(dirrseudoUp+ pseudo node 		// The T.getA+ pseudo m.getAtdirr" ? In: heck && reslem[i]) ) {
-adeOkeepare needed tnode =te the f to indiare needed tm.getAt }e === "completelem;
-eturn a === check ) {
-			return function( elem ) {
-				var result = Sizzle.att		if ( !operat {
-			hasD
+		if ( typeof dataTypeExpression !== "string" ) {
+			func = dataTypeExpression;
+			dataTypeExpression = "*";
+		}
+
+		var dataType,
+			i = 0,
+			dataTypes = dataTypeExpression.toLowerCase().match( core_rnotwhite ) || [];
+
+		if ( jQuery.isFunction( func ) ) {
+			// For each dataType in the dataTypeExpression
+			while ( (dataType = dataTypes[i++]) ) {
+				// Prepend if requested
+				if ( dataType[0] === "+" ) {
+					dataType = dataType.slice( 1 ) || "*";
+					(structure[ dataType ] = structure[ dataType ] || []).unshift( func );
+
+				// Otherwise append
+				} else {
+					(structure[ dataType ] = structure[ dataType ] || []).push( func );
 				}
+			}
+		}
+	};
+}
 
-				result += "";
+// Base inspection function for prefilters and transports
+function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {
 
-				return op ( resun function( elem ) {
-				vurning ttra Ie ins ( resvalue = cal( result =or = selec	// Purposefully do	markF).doivitt = callbaf;
+	var inspected = {},
+		seekingTransport = ( structure === transports );
 
-		!fo doc"CHILD": 	context = r.replace( rt
-						rg/T = [  + " {
-			varh;
-						ror( m		matfn( seed, ar( seed, 						// Othe
-					retue );
+	function inspect( dataType ) {
+		var selected;
+		inspected[ dataType ] = true;
+		jQuery.each( structure[ dataType ] || [], function( _, prefilterOrFactory ) {
+			var dataTypeOrTransport = prefilterOrFactory( options, originalOptions, jqXHR );
+			if( typeof dataTypeOrTransport === "string" && !seekingTransport && !inspected[ dataTypeOrTransport ] ) {
+				options.dataTypes.unshift( dataTypeOrTransport );
+				inspect( dataTypeOrTransport );
+				return false;
+			} else if ( seekingTransport ) {
+				return !( selected = dataTypeOrTransport );
+			}
+		});
+		return selected;
+	}
 
-			fn( seed, The reopt to see ifction( namxr evce( 0, 
-				ifx ] = matched[);
-	}			doice(x ] = matched
+	return inspect( options.dataTypes[ 0 ] ) || !inspected[ "*" ] && inspect( "*" );
+}
 
-/*x ] = matchedll throw "r no = [ = [ null, 			return[eturn fn( elem,
+// A special extend for ajax options
+// that takes "flat" options (not to be deep extended)
+// Fixes #9887
+function ajaxExtend( target, src ) {
+	var deep, key,
+		flatOptions = jQuery.ajaxSettings.flatOptions || {};
 
-	;
+	for ( key in src ) {
+		if ( src[ key ] !== undefined ) {
+			( flatOptions[ key ] ? target : ( deep || (deep = {}) ) )[ key ] = src[ key ];
+		}
+	}
+	if ( deep ) {
+		jQuery.extend( true, target, deep );
+	}
+
+	return target;
+}
+
+jQuery.fn.load = function( url, params, callback ) {
+	if ( typeof url !== "string" && _load ) {
+		return _load.apply( this, arguments );
+	}
+
+	var selector, response, type,
+		self = this,
+		off = url.indexOf(" ");
+
+	if ( off >= 0 ) {
+		selector = url.slice( off, url.length );
+		url = url.slice( 0, off );
+	}
+
+	// If it's a function
+	if ( jQuery.isFunction( params ) ) {
+
+		// We assume that it's the callback
+		callback = params;
+		params = undefined;
+
+	// Otherwise, build a param string
+	} else if ( params && typeof params === "object" ) {
+		type = "POST";
+	}
+
+	// If we have elements to modify, make the request
+	if ( self.length > 0 ) {
+		jQuery.ajax({
+			url: url,
+
+			// if "type" variable is undefined, then "GET" method will be used
+			type: type,
+			dataType: "html",
+			data: params
+		}).done(function( responseText ) {
+
+			// Save response for use in complete callback
+			response = arguments;
+
+			self.html( selector ?
+
+				// If a selector was specified, locate the right elements in a dummy div
+				// Exclude scripts to avoid IE 'Permission Denied' errors
+				jQuery("<div>").append( jQuery.parseHTML( responseText ) ).find( selector ) :
+
+				// Otherwise use the full result
+				responseText );
+
+		}).complete( callback && function( jqXHR, status ) {
+			self.each( callback, response || [ jqXHR.responseText, status, jqXHR ] );
+		});
+	}
+
+	return this;
+};
+
+// Attach a bunch of functions for handling common AJAX events
+jQuery.each( [ "ajaxStart", "ajaxStop", "ajaxComplete", "ajaxError", "ajaxSuccess", "ajaxSend" ], function( i, type ){
+	jQuery.fn[ type ] = function( fn ){
+		return this.on( type, fn );
+	};
+});
+
+jQuery.extend({
+
+	// Counter for holding the number of active queries
+	active: 0,
+
+	// Last-Modified header cache for next request
+	lastModified: {},
+	etag: {},
+
+	ajaxSettings: {
+		url: ajaxLocation,
+		type: "GET",
+		isLocal: rlocalProtocol.test( ajaxLocParts[ 1 ] ),
+		global: true,
+		processData: true,
+		async: true,
+		contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+		/*
+		timeout: 0,
+		data: null,
+		dataType: null,
+		username: null,
+		password: null,
+		cache: null,
+		throws: false,
+		traditional: false,
+		headers: {},
+		*/
+
+		accepts: {
+			"*": allTypes,
+			text: "text/plain",
+			html: "text/html",
+			xml: "application/xml, text/xml",
+			json: "application/json, text/javascript"
+		},
+
+		contents: {
+			xml: /xml/,
+			html: /html/,
+			json: /json/
+		},
+
+		responseFields: {
+			xml: "responseXML",
+			text: "responseText",
+			json: "responseJSON"
+		},
+
+		// Data converters
+		// Keys separate source (or catchall "*") and destination types with a single space
+		converters: {
+
+			// Convert anything to text
+			"* text": String,
+
+			// Text to html (true = no transformation)
+			"text html": true,
+
+			// Evaluate text as a json expression
+			"text json": jQuery.parseJSON,
+
+			// Parse text as xml
+			"text xml": jQuery.parseXML
+		},
+
+		// For options that shouldn't be deep extended:
+		// you can add your own custom options here if
+		// and when you create one that shouldn't be
+		// deep extended (see ajaxExtend)
+		flatOptions: {
+			url: true,
+			context: true
 		}
 	},
 
-	pseuf y-compo+ ")$",			nid = old.arent[ -fType/h( e ) {
-/13936->r ]) 
-			if ( earent[ ex name );
-r passed to ferredDoc.chir passed tof ( noderacterEpreviatcher pa
-			urn r.parentNo[ idx ]  elem ) {
-	callback.call( n't bring in undefined vombinato :nth-chiombinatff ];
-									}
- a quick cr passed tor !== "stringff = nodeIndex do ] ?
-				ted );
+	// Creates a full fledged settings object into target
+	// with both ajaxSettings and settings fields.
+	// If target is omitted, writes into ajaxSettings.
+	ajaxSetup: function( target, settings ) {
+		return settings ?
+
+			// Building a settings object
+			ajaxExtend( ajaxExtend( target, jQuery.ajaxSettings ), settings ) :
+
+			// Extending ajaxSettings
+			ajaxExtend( jQuery.ajaxSettings, target );
+	},
+
+	ajaxPrefilter: addToPrefiltersOrTransports( prefilters ),
+	ajaxTransport: addToPrefiltersOrTransports( transports ),
+
+	// Main method
+	ajax: function( url, options ) {
+
+		// If url is an object, simulate pre-1.5 signature
+		if ( typeof url === "object" ) {
+			options = url;
+			url = undefined;
 		}
-	cess );op andtrundefined  ? -1 :{
-	the a	};
 
-	return dction( "returndeNalectoctioher( seed, null, xml, [] ),9)
-	-) ) {
-coindo* ) {
-PI p://2turn matc			}
-								ot
-		 name ===fCachven value to match[3if ( (elem .cElem.webkitMatchesSeuerySby Jimously-cached element index ifirst ===idden" );
-			div.app	// Trigge( "loae ) {
-							// completed					ache ) {
-rn documeribute s		"CLAll, xm5, 2 the object,) {
-	
+		// Force options to be an object
+		options = options || {};
 
-// C)(?:\\(" + ) ) :] = !expando ]" + idell, xm		while  === dirruns &&--he[1];
-		|| nodeType =e ) {
-							typeof obj;
-	}r nodrse xec( s
-			input.setAttrib elem,
-				, b ) )  Expr.setFilt			return f a previouunctio			}
-								pareDocu		returngth > 0;
+		var // Cross-domain detection vars
+			parts,
+			// Loop variable
+			i,
+			// URL without anti-cache param
+			cacheURL,
+			// Response headers as string
+			responseHeadersString,
+			// timeout handle
+			timeoutTimer,
+
+			// To know if global events are to be dispatched
+			fireGlobals,
+
+			transport,
+			// Response headers
+			responseHeaders,
+			// Create the final options object
+			s = jQuery.ajaxSetup( {}, options ),
+			// Callbacks context
+			callbackContext = s.context || s,
+			// Context for global events is callbackContext if it is a DOM node or jQuery collection
+			globalEventContext = s.context && ( callbackContext.nodeType || callbackContext.jquery ) ?
+				jQuery( callbackContext ) :
+				jQuery.event,
+			// Deferreds
+			deferred = jQuery.Deferred(),
+			completeDeferred = jQuery.Callbacks("once memory"),
+			// Status-dependent callbacks
+			statusCode = s.statusCode || {},
+			// Headers (they are sent all at once)
+			requestHeaders = {},
+			requestHeadersNames = {},
+			// The jqXHR state
+			state = 0,
+			// Default abort message
+			strAbort = "canceled",
+			// Fake xhr
+			jqXHR = {
+				readyState: 0,
+
+				// Builds headers hashtable if needed
+				getResponseHeader: function( key ) {
+					var match;
+					if ( state === 2 ) {
+						if ( !responseHeaders ) {
+							responseHeaders = {};
+							while ( (match = rheaders.exec( responseHeadersString )) ) {
+								responseHeaders[ match[1].toLowerCase() ] = match[ 2 ];
+							}
+						}
+						match = responseHeaders[ key.toLowerCase() ];
+					}
+					return match == null ? null : match;
+				},
+
+				// Raw string
+				getAllResponseHeaders: function() {
+					return state === 2 ? responseHeadersString : null;
+				},
+
+				// Caches the header
+				setRequestHeader: function( name, value ) {
+					var lname = name.toLowerCase();
+					if ( !state ) {
+						name = requestHeadersNames[ lname ] = requestHeadersNames[ lname ] || name;
+						requestHeaders[ name ] = value;
+					}
+					return this;
+				},
+
+				// Overrides response content-type header
+				overrideMimeType: function( type ) {
+					if ( !state ) {
+						s.mimeType = type;
+					}
+					return this;
+				},
+
+				// Status-dependent callbacks
+				statusCode: function( map ) {
+					var code;
+					if ( map ) {
+						if ( state < 2 ) {
+							for ( code in map ) {
+								// Lazy-add the new callback in a way that preserves old ones
+								statusCode[ code ] = [ statusCode[ code ], map[ code ] ];
+							}
+						} else {
+							// Execute the appropriate callbacks
+							jqXHR.always( map[ jqXHR.status ] );
+						}
+					}
+					return this;
+				},
+
+				// Cancel the request
+				abort: function( statusText ) {
+					var finalText = statusText || strAbort;
+					if ( transport ) {
+						transport.abort( finalText );
+					}
+					done( 0, finalText );
+					return this;
+				}
 			};
-		ad value		while ( i--fx.sh.apeHTML(13) ).indexOf( ter teste_concat = core_deletext ) put, null, x		i =set
 
-	wh	retu		seed[i] = !(e( 0, 3 )f( text ) >  matche			};
-		}),
+		// Attach deferreds
+		deferred.promise( jqXHR ).complete = completeDeferred.add;
+		jqXHR.success = jqXHR.done;
+		jqXHR.error = jqXHR.fail;
 
-		ype &callback.call({
-			lector
-		/represent;
-y a :lang()lse ) ge value
-		// beturn me, fulow: 60	// fast:ts, c
-		retsage oniatel !match[5] &400;
+		// Remove hash character (#7531: and string promotion)
+		// Add protocol if not provided (#5866: IE7 issue with protocol-less urls)
+		// Handle falsy url in the settings object (#10093: consistency with old signature)
+		// We also use the url parameter if available
+		s.url = ( ( url || s.url || ajaxLocation ) + "" ).replace( rhash, "" ).replace( rprotocol, ajaxLocParts[ 1 ] + "//" );
 
-			reBilteng,
-at <1.8.readyt.len This replace( runes= conte = /(?:^|:|,)(?:\s*\[)+/g,
-	rvalidescape = /\\(?:["\\\/bfnrt]|u[\dt.matches = function( event ) {
+		// Alias method option to type as per ticket #12004
+		s.type = options.method || options.type || s.method || s.type;
 
-		// r== elem rep(			}
-								/peed up,
-		// in to a contexindex
-			this(matches  3.5 - :enh forturn opera/\S+/g,Expr.setFiltd", ":disableMIT latched element ses.context;
+		// Extract dataTypes list
+		s.dataTypes = jQuery.trim( s.dataType || "*" ).toLowerCase().match( core_rnotwhite ) || [""];
 
-	documentEtcuts
-		if ( pushStack Build a nenode.nodeName. i& elem.nodeName./\S+/g.err to ren( seed, maeady tingth: 50= "function"docr ( ,yTag}
-		boCach{]?\d
-	rel|)/.: 0ually  ";
-			select0		breadoelselidtopha = /-(wnerturn thi	}
+		// A cross-domain request is in order when we have a protocol:host:port mismatch
+		if ( s.crossDomain == null ) {
+			parts = rurl.exec( s.url.toLowerCase() );
+			s.crossDomain = !!( parts &&
+				( parts[ 1 ] !== ajaxLocParts[ 1 ] || parts[ 2 ] !== ajaxLocParts[ 2 ] ||
+					( parts[ 3 ] || ( parts[ 1 ] === "http:" ? "80" : "443" ) ) !==
+						( ajaxLocParts[ 3 ] || ( ajaxLocParts[ 1 ] === "http:" ? "80" : "443" ) ) )
+			);
+		}
+
+		// Convert data if not already a string
+		if ( s.data && s.processData && typeof s.data !== "string" ) {
+			s.data = jQuery.param( s.data, s.traditional );
+		}
+
+		// Apply prefilters
+		inspectPrefiltersOrTransports( prefilters, s, options, jqXHR );
+
+		// If request was aborted inside a prefilter, stop there
+		if ( state === 2 ) {
+			return jqXHR;
+		}
+
+		// We can fire global events as of now if asked to
+		fireGlobals = s.global;
+
+		// Watch for a new set of requests
+		if ( fireGlobals && jQuery.active++ === 0 ) {
+			jQuery.event.trigger("ajaxStart");
+		}
+
+		// Uppercase the type
+		s.type = s.type.toUpperCase();
+
+		// Determine if request has content
+		s.hasContent = !rnoContent.test( s.type );
+
+		// Save the URL in case we're toying with the If-Modified-Since
+		// and/or If-None-Match header later on
+		cacheURL = s.url;
+
+		// More options handling for requests with no content
+		if ( !s.hasContent ) {
+
+			// If data is available, append data to url
+			if ( s.data ) {
+				cacheURL = ( s.url += ( ajax_rquery.test( cacheURL ) ? "&" : "?" ) + s.data );
+				// #9682: remove data so that it's not used in an eventual retry
+				delete s.data;
+			}
+
+			// Add anti-cache in url if needed
+			if ( s.cache === false ) {
+				s.url = rts.test( cacheURL ) ?
+
+					// If there is already a '_' parameter, set its value
+					cacheURL.replace( rts, "$1_=" + ajax_nonce++ ) :
+
+					// Otherwise add one to the end
+					cacheURL + ( ajax_rquery.test( cacheURL ) ? "&" : "?" ) + "_=" + ajax_nonce++;
+			}
+		}
+
+		// Set the If-Modified-Since and/or If-None-Match header, if in ifModified mode.
+		if ( s.ifModified ) {
+			if ( jQuery.lastModified[ cacheURL ] ) {
+				jqXHR.setRequestHeader( "If-Modified-Since", jQuery.lastModified[ cacheURL ] );
+			}
+			if ( jQuery.etag[ cacheURL ] ) {
+				jqXHR.setRequestHeader( "If-None-Match", jQuery.etag[ cacheURL ] );
+			}
+		}
+
+		// Set the correct header, if data is being sent
+		if ( s.data && s.hasContent && s.contentType !== false || options.contentType ) {
+			jqXHR.setRequestHeader( "Content-Type", s.contentType );
+		}
+
+		// Set the Accepts header for the server, depending on the dataType
+		jqXHR.setRequestHeader(
+			"Accept",
+			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[0] ] ?
+				s.accepts[ s.dataTypes[0] ] + ( s.dataTypes[ 0 ] !== "*" ? ", " + allTypes + "; q=0.01" : "" ) :
+				s.accepts[ "*" ]
+		);
+
+		// Check for headers option
+		for ( i in s.headers ) {
+			jqXHR.setRequestHeader( i, s.headers[ i ] );
+		}
+
+		// Allow custom headers/mimetypes and early abort
+		if ( s.beforeSend && ( s.beforeSend.call( callbackContext, jqXHR, s ) === false || state === 2 ) ) {
+			// Abort if not done already and return
+			return jqXHR.abort();
+		}
+
+		// aborting is no longer a cancellation
+		strAbort = "abort";
+
+		// Install callbacks on deferreds
+		for ( i in { success: 1, error: 1, complete: 1 } ) {
+			jqXHR[ i ]( s[ i ] );
+		}
+
+		// Get transport
+		transport = inspectPrefiltersOrTransports( transports, s, options, jqXHR );
+
+		// If no transport, we auto-abort
+		if ( !transport ) {
+			done( -1, "No Transport" );
+		} else {
+			jqXHR.readyState = 1;
+
+			// Send global event
+			if ( fireGlobals ) {
+				globalEventContext.trigger( "ajaxSend", [ jqXHR, s ] );
+			}
+			// Timeout
+			if ( s.async && s.timeout > 0 ) {
+				timeoutTimer = setTimeout(function() {
+					jqXHR.abort("timeout");
+				}, s.timeout );
+			}
+
+			try {
+				state = 1;
+				transport.send( requestHeaders, done );
+			} catch ( e ) {
+				// Propagate exception as error if not done
+				if ( state < 2 ) {
+					done( -1, e );
+				// Simply rethrow otherwise
+				} else {
+					throw e;
+				}
+			}
+		}
+
+		// Callback for when everything is done
+		function done( status, nativeStatusText, responses, headers ) {
+			var isSuccess, success, error, response, modified,
+				statusText = nativeStatusText;
+
+			// Called once
+			if ( state === 2 ) {
+				return;
+			}
+
+			// State is "done" now
+			state = 2;
+
+			// Clear timeout if it exists
+			if ( timeoutTimer ) {
+				clearTimeout( timeoutTimer );
+			}
+
+			// Dereference transport for early garbage collection
+			// (no matter how long the jqXHR object will be used)
+			transport = undefined;
+
+			// Cache response headers
+			responseHeadersString = headers || "";
+
+			// Set readyState
+			jqXHR.readyState = status > 0 ? 4 : 0;
+
+			// Determine if successful
+			isSuccess = status >= 200 && status < 300 || status === 304;
+
+			// Get response data
+			if ( responses ) {
+				response = ajaxHandleResponses( s, jqXHR, responses );
+			}
+
+			// Convert no matter what (that way responseXXX fields are always set)
+			response = ajaxConvert( s, response, jqXHR, isSuccess );
+
+			// If successful, handle type chaining
+			if ( isSuccess ) {
+
+				// Set the If-Modified-Since and/or If-None-Match header, if in ifModified mode.
+				if ( s.ifModified ) {
+					modified = jqXHR.getResponseHeader("Last-Modified");
+					if ( modified ) {
+						jQuery.lastModified[ cacheURL ] = modified;
+					}
+					modified = jqXHR.getResponseHeader("etag");
+					if ( modified ) {
+						jQuery.etag[ cacheURL ] = modified;
+					}
+				}
+
+				// if no content
+				if ( status === 204 || s.type === "HEAD" ) {
+					statusText = "nocontent";
+
+				// if not modified
+				} else if ( status === 304 ) {
+					statusText = "notmodified";
+
+				// If we have data, let's convert it
+				} else {
+					statusText = response.state;
+					success = response.data;
+					error = response.error;
+					isSuccess = !error;
+				}
+			} else {
+				// We extract error from statusText
+				// then normalize statusText and status for non-aborts
+				error = statusText;
+				if ( status || !statusText ) {
+					statusText = "error";
+					if ( status < 0 ) {
+						status = 0;
+					}
+				}
+			}
+
+			// Set data for the fake xhr object
+			jqXHR.status = status;
+			jqXHR.statusText = ( nativeStatusText || statusText ) + "";
+
+			// Success/Error
+			if ( isSuccess ) {
+				deferred.resolveWith( callbackContext, [ success, statusText, jqXHR ] );
+			} else {
+				deferred.rejectWith( callbackContext, [ jqXHR, statusText, error ] );
+			}
+
+			// Status-dependent callbacks
+			jqXHR.statusCode( statusCode );
+			statusCode = undefined;
+
+			if ( fireGlobals ) {
+				globalEventContext.trigger( isSuccess ? "ajaxSuccess" : "ajaxError",
+					[ jqXHR, s, isSuccess ? success : error ] );
+			}
+
+			// Complete
+			completeDeferred.fireWith( callbackContext, [ jqXHR, statusText ] );
+
+			if ( fireGlobals ) {
+				globalEventContext.trigger( "ajaxComplete", [ jqXHR, s ] );
+				// Handle the global AJAX counter
+				if ( !( --jQuery.active ) ) {
+					jQuery.event.trigger("ajaxStop");
+				}
+			}
+		}
+
+		return jqXHR;
+	},
+
+	getJSON: function( url, data, callback ) {
+		return jQuery.get( url, data, callback, "json" );
+	},
+
+	getScript: function( url, callback ) {
+		return jQuery.get( url, undefined, callback, "script" );
+	}
+});
+
+jQuery.each( [ "get", "post" ], function( i, method ) {
+	jQuery[ method ] = function( url, data, callback, type ) {
+		// shift arguments if data argument was omitted
+		if ( jQuery.isFunction( data ) ) {
+			type = type || callback;
+			callback = data;
+			data = undefined;
+		}
+
+		return jQuery.ajax({
+			url: url,
+			type: method,
+			dataType: type,
+			data: data,
+			success: callback
+		});
+	};
+});
+
+/* Handles responses to an ajax request:
+ * - finds the right dataType (mediates between content-type and expected dataType)
+ * - returns the corresponding response
+ */
+function ajaxHandleResponses( s, jqXHR, responses ) {
+	var firstDataType, ct, finalDataType, type,
+		contents = s.contents,
+		dataTypes = s.dataTypes;
+
+	// Remove auto dataType and get content-type in the process
+	while( dataTypes[ 0 ] === "*" ) {
+		dataTypes.shift();
+		if ( ct === undefined ) {
+			ct = s.mimeType || jqXHR.getResponseHeader("Content-Type");
+		}
+	}
+
+	// Check if we're dealing with a known content-type
+	if ( ct ) {
+		for ( type in contents ) {
+			if ( contents[ type ] && contents[ type ].test( ct ) ) {
+				dataTypes.unshift( type );
+				break;
+			}
+		}
+	}
+
+	// Check to see if we have a response for the expected dataType
+	if ( dataTypes[ 0 ] in responses ) {
+		finalDataType = dataTypes[ 0 ];
+	} else {
+		// Try convertible dataTypes
+		for ( type in responses ) {
+			if ( !dataTypes[ 0 ] || s.converters[ type + " " + dataTypes[0] ] ) {
+				finalDataType = type;
+				break;
+			}
+			if ( !firstDataType ) {
+				firstDataType = type;
+			}
+		}
+		// Or just use first one
+		finalDataType = finalDataType || firstDataType;
+	}
+
+	// If we found a dataType
+	// We add the dataType to the list if needed
+	// and return the corresponding response
+	if ( finalDataType ) {
+		if ( finalDataType !== dataTypes[ 0 ] ) {
+			dataTypes.unshift( finalDataType );
+		}
+		return responses[ finalDataType ];
+	}
+}
+
+/* Chain conversions given the request and the original response
+ * Also sets the responseXXX fields on the jqXHR instance
+ */
+function ajaxConvert( s, response, jqXHR, isSuccess ) {
+	var conv2, current, conv, tmp, prev,
+		converters = {},
+		// Work with a copy of dataTypes in case we need to modify it for conversion
+		dataTypes = s.dataTypes.slice();
+
+	// Create converters map with lowercased keys
+	if ( dataTypes[ 1 ] ) {
+		for ( conv in s.converters ) {
+			converters[ conv.toLowerCase() ] = s.converters[ conv ];
+		}
+	}
+
+	current = dataTypes.shift();
+
+	// Convert to each sequential dataType
+	while ( current ) {
+
+		if ( s.responseFields[ current ] ) {
+			jqXHR[ s.responseFields[ current ] ] = response;
+		}
+
+		// Apply the dataFilter if provided
+		if ( !prev && isSuccess && s.dataFilter ) {
+			response = s.dataFilter( response, s.dataType );
+		}
+
+		prev = current;
+		current = dataTypes.shift();
+
+		if ( current ) {
+
+			// There's only work to do if current dataType is non-auto
+			if ( current === "*" ) {
+
+				current = prev;
+
+			// Convert response if prev dataType is non-auto and differs from current
+			} else if ( prev !== "*" && prev !== current ) {
+
+				// Seek a direct converter
+				conv = converters[ prev + " " + current ] || converters[ "* " + current ];
+
+				// If none found, seek a pair
+				if ( !conv ) {
+					for ( conv2 in converters ) {
+
+						// If conv2 outputs current
+						tmp = conv2.split( " " );
+						if ( tmp[ 1 ] === current ) {
+
+							// If prev can be converted to accepted input
+							conv = converters[ prev + " " + tmp[ 0 ] ] ||
+								converters[ "* " + tmp[ 0 ] ];
+							if ( conv ) {
+								// Condense equivalence converters
+								if ( conv === true ) {
+									conv = converters[ conv2 ];
+
+								// Otherwise, insert the intermediate dataType
+								} else if ( converters[ conv2 ] !== true ) {
+									current = tmp[ 0 ];
+									dataTypes.unshift( tmp[ 1 ] );
+								}
+								break;
+							}
+						}
+					}
+				}
+
+				// Apply converter (if not an equivalence)
+				if ( conv !== true ) {
+
+					// Unless errors are allowed to bubble, catch and return them
+					if ( conv && s[ "throws" ] ) {
+						response = conv( response );
+					} else {
+						try {
+							response = conv( response );
+						} catch ( e ) {
+							return { state: "parsererror", error: conv ? e : "No conversion from " + prev + " to " + current };
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return { state: "success", data: response };
+}
+// Install script dataType
+jQuery.ajaxSetup({
+	accepts: {
+		script: "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"
+	},
+	contents: {
+		script: /(?:java|ecma)script/
+	},
+	converters: {
+		"text script": function( text ) {
+			jQuery.globalEval( text );
+			return text;
+		}
+	}
+});
+
+// Handle cache's special case and global
+jQuery.ajaxPrefilter( "script", function( s ) {
+	if ( s.cache === undefined ) {
+		s.cache = false;
+	}
+	if ( s.crossDomain ) {
+		s.type = "GET";
+		s.global = false;
+	}
+});
+
+// Bind script tag hack transport
+jQuery.ajaxTransport( "script", function(s) {
+
+	// This transport only deals with cross domain requests
+	if ( s.crossDomain ) {
+
+		var script,
+			head = document.head || jQuery("head")[0] || document.documentElement;
+
+		return {
+
+			send: function( _, callback ) {
+
+				script = document.createElement("script");
+
+				script.async = true;
+
+				if ( s.scriptCharset ) {
+					script.charset = s.scriptCharset;
+				}
+
+				script.src = s.url;
+
+				// Attach handlers for all browsers
+				script.onload = script.onreadystatechange = function( _, isAbort ) {
+
+					if ( isAbort || !script.readyState || /loaded|complete/.test( script.readyState ) ) {
+
+						// Handle memory leak in IE
+						script.onload = script.onreadystatechange = null;
+
+						// Remove the script
+						if ( script.parentNode ) {
+							script.parentNode.removeChild( script );
+						}
+
+						// Dereference the script
+						script = null;
+
+						// Callback if not abort
+						if ( !isAbort ) {
+							callback( 200, "success" );
+						}
+					}
+				};
+
+				// Circumvent IE6 bugs with base elements (#2709 and #4378) by prepending
+				// Use native DOM manipulation to avoid our domManip AJAX trickery
+				head.insertBefore( script, head.firstChild );
+			},
+
+			abort: function() {
+				if ( script ) {
+					script.onload( undefined, true );
+				}
+			}
+		};
+	}
+});
+var oldCallbacks = [],
+	rjsonp = /(=)\?(?=&|$)|\?\?/;
+
+// Default jsonp settings
+jQuery.ajaxSetup({
+	jsonp: "callback",
+	jsonpCallback: function() {
+		var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( ajax_nonce++ ) );
+		this[ callback ] = true;
+		return callback;
+	}
+});
+
+// Detect, normalize options and install callbacks for jsonp requests
+jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
+
+	var callbackName, overwritten, responseContainer,
+		jsonProp = s.jsonp !== false && ( rjsonp.test( s.url ) ?
+			"url" :
+			typeof s.data === "string" && !( s.contentType || "" ).indexOf("application/x-www-form-urlencoded") && rjsonp.test( s.data ) && "data"
+		);
+
+	// Handle iff the expected data type is "jsonp" or we have a parameter to set
+	if ( jsonProp || s.dataTypes[ 0 ] === "jsonp" ) {
+
+		// Get callback name, remembering preexisting value associated with it
+		callbackName = s.jsonpCallback = jQuery.isFunction( s.jsonpCallback ) ?
+			s.jsonpCallback() :
+			s.jsonpCallback;
+
+		// Insert callback into url or form data
+		if ( jsonProp ) {
+			s[ jsonProp ] = s[ jsonProp ].replace( rjsonp, "$1" + callbackName );
+		} else if ( s.jsonp !== false ) {
+			s.url += ( ajax_rquery.test( s.url ) ? "&" : "?" ) + s.jsonp + "=" + callbackName;
+		}
+
+		// Use data converter to retrieve json after script execution
+		s.converters["script json"] = function() {
+			if ( !responseContainer ) {
+				jQuery.error( callbackName + " was not called" );
+			}
+			return responseContainer[ 0 ];
+		};
+
+		// force json dataType
+		s.dataTypes[ 0 ] = "json";
+
+		// Install callback
+		overwritten = window[ callbackName ];
+		window[ callbackName ] = function() {
+			responseContainer = arguments;
+		};
+
+		// Clean-up function (fires after converters)
+		jqXHR.always(function() {
+			// Restore preexisting value
+			window[ callbackName ] = overwritten;
+
+			// Save back as free
+			if ( s[ callbackName ] ) {
+				// make sure that re-using the options doesn't screw things around
+				s.jsonpCallback = originalSettings.jsonpCallback;
+
+				// save the callback name for future use
+				oldCallbacks.push( callbackName );
+			}
+
+			// Call if it was a function and we have a response
+			if ( responseContainer && jQuery.isFunction( overwritten ) ) {
+				overwritten( responseContainer[ 0 ] );
+			}
+
+			responseContainer = overwritten = undefined;
+		});
+
+		// Delegate to script
+		return "script";
+	}
+});
+var xhrCallbacks, xhrSupported,
+	xhrId = 0,
+	// #5280: Internet Explorer will keep connections alive if we don't abort on unload
+	xhrOnUnloadAbort = window.ActiveXObject && function() {
+		// Abort all pending requests
+		var key;
+		for ( key in xhrCallbacks ) {
+			xhrCallbacks[ key ]( undefined, true );
+		}
 	};
 
-jQ	eles.context;
-
-ng
-			/ {
-				instea// Handle the case w
-			fn( elem,al methodegEx ")" + clasxecScripore_deletedIds.			/ains, ou
-					ilidtokes.context;
-
-	boxobj === "functiodler;
-r congBCR,space + "*0,0 for splittin		if werCaBlackBerry 5, iOS 3, cocharactiPhonwhenfalse on IE 		if getBrsioingClientR @pachara cloo tr elem && elem.pemLangon( elem ) {
-			var hash =,
-
-		"cows ),
-g[eE]rgum"-" )ginni			// Match docubox.eing= andwin.pageY to ree ) {
-	r ( ce + "|$)" )
-	sp"-" ) ===.car ha$)" 			supp"\")" sHTMion(n elm ) {
-			retuXn elem === docElem;
-		},assNa)ocus": function( elassNa		supp
-			ifhile ( i--fier.testresuurn funct		if ( match[2] === "~=" )  ).toLowexpr afari 5.ed.length - ex letterabled": lems.lengthlem abled": fType 
-			-etermi\d+|)/. = elem.g = fudo ).ltic ) {
-&& documebled": fued", cretu	results.		if ( mattrim = /^[=
-			n( divnode.nodeType =ur				ele 4 ) {
-		retur)
-	camurn elem of +"uncti/\S+/gsMatchenition$)" ))tes
- * @param {Arrauncthecked andCSSassNametes
- * @param {Arra+$/g,
-ecked aalc "MicSafari 5.[4] led === true;
-absolute	preFied === true;
-fixANDLE: $Input, a n{
-			ied.sli, [//www.w3.", "w929/#ch]) >yLisull, null, eScricurerCase();
-	ction( .selecteassNn/out CSates, assumhe = b ) me.toLowt" && !!elif eir spliopWebk funct pr
-	// CSS	// options in Safame === "				ofx: markFuncame.toLowerCase();
-	return( elem ) {
-		 element>(?:<\/\1>terEncccessected Safari 5( el
-		// CoassName
-		"empty": n els
-			} else if ( Contentsed ) &&
-			rinpww.w3.oery #------( elem ) {pty-pseudo
-			// :ocus ||is only  a quick c compile( selector.repse { //.loadXML( data );	}
-
-			ifInput, a ) iion( n elem 								ifexpando  the votor(e,
-			i = 0,
-	ectoreing ethat the Dni f it's to reater cume Contehile ( dir ) ego Peri funcor the nodeName short func			//   Grea functhan "@" mea funclpha chhis prs(including ".creannerTd", ":disable= true ? -.creanstructions, ents ) w.w3.org/TR/selectounctio	fun=== 3 || eleelem ) )set
-		var ret = jQue
-	" && !!e= callback.call( unctionlang :
-	{
-			// lang v				// Never /\S+/gP`
-	co */
-	sedocumed`
-	co selected = documentIsHTML ?
-							elem.lang :
-	 entries
-rent	operator =.app\S+/g,y one argum (lement/input typ docmentIsHTML},efined ?
-window&& nors
-	reName )d`
-	co duplicates
- * @param {Arrareturn elemlem.checked) ||ures neearen		if ( elemlem ) {
-			var hash = e ) {
-	returetDocuxOf = cor elem.parentarentNod( ob else .hash;
-			return hash && hash.seturn true;
-	 ( !old*real*ty"]( elem );button";
-	lem );			1 typtype to 'tex					con ( !old  function";
-	0, 3 on";
-		},for new HTM,
-
-		//Type === 9 ||atch[1] nctioe to 'texg :
-		 presenl :nth-chillement/input tyeName.toLowe to test this 			if ( nif (type to 'textument.length )ent/input( elem cked
-			var noeName.toLowerCase() ument.TopdyStatk around this attr.toLower docum === elem.type );
-		},
-
-		// Position-inassNllection
-		"first"t, raw );ubgth; i attr. use getected
-functiolice =ery.buino	opextend 		operatoop();vent.typy
-			e = /\S+/gnsitive
-	lice =assNand insode = tbuteNin Safari 	corte: 2PositionalP	// B)
-			//l}),
-lt.indexOf( while docueturn [  elem-ction( toLowerCase-ked
-			var nodeName lice =TF\xA0eturn tnt varsHTMturn [ argumeven": createPo0;
-			falPseudo(function( matchIassNxes, lee,
-	uery.e JSeName.toLowe= callback.call( r.charAt( selector.length ery.readyWtype to 'text' for new HTML5 typ === docElection = copy;th ) {
-			varrt.at			return elem.nodeName.toLowe() === "inp (nodeName.type );
-		},
-
-		elem ) {
-			ar name		},
-
-		"cs
- * @parype to 'text' = "text" &&
-				( (lem );heLength ) {
-			/th ) {
-			var i = 1;
-			for				}
-						) {
-		returt.hasFocus idesc + "|$)" .prevOrt.ownLast ) {
-{t.hasFocushile eElement s[i] + "|$)"hIndexern elem" === "completacters
-ay to checkueryStents/Y				resu: must st );
-			}
-
-		 Whitespace charactercontex( this[i] === elem jQuer== 0 ?
-
-lice,
-	core_indeon( matcth : argum;
-				( 1 ) === elem.iood enoulector )  conte
-	// Prefer argumenodd": cr			r? (getText winengtwinind: {},
-
-;
-				
-			{
-						// Handle the cat < 0 ? argpe pseu{
-				 WhitespachEvent( "MIT l			rt done s
-					"gt": }
-
-				!th, ed, fntially cimage: nt.hasFocussMatchesumen= createInputPseudo( i );
+// Functions to create xhrs
+function createStandardXHR() {
+	try {
+		return new window.XMLHttpRequest();
+	} catch( e ) {}
 }
-fTrse  {
-		Query.isFunction( sefile: true, pab ) ) -----------Indexes.pushtype(obj) = pseudos#13936
-	/.org/TR/ck against cn matchIndexes;	// Move thnt ),
-			s.prototype = Eelemlidtope p807)
-		val = fn &&9= lang		if 			var Vier ||
-Name === "s= elem: truest, in A var
-		if (inner	// Ma
-			nerE][+-umen,
-		sot >= 0 outtype,
-		?\d+|)ache/,
-	rds.push( i );
-			}
-			r 	// Ma
-			all( E, E][+-:}
-	},
 
-	p] ) {
-				return fnR/css3-sel ];
+function createActiveXHR() {
+	try {
+		return new window.ActiveXObject("Microsoft.XMLHTTP");
+	} catch( e ) {}
+}
 
-	if ( cach "load" ||Far,  is 0
-	l + ") + cted val "ery che[  is 0
-	le === "complet			var engthth; ) [1] ) {return lice =lidtos
-	roosecached = to		cacheE][+-h > 0;
-			}n[n
-		if ( !o the stack
-	/lice =-------------------();
+// Create the request object
+// (This is still attached to ajaxSettings for backward compatibility)
+jQuery.ajaxSettings.xhr = window.ActiveXObject ?
+	/* Microsoft failed to properly
+	 * implement the XMLHttpRequest in IE7 (can't request local files),
+	 * so we use the ActiveXObject when it is available
+	 * Additionally XMLHttpRequest can be disabled in IE7/IE8 so
+	 * we need a fallback.
+	 */
+	function() {
+		return !this.isLocal && createStandardXHR() || createActiveXHR();
+	} :
+	// For all other browsers, use the standard XMLHttpRequest object
+	createStandardXHR;
 
-(undefiatched element sert.at and first r );
+// Determine support properties
+xhrSupported = jQuery.ajaxSettings.xhr();
+jQuery.support.cors = !!xhrSupported && ( "withCredentials" in xhrSupported );
+xhrSupported = jQuery.support.ajax = !!xhrSupported;
 
-				if| (matclse {= null ) dirrunsment )----- ) || soFar;
-railing void treat Firefox diesaroun?ed with up:ition-inocument aent;
-			for ( ; ++i < length; ) {
-				matchI								i++;
+// Create transport if the browser can provide an xhr
+if ( xhrSupported ) {
+
+	jQuery.ajaxTransport(function( s ) {
+		// Cross domain only allowed if supported through XMLHttpRequest
+		if ( !s.crossDomain || jQuery.support.cors ) {
+
+			var callback;
+
+			return {
+				send: function( headers, complete ) {
+
+					// Get a new xhr
+					var handle, i,
+						xhr = s.xhr();
+
+					// Open the socket
+					// Passing null username, generates a login popup on Opera (#2865)
+					if ( s.username ) {
+						xhr.open( s.type, s.url, s.async, s.username, s.password );
+					} else {
+						xhr.open( s.type, s.url, s.async );
+					}
+
+					// Apply custom fields if provided
+					if ( s.xhrFields ) {
+						for ( i in s.xhrFields ) {
+							xhr[ i ] = s.xhrFields[ i ];
+						}
+					}
+
+					// Override mime type if needed
+					if ( s.mimeType && xhr.overrideMimeType ) {
+						xhr.overrideMimeType( s.mimeType );
+					}
+
+					// X-Requested-With header
+					// For cross-domain requests, seeing as conditions for a preflight are
+					// akin to a jigsaw puzzle, we simply never set it to be sure.
+					// (it can always be set on a per-request basis or even using ajaxSetup)
+					// For same-domain requests, won't change header if already provided.
+					if ( !s.crossDomain && !headers["X-Requested-With"] ) {
+						headers["X-Requested-With"] = "XMLHttpRequest";
+					}
+
+					// Need an extra try/catch for cross domain requests in Firefox 3
+					try {
+						for ( i in headers ) {
+							xhr.setRequestHeader( i, headers[ i ] );
+						}
+					} catch( err ) {}
+
+					// Do send the request
+					// This may raise an exception which is actually
+					// handled in jQuery.ajax (so no try/catch here)
+					xhr.send( ( s.hasContent && s.data ) || null );
+
+					// Listener
+					callback = function( _, isAbort ) {
+						var status, responseHeaders, statusText, responses;
+
+						// Firefox throws exceptions when accessing properties
+						// of an xhr when a network error occurred
+						// http://helpful.knobs-dials.com/index.php/Component_returned_failure_code:_0x80040111_(NS_ERROR_NOT_AVAILABLE)
+						try {
+
+							// Was never called and is aborted or complete
+							if ( callback && ( isAbort || xhr.readyState === 4 ) ) {
+
+								// Only called once
+								callback = undefined;
+
+								// Do not keep as active anymore
+								if ( handle ) {
+									xhr.onreadystatechange = jQuery.noop;
+									if ( xhrOnUnloadAbort ) {
+										delete xhrCallbacks[ handle ];
+									}
+								}
+
+								// If it's an abort
+								if ( isAbort ) {
+									// Abort it manually if needed
+									if ( xhr.readyState !== 4 ) {
+										xhr.abort();
+									}
+								} else {
+									responses = {};
+									status = xhr.status;
+									responseHeaders = xhr.getAllResponseHeaders();
+
+									// When requesting binary data, IE6-9 will throw an exception
+									// on any attempt to access responseText (#11426)
+									if ( typeof xhr.responseText === "string" ) {
+										responses.text = xhr.responseText;
+									}
+
+									// Firefox throws an exception when accessing
+									// statusText for faulty cross-domain requests
+									try {
+										statusText = xhr.statusText;
+									} catch( e ) {
+										// We normalize with Webkit giving an empty statusText
+										statusText = "";
+									}
+
+									// Filter status for non standard behaviors
+
+									// If the request is local and we have data: assume a success
+									// (success with no data won't get notified, that's the best we
+									// can do given current implementations)
+									if ( !status && s.isLocal && !s.crossDomain ) {
+										status = responses.text ? 200 : 404;
+									// IE - #1450: sometimes returns 1223 when it should be 204
+									} else if ( status === 1223 ) {
+										status = 204;
+									}
+								}
+							}
+						} catch( firefoxAccessException ) {
+							if ( !isAbort ) {
+								complete( -1, firefoxAccessException );
+							}
+						}
+
+						// Call complete if needed
+						if ( responses ) {
+							complete( status, statusText, responses, responseHeaders );
+						}
+					};
+
+					if ( !s.async ) {
+						// if we're in sync mode we fire the callback
+						callback();
+					} else if ( xhr.readyState === 4 ) {
+						// (IE6 & IE7) if it's in cache and has been
+						// retrieved directly we need to fire the callback
+						setTimeout( callback );
+					} else {
+						handle = ++xhrId;
+						if ( xhrOnUnloadAbort ) {
+							// Create the active xhrs callbacks list if needed
+							// and attach the unload handler
+							if ( !xhrCallbacks ) {
+								xhrCallbacks = {};
+								jQuery( window ).unload( xhrOnUnloadAbort );
+							}
+							// Add to list of active xhrs callbacks
+							xhrCallbacks[ handle ] = callback;
+						}
+						xhr.onreadystatechange = callback;
+					}
+				},
+
+				abort: function() {
+					if ( callback ) {
+						callback( undefined, true );
+					}
+				}
+			};
 		}
+	});
+}
+var fxNow, timerId,
+	rfxtypes = /^(?:toggle|show|hide)$/,
+	rfxnum = new RegExp( "^(?:([+-])=|)(" + core_pnum + ")([a-z%]*)$", "i" ),
+	rrun = /queueHooks$/,
+	animationPrefilters = [ defaultPrefilter ],
+	tweeners = {
+		"*": [function( prop, value ) {
+			var tween = this.createTween( prop, value ),
+				target = tween.cur(),
+				parts = rfxnum.exec( value ),
+				unit = parts && parts[ 3 ] || ( jQuery.cssNumber[ prop ] ? "" : "px" ),
+
+				// Starting value computation is required for potential unit mismatches
+				start = ( jQuery.cssNumber[ prop ] || unit !== "px" && +target ) &&
+					rfxnum.exec( jQuery.css( tween.elem, prop ) ),
+				scale = 1,
+				maxIterations = 20;
+
+			if ( start && start[ 3 ] !== unit ) {
+				// Trust units reported by jQuery.css
+				unit = unit || start[ 3 ];
+
+				// Make sure we update the tween properties later on
+				parts = parts || [];
+
+				// Iteratively approximate from a nonzero starting point
+				start = +target || 1;
 
 				do {
-h( elem );
-	s = Expr.pseudos;
-Expr.s	core_toStriAument5/8/2012 (cur =readyf onl < 0 ? ar excess ] ||
-Mob copument == undid: 1,
+					// If previous iteration zeroed out, double until we get *something*
+					// Use a string for doubling factor so we don't accidentally see scale as unchanged below
+					scale = scale || ".5";
 
- (b = b;
+					// Adjust and apply
+					start = start / scale;
+					jQuery.style( tween.elem, prop, start + unit );
 
-	ta wholvaluefinntIsHTM. new prototyRegExp(d.leis			re	// hiscut !==pe pseus
-	----textgithub-----				}
-!preFiltr.fi/76
+				// Update scale, tolerating zero or NaN from tween.cur()
+				// And breaking the loop if scale is unchanged or perfect, or if we've just had enough
+				} while ( scale !== (scale = tween.cur() / target) && scale !== 1 && --maxIterations );
 			}
-	rmsPrefix = for ( i in { radio: true, "on( el is 0
-	le Androiuplicate rthe / Handleters,
-Webkreturn {
-							ew setFilters();
 
-fuStandards-blem.getA// Handle the case wh arr ] n Safa		"gt"[E][+-/	// Ma]QueryName.ength );
+			// Update tween properties
+			if ( parts ) {
+				start = tween.start = +start || +target || 0;
+				tween.unit = unit;
+				// If a +=/-= token was provided, we're doing a relative animation
+				tween.end = parts[ 1 ] ?
+					start + ( parts[ 1 ] + 1 ) * parts[ 2 ] :
+					+parts[ 2 ];
+			}
+
+			return tween;
+		}]
+	};
+
+// Animations created synchronously will run synchronously
+function createFxNow() {
+	setTimeout(function() {
+		fxNow = undefined;
+	});
+	return ( fxNow = jQuery.now() );
+}
+
+function createTween( value, prop, animation ) {
+	var tween,
+		collection = ( tweeners[ prop ] || [] ).concat( tweeners[ "*" ] ),
+		index = 0,
+		length = collection.length;
+	for ( ; index < length; index++ ) {
+		if ( (tween = collection[ index ].call( animation, prop, value )) ) {
+
+			// we're done with this property
+			return tween;
+		}
+	}
+}
+
+function Animation( elem, properties, options ) {
+	var result,
+		stopped,
+		index = 0,
+		length = animationPrefilters.length,
+		deferred = jQuery.Deferred().always( function() {
+			// don't match elem in the :animated selector
+			delete tick.elem;
+		}),
+		tick = function() {
+			if ( stopped ) {
+				return false;
+			}
+			var currentTime = fxNow || createFxNow(),
+				remaining = Math.max( 0, animation.startTime + animation.duration - currentTime ),
+				// archaic crash bug won't allow us to use 1 - ( 0.5 || 0 ) (#12497)
+				temp = remaining / animation.duration || 0,
+				percent = 1 - temp,
+				index = 0,
+				length = animation.tweens.length;
+
+			for ( ; index < length ; index++ ) {
+				animation.tweens[ index ].run( percent );
+			}
+
+			deferred.notifyWith( elem, [ animation, percent, remaining ]);
+
+			if ( percent < 1 && length ) {
+				return remaining;
+			} else {
+				deferred.resolveWith( elem, [ animation ] );
+				return false;
+			}
+		},
+		animation = deferred.promise({
+			elem: elem,
+			props: jQuery.extend( {}, properties ),
+			opts: jQuery.extend( true, { specialEasing: {} }, options ),
+			originalProperties: properties,
+			originalOptions: options,
+			startTime: fxNow || createFxNow(),
+			duration: options.duration,
+			tweens: [],
+			createTween: function( prop, end ) {
+				var tween = jQuery.Tween( elem, animation.opts, prop, end,
+						animation.opts.specialEasing[ prop ] || animation.opts.easing );
+				animation.tweens.push( tween );
+				return tween;
+			},
+			stop: function( gotoEnd ) {
+				var index = 0,
+					// if we are going to the end, we want to run all the tweens
+					// otherwise we skip this part
+					length = gotoEnd ? animation.tweens.length : 0;
+				if ( stopped ) {
+					return this;
+				}
+				stopped = true;
+				for ( ; index < length ; index++ ) {
+					animation.tweens[ index ].run( 1 );
+				}
+
+				// resolve when we played the last frame
+				// otherwise, reject
+				if ( gotoEnd ) {
+					deferred.resolveWith( elem, [ animation, gotoEnd ] );
+				} else {
+					deferred.rejectWith( elem, [ animation, gotoEnd ] );
+				}
+				return this;
+			}
+		}),
+		props = animation.props;
+
+	propFilter( props, animation.opts.specialEasing );
+
+	for ( ; index < length ; index++ ) {
+		result = animationPrefilters[ index ].call( animation, elem, props, animation.opts );
+		if ( result ) {
+			return result;
+		}
+	}
+
+	jQuery.map( props, createTween, animation );
+
+	if ( jQuery.isFunction( animation.opts.start ) ) {
+		animation.opts.start.call( elem, animation );
+	}
+
+	jQuery.fx.timer(
+		jQuery.extend( tick, {
+			elem: elem,
+			anim: animation,
+			queue: animation.opts.queue
+		})
+	);
+
+	// attach callbacks from options
+	return animation.progress( animation.opts.progress )
+		.done( animation.opts.done, animation.opts.complete )
+		.fail( animation.opts.fail )
+		.always( animation.opts.always );
+}
+
+function propFilter( props, specialEasing ) {
+	var index, name, easing, value, hooks;
+
+	// camelCase, specialEasing and expand cssHook pass
+	for ( index in props ) {
+		name = jQuery.camelCase( index );
+		easing = specialEasing[ name ];
+		value = props[ index ];
+		if ( jQuery.isArray( value ) ) {
+			easing = value[ 1 ];
+			value = props[ index ] = value[ 0 ];
+		}
+
+		if ( index !== name ) {
+			props[ name ] = value;
+			delete props[ index ];
+		}
+
+		hooks = jQuery.cssHooks[ name ];
+		if ( hooks && "expand" in hooks ) {
+			value = hooks.expand( value );
+			delete props[ name ];
+
+			// not quite $.extend, this wont overwrite keys already present.
+			// also - reusing 'index' from above because we have the correct "name"
+			for ( index in value ) {
+				if ( !( index in props ) ) {
+					props[ index ] = value[ index ];
+					specialEasing[ index ] = easing;
+				}
+			}
+		} else {
+			specialEasing[ name ] = easing;
+		}
+	}
+}
+
+jQuery.Animation = jQuery.extend( Animation, {
+
+	tweener: function( props, callback ) {
+		if ( jQuery.isFunction( props ) ) {
+			callback = props;
+			props = [ "*" ];
+		} else {
+			props = props.split(" ");
+		}
+
+		var prop,
+			index = 0,
+			length = props.length;
+
+		for ( ; index < length ; index++ ) {
+			prop = props[ index ];
+			tweeners[ prop ] = tweeners[ prop ] || [];
+			tweeners[ prop ].unshift( callback );
+		}
+	},
+
+	prefilter: function( callback, prepend ) {
+		if ( prepend ) {
+			animationPrefilters.unshift( callback );
+		} else {
+			animationPrefilters.push( callback );
+		}
+	}
+});
+
+function defaultPrefilter( elem, props, opts ) {
+	/* jshint validthis: true */
+	var prop, value, toggle, tween, hooks, oldfire,
+		anim = this,
+		orig = {},
+		style = elem.style,
+		hidden = elem.nodeType && isHidden( elem ),
+		dataShow = jQuery._data( elem, "fxshow" );
+
+	// handle queue: false promises
+	if ( !opts.queue ) {
+		hooks = jQuery._queueHooks( elem, "fx" );
+		if ( hooks.unqueued == null ) {
+			hooks.unqueued = 0;
+			oldfire = hooks.empty.fire;
+			hooks.empty.fire = function() {
+				if ( !hooks.unqueued ) {
+					oldfire();
+				}
+			};
+		}
+		hooks.unqueued++;
+
+		anim.always(function() {
+			// doing this makes sure that the complete handler will be called
+			// before this completes
+			anim.always(function() {
+				hooks.unqueued--;
+				if ( !jQuery.queue( elem, "fx" ).length ) {
+					hooks.empty.fire();
+				}
+			});
+		});
+	}
+
+	// height/width overflow pass
+	if ( elem.nodeType === 1 && ( "height" in props || "width" in props ) ) {
+		// Make sure that nothing sneaks out
+		// Record all 3 overflow attributes because IE does not
+		// change the overflow attribute when overflowX and
+		// overflowY are set to the same value
+		opts.overflow = [ style.overflow, style.overflowX, style.overflowY ];
+
+		// Set display property to inline-block for height/width
+		// animations on inline elements that are having width/height animated
+		if ( jQuery.css( elem, "display" ) === "inline" &&
+				jQuery.css( elem, "float" ) === "none" ) {
+
+			// inline-level elements accept inline-block;
+			// block-level elements need to be inline with layout
+			if ( !jQuery.support.inlineBlockNeedsLayout || css_defaultDisplay( elem.nodeName ) === "inline" ) {
+				style.display = "inline-block";
+
+			} else {
+				style.zoom = 1;
 			}
 		}
-on( elength );
-			}
-odeIndeturnsis gd from[j] = seedunfortune";
+	}
 
-] ) || 	cores			//#3838
-
-			/6/8= rcotched.lengtjQuers[ nodeInno gomatcsm
-
-				if "] =x ie to t(match =  ) {
-
-		a
-			}
-	h
-			body[ndle(ollmatched = attrc( selector ) :
-			//
-			Sizzle.error( s
-		if r ) :
-			// Cache groups ).slice( 0
-			}
-	Cache {
-				matched = soFar.g for duplicattext && coext, xm
-			lang = langarch, etch({
-					value:^\\.(" + lengthetur/ Catch clume, !ex &&nbefod ) &&
-		nd "value" areturn lette						ment )jQuery.type( unct {
-		selector += tokens[i].valnd "value" are not ts.push({
-				valuator, bas
-			));Sibling"soFar = s?		groups:ols|defer|dissoFar = ction setFi		}
-		ch[3);eck Lijustscop			/llIsArra strinnch wpre ) {d APIeck icallback.callids, so === undefipossible
- lang + will  {
-	ws an s, length n return operaset a equal to the id ( fn.lengthns falsege value
-		/n.andSy || f		}
-			}
-		ddge vibling}),
-
-	false on IE ce
-	corlse";
-				xml&&ements
-	;
+	if ( opts.overflow ) {
+		style.overflow = "hidden";
+		if ( !jQuery.support.shrinkWrapBlocks ) {
+			anim.always(function() {
+				style.overflow = opts.overflow[ 0 ];
+				style.overflowX = opts.overflow[ 1 ];
+				style.overflowY = opts.overflow[ 2 ];
+			});
 		}
-		rece
-	cote =	// Ha	},
+	}
 
-	// Start wi< lenpose| functi
-		"			var data, cineleme/ Inctionaa function tosele,
-			ce
-	corpent( n (/TR/sech cl		if (ify).* getEledle it),
-	// Use ject;
 
-		opyrig			}
-	// If IEtingantiad.lenmse=== "eturnthrope !== 9 )em.nodfr"xmlpace +up				};bitrary  on XML worldoc. + " " + doneNa// Check lent = docuMath.random() datkey = dirrtePosit			if (ile ( sL = sualice( gumehat are of two s$l ) ) {
-			space +gunderuoted elemd AMD,
-
-	// Ma	if (  functio escapedW ) {	// 
+	// show/hide pass
+	for ( prop in props ) {
+		value = props[ prop ];
+		if ( rfxtypes.exec( value ) ) {
+			delete props[ prop ];
+			toggle = toggle || value === "toggle";
+			if ( value === ( hidden ? "hide" : "show" ) ) {
+				continue;
 			}
-	
-(funrn trStrin We ca	tarore_elem &== undlectvialy
-	magh telem[ expa1 :
-f ( nodehaddCid ex		// offdexeo----usnElements )s. AheckNonElemolloafgExp( "^most robuhe ime.tQuery
-re === 1. nue;
-odeTy				}
+			orig[ prop ] = dataShow && dataShow[ prop ] || jQuery.style( elem, prop );
+		}
+	}
 
-;
+	if ( !jQuery.isEmptyObject( orig ) ) {
+		if ( dataShow ) {
+			if ( "hidden" in dataShow ) {
+				hidden = dataShow.hidden;
+			}
+		} else {
+			dataShow = jQuery._data( elem, "fxshow", {} );
+		}
 
-	eady ined ?
-Elements )h( thidocumedata ri// Tmpare: $(h( thinodeTyhat are)|\.(013 tch w[i] tion)
-	loe +
-			"*m[ expand ], i,rameif ( n[ expaion)reateEle			if (functiona/undef		cache = / Fos			whiy-defl his.pflic functetTeif ( rget.lenofhe[1] =,		// read#id
- document	ready:lem &lem.che_concatelem,ength .amented byength ( "ihis[  ) {
-th; ) {
-		 udo([+~]" ), ) {
-		k.apier + "$})ByTagName(;
+		// store state if its toggle - enables .stop().toggle() to "reverse"
+		if ( toggle ) {
+			dataShow.hidden = !hidden;
+		}
+		if ( hidden ) {
+			jQuery( elem ).show();
+		} else {
+			anim.done(function() {
+				jQuery( elem ).hide();
+			});
+		}
+		anim.done(function() {
+			var prop;
+			jQuery._removeData( elem, "fxshow" );
+			for ( prop in orig ) {
+				jQuery.style( elem, prop, orig[ prop ] );
+			}
+		});
+		for ( prop in orig ) {
+			tween = createTween( hidden ? dataShow[ prop ] : 0, prop, anim );
+
+			if ( !( prop in dataShow ) ) {
+				dataShow[ prop ] = tween.start;
+				if ( hidden ) {
+					tween.end = tween.start;
+					tween.start = prop === "width" || prop === "height" ? 1 : 0;
+				}
+			}
+		}
+	}
+}
+
+function Tween( elem, options, prop, end, easing ) {
+	return new Tween.prototype.init( elem, options, prop, end, easing );
+}
+jQuery.Tween = Tween;
+
+Tween.prototype = {
+	constructor: Tween,
+	init: function( elem, options, prop, end, easing, unit ) {
+		this.elem = elem;
+		this.prop = prop;
+		this.easing = easing || "swing";
+		this.options = options;
+		this.start = this.now = this.cur();
+		this.end = end;
+		this.unit = unit || ( jQuery.cssNumber[ prop ] ? "" : "px" );
+	},
+	cur: function() {
+		var hooks = Tween.propHooks[ this.prop ];
+
+		return hooks && hooks.get ?
+			hooks.get( this ) :
+			Tween.propHooks._default.get( this );
+	},
+	run: function( percent ) {
+		var eased,
+			hooks = Tween.propHooks[ this.prop ];
+
+		if ( this.options.duration ) {
+			this.pos = eased = jQuery.easing[ this.easing ](
+				percent, this.options.duration * percent, 0, 1, this.options.duration
+			);
+		} else {
+			this.pos = eased = percent;
+		}
+		this.now = ( this.end - this.start ) * eased + this.start;
+
+		if ( this.options.step ) {
+			this.options.step.call( this.elem, this.now, this );
+		}
+
+		if ( hooks && hooks.set ) {
+			hooks.set( this );
+		} else {
+			Tween.propHooks._default.set( this );
+		}
+		return this;
+	}
+};
+
+Tween.prototype.init.prototype = Tween.prototype;
+
+Tween.propHooks = {
+	_default: {
+		get: function( tween ) {
+			var result;
+
+			if ( tween.elem[ tween.prop ] != null &&
+				(!tween.elem.style || tween.elem.style[ tween.prop ] == null) ) {
+				return tween.elem[ tween.prop ];
+			}
+
+			// passing an empty string as a 3rd parameter to .css will automatically
+			// attempt a parseFloat and fallback to a string if the parse fails
+			// so, simple values such as "10px" are parsed to Float.
+			// complex values such as "rotate(1rad)" are returned as is.
+			result = jQuery.css( tween.elem, tween.prop, "" );
+			// Empty strings, null, undefined and "auto" are converted to 0.
+			return !result || result === "auto" ? 0 : result;
+		},
+		set: function( tween ) {
+			// use step hook for back compat - use cssHook if its there - use .style if its
+			// available and use plain properties where available
+			if ( jQuery.fx.step[ tween.prop ] ) {
+				jQuery.fx.step[ tween.prop ]( tween );
+			} else if ( tween.elem.style && ( tween.elem.style[ jQuery.cssProps[ tween.prop ] ] != null || jQuery.cssHooks[ tween.prop ] ) ) {
+				jQuery.style( tween.elem, tween.prop, tween.now + tween.unit );
+			} else {
+				tween.elem[ tween.prop ] = tween.now;
+			}
+		}
+	}
+};
+
+// Support: IE <=9
+// Panic based approach to setting things on disconnected nodes
+
+Tween.propHooks.scrollTop = Tween.propHooks.scrollLeft = {
+	set: function( tween ) {
+		if ( tween.elem.nodeType && tween.elem.parentNode ) {
+			tween.elem[ tween.prop ] = tween.now;
+		}
+	}
+};
+
+jQuery.each([ "toggle", "show", "hide" ], function( i, name ) {
+	var cssFn = jQuery.fn[ name ];
+	jQuery.fn[ name ] = function( speed, easing, callback ) {
+		return speed == null || typeof speed === "boolean" ?
+			cssFn.apply( this, arguments ) :
+			this.animate( genFx( name, true ), speed, easing, callback );
+	};
+});
+
+jQuery.fn.extend({
+	fadeTo: function( speed, to, easing, callback ) {
+
+		// show any hidden elements after setting opacity to 0
+		return this.filter( isHidden ).css( "opacity", 0 ).show()
+
+			// animate to the value specified
+			.end().animate({ opacity: to }, speed, easing, callback );
+	},
+	animate: function( prop, speed, easing, callback ) {
+		var empty = jQuery.isEmptyObject( prop ),
+			optall = jQuery.speed( speed, easing, callback ),
+			doAnimation = function() {
+				// Operate on a copy of prop so per-property easing won't be lost
+				var anim = Animation( this, jQuery.extend( {}, prop ), optall );
+
+				// Empty animations, or finishing resolves immediately
+				if ( empty || jQuery._data( this, "finish" ) ) {
+					anim.stop( true );
+				}
+			};
+			doAnimation.finish = doAnimation;
+
+		return empty || optall.queue === false ?
+			this.each( doAnimation ) :
+			this.queue( optall.queue, doAnimation );
+	},
+	stop: function( type, clearQueue, gotoEnd ) {
+		var stopQueue = function( hooks ) {
+			var stop = hooks.stop;
+			delete hooks.stop;
+			stop( gotoEnd );
+		};
+
+		if ( typeof type !== "string" ) {
+			gotoEnd = clearQueue;
+			clearQueue = type;
+			type = undefined;
+		}
+		if ( clearQueue && type !== false ) {
+			this.queue( type || "fx", [] );
+		}
+
+		return this.each(function() {
+			var dequeue = true,
+				index = type != null && type + "queueHooks",
+				timers = jQuery.timers,
+				data = jQuery._data( this );
+
+			if ( index ) {
+				if ( data[ index ] && data[ index ].stop ) {
+					stopQueue( data[ index ] );
+				}
+			} else {
+				for ( index in data ) {
+					if ( data[ index ] && data[ index ].stop && rrun.test( index ) ) {
+						stopQueue( data[ index ] );
+					}
+				}
+			}
+
+			for ( index = timers.length; index--; ) {
+				if ( timers[ index ].elem === this && (type == null || timers[ index ].queue === type) ) {
+					timers[ index ].anim.stop( gotoEnd );
+					dequeue = false;
+					timers.splice( index, 1 );
+				}
+			}
+
+			// start the next in the queue if the last step wasn't forced
+			// timers currently will call their complete callbacks, which will dequeue
+			// but only if they were gotoEnd
+			if ( dequeue || !gotoEnd ) {
+				jQuery.dequeue( this, type );
+			}
+		});
+	},
+	finish: function( type ) {
+		if ( type !== false ) {
+			type = type || "fx";
+		}
+		return this.each(function() {
+			var index,
+				data = jQuery._data( this ),
+				queue = data[ type + "queue" ],
+				hooks = data[ type + "queueHooks" ],
+				timers = jQuery.timers,
+				length = queue ? queue.length : 0;
+
+			// enable finishing flag on private data
+			data.finish = true;
+
+			// empty the queue first
+			jQuery.queue( this, type, [] );
+
+			if ( hooks && hooks.stop ) {
+				hooks.stop.call( this, true );
+			}
+
+			// look for any active animations, and finish them
+			for ( index = timers.length; index--; ) {
+				if ( timers[ index ].elem === this && timers[ index ].queue === type ) {
+					timers[ index ].anim.stop( true );
+					timers.splice( index, 1 );
+				}
+			}
+
+			// look for any animations in the old queue and finish them
+			for ( index = 0; index < length; index++ ) {
+				if ( queue[ index ] && queue[ index ].finish ) {
+					queue[ index ].finish.call( this );
+				}
+			}
+
+			// turn off finishing flag
+			delete data.finish;
+		});
+	}
+});
+
+// Generate parameters to create a standard animation
+function genFx( type, includeWidth ) {
+	var which,
+		attrs = { height: type },
+		i = 0;
+
+	// if we include width, step value is 1 to do all cssExpand values,
+	// if we don't include width, step value is 2 to skip over Left and Right
+	includeWidth = includeWidth? 1 : 0;
+	for( ; i < 4 ; i += 2 - includeWidth ) {
+		which = cssExpand[ i ];
+		attrs[ "margin" + which ] = attrs[ "padding" + which ] = type;
+	}
+
+	if ( includeWidth ) {
+		attrs.opacity = attrs.width = type;
+	}
+
+	return attrs;
+}
+
+// Generate shortcuts for custom animations
+jQuery.each({
+	slideDown: genFx("show"),
+	slideUp: genFx("hide"),
+	slideToggle: genFx("toggle"),
+	fadeIn: { opacity: "show" },
+	fadeOut: { opacity: "hide" },
+	fadeToggle: { opacity: "toggle" }
+}, function( name, props ) {
+	jQuery.fn[ name ] = function( speed, easing, callback ) {
+		return this.animate( props, speed, easing, callback );
+	};
+});
+
+jQuery.speed = function( speed, easing, fn ) {
+	var opt = speed && typeof speed === "object" ? jQuery.extend( {}, speed ) : {
+		complete: fn || !fn && easing ||
+			jQuery.isFunction( speed ) && speed,
+		duration: speed,
+		easing: fn && easing || easing && !jQuery.isFunction( easing ) && easing
+	};
+
+	opt.duration = jQuery.fx.off ? 0 : typeof opt.duration === "number" ? opt.duration :
+		opt.duration in jQuery.fx.speeds ? jQuery.fx.speeds[ opt.duration ] : jQuery.fx.speeds._default;
+
+	// normalize opt.queue - true/undefined/null -> "fx"
+	if ( opt.queue == null || opt.queue === true ) {
+		opt.queue = "fx";
+	}
+
+	// Queueing
+	opt.old = opt.complete;
+
+	opt.complete = function() {
+		if ( jQuery.isFunction( opt.old ) ) {
+			opt.old.call( this );
+		}
+
+		if ( opt.queue ) {
+			jQuery.dequeue( this, opt.queue );
+		}
+	};
+
+	return opt;
+};
+
+jQuery.easing = {
+	linear: function( p ) {
+		return p;
+	},
+	swing: function( p ) {
+		return 0.5 - Math.cos( p*Math.PI ) / 2;
+	}
+};
+
+jQuery.timers = [];
+jQuery.fx = Tween.prototype.init;
+jQuery.fx.tick = function() {
+	var timer,
+		timers = jQuery.timers,
+		i = 0;
+
+	fxNow = jQuery.now();
+
+	for ( ; i < timers.length; i++ ) {
+		timer = timers[ i ];
+		// Checks the timer has not already been removed
+		if ( !timer() && timers[ i ] === timer ) {
+			timers.splice( i--, 1 );
+		}
+	}
+
+	if ( !timers.length ) {
+		jQuery.fx.stop();
+	}
+	fxNow = undefined;
+};
+
+jQuery.fx.timer = function( timer ) {
+	if ( timer() && jQuery.timers.push( timer ) ) {
+		jQuery.fx.start();
+	}
+};
+
+jQuery.fx.interval = 13;
+
+jQuery.fx.start = function() {
+	if ( !timerId ) {
+		timerId = setInterval( jQuery.fx.tick, jQuery.fx.interval );
+	}
+};
+
+jQuery.fx.stop = function() {
+	clearInterval( timerId );
+	timerId = null;
+};
+
+jQuery.fx.speeds = {
+	slow: 600,
+	fast: 200,
+	// Default speed
+	_default: 400
+};
+
+// Back Compat <1.8 extension point
+jQuery.fx.step = {};
+
+if ( jQuery.expr && jQuery.expr.filters ) {
+	jQuery.expr.filters.animated = function( elem ) {
+		return jQuery.grep(jQuery.timers, function( fn ) {
+			return elem === fn.elem;
+		}).length;
+	};
+}
+jQuery.fn.offset = function( options ) {
+	if ( arguments.length ) {
+		return options === undefined ?
+			this :
+			this.each(function( i ) {
+				jQuery.offset.setOffset( this, options, i );
+			});
+	}
+
+	var docElem, win,
+		box = { top: 0, left: 0 },
+		elem = this[ 0 ],
+		doc = elem && elem.ownerDocument;
+
+	if ( !doc ) {
+		return;
+	}
+
+	docElem = doc.documentElement;
+
+	// Make sure it's not a disconnected DOM node
+	if ( !jQuery.contains( docElem, elem ) ) {
+		return box;
+	}
+
+	// If we don't have gBCR, just use 0,0 rather than error
+	// BlackBerry 5, iOS 3 (original iPhone)
+	if ( typeof elem.getBoundingClientRect !== core_strundefined ) {
+		box = elem.getBoundingClientRect();
+	}
+	win = getWindow( doc );
+	return {
+		top: box.top  + ( win.pageYOffset || docElem.scrollTop )  - ( docElem.clientTop  || 0 ),
+		left: box.left + ( win.pageXOffset || docElem.scrollLeft ) - ( docElem.clientLeft || 0 )
+	};
+};
+
+jQuery.offset = {
+
+	setOffset: function( elem, options, i ) {
+		var position = jQuery.css( elem, "position" );
+
+		// set position first, in-case top/left are set even on static elem
+		if ( position === "static" ) {
+			elem.style.position = "relative";
+		}
+
+		var curElem = jQuery( elem ),
+			curOffset = curElem.offset(),
+			curCSSTop = jQuery.css( elem, "top" ),
+			curCSSLeft = jQuery.css( elem, "left" ),
+			calculatePosition = ( position === "absolute" || position === "fixed" ) && jQuery.inArray("auto", [curCSSTop, curCSSLeft]) > -1,
+			props = {}, curPosition = {}, curTop, curLeft;
+
+		// need to be able to calculate position if either top or left is auto and position is either absolute or fixed
+		if ( calculatePosition ) {
+			curPosition = curElem.position();
+			curTop = curPosition.top;
+			curLeft = curPosition.left;
+		} else {
+			curTop = parseFloat( curCSSTop ) || 0;
+			curLeft = parseFloat( curCSSLeft ) || 0;
+		}
+
+		if ( jQuery.isFunction( options ) ) {
+			options = options.call( elem, i, curOffset );
+		}
+
+		if ( options.top != null ) {
+			props.top = ( options.top - curOffset.top ) + curTop;
+		}
+		if ( options.left != null ) {
+			props.left = ( options.left - curOffset.left ) + curLeft;
+		}
+
+		if ( "using" in options ) {
+			options.using.call( elem, props );
+		} else {
+			curElem.css( props );
+		}
+	}
+};
+
+
+jQuery.fn.extend({
+
+	position: function() {
+		if ( !this[ 0 ] ) {
+			return;
+		}
+
+		var offsetParent, offset,
+			parentOffset = { top: 0, left: 0 },
+			elem = this[ 0 ];
+
+		// fixed elements are offset from window (parentOffset = {top:0, left: 0}, because it is it's only offset parent
+		if ( jQuery.css( elem, "position" ) === "fixed" ) {
+			// we assume that getBoundingClientRect is available when computed position is fixed
+			offset = elem.getBoundingClientRect();
+		} else {
+			// Get *real* offsetParent
+			offsetParent = this.offsetParent();
+
+			// Get correct offsets
+			offset = this.offset();
+			if ( !jQuery.nodeName( offsetParent[ 0 ], "html" ) ) {
+				parentOffset = offsetParent.offset();
+			}
+
+			// Add offsetParent borders
+			parentOffset.top  += jQuery.css( offsetParent[ 0 ], "borderTopWidth", true );
+			parentOffset.left += jQuery.css( offsetParent[ 0 ], "borderLeftWidth", true );
+		}
+
+		// Subtract parent offsets and element margins
+		// note: when an element has margin: auto the offsetLeft and marginLeft
+		// are the same in Safari causing offset.left to incorrectly be 0
+		return {
+			top:  offset.top  - parentOffset.top - jQuery.css( elem, "marginTop", true ),
+			left: offset.left - parentOffset.left - jQuery.css( elem, "marginLeft", true)
+		};
+	},
+
+	offsetParent: function() {
+		return this.map(function() {
+			var offsetParent = this.offsetParent || docElem;
+			while ( offsetParent && ( !jQuery.nodeName( offsetParent, "html" ) && jQuery.css( offsetParent, "position") === "static" ) ) {
+				offsetParent = offsetParent.offsetParent;
+			}
+			return offsetParent || docElem;
+		});
+	}
+});
+
+
+// Create scrollLeft and scrollTop methods
+jQuery.each( {scrollLeft: "pageXOffset", scrollTop: "pageYOffset"}, function( method, prop ) {
+	var top = /Y/.test( prop );
+
+	jQuery.fn[ method ] = function( val ) {
+		return jQuery.access( this, function( elem, method, val ) {
+			var win = getWindow( elem );
+
+			if ( val === undefined ) {
+				return win ? (prop in win) ? win[ prop ] :
+					win.document.documentElement[ method ] :
+					elem[ method ];
+			}
+
+			if ( win ) {
+				win.scrollTo(
+					!top ? val : jQuery( win ).scrollLeft(),
+					top ? val : jQuery( win ).scrollTop()
+				);
+
+			} else {
+				elem[ method ] = val;
+			}
+		}, method, val, arguments.length, null );
+	};
+});
+
+function getWindow( elem ) {
+	return jQuery.isWindow( elem ) ?
+		elem :
+		elem.nodeType === 9 ?
+			elem.defaultView || elem.parentWindow :
+			false;
+}
+// Create innerHeight, innerWidth, height, width, outerHeight and outerWidth methods
+jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
+	jQuery.each( { padding: "inner" + name, content: type, "": "outer" + name }, function( defaultExtra, funcName ) {
+		// margin is only for outerHeight, outerWidth
+		jQuery.fn[ funcName ] = function( margin, value ) {
+			var chainable = arguments.length && ( defaultExtra || typeof margin !== "boolean" ),
+				extra = defaultExtra || ( margin === true || value === true ? "margin" : "border" );
+
+			return jQuery.access( this, function( elem, type, value ) {
+				var doc;
+
+				if ( jQuery.isWindow( elem ) ) {
+					// As of 5/8/2012 this will yield incorrect results for Mobile Safari, but there
+					// isn't a whole lot we can do. See pull request at this URL for discussion:
+					// https://github.com/jquery/jquery/pull/764
+					return elem.document.documentElement[ "client" + name ];
+				}
+
+				// Get document width or height
+				if ( elem.nodeType === 9 ) {
+					doc = elem.documentElement;
+
+					// Either scroll[Width/Height] or offset[Width/Height] or client[Width/Height], whichever is greatest
+					// unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.
+					return Math.max(
+						elem.body[ "scroll" + name ], doc[ "scroll" + name ],
+						elem.body[ "offset" + name ], doc[ "offset" + name ],
+						doc[ "client" + name ]
+					);
+				}
+
+				return value === undefined ?
+					// Get width or height on the element, requesting but not forcing parseFloat
+					jQuery.css( elem, type, extra ) :
+
+					// Set width or height on the element
+					jQuery.style( elem, type, value, extra );
+			}, type, chainable ? margin : undefined, chainable, null );
+		};
+	});
+});
+// Limit scope pollution from any deprecated API
+// (function() {
+
+// The number of elements contained in the matched element set
+jQuery.fn.size = function() {
+	return this.length;
+};
+
+jQuery.fn.andSelf = jQuery.fn.addBack;
+
+// })();
+if ( typeof module === "object" && module && typeof module.exports === "object" ) {
+	// Expose jQuery as module.exports in loaders that implement the Node
+	// module pattern (including browserify). Do not create the global, since
+	// the user will be storing it themselves locally, and globals are frowned
+	// upon in the Node module world.
+	module.exports = jQuery;
+} else {
+	// Otherwise expose jQuery to the global object as usual
+	window.jQuery = window.$ = jQuery;
+
+	// Register as a named AMD module, since jQuery can be concatenated with other
+	// files that may use define, but not via a proper concatenation script that
+	// understands anonymous AMD modules. A named AMD is safest and most robust
+	// way to register. Lowercase jquery is used because AMD module names are
+	// derived from file names, and jQuery is normally delivered in a lowercase
+	// file name. Do this after creating the global so that if an AMD module wants
+	// to call noConflict to hide this version of jQuery, it will work.
+	if ( typeof define === "function" && define.amd ) {
+		define( "jquery", [], function () { return jQuery; } );
+	}
+}
+
+})( window );
