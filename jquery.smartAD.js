@@ -246,13 +246,13 @@
 		 var temp=$(this).clone();
 		 temp.attr("id","smart-ad-id-"+$(this).attr("id"));
 		 wrap.append(temp);
+
+		 var fixed=_option_['fixed'];
 		 _option_=$.extend({},$option,_option_);
 		 _option_.style=$.extend({},contants.style,_option_.style);
 		  if(!_option_.position){//没有方位默认是dom对象所在位置
-		       
-             _option_.fixed=false;
-         
-			 _option_["style"]={top:_option_["style"].top?_option_["style"].top:$(this).offset().top,
+		     if(!fixed){_option_.fixed=false;}  
+             _option_["style"]={top:_option_["style"].top?_option_["style"].top:$(this).offset().top,
 				                left:_option_["style"].left?_option_["style"].left:$(this).offset().left,
 				                height:_option_["style"].height?_option_["style"].height:$(this).height(),
 				 				width:_option_["style"].width?_option_["style"].width:$(this).width(),
